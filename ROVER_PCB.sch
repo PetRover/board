@@ -21958,8 +21958,6 @@ Source: www.kingbright.com</description>
 <wire x1="-238.76" y1="228.6" x2="-269.24" y2="228.6" width="0.1524" layer="91"/>
 <label x="-266.7" y="228.6" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="DRIVE_DECAY" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="DECAY"/>
 <wire x1="266.7" y1="-139.7" x2="289.56" y2="-139.7" width="0.1524" layer="91"/>
