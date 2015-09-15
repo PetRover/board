@@ -21532,17 +21532,17 @@ Source: www.kingbright.com</description>
 <wire x1="-205.74" y1="248.92" x2="-175.26" y2="248.92" width="0.1524" layer="91"/>
 <label x="-198.12" y="248.92" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U$4" gate="G$1" pin="P8_42"/>
-<wire x1="-205.74" y1="243.84" x2="-175.26" y2="243.84" width="0.1524" layer="91"/>
-<label x="-198.12" y="243.84" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MTR_TREAT_I0" class="0">
 <segment>
 <pinref part="U$17" gate="G$1" pin="I0"/>
 <wire x1="266.7" y1="-274.32" x2="289.56" y2="-274.32" width="0.1524" layer="91"/>
 <label x="274.32" y="-274.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P8_42"/>
+<wire x1="-205.74" y1="243.84" x2="-175.26" y2="243.84" width="0.1524" layer="91"/>
+<label x="-198.12" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_IN1" class="0">
