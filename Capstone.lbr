@@ -169,30 +169,29 @@
 <pad name="P$21" x="0" y="-50.8" drill="0.8" shape="square"/>
 <pad name="P$22" x="0" y="-53.34" drill="0.8" shape="square"/>
 <pad name="P$23" x="0" y="-55.88" drill="0.8" shape="square"/>
-<pad name="P$24" x="2.54" y="0" drill="0.8" shape="square"/>
-<pad name="P$25" x="2.54" y="-2.54" drill="0.8" shape="square"/>
-<pad name="P$26" x="2.54" y="-5.08" drill="0.8" shape="square"/>
-<pad name="P$27" x="2.54" y="-7.62" drill="0.8" shape="square"/>
-<pad name="P$28" x="2.54" y="-10.16" drill="0.8" shape="square"/>
-<pad name="P$29" x="2.54" y="-12.7" drill="0.8" shape="square"/>
-<pad name="P$30" x="2.54" y="-15.24" drill="0.8" shape="square"/>
-<pad name="P$31" x="2.54" y="-17.78" drill="0.8" shape="square"/>
-<pad name="P$32" x="2.54" y="-20.32" drill="0.8" shape="square"/>
-<pad name="P$33" x="2.54" y="-22.86" drill="0.8" shape="square"/>
-<pad name="P$34" x="2.54" y="-25.4" drill="0.8" shape="square"/>
-<pad name="P$35" x="2.54" y="-27.94" drill="0.8" shape="square"/>
-<pad name="P$36" x="2.54" y="-30.48" drill="0.8" shape="square"/>
-<pad name="P$37" x="2.54" y="-33.02" drill="0.8" shape="square"/>
-<pad name="P$38" x="2.54" y="-35.56" drill="0.8" shape="square"/>
-<pad name="P$39" x="2.54" y="-38.1" drill="0.8" shape="square"/>
-<pad name="P$40" x="2.54" y="-40.64" drill="0.8" shape="square"/>
-<pad name="P$41" x="2.54" y="-43.18" drill="0.8" shape="square"/>
-<pad name="P$42" x="2.54" y="-45.72" drill="0.8" shape="square"/>
-<pad name="P$43" x="2.54" y="-48.26" drill="0.8" shape="square"/>
-<pad name="P$44" x="2.54" y="-50.8" drill="0.8" shape="square"/>
-<pad name="P$45" x="2.54" y="-53.34" drill="0.8" shape="square"/>
-<pad name="P$46" x="2.54" y="-55.88" drill="0.8" shape="square"/>
-<dimension x1="2.54" y1="0" x2="48.26" y2="0" x3="25.4" y3="8.89" textsize="1.27" layer="21"/>
+<pad name="P$24" x="2.54" y="-55.88" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$25" x="2.54" y="-53.34" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$26" x="2.54" y="-50.8" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$27" x="2.54" y="-48.26" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$28" x="2.54" y="-45.72" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$29" x="2.54" y="-43.18" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$30" x="2.54" y="-40.64" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$31" x="2.54" y="-38.1" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$32" x="2.54" y="-35.56" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$33" x="2.54" y="-33.02" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$34" x="2.54" y="-30.48" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$35" x="2.54" y="-27.94" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$36" x="2.54" y="-25.4" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$37" x="2.54" y="-22.86" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$38" x="2.54" y="-20.32" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$39" x="2.54" y="-17.78" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$40" x="2.54" y="-15.24" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$41" x="2.54" y="-12.7" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$42" x="2.54" y="-10.16" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$43" x="2.54" y="-7.62" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$44" x="2.54" y="-5.08" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$45" x="2.54" y="-2.54" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$46" x="2.54" y="0" drill="0.8" shape="square" rot="R180"/>
 <pad name="P$47" x="48.26" y="0" drill="0.8" shape="square"/>
 <pad name="P$48" x="48.26" y="-2.54" drill="0.8" shape="square"/>
 <pad name="P$49" x="48.26" y="-5.08" drill="0.8" shape="square"/>
@@ -216,30 +215,29 @@
 <pad name="P$67" x="48.26" y="-50.8" drill="0.8" shape="square"/>
 <pad name="P$68" x="48.26" y="-53.34" drill="0.8" shape="square"/>
 <pad name="P$69" x="48.26" y="-55.88" drill="0.8" shape="square"/>
-<pad name="P$70" x="50.8" y="0" drill="0.8" shape="square"/>
-<pad name="P$71" x="50.8" y="-2.54" drill="0.8" shape="square"/>
-<pad name="P$72" x="50.8" y="-5.08" drill="0.8" shape="square"/>
-<pad name="P$73" x="50.8" y="-7.62" drill="0.8" shape="square"/>
-<pad name="P$74" x="50.8" y="-10.16" drill="0.8" shape="square"/>
-<pad name="P$75" x="50.8" y="-12.7" drill="0.8" shape="square"/>
-<pad name="P$76" x="50.8" y="-15.24" drill="0.8" shape="square"/>
-<pad name="P$77" x="50.8" y="-17.78" drill="0.8" shape="square"/>
-<pad name="P$78" x="50.8" y="-20.32" drill="0.8" shape="square"/>
-<pad name="P$79" x="50.8" y="-22.86" drill="0.8" shape="square"/>
-<pad name="P$80" x="50.8" y="-25.4" drill="0.8" shape="square"/>
-<pad name="P$81" x="50.8" y="-27.94" drill="0.8" shape="square"/>
-<pad name="P$82" x="50.8" y="-30.48" drill="0.8" shape="square"/>
-<pad name="P$83" x="50.8" y="-33.02" drill="0.8" shape="square"/>
-<pad name="P$84" x="50.8" y="-35.56" drill="0.8" shape="square"/>
-<pad name="P$85" x="50.8" y="-38.1" drill="0.8" shape="square"/>
-<pad name="P$86" x="50.8" y="-40.64" drill="0.8" shape="square"/>
-<pad name="P$87" x="50.8" y="-43.18" drill="0.8" shape="square"/>
-<pad name="P$88" x="50.8" y="-45.72" drill="0.8" shape="square"/>
-<pad name="P$89" x="50.8" y="-48.26" drill="0.8" shape="square"/>
-<pad name="P$90" x="50.8" y="-50.8" drill="0.8" shape="square"/>
-<pad name="P$91" x="50.8" y="-53.34" drill="0.8" shape="square"/>
-<pad name="P$92" x="50.8" y="-55.88" drill="0.8" shape="square"/>
-<dimension x1="0" y1="0" x2="0" y2="-2.54" x3="-7.62" y3="-1.27" textsize="1.27" layer="21"/>
+<pad name="P$70" x="50.8" y="-55.88" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$71" x="50.8" y="-53.34" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$72" x="50.8" y="-50.8" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$73" x="50.8" y="-48.26" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$74" x="50.8" y="-45.72" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$75" x="50.8" y="-43.18" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$76" x="50.8" y="-40.64" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$77" x="50.8" y="-38.1" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$78" x="50.8" y="-35.56" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$79" x="50.8" y="-33.02" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$80" x="50.8" y="-30.48" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$81" x="50.8" y="-27.94" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$82" x="50.8" y="-25.4" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$83" x="50.8" y="-22.86" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$84" x="50.8" y="-20.32" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$85" x="50.8" y="-17.78" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$86" x="50.8" y="-15.24" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$87" x="50.8" y="-12.7" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$88" x="50.8" y="-10.16" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$89" x="50.8" y="-7.62" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$90" x="50.8" y="-5.08" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$91" x="50.8" y="-2.54" drill="0.8" shape="square" rot="R180"/>
+<pad name="P$92" x="50.8" y="0" drill="0.8" shape="square" rot="R180"/>
 </package>
 <package name="DRV8842">
 <smd name="P$1" x="0" y="0" dx="0.3" dy="1.6" layer="1" rot="R270"/>
