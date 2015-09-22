@@ -1445,77 +1445,973 @@ chip</description>
 <wire x1="-4" y1="-1.5" x2="-4.7" y2="-2.35" width="0.127" layer="21"/>
 <circle x="-5.4" y="-1.5" radius="0.5" width="0.127" layer="21"/>
 </package>
-<package name="CC3100">
-<smd name="P$1" x="-3.75" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$2" x="-3.25" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$3" x="-2.75" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$4" x="-2.25" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$5" x="-1.75" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$6" x="-1.25" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$7" x="-0.75" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$8" x="-0.25" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$9" x="0.25" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$10" x="0.75" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$11" x="1.25" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$12" x="1.75" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$13" x="2.25" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$14" x="2.75" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$15" x="3.25" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$16" x="3.75" y="4.3" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$17" x="4.35" y="3.7" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$18" x="4.35" y="3.2" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$19" x="4.35" y="2.7" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$20" x="4.35" y="2.2" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$21" x="4.35" y="1.7" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$22" x="4.35" y="1.2" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$23" x="4.35" y="0.7" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$24" x="4.35" y="0.2" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$25" x="4.35" y="-0.3" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$26" x="4.35" y="-0.8" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$27" x="4.35" y="-1.3" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$28" x="4.35" y="-1.8" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$29" x="4.35" y="-2.3" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$30" x="4.35" y="-2.8" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$31" x="4.35" y="-3.3" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$32" x="4.35" y="-3.8" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$33" x="3.75" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$34" x="3.25" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$35" x="2.75" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$36" x="2.25" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$37" x="1.75" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$38" x="1.25" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$39" x="0.75" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$40" x="0.25" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$41" x="-0.25" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$42" x="-0.75" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$43" x="-1.25" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$44" x="-1.75" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$45" x="-2.25" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$46" x="-2.75" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$47" x="-3.25" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$48" x="-3.75" y="-4.4" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$49" x="-4.35" y="-3.8" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$50" x="-4.35" y="-3.3" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$51" x="-4.35" y="-2.8" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$52" x="-4.35" y="-2.3" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$53" x="-4.35" y="-1.8" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$54" x="-4.35" y="-1.3" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$55" x="-4.35" y="-0.8" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$56" x="-4.35" y="-0.3" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$57" x="-4.35" y="0.2" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$58" x="-4.35" y="0.7" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$59" x="-4.35" y="1.2" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$60" x="-4.35" y="1.7" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$61" x="-4.35" y="2.2" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$62" x="-4.35" y="2.7" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$63" x="-4.35" y="3.2" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$64" x="-4.35" y="3.7" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$65" x="0" y="0" dx="7.3" dy="7.3" layer="1" rot="R180"/>
+<package name="QFN64">
+<smd name="P$1" x="-3.75" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-3.89" y="-4.9"/>
+<vertex x="-3.89" y="-4.19" curve="-90"/>
+<vertex x="-3.75" y="-4.05" curve="-90"/>
+<vertex x="-3.61" y="-4.19"/>
+<vertex x="-3.61" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-3.96" y="-4.97"/>
+<vertex x="-3.96" y="-4.19" curve="-90"/>
+<vertex x="-3.75" y="-3.98" curve="-90"/>
+<vertex x="-3.54" y="-4.19"/>
+<vertex x="-3.54" y="-4.97"/>
+</polygon>
+<smd name="P$2" x="-3.25" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-3.39" y="-4.9"/>
+<vertex x="-3.39" y="-4.19" curve="-90"/>
+<vertex x="-3.25" y="-4.05" curve="-90"/>
+<vertex x="-3.11" y="-4.19"/>
+<vertex x="-3.11" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-3.46" y="-4.97"/>
+<vertex x="-3.46" y="-4.19" curve="-90"/>
+<vertex x="-3.25" y="-3.98" curve="-90"/>
+<vertex x="-3.04" y="-4.19"/>
+<vertex x="-3.04" y="-4.97"/>
+</polygon>
+<smd name="P$3" x="-2.75" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-2.89" y="-4.9"/>
+<vertex x="-2.89" y="-4.19" curve="-90"/>
+<vertex x="-2.75" y="-4.05" curve="-90"/>
+<vertex x="-2.61" y="-4.19"/>
+<vertex x="-2.61" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-2.96" y="-4.97"/>
+<vertex x="-2.96" y="-4.19" curve="-90"/>
+<vertex x="-2.75" y="-3.98" curve="-90"/>
+<vertex x="-2.54" y="-4.19"/>
+<vertex x="-2.54" y="-4.97"/>
+</polygon>
+<smd name="P$4" x="-2.25" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-2.39" y="-4.9"/>
+<vertex x="-2.39" y="-4.19" curve="-90"/>
+<vertex x="-2.25" y="-4.05" curve="-90"/>
+<vertex x="-2.11" y="-4.19"/>
+<vertex x="-2.11" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-2.46" y="-4.97"/>
+<vertex x="-2.46" y="-4.19" curve="-90"/>
+<vertex x="-2.25" y="-3.98" curve="-90"/>
+<vertex x="-2.04" y="-4.19"/>
+<vertex x="-2.04" y="-4.97"/>
+</polygon>
+<smd name="P$5" x="-1.75" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-1.89" y="-4.9"/>
+<vertex x="-1.89" y="-4.19" curve="-90"/>
+<vertex x="-1.75" y="-4.05" curve="-90"/>
+<vertex x="-1.61" y="-4.19"/>
+<vertex x="-1.61" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-1.96" y="-4.97"/>
+<vertex x="-1.96" y="-4.19" curve="-90"/>
+<vertex x="-1.75" y="-3.98" curve="-90"/>
+<vertex x="-1.54" y="-4.19"/>
+<vertex x="-1.54" y="-4.97"/>
+</polygon>
+<smd name="P$6" x="-1.25" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-1.39" y="-4.9"/>
+<vertex x="-1.39" y="-4.19" curve="-90"/>
+<vertex x="-1.25" y="-4.05" curve="-90"/>
+<vertex x="-1.11" y="-4.19"/>
+<vertex x="-1.11" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-1.46" y="-4.97"/>
+<vertex x="-1.46" y="-4.19" curve="-90"/>
+<vertex x="-1.25" y="-3.98" curve="-90"/>
+<vertex x="-1.04" y="-4.19"/>
+<vertex x="-1.04" y="-4.97"/>
+</polygon>
+<smd name="P$7" x="-0.75" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-0.89" y="-4.9"/>
+<vertex x="-0.89" y="-4.19" curve="-90"/>
+<vertex x="-0.75" y="-4.05" curve="-90"/>
+<vertex x="-0.61" y="-4.19"/>
+<vertex x="-0.61" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-0.96" y="-4.97"/>
+<vertex x="-0.96" y="-4.19" curve="-90"/>
+<vertex x="-0.75" y="-3.98" curve="-90"/>
+<vertex x="-0.54" y="-4.19"/>
+<vertex x="-0.54" y="-4.97"/>
+</polygon>
+<smd name="P$8" x="-0.25" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-0.39" y="-4.9"/>
+<vertex x="-0.39" y="-4.19" curve="-90"/>
+<vertex x="-0.25" y="-4.05" curve="-90"/>
+<vertex x="-0.11" y="-4.19"/>
+<vertex x="-0.11" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-0.46" y="-4.97"/>
+<vertex x="-0.46" y="-4.19" curve="-90"/>
+<vertex x="-0.25" y="-3.98" curve="-90"/>
+<vertex x="-0.04" y="-4.19"/>
+<vertex x="-0.04" y="-4.97"/>
+</polygon>
+<smd name="P$9" x="0.25" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="0.11" y="-4.9"/>
+<vertex x="0.11" y="-4.19" curve="-90"/>
+<vertex x="0.25" y="-4.05" curve="-90"/>
+<vertex x="0.39" y="-4.19"/>
+<vertex x="0.39" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="0.04" y="-4.97"/>
+<vertex x="0.04" y="-4.19" curve="-90"/>
+<vertex x="0.25" y="-3.98" curve="-90"/>
+<vertex x="0.46" y="-4.19"/>
+<vertex x="0.46" y="-4.97"/>
+</polygon>
+<smd name="P$10" x="0.75" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="0.61" y="-4.9"/>
+<vertex x="0.61" y="-4.19" curve="-90"/>
+<vertex x="0.75" y="-4.05" curve="-90"/>
+<vertex x="0.89" y="-4.19"/>
+<vertex x="0.89" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="0.54" y="-4.97"/>
+<vertex x="0.54" y="-4.19" curve="-90"/>
+<vertex x="0.75" y="-3.98" curve="-90"/>
+<vertex x="0.96" y="-4.19"/>
+<vertex x="0.96" y="-4.97"/>
+</polygon>
+<smd name="P$11" x="1.25" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="1.11" y="-4.9"/>
+<vertex x="1.11" y="-4.19" curve="-90"/>
+<vertex x="1.25" y="-4.05" curve="-90"/>
+<vertex x="1.39" y="-4.19"/>
+<vertex x="1.39" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="1.04" y="-4.97"/>
+<vertex x="1.04" y="-4.19" curve="-90"/>
+<vertex x="1.25" y="-3.98" curve="-90"/>
+<vertex x="1.46" y="-4.19"/>
+<vertex x="1.46" y="-4.97"/>
+</polygon>
+<smd name="P$12" x="1.75" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="1.61" y="-4.9"/>
+<vertex x="1.61" y="-4.19" curve="-90"/>
+<vertex x="1.75" y="-4.05" curve="-90"/>
+<vertex x="1.89" y="-4.19"/>
+<vertex x="1.89" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="1.54" y="-4.97"/>
+<vertex x="1.54" y="-4.19" curve="-90"/>
+<vertex x="1.75" y="-3.98" curve="-90"/>
+<vertex x="1.96" y="-4.19"/>
+<vertex x="1.96" y="-4.97"/>
+</polygon>
+<smd name="P$13" x="2.25" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="2.11" y="-4.9"/>
+<vertex x="2.11" y="-4.19" curve="-90"/>
+<vertex x="2.25" y="-4.05" curve="-90"/>
+<vertex x="2.39" y="-4.19"/>
+<vertex x="2.39" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="2.04" y="-4.97"/>
+<vertex x="2.04" y="-4.19" curve="-90"/>
+<vertex x="2.25" y="-3.98" curve="-90"/>
+<vertex x="2.46" y="-4.19"/>
+<vertex x="2.46" y="-4.97"/>
+</polygon>
+<smd name="P$14" x="2.75" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="2.61" y="-4.9"/>
+<vertex x="2.61" y="-4.19" curve="-90"/>
+<vertex x="2.75" y="-4.05" curve="-90"/>
+<vertex x="2.89" y="-4.19"/>
+<vertex x="2.89" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="2.54" y="-4.97"/>
+<vertex x="2.54" y="-4.19" curve="-90"/>
+<vertex x="2.75" y="-3.98" curve="-90"/>
+<vertex x="2.96" y="-4.19"/>
+<vertex x="2.96" y="-4.97"/>
+</polygon>
+<smd name="P$15" x="3.25" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="3.11" y="-4.9"/>
+<vertex x="3.11" y="-4.19" curve="-90"/>
+<vertex x="3.25" y="-4.05" curve="-90"/>
+<vertex x="3.39" y="-4.19"/>
+<vertex x="3.39" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="3.04" y="-4.97"/>
+<vertex x="3.04" y="-4.19" curve="-90"/>
+<vertex x="3.25" y="-3.98" curve="-90"/>
+<vertex x="3.46" y="-4.19"/>
+<vertex x="3.46" y="-4.97"/>
+</polygon>
+<smd name="P$16" x="3.75" y="-4.545" dx="0.71" dy="0.28" layer="1" rot="R90" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="3.61" y="-4.9"/>
+<vertex x="3.61" y="-4.19" curve="-90"/>
+<vertex x="3.75" y="-4.05" curve="-90"/>
+<vertex x="3.89" y="-4.19"/>
+<vertex x="3.89" y="-4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="3.54" y="-4.97"/>
+<vertex x="3.54" y="-4.19" curve="-90"/>
+<vertex x="3.75" y="-3.98" curve="-90"/>
+<vertex x="3.96" y="-4.19"/>
+<vertex x="3.96" y="-4.97"/>
+</polygon>
+<smd name="P$17" x="4.545" y="-3.75" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="-3.89"/>
+<vertex x="4.19" y="-3.89" curve="-90"/>
+<vertex x="4.05" y="-3.75" curve="-90"/>
+<vertex x="4.19" y="-3.61"/>
+<vertex x="4.9" y="-3.61"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="-3.96"/>
+<vertex x="4.19" y="-3.96" curve="-90"/>
+<vertex x="3.98" y="-3.75" curve="-90"/>
+<vertex x="4.19" y="-3.54"/>
+<vertex x="4.97" y="-3.54"/>
+</polygon>
+<smd name="P$18" x="4.545" y="-3.25" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="-3.39"/>
+<vertex x="4.19" y="-3.39" curve="-90"/>
+<vertex x="4.05" y="-3.25" curve="-90"/>
+<vertex x="4.19" y="-3.11"/>
+<vertex x="4.9" y="-3.11"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="-3.46"/>
+<vertex x="4.19" y="-3.46" curve="-90"/>
+<vertex x="3.98" y="-3.25" curve="-90"/>
+<vertex x="4.19" y="-3.04"/>
+<vertex x="4.97" y="-3.04"/>
+</polygon>
+<smd name="P$19" x="4.545" y="-2.75" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="-2.89"/>
+<vertex x="4.19" y="-2.89" curve="-90"/>
+<vertex x="4.05" y="-2.75" curve="-90"/>
+<vertex x="4.19" y="-2.61"/>
+<vertex x="4.9" y="-2.61"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="-2.96"/>
+<vertex x="4.19" y="-2.96" curve="-90"/>
+<vertex x="3.98" y="-2.75" curve="-90"/>
+<vertex x="4.19" y="-2.54"/>
+<vertex x="4.97" y="-2.54"/>
+</polygon>
+<smd name="P$20" x="4.545" y="-2.25" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="-2.39"/>
+<vertex x="4.19" y="-2.39" curve="-90"/>
+<vertex x="4.05" y="-2.25" curve="-90"/>
+<vertex x="4.19" y="-2.11"/>
+<vertex x="4.9" y="-2.11"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="-2.46"/>
+<vertex x="4.19" y="-2.46" curve="-90"/>
+<vertex x="3.98" y="-2.25" curve="-90"/>
+<vertex x="4.19" y="-2.04"/>
+<vertex x="4.97" y="-2.04"/>
+</polygon>
+<smd name="P$21" x="4.545" y="-1.75" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="-1.89"/>
+<vertex x="4.19" y="-1.89" curve="-90"/>
+<vertex x="4.05" y="-1.75" curve="-90"/>
+<vertex x="4.19" y="-1.61"/>
+<vertex x="4.9" y="-1.61"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="-1.96"/>
+<vertex x="4.19" y="-1.96" curve="-90"/>
+<vertex x="3.98" y="-1.75" curve="-90"/>
+<vertex x="4.19" y="-1.54"/>
+<vertex x="4.97" y="-1.54"/>
+</polygon>
+<smd name="P$22" x="4.545" y="-1.25" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="-1.39"/>
+<vertex x="4.19" y="-1.39" curve="-90"/>
+<vertex x="4.05" y="-1.25" curve="-90"/>
+<vertex x="4.19" y="-1.11"/>
+<vertex x="4.9" y="-1.11"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="-1.46"/>
+<vertex x="4.19" y="-1.46" curve="-90"/>
+<vertex x="3.98" y="-1.25" curve="-90"/>
+<vertex x="4.19" y="-1.04"/>
+<vertex x="4.97" y="-1.04"/>
+</polygon>
+<smd name="P$23" x="4.545" y="-0.75" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="-0.89"/>
+<vertex x="4.19" y="-0.89" curve="-90"/>
+<vertex x="4.05" y="-0.75" curve="-90"/>
+<vertex x="4.19" y="-0.61"/>
+<vertex x="4.9" y="-0.61"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="-0.96"/>
+<vertex x="4.19" y="-0.96" curve="-90"/>
+<vertex x="3.98" y="-0.75" curve="-90"/>
+<vertex x="4.19" y="-0.54"/>
+<vertex x="4.97" y="-0.54"/>
+</polygon>
+<smd name="P$24" x="4.545" y="-0.25" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="-0.39"/>
+<vertex x="4.19" y="-0.39" curve="-90"/>
+<vertex x="4.05" y="-0.25" curve="-90"/>
+<vertex x="4.19" y="-0.11"/>
+<vertex x="4.9" y="-0.11"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="-0.46"/>
+<vertex x="4.19" y="-0.46" curve="-90"/>
+<vertex x="3.98" y="-0.25" curve="-90"/>
+<vertex x="4.19" y="-0.04"/>
+<vertex x="4.97" y="-0.04"/>
+</polygon>
+<smd name="P$25" x="4.545" y="0.25" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="0.11"/>
+<vertex x="4.19" y="0.11" curve="-90"/>
+<vertex x="4.05" y="0.25" curve="-90"/>
+<vertex x="4.19" y="0.39"/>
+<vertex x="4.9" y="0.39"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="0.04"/>
+<vertex x="4.19" y="0.04" curve="-90"/>
+<vertex x="3.98" y="0.25" curve="-90"/>
+<vertex x="4.19" y="0.46"/>
+<vertex x="4.97" y="0.46"/>
+</polygon>
+<smd name="P$26" x="4.545" y="0.75" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="0.61"/>
+<vertex x="4.19" y="0.61" curve="-90"/>
+<vertex x="4.05" y="0.75" curve="-90"/>
+<vertex x="4.19" y="0.89"/>
+<vertex x="4.9" y="0.89"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="0.54"/>
+<vertex x="4.19" y="0.54" curve="-90"/>
+<vertex x="3.98" y="0.75" curve="-90"/>
+<vertex x="4.19" y="0.96"/>
+<vertex x="4.97" y="0.96"/>
+</polygon>
+<smd name="P$27" x="4.545" y="1.25" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="1.11"/>
+<vertex x="4.19" y="1.11" curve="-90"/>
+<vertex x="4.05" y="1.25" curve="-90"/>
+<vertex x="4.19" y="1.39"/>
+<vertex x="4.9" y="1.39"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="1.04"/>
+<vertex x="4.19" y="1.04" curve="-90"/>
+<vertex x="3.98" y="1.25" curve="-90"/>
+<vertex x="4.19" y="1.46"/>
+<vertex x="4.97" y="1.46"/>
+</polygon>
+<smd name="P$28" x="4.545" y="1.75" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="1.61"/>
+<vertex x="4.19" y="1.61" curve="-90"/>
+<vertex x="4.05" y="1.75" curve="-90"/>
+<vertex x="4.19" y="1.89"/>
+<vertex x="4.9" y="1.89"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="1.54"/>
+<vertex x="4.19" y="1.54" curve="-90"/>
+<vertex x="3.98" y="1.75" curve="-90"/>
+<vertex x="4.19" y="1.96"/>
+<vertex x="4.97" y="1.96"/>
+</polygon>
+<smd name="P$29" x="4.545" y="2.25" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="2.11"/>
+<vertex x="4.19" y="2.11" curve="-90"/>
+<vertex x="4.05" y="2.25" curve="-90"/>
+<vertex x="4.19" y="2.39"/>
+<vertex x="4.9" y="2.39"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="2.04"/>
+<vertex x="4.19" y="2.04" curve="-90"/>
+<vertex x="3.98" y="2.25" curve="-90"/>
+<vertex x="4.19" y="2.46"/>
+<vertex x="4.97" y="2.46"/>
+</polygon>
+<smd name="P$30" x="4.545" y="2.75" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="2.61"/>
+<vertex x="4.19" y="2.61" curve="-90"/>
+<vertex x="4.05" y="2.75" curve="-90"/>
+<vertex x="4.19" y="2.89"/>
+<vertex x="4.9" y="2.89"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="2.54"/>
+<vertex x="4.19" y="2.54" curve="-90"/>
+<vertex x="3.98" y="2.75" curve="-90"/>
+<vertex x="4.19" y="2.96"/>
+<vertex x="4.97" y="2.96"/>
+</polygon>
+<smd name="P$31" x="4.545" y="3.25" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="3.11"/>
+<vertex x="4.19" y="3.11" curve="-90"/>
+<vertex x="4.05" y="3.25" curve="-90"/>
+<vertex x="4.19" y="3.39"/>
+<vertex x="4.9" y="3.39"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="3.04"/>
+<vertex x="4.19" y="3.04" curve="-90"/>
+<vertex x="3.98" y="3.25" curve="-90"/>
+<vertex x="4.19" y="3.46"/>
+<vertex x="4.97" y="3.46"/>
+</polygon>
+<smd name="P$32" x="4.545" y="3.75" dx="0.71" dy="0.28" layer="1" rot="R180" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="4.9" y="3.61"/>
+<vertex x="4.19" y="3.61" curve="-90"/>
+<vertex x="4.05" y="3.75" curve="-90"/>
+<vertex x="4.19" y="3.89"/>
+<vertex x="4.9" y="3.89"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="4.97" y="3.54"/>
+<vertex x="4.19" y="3.54" curve="-90"/>
+<vertex x="3.98" y="3.75" curve="-90"/>
+<vertex x="4.19" y="3.96"/>
+<vertex x="4.97" y="3.96"/>
+</polygon>
+<smd name="P$33" x="3.75" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="3.89" y="4.9"/>
+<vertex x="3.89" y="4.19" curve="-90"/>
+<vertex x="3.75" y="4.05" curve="-90"/>
+<vertex x="3.61" y="4.19"/>
+<vertex x="3.61" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="3.96" y="4.97"/>
+<vertex x="3.96" y="4.19" curve="-90"/>
+<vertex x="3.75" y="3.98" curve="-90"/>
+<vertex x="3.54" y="4.19"/>
+<vertex x="3.54" y="4.97"/>
+</polygon>
+<smd name="P$34" x="3.25" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="3.39" y="4.9"/>
+<vertex x="3.39" y="4.19" curve="-90"/>
+<vertex x="3.25" y="4.05" curve="-90"/>
+<vertex x="3.11" y="4.19"/>
+<vertex x="3.11" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="3.46" y="4.97"/>
+<vertex x="3.46" y="4.19" curve="-90"/>
+<vertex x="3.25" y="3.98" curve="-90"/>
+<vertex x="3.04" y="4.19"/>
+<vertex x="3.04" y="4.97"/>
+</polygon>
+<smd name="P$35" x="2.75" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="2.89" y="4.9"/>
+<vertex x="2.89" y="4.19" curve="-90"/>
+<vertex x="2.75" y="4.05" curve="-90"/>
+<vertex x="2.61" y="4.19"/>
+<vertex x="2.61" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="2.96" y="4.97"/>
+<vertex x="2.96" y="4.19" curve="-90"/>
+<vertex x="2.75" y="3.98" curve="-90"/>
+<vertex x="2.54" y="4.19"/>
+<vertex x="2.54" y="4.97"/>
+</polygon>
+<smd name="P$36" x="2.25" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="2.39" y="4.9"/>
+<vertex x="2.39" y="4.19" curve="-90"/>
+<vertex x="2.25" y="4.05" curve="-90"/>
+<vertex x="2.11" y="4.19"/>
+<vertex x="2.11" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="2.46" y="4.97"/>
+<vertex x="2.46" y="4.19" curve="-90"/>
+<vertex x="2.25" y="3.98" curve="-90"/>
+<vertex x="2.04" y="4.19"/>
+<vertex x="2.04" y="4.97"/>
+</polygon>
+<smd name="P$37" x="1.75" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="1.89" y="4.9"/>
+<vertex x="1.89" y="4.19" curve="-90"/>
+<vertex x="1.75" y="4.05" curve="-90"/>
+<vertex x="1.61" y="4.19"/>
+<vertex x="1.61" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="1.96" y="4.97"/>
+<vertex x="1.96" y="4.19" curve="-90"/>
+<vertex x="1.75" y="3.98" curve="-90"/>
+<vertex x="1.54" y="4.19"/>
+<vertex x="1.54" y="4.97"/>
+</polygon>
+<smd name="P$38" x="1.25" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="1.39" y="4.9"/>
+<vertex x="1.39" y="4.19" curve="-90"/>
+<vertex x="1.25" y="4.05" curve="-90"/>
+<vertex x="1.11" y="4.19"/>
+<vertex x="1.11" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="1.46" y="4.97"/>
+<vertex x="1.46" y="4.19" curve="-90"/>
+<vertex x="1.25" y="3.98" curve="-90"/>
+<vertex x="1.04" y="4.19"/>
+<vertex x="1.04" y="4.97"/>
+</polygon>
+<smd name="P$39" x="0.75" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="0.89" y="4.9"/>
+<vertex x="0.89" y="4.19" curve="-90"/>
+<vertex x="0.75" y="4.05" curve="-90"/>
+<vertex x="0.61" y="4.19"/>
+<vertex x="0.61" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="0.96" y="4.97"/>
+<vertex x="0.96" y="4.19" curve="-90"/>
+<vertex x="0.75" y="3.98" curve="-90"/>
+<vertex x="0.54" y="4.19"/>
+<vertex x="0.54" y="4.97"/>
+</polygon>
+<smd name="P$40" x="0.25" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="0.39" y="4.9"/>
+<vertex x="0.39" y="4.19" curve="-90"/>
+<vertex x="0.25" y="4.05" curve="-90"/>
+<vertex x="0.11" y="4.19"/>
+<vertex x="0.11" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="0.46" y="4.97"/>
+<vertex x="0.46" y="4.19" curve="-90"/>
+<vertex x="0.25" y="3.98" curve="-90"/>
+<vertex x="0.04" y="4.19"/>
+<vertex x="0.04" y="4.97"/>
+</polygon>
+<smd name="P$41" x="-0.25" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-0.11" y="4.9"/>
+<vertex x="-0.11" y="4.19" curve="-90"/>
+<vertex x="-0.25" y="4.05" curve="-90"/>
+<vertex x="-0.39" y="4.19"/>
+<vertex x="-0.39" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-0.04" y="4.97"/>
+<vertex x="-0.04" y="4.19" curve="-90"/>
+<vertex x="-0.25" y="3.98" curve="-90"/>
+<vertex x="-0.46" y="4.19"/>
+<vertex x="-0.46" y="4.97"/>
+</polygon>
+<smd name="P$42" x="-0.75" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-0.61" y="4.9"/>
+<vertex x="-0.61" y="4.19" curve="-90"/>
+<vertex x="-0.75" y="4.05" curve="-90"/>
+<vertex x="-0.89" y="4.19"/>
+<vertex x="-0.89" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-0.54" y="4.97"/>
+<vertex x="-0.54" y="4.19" curve="-90"/>
+<vertex x="-0.75" y="3.98" curve="-90"/>
+<vertex x="-0.96" y="4.19"/>
+<vertex x="-0.96" y="4.97"/>
+</polygon>
+<smd name="P$43" x="-1.25" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-1.11" y="4.9"/>
+<vertex x="-1.11" y="4.19" curve="-90"/>
+<vertex x="-1.25" y="4.05" curve="-90"/>
+<vertex x="-1.39" y="4.19"/>
+<vertex x="-1.39" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-1.04" y="4.97"/>
+<vertex x="-1.04" y="4.19" curve="-90"/>
+<vertex x="-1.25" y="3.98" curve="-90"/>
+<vertex x="-1.46" y="4.19"/>
+<vertex x="-1.46" y="4.97"/>
+</polygon>
+<smd name="P$44" x="-1.75" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-1.61" y="4.9"/>
+<vertex x="-1.61" y="4.19" curve="-90"/>
+<vertex x="-1.75" y="4.05" curve="-90"/>
+<vertex x="-1.89" y="4.19"/>
+<vertex x="-1.89" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-1.54" y="4.97"/>
+<vertex x="-1.54" y="4.19" curve="-90"/>
+<vertex x="-1.75" y="3.98" curve="-90"/>
+<vertex x="-1.96" y="4.19"/>
+<vertex x="-1.96" y="4.97"/>
+</polygon>
+<smd name="P$45" x="-2.25" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-2.11" y="4.9"/>
+<vertex x="-2.11" y="4.19" curve="-90"/>
+<vertex x="-2.25" y="4.05" curve="-90"/>
+<vertex x="-2.39" y="4.19"/>
+<vertex x="-2.39" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-2.04" y="4.97"/>
+<vertex x="-2.04" y="4.19" curve="-90"/>
+<vertex x="-2.25" y="3.98" curve="-90"/>
+<vertex x="-2.46" y="4.19"/>
+<vertex x="-2.46" y="4.97"/>
+</polygon>
+<smd name="P$46" x="-2.75" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-2.61" y="4.9"/>
+<vertex x="-2.61" y="4.19" curve="-90"/>
+<vertex x="-2.75" y="4.05" curve="-90"/>
+<vertex x="-2.89" y="4.19"/>
+<vertex x="-2.89" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-2.54" y="4.97"/>
+<vertex x="-2.54" y="4.19" curve="-90"/>
+<vertex x="-2.75" y="3.98" curve="-90"/>
+<vertex x="-2.96" y="4.19"/>
+<vertex x="-2.96" y="4.97"/>
+</polygon>
+<smd name="P$47" x="-3.25" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-3.11" y="4.9"/>
+<vertex x="-3.11" y="4.19" curve="-90"/>
+<vertex x="-3.25" y="4.05" curve="-90"/>
+<vertex x="-3.39" y="4.19"/>
+<vertex x="-3.39" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-3.04" y="4.97"/>
+<vertex x="-3.04" y="4.19" curve="-90"/>
+<vertex x="-3.25" y="3.98" curve="-90"/>
+<vertex x="-3.46" y="4.19"/>
+<vertex x="-3.46" y="4.97"/>
+</polygon>
+<smd name="P$48" x="-3.75" y="4.545" dx="0.71" dy="0.28" layer="1" rot="R270" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-3.61" y="4.9"/>
+<vertex x="-3.61" y="4.19" curve="-90"/>
+<vertex x="-3.75" y="4.05" curve="-90"/>
+<vertex x="-3.89" y="4.19"/>
+<vertex x="-3.89" y="4.9"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-3.54" y="4.97"/>
+<vertex x="-3.54" y="4.19" curve="-90"/>
+<vertex x="-3.75" y="3.98" curve="-90"/>
+<vertex x="-3.96" y="4.19"/>
+<vertex x="-3.96" y="4.97"/>
+</polygon>
+<smd name="P$49" x="-4.545" y="3.75" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="3.89"/>
+<vertex x="-4.19" y="3.89" curve="-90"/>
+<vertex x="-4.05" y="3.75" curve="-90"/>
+<vertex x="-4.19" y="3.61"/>
+<vertex x="-4.9" y="3.61"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="3.96"/>
+<vertex x="-4.19" y="3.96" curve="-90"/>
+<vertex x="-3.98" y="3.75" curve="-90"/>
+<vertex x="-4.19" y="3.54"/>
+<vertex x="-4.97" y="3.54"/>
+</polygon>
+<smd name="P$50" x="-4.545" y="3.25" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="3.39"/>
+<vertex x="-4.19" y="3.39" curve="-90"/>
+<vertex x="-4.05" y="3.25" curve="-90"/>
+<vertex x="-4.19" y="3.11"/>
+<vertex x="-4.9" y="3.11"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="3.46"/>
+<vertex x="-4.19" y="3.46" curve="-90"/>
+<vertex x="-3.98" y="3.25" curve="-90"/>
+<vertex x="-4.19" y="3.04"/>
+<vertex x="-4.97" y="3.04"/>
+</polygon>
+<smd name="P$51" x="-4.545" y="2.75" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="2.89"/>
+<vertex x="-4.19" y="2.89" curve="-90"/>
+<vertex x="-4.05" y="2.75" curve="-90"/>
+<vertex x="-4.19" y="2.61"/>
+<vertex x="-4.9" y="2.61"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="2.96"/>
+<vertex x="-4.19" y="2.96" curve="-90"/>
+<vertex x="-3.98" y="2.75" curve="-90"/>
+<vertex x="-4.19" y="2.54"/>
+<vertex x="-4.97" y="2.54"/>
+</polygon>
+<smd name="P$52" x="-4.545" y="2.25" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="2.39"/>
+<vertex x="-4.19" y="2.39" curve="-90"/>
+<vertex x="-4.05" y="2.25" curve="-90"/>
+<vertex x="-4.19" y="2.11"/>
+<vertex x="-4.9" y="2.11"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="2.46"/>
+<vertex x="-4.19" y="2.46" curve="-90"/>
+<vertex x="-3.98" y="2.25" curve="-90"/>
+<vertex x="-4.19" y="2.04"/>
+<vertex x="-4.97" y="2.04"/>
+</polygon>
+<smd name="P$53" x="-4.545" y="1.75" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="1.89"/>
+<vertex x="-4.19" y="1.89" curve="-90"/>
+<vertex x="-4.05" y="1.75" curve="-90"/>
+<vertex x="-4.19" y="1.61"/>
+<vertex x="-4.9" y="1.61"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="1.96"/>
+<vertex x="-4.19" y="1.96" curve="-90"/>
+<vertex x="-3.98" y="1.75" curve="-90"/>
+<vertex x="-4.19" y="1.54"/>
+<vertex x="-4.97" y="1.54"/>
+</polygon>
+<smd name="P$54" x="-4.545" y="1.25" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="1.39"/>
+<vertex x="-4.19" y="1.39" curve="-90"/>
+<vertex x="-4.05" y="1.25" curve="-90"/>
+<vertex x="-4.19" y="1.11"/>
+<vertex x="-4.9" y="1.11"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="1.46"/>
+<vertex x="-4.19" y="1.46" curve="-90"/>
+<vertex x="-3.98" y="1.25" curve="-90"/>
+<vertex x="-4.19" y="1.04"/>
+<vertex x="-4.97" y="1.04"/>
+</polygon>
+<smd name="P$55" x="-4.545" y="0.75" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="0.89"/>
+<vertex x="-4.19" y="0.89" curve="-90"/>
+<vertex x="-4.05" y="0.75" curve="-90"/>
+<vertex x="-4.19" y="0.61"/>
+<vertex x="-4.9" y="0.61"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="0.96"/>
+<vertex x="-4.19" y="0.96" curve="-90"/>
+<vertex x="-3.98" y="0.75" curve="-90"/>
+<vertex x="-4.19" y="0.54"/>
+<vertex x="-4.97" y="0.54"/>
+</polygon>
+<smd name="P$56" x="-4.545" y="0.25" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="0.39"/>
+<vertex x="-4.19" y="0.39" curve="-90"/>
+<vertex x="-4.05" y="0.25" curve="-90"/>
+<vertex x="-4.19" y="0.11"/>
+<vertex x="-4.9" y="0.11"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="0.46"/>
+<vertex x="-4.19" y="0.46" curve="-90"/>
+<vertex x="-3.98" y="0.25" curve="-90"/>
+<vertex x="-4.19" y="0.04"/>
+<vertex x="-4.97" y="0.04"/>
+</polygon>
+<smd name="P$57" x="-4.545" y="-0.25" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="-0.11"/>
+<vertex x="-4.19" y="-0.11" curve="-90"/>
+<vertex x="-4.05" y="-0.25" curve="-90"/>
+<vertex x="-4.19" y="-0.39"/>
+<vertex x="-4.9" y="-0.39"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="-0.04"/>
+<vertex x="-4.19" y="-0.04" curve="-90"/>
+<vertex x="-3.98" y="-0.25" curve="-90"/>
+<vertex x="-4.19" y="-0.46"/>
+<vertex x="-4.97" y="-0.46"/>
+</polygon>
+<smd name="P$58" x="-4.545" y="-0.75" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="-0.61"/>
+<vertex x="-4.19" y="-0.61" curve="-90"/>
+<vertex x="-4.05" y="-0.75" curve="-90"/>
+<vertex x="-4.19" y="-0.89"/>
+<vertex x="-4.9" y="-0.89"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="-0.54"/>
+<vertex x="-4.19" y="-0.54" curve="-90"/>
+<vertex x="-3.98" y="-0.75" curve="-90"/>
+<vertex x="-4.19" y="-0.96"/>
+<vertex x="-4.97" y="-0.96"/>
+</polygon>
+<smd name="P$59" x="-4.545" y="-1.25" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="-1.11"/>
+<vertex x="-4.19" y="-1.11" curve="-90"/>
+<vertex x="-4.05" y="-1.25" curve="-90"/>
+<vertex x="-4.19" y="-1.39"/>
+<vertex x="-4.9" y="-1.39"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="-1.04"/>
+<vertex x="-4.19" y="-1.04" curve="-90"/>
+<vertex x="-3.98" y="-1.25" curve="-90"/>
+<vertex x="-4.19" y="-1.46"/>
+<vertex x="-4.97" y="-1.46"/>
+</polygon>
+<smd name="P$60" x="-4.545" y="-1.75" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="-1.61"/>
+<vertex x="-4.19" y="-1.61" curve="-90"/>
+<vertex x="-4.05" y="-1.75" curve="-90"/>
+<vertex x="-4.19" y="-1.89"/>
+<vertex x="-4.9" y="-1.89"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="-1.54"/>
+<vertex x="-4.19" y="-1.54" curve="-90"/>
+<vertex x="-3.98" y="-1.75" curve="-90"/>
+<vertex x="-4.19" y="-1.96"/>
+<vertex x="-4.97" y="-1.96"/>
+</polygon>
+<smd name="P$61" x="-4.545" y="-2.25" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="-2.11"/>
+<vertex x="-4.19" y="-2.11" curve="-90"/>
+<vertex x="-4.05" y="-2.25" curve="-90"/>
+<vertex x="-4.19" y="-2.39"/>
+<vertex x="-4.9" y="-2.39"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="-2.04"/>
+<vertex x="-4.19" y="-2.04" curve="-90"/>
+<vertex x="-3.98" y="-2.25" curve="-90"/>
+<vertex x="-4.19" y="-2.46"/>
+<vertex x="-4.97" y="-2.46"/>
+</polygon>
+<smd name="P$62" x="-4.545" y="-2.75" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="-2.61"/>
+<vertex x="-4.19" y="-2.61" curve="-90"/>
+<vertex x="-4.05" y="-2.75" curve="-90"/>
+<vertex x="-4.19" y="-2.89"/>
+<vertex x="-4.9" y="-2.89"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="-2.54"/>
+<vertex x="-4.19" y="-2.54" curve="-90"/>
+<vertex x="-3.98" y="-2.75" curve="-90"/>
+<vertex x="-4.19" y="-2.96"/>
+<vertex x="-4.97" y="-2.96"/>
+</polygon>
+<smd name="P$63" x="-4.545" y="-3.25" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="-3.11"/>
+<vertex x="-4.19" y="-3.11" curve="-90"/>
+<vertex x="-4.05" y="-3.25" curve="-90"/>
+<vertex x="-4.19" y="-3.39"/>
+<vertex x="-4.9" y="-3.39"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="-3.04"/>
+<vertex x="-4.19" y="-3.04" curve="-90"/>
+<vertex x="-3.98" y="-3.25" curve="-90"/>
+<vertex x="-4.19" y="-3.46"/>
+<vertex x="-4.97" y="-3.46"/>
+</polygon>
+<smd name="P$64" x="-4.545" y="-3.75" dx="0.71" dy="0.28" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-4.9" y="-3.61"/>
+<vertex x="-4.19" y="-3.61" curve="-90"/>
+<vertex x="-4.05" y="-3.75" curve="-90"/>
+<vertex x="-4.19" y="-3.89"/>
+<vertex x="-4.9" y="-3.89"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.254">
+<vertex x="-4.97" y="-3.54"/>
+<vertex x="-4.19" y="-3.54" curve="-90"/>
+<vertex x="-3.98" y="-3.75" curve="-90"/>
+<vertex x="-4.19" y="-3.96"/>
+<vertex x="-4.97" y="-3.96"/>
+</polygon>
 <wire x1="4.575" y1="4.575" x2="-4.575" y2="4.575" width="0.127" layer="21"/>
 <wire x1="-4.575" y1="4.575" x2="-4.575" y2="-4.575" width="0.127" layer="21"/>
 <wire x1="-4.575" y1="-4.575" x2="4.575" y2="-4.575" width="0.127" layer="21"/>
 <wire x1="4.575" y1="-4.575" x2="4.575" y2="4.575" width="0.127" layer="21"/>
-<circle x="-3.7" y="4.2" radius="0.22360625" width="0.127" layer="21"/>
+<circle x="-3.75" y="-4.2" radius="0.1581125" width="0.127" layer="21"/>
+<smd name="P$65" x="0" y="0" dx="7.25" dy="7.25" layer="1"/>
 </package>
 <package name="TPS27081A">
 <smd name="P$1" x="0.96" y="0.32" dx="1.1" dy="0.6" layer="1" rot="R270"/>
@@ -3142,7 +4038,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U$27" library="Capstone" package="4PIN_JST" value="4PIN_JST" x="4.7" y="12.58" rot="R90"/>
 <element name="U$28" library="Capstone" package="4PIN_JST" value="4PIN_JST" x="21.51" y="10.58" rot="R90"/>
 <element name="U$29" library="Capstone" package="4PIN_JST" value="4PIN_JST" x="17.08" y="11.58" rot="R90"/>
-<element name="U$3" library="Capstone" package="CC3100" value="CC3100" x="16" y="50" rot="R180"/>
+<element name="U$3" library="Capstone" package="QFN64" value="CC3100CORRECT_QFN" x="18.5" y="51"/>
 <element name="U$30" library="Capstone" package="TPS27081A" value="TPS27081A" x="23" y="27" rot="R270"/>
 <element name="U$34" library="Capstone" package="TEST_POINT" value="TEST_POINT" x="89.408" y="57.15"/>
 <element name="U$35" library="Capstone" package="TPS27081A" value="TPS27081A" x="6.118" y="30.398"/>
@@ -3252,9 +4148,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="5.994" y1="67.448" x2="5.966" y2="65.952" width="0" layer="19" extent="1-1"/>
 <wire x1="5.994" y1="64.388" x2="5.966" y2="65.952" width="0" layer="19" extent="1-1"/>
 <wire x1="5.9" y1="63" x2="5.994" y2="64.388" width="0" layer="19" extent="1-1"/>
-<wire x1="13.75" y1="54.4" x2="5.9" y2="63" width="0" layer="19" extent="1-1"/>
-<wire x1="11.65" y1="50.3" x2="13.75" y2="54.4" width="0" layer="19" extent="1-1"/>
-<wire x1="19.75" y1="54.4" x2="13.75" y2="54.4" width="0" layer="19" extent="1-1"/>
+<wire x1="20.75" y1="55.545" x2="5.9" y2="63" width="0" layer="19" extent="1-1"/>
+<wire x1="23.045" y1="51.25" x2="20.75" y2="55.545" width="0" layer="19" extent="1-1"/>
+<wire x1="14.75" y1="55.545" x2="20.75" y2="55.545" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="U$3" pad="P$65"/>
@@ -3640,7 +4536,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="4.694" y1="64.388" x2="4.6" y2="63" width="0" layer="19" extent="1-1"/>
 <wire x1="4.666" y1="65.952" x2="4.694" y2="64.388" width="0" layer="19" extent="1-1"/>
 <wire x1="4.694" y1="67.448" x2="4.666" y2="65.952" width="0" layer="19" extent="1-1"/>
-<wire x1="16" y1="50" x2="11.5" y2="61.85" width="0" layer="19" extent="1-1"/>
+<wire x1="18.5" y1="51" x2="11.5" y2="61.85" width="0" layer="19" extent="1-1"/>
 <wire x1="9.256" y1="17.462" x2="9.466" y2="23.31" width="0" layer="19" extent="1-1"/>
 <wire x1="3.108" y1="15.27" x2="9.256" y2="17.462" width="0" layer="19" extent="1-1"/>
 <wire x1="3.78" y1="8.618" x2="3.108" y2="15.27" width="0" layer="19" extent="1-1"/>
@@ -3654,17 +4550,17 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$9">
 <contactref element="U$3" pad="P$38"/>
 <contactref element="L1" pad="2"/>
-<wire x1="14.75" y1="54.4" x2="11.95" y2="66.25" width="0" layer="19" extent="1-1"/>
+<wire x1="19.75" y1="55.545" x2="11.95" y2="66.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="U$3" pad="P$40"/>
 <contactref element="L2" pad="2"/>
-<wire x1="15.75" y1="54.4" x2="17.05" y2="66.25" width="0" layer="19" extent="1-1"/>
+<wire x1="18.75" y1="55.545" x2="17.05" y2="66.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="L2" pad="1"/>
 <contactref element="U$3" pad="P$41"/>
-<wire x1="16.25" y1="54.4" x2="20.95" y2="66.25" width="0" layer="19" extent="1-1"/>
+<wire x1="18.25" y1="55.545" x2="20.95" y2="66.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$3" pad="P$42"/>
@@ -3674,13 +4570,13 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C26" pad="1"/>
 <wire x1="23.6" y1="65.5" x2="23.726" y2="67.452" width="0" layer="19" extent="1-1"/>
 <wire x1="23.524" y1="63.742" x2="23.6" y2="65.5" width="0" layer="19" extent="1-1"/>
-<wire x1="16.75" y1="54.4" x2="23.524" y2="63.742" width="0" layer="19" extent="1-1"/>
-<wire x1="12.25" y1="54.4" x2="16.75" y2="54.4" width="0" layer="19" extent="1-1"/>
+<wire x1="17.75" y1="55.545" x2="23.524" y2="63.742" width="0" layer="19" extent="1-1"/>
+<wire x1="22.25" y1="55.545" x2="17.75" y2="55.545" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U$3" pad="P$43"/>
 <contactref element="L3" pad="2"/>
-<wire x1="17.25" y1="54.4" x2="23.55" y2="60.5" width="0" layer="19" extent="1-1"/>
+<wire x1="17.25" y1="55.545" x2="23.55" y2="60.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U$3" pad="P$9"/>
@@ -3692,51 +4588,51 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="30.564" y1="59.024" x2="30.564" y2="61.714" width="0" layer="19" extent="1-1"/>
 <wire x1="30.74" y1="56.904" x2="30.564" y2="59.024" width="0" layer="19" extent="1-1"/>
 <wire x1="27.45" y1="60.5" x2="30.564" y2="61.714" width="0" layer="19" extent="1-1"/>
-<wire x1="20.35" y1="50.3" x2="30.74" y2="56.904" width="0" layer="19" extent="1-1"/>
-<wire x1="15.75" y1="45.7" x2="20.35" y2="50.3" width="0" layer="19" extent="1-1"/>
+<wire x1="13.955" y1="51.25" x2="30.74" y2="56.904" width="0" layer="19" extent="1-1"/>
+<wire x1="18.75" y1="46.455" x2="13.955" y2="51.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="U$3" pad="P$49"/>
 <contactref element="C2" pad="1"/>
-<wire x1="20.35" y1="53.8" x2="30.4" y2="54.75" width="0" layer="19" extent="1-1"/>
+<wire x1="13.955" y1="54.75" x2="30.4" y2="54.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="U$3" pad="P$24"/>
 <contactref element="C3" pad="1"/>
-<wire x1="6.05" y1="51.368" x2="11.65" y2="49.8" width="0" layer="19" extent="1-1"/>
+<wire x1="6.05" y1="51.368" x2="23.045" y2="50.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="U$3" pad="P$35"/>
 <contactref element="R14" pad="1"/>
-<wire x1="8.494" y1="49.878" x2="13.25" y2="54.4" width="0" layer="19" extent="1-1"/>
+<wire x1="8.494" y1="49.878" x2="21.25" y2="55.545" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="U$3" pad="P$34"/>
 <contactref element="R1" pad="1"/>
-<wire x1="11.5" y1="60.15" x2="12.75" y2="54.4" width="0" layer="19" extent="1-1"/>
+<wire x1="11.5" y1="60.15" x2="21.75" y2="55.545" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="U$3" pad="P$21"/>
 <contactref element="R2" pad="1"/>
-<wire x1="8.638" y1="44.746" x2="11.65" y2="48.3" width="0" layer="19" extent="1-1"/>
+<wire x1="8.638" y1="44.746" x2="23.045" y2="49.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="U$3" pad="P$19"/>
 <contactref element="R3" pad="1"/>
-<wire x1="10.328" y1="46.496" x2="11.65" y2="47.3" width="0" layer="19" extent="1-1"/>
+<wire x1="10.328" y1="46.496" x2="23.045" y2="48.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="U$3" pad="P$22"/>
 <contactref element="C8" pad="1"/>
 <contactref element="U$71" pad="P$1"/>
-<wire x1="6.136" y1="48.136" x2="11.65" y2="48.8" width="0" layer="19" extent="1-1"/>
+<wire x1="6.136" y1="48.136" x2="23.045" y2="49.75" width="0" layer="19" extent="1-1"/>
 <wire x1="6.2" y1="45.15" x2="6.136" y2="48.136" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="U$3" pad="P$23"/>
 <contactref element="C9" pad="1"/>
 <contactref element="U$71" pad="P$3"/>
-<wire x1="5.998" y1="49.906" x2="11.65" y2="49.3" width="0" layer="19" extent="1-1"/>
+<wire x1="5.998" y1="49.906" x2="23.045" y2="50.25" width="0" layer="19" extent="1-1"/>
 <wire x1="4.8" y1="46.85" x2="5.998" y2="49.906" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
@@ -3744,60 +4640,60 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C7" pad="1"/>
 <contactref element="U$70" pad="P$1"/>
 <wire x1="32" y1="52.75" x2="34.614" y2="52.674" width="0" layer="19" extent="1-1"/>
-<wire x1="20.35" y1="52.8" x2="32" y2="52.75" width="0" layer="19" extent="1-1"/>
+<wire x1="13.955" y1="53.75" x2="32" y2="52.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
 <contactref element="U$3" pad="P$52"/>
 <contactref element="C6" pad="1"/>
 <contactref element="U$70" pad="P$2"/>
 <wire x1="32" y1="50.25" x2="34.6" y2="50.25" width="0" layer="19" extent="1-1"/>
-<wire x1="20.35" y1="52.3" x2="32" y2="50.25" width="0" layer="19" extent="1-1"/>
+<wire x1="13.955" y1="53.25" x2="32" y2="50.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="WIFI_HIB_N">
 <contactref element="U$3" pad="P$2"/>
 <contactref element="R8" pad="2"/>
-<wire x1="22.048" y1="39.222" x2="19.25" y2="45.7" width="0" layer="19" extent="1-1"/>
+<wire x1="22.048" y1="39.222" x2="15.25" y2="46.455" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="U$3" pad="P$4"/>
 <contactref element="R7" pad="2"/>
-<wire x1="17.912" y1="39.24" x2="18.25" y2="45.7" width="0" layer="19" extent="1-1"/>
+<wire x1="17.912" y1="39.24" x2="16.25" y2="46.455" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$29">
 <contactref element="U$3" pad="P$3"/>
 <contactref element="R4" pad="2"/>
-<wire x1="20.134" y1="39.186" x2="18.75" y2="45.7" width="0" layer="19" extent="1-1"/>
+<wire x1="20.134" y1="39.186" x2="15.75" y2="46.455" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$30">
 <contactref element="U$3" pad="P$14"/>
 <contactref element="U$1" pad="P$1"/>
 <contactref element="R9" pad="1"/>
-<wire x1="10.881" y1="41.25" x2="13.25" y2="45.7" width="0" layer="19" extent="1-1"/>
+<wire x1="10.881" y1="41.25" x2="21.25" y2="46.455" width="0" layer="19" extent="1-1"/>
 <wire x1="3.102" y1="40.55" x2="10.881" y2="41.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$31">
 <contactref element="U$3" pad="P$13"/>
 <contactref element="U$1" pad="P$2"/>
-<wire x1="10.881" y1="40.0833" x2="13.75" y2="45.7" width="0" layer="19" extent="1-1"/>
+<wire x1="10.881" y1="40.0833" x2="20.75" y2="46.455" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$32">
 <contactref element="U$3" pad="P$12"/>
 <contactref element="U$1" pad="P$5"/>
 <contactref element="R13" pad="2"/>
-<wire x1="16.131" y1="37.75" x2="14.25" y2="45.7" width="0" layer="19" extent="1-1"/>
+<wire x1="16.131" y1="37.75" x2="20.25" y2="46.455" width="0" layer="19" extent="1-1"/>
 <wire x1="15.756" y1="34.786" x2="16.131" y2="37.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$33">
 <contactref element="U$3" pad="P$11"/>
 <contactref element="U$1" pad="P$6"/>
 <contactref element="R12" pad="2"/>
-<wire x1="16.131" y1="38.9167" x2="14.75" y2="45.7" width="0" layer="19" extent="1-1"/>
+<wire x1="16.131" y1="38.9167" x2="19.75" y2="46.455" width="0" layer="19" extent="1-1"/>
 <wire x1="14.15" y1="33" x2="16.131" y2="38.9167" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$34">
 <contactref element="U$3" pad="P$31"/>
 <contactref element="U$2" pad="P$1"/>
-<wire x1="8.045" y1="53.388" x2="11.65" y2="53.3" width="0" layer="19" extent="1-1"/>
+<wire x1="8.045" y1="53.388" x2="23.045" y2="54.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="U$2" pad="P$3"/>
@@ -3819,24 +4715,24 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="WIFI_SPI_MISO">
 <contactref element="U$3" pad="P$7"/>
 <contactref element="R6" pad="1"/>
-<wire x1="18.602" y1="35.24" x2="16.75" y2="45.7" width="0" layer="19" extent="1-1"/>
+<wire x1="18.602" y1="35.24" x2="17.75" y2="46.455" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="WIFI_HOSTINTR">
 <contactref element="U$3" pad="P$15"/>
 <contactref element="R5" pad="1"/>
-<wire x1="9.142" y1="39.55" x2="12.75" y2="45.7" width="0" layer="19" extent="1-1"/>
+<wire x1="9.142" y1="39.55" x2="21.75" y2="46.455" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="WIFI_RESET_N">
 <contactref element="U$3" pad="P$32"/>
 <contactref element="R64" pad="1"/>
 <contactref element="C12" pad="1"/>
-<wire x1="8.55" y1="55.678" x2="11.65" y2="53.8" width="0" layer="19" extent="1-1"/>
+<wire x1="8.55" y1="55.678" x2="23.045" y2="54.75" width="0" layer="19" extent="1-1"/>
 <wire x1="5.92" y1="55.118" x2="8.55" y2="55.678" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="WIFI_UART_TX">
 <contactref element="U$3" pad="P$55"/>
 <contactref element="R10" pad="1"/>
-<wire x1="20.35" y1="50.8" x2="18.26" y2="74.776" width="0" layer="19" extent="1-1"/>
+<wire x1="13.955" y1="51.75" x2="18.26" y2="74.776" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="WIFI_UART_RX">
 <contactref element="U$3" pad="P$57"/>
@@ -3844,7 +4740,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="WIFI_UART_RTS_N">
 <contactref element="U$3" pad="P$50"/>
 <contactref element="R11" pad="2"/>
-<wire x1="20.35" y1="53.3" x2="13.51" y2="75.016" width="0" layer="19" extent="1-1"/>
+<wire x1="13.955" y1="54.25" x2="13.51" y2="75.016" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="U$7" pad="P$13"/>
@@ -4263,12 +5159,12 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="50.5" y1="63.85" x2="41.696" y2="68.156" width="0" layer="19" extent="1-1"/>
 <wire x1="18.26" y1="73.076" x2="31.986" y2="74.676" width="0" layer="19" extent="1-1"/>
 <wire x1="13.96" y1="62.318" x2="18.26" y2="73.076" width="0" layer="19" extent="1-1"/>
-<wire x1="14.25" y1="54.4" x2="13.96" y2="62.318" width="0" layer="19" extent="1-1"/>
-<wire x1="15.25" y1="54.4" x2="14.25" y2="54.4" width="0" layer="19" extent="1-1"/>
-<wire x1="17.75" y1="54.4" x2="15.25" y2="54.4" width="0" layer="19" extent="1-1"/>
-<wire x1="20.35" y1="51.3" x2="17.75" y2="54.4" width="0" layer="19" extent="1-1"/>
-<wire x1="15.25" y1="45.7" x2="20.35" y2="51.3" width="0" layer="19" extent="1-1"/>
-<wire x1="16.131" y1="41.25" x2="15.25" y2="45.7" width="0" layer="19" extent="1-1"/>
+<wire x1="20.25" y1="55.545" x2="13.96" y2="62.318" width="0" layer="19" extent="1-1"/>
+<wire x1="19.25" y1="55.545" x2="20.25" y2="55.545" width="0" layer="19" extent="1-1"/>
+<wire x1="16.75" y1="55.545" x2="19.25" y2="55.545" width="0" layer="19" extent="1-1"/>
+<wire x1="13.955" y1="52.25" x2="16.75" y2="55.545" width="0" layer="19" extent="1-1"/>
+<wire x1="19.25" y1="46.455" x2="13.955" y2="52.25" width="0" layer="19" extent="1-1"/>
+<wire x1="16.131" y1="41.25" x2="19.25" y2="46.455" width="0" layer="19" extent="1-1"/>
 <wire x1="16.131" y1="40.0833" x2="16.131" y2="41.25" width="0" layer="19" extent="1-1"/>
 <wire x1="10.881" y1="38.9167" x2="16.131" y2="40.0833" width="0" layer="19" extent="1-1"/>
 <wire x1="10.936" y1="35.326" x2="10.881" y2="38.9167" width="0" layer="19" extent="1-1"/>
@@ -4288,7 +5184,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="16.684" y1="15.874" x2="10.32" y2="12.83" width="0" layer="19" extent="1-1"/>
 <wire x1="15.748" y1="29.422" x2="10.936" y2="35.326" width="0" layer="19" extent="1-1"/>
 <wire x1="3.102" y1="38.85" x2="10.881" y2="38.9167" width="0" layer="19" extent="1-1"/>
-<wire x1="4.22" y1="55.118" x2="14.25" y2="54.4" width="0" layer="19" extent="1-1"/>
+<wire x1="4.22" y1="55.118" x2="20.25" y2="55.545" width="0" layer="19" extent="1-1"/>
 <wire x1="4.572" y1="57.534" x2="4.22" y2="55.118" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$84">
