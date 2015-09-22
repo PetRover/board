@@ -8,22 +8,22 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -32,8 +32,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -41,12 +41,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -356,97 +356,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </package>
 <package name="BBB">
 <pad name="P$1" x="0" y="0" drill="1.02" shape="square"/>
-<pad name="P$2" x="0" y="-2.54" drill="1.02" shape="square"/>
-<pad name="P$3" x="0" y="-5.08" drill="1.02" shape="square"/>
-<pad name="P$4" x="0" y="-7.62" drill="1.02" shape="square"/>
-<pad name="P$5" x="0" y="-10.16" drill="1.02" shape="square"/>
-<pad name="P$6" x="0" y="-12.7" drill="1.02" shape="square"/>
-<pad name="P$7" x="0" y="-15.24" drill="1.02" shape="square"/>
-<pad name="P$8" x="0" y="-17.78" drill="1.02" shape="square"/>
-<pad name="P$9" x="0" y="-20.32" drill="1.02" shape="square"/>
-<pad name="P$10" x="0" y="-22.86" drill="1.02" shape="square"/>
-<pad name="P$11" x="0" y="-25.4" drill="1.02" shape="square"/>
-<pad name="P$12" x="0" y="-27.94" drill="1.02" shape="square"/>
-<pad name="P$13" x="0" y="-30.48" drill="1.02" shape="square"/>
-<pad name="P$14" x="0" y="-33.02" drill="1.02" shape="square"/>
-<pad name="P$15" x="0" y="-35.56" drill="1.02" shape="square"/>
-<pad name="P$16" x="0" y="-38.1" drill="1.02" shape="square"/>
-<pad name="P$17" x="0" y="-40.64" drill="1.02" shape="square"/>
-<pad name="P$18" x="0" y="-43.18" drill="1.02" shape="square"/>
-<pad name="P$19" x="0" y="-45.72" drill="1.02" shape="square"/>
-<pad name="P$20" x="0" y="-48.26" drill="1.02" shape="square"/>
-<pad name="P$21" x="0" y="-50.8" drill="1.02" shape="square"/>
-<pad name="P$22" x="0" y="-53.34" drill="1.02" shape="square"/>
-<pad name="P$23" x="0" y="-55.88" drill="1.02" shape="square"/>
-<pad name="P$24" x="2.54" y="-55.88" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$25" x="2.54" y="-53.34" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$26" x="2.54" y="-50.8" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$27" x="2.54" y="-48.26" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$28" x="2.54" y="-45.72" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$29" x="2.54" y="-43.18" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$30" x="2.54" y="-40.64" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$31" x="2.54" y="-38.1" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$32" x="2.54" y="-35.56" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$33" x="2.54" y="-33.02" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$34" x="2.54" y="-30.48" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$35" x="2.54" y="-27.94" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$36" x="2.54" y="-25.4" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$37" x="2.54" y="-22.86" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$38" x="2.54" y="-20.32" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$39" x="2.54" y="-17.78" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$40" x="2.54" y="-15.24" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$41" x="2.54" y="-12.7" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$42" x="2.54" y="-10.16" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$43" x="2.54" y="-7.62" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$44" x="2.54" y="-5.08" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$45" x="2.54" y="-2.54" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$46" x="2.54" y="0" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$47" x="48.26" y="0" drill="1.02" shape="square"/>
-<pad name="P$48" x="48.26" y="-2.54" drill="1.02" shape="square"/>
-<pad name="P$49" x="48.26" y="-5.08" drill="1.02" shape="square"/>
-<pad name="P$50" x="48.26" y="-7.62" drill="1.02" shape="square"/>
-<pad name="P$51" x="48.26" y="-10.16" drill="1.02" shape="square"/>
-<pad name="P$52" x="48.26" y="-12.7" drill="1.02" shape="square"/>
-<pad name="P$53" x="48.26" y="-15.24" drill="1.02" shape="square"/>
-<pad name="P$54" x="48.26" y="-17.78" drill="1.02" shape="square"/>
-<pad name="P$55" x="48.26" y="-20.32" drill="1.02" shape="square"/>
-<pad name="P$56" x="48.26" y="-22.86" drill="1.02" shape="square"/>
-<pad name="P$57" x="48.26" y="-25.4" drill="1.02" shape="square"/>
-<pad name="P$58" x="48.26" y="-27.94" drill="1.02" shape="square"/>
-<pad name="P$59" x="48.26" y="-30.48" drill="1.02" shape="square"/>
-<pad name="P$60" x="48.26" y="-33.02" drill="1.02" shape="square"/>
-<pad name="P$61" x="48.26" y="-35.56" drill="1.02" shape="square"/>
-<pad name="P$62" x="48.26" y="-38.1" drill="1.02" shape="square"/>
-<pad name="P$63" x="48.26" y="-40.64" drill="1.02" shape="square"/>
-<pad name="P$64" x="48.26" y="-43.18" drill="1.02" shape="square"/>
-<pad name="P$65" x="48.26" y="-45.72" drill="1.02" shape="square"/>
-<pad name="P$66" x="48.26" y="-48.26" drill="1.02" shape="square"/>
-<pad name="P$67" x="48.26" y="-50.8" drill="1.02" shape="square"/>
-<pad name="P$68" x="48.26" y="-53.34" drill="1.02" shape="square"/>
-<pad name="P$69" x="48.26" y="-55.88" drill="1.02" shape="square"/>
-<pad name="P$70" x="50.8" y="-55.88" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$71" x="50.8" y="-53.34" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$72" x="50.8" y="-50.8" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$73" x="50.8" y="-48.26" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$74" x="50.8" y="-45.72" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$75" x="50.8" y="-43.18" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$76" x="50.8" y="-40.64" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$77" x="50.8" y="-38.1" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$78" x="50.8" y="-35.56" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$79" x="50.8" y="-33.02" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$80" x="50.8" y="-30.48" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$81" x="50.8" y="-27.94" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$82" x="50.8" y="-25.4" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$83" x="50.8" y="-22.86" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$84" x="50.8" y="-20.32" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$85" x="50.8" y="-17.78" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$86" x="50.8" y="-15.24" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$87" x="50.8" y="-12.7" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$88" x="50.8" y="-10.16" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$89" x="50.8" y="-7.62" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$90" x="50.8" y="-5.08" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$91" x="50.8" y="-2.54" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$92" x="50.8" y="0" drill="1.02" shape="square" rot="R180"/>
 <wire x1="3.77" y1="1.395" x2="-1.23" y2="1.395" width="0.127" layer="21"/>
 <wire x1="-1.23" y1="1.395" x2="-1.23" y2="-57.275" width="0.127" layer="21"/>
 <wire x1="-1.23" y1="-57.275" x2="3.77" y2="-57.275" width="0.127" layer="21"/>
@@ -455,8 +364,107 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="47.03" y1="1.395" x2="47.03" y2="-57.275" width="0.127" layer="21"/>
 <wire x1="47.03" y1="-57.275" x2="52.03" y2="-57.275" width="0.127" layer="21"/>
 <wire x1="52.03" y1="-57.275" x2="52.03" y2="1.395" width="0.127" layer="21"/>
-<circle x="48.26" y="0" radius="0.986709375" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="0.94868125" width="0.127" layer="21"/>
+<pad name="P$2" x="2.54" y="0" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$3" x="0" y="-2.54" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$4" x="2.54" y="-2.54" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$5" x="0" y="-5.08" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$6" x="2.54" y="-5.08" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$7" x="0" y="-7.62" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$8" x="2.54" y="-7.62" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$9" x="0" y="-10.16" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$10" x="2.54" y="-10.16" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$11" x="0" y="-12.7" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$12" x="2.54" y="-12.7" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$13" x="0" y="-15.24" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$14" x="2.54" y="-15.24" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$15" x="0" y="-17.78" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$16" x="2.54" y="-17.78" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$17" x="0" y="-20.32" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$18" x="2.54" y="-20.32" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$19" x="0" y="-22.86" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$20" x="2.54" y="-22.86" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$21" x="0" y="-25.4" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$22" x="2.54" y="-25.4" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$23" x="0" y="-27.94" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$24" x="2.54" y="-27.94" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$25" x="0" y="-30.48" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$26" x="2.54" y="-30.48" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$27" x="0" y="-33.02" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$28" x="2.54" y="-33.02" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$29" x="0" y="-35.56" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$30" x="2.54" y="-35.56" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$31" x="0" y="-38.1" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$32" x="2.54" y="-38.1" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$33" x="0" y="-40.64" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$34" x="2.54" y="-40.64" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$35" x="0" y="-43.18" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$36" x="2.54" y="-43.18" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$37" x="0" y="-45.72" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$38" x="2.54" y="-45.72" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$39" x="0" y="-48.26" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$40" x="2.54" y="-48.26" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$41" x="0" y="-50.8" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$42" x="2.54" y="-50.8" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$43" x="0" y="-53.34" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$44" x="2.54" y="-53.34" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$45" x="0" y="-55.88" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$46" x="2.54" y="-55.88" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$47" x="48.26" y="0" drill="1.02" shape="square"/>
+<circle x="48.26" y="0" radius="0.94868125" width="0.127" layer="21"/>
+<pad name="P$48" x="50.8" y="0" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$49" x="48.26" y="-2.54" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$50" x="50.8" y="-2.54" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$51" x="48.26" y="-5.08" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$52" x="50.8" y="-5.08" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$53" x="48.26" y="-7.62" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$54" x="50.8" y="-7.62" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$55" x="48.26" y="-10.16" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$56" x="50.8" y="-10.16" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$57" x="48.26" y="-12.7" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$58" x="50.8" y="-12.7" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$59" x="48.26" y="-15.24" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$60" x="50.8" y="-15.24" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$61" x="48.26" y="-17.78" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$62" x="50.8" y="-17.78" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$63" x="48.26" y="-20.32" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$64" x="50.8" y="-20.32" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$65" x="48.26" y="-22.86" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$66" x="50.8" y="-22.86" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$67" x="48.26" y="-25.4" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$68" x="50.8" y="-25.4" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$69" x="48.26" y="-27.94" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$70" x="50.8" y="-27.94" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$71" x="48.26" y="-30.48" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$72" x="50.8" y="-30.48" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$73" x="48.26" y="-33.02" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$74" x="50.8" y="-33.02" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$75" x="48.26" y="-35.56" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$76" x="50.8" y="-35.56" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$77" x="48.26" y="-38.1" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$78" x="50.8" y="-38.1" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$79" x="48.26" y="-40.64" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$80" x="50.8" y="-40.64" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$81" x="48.26" y="-43.18" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$82" x="50.8" y="-43.18" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$83" x="48.26" y="-45.72" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$84" x="50.8" y="-45.72" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$85" x="48.26" y="-48.26" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$86" x="50.8" y="-48.26" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$87" x="48.26" y="-50.8" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$88" x="50.8" y="-50.8" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$89" x="48.26" y="-53.34" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$90" x="50.8" y="-53.34" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$91" x="48.26" y="-55.88" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$92" x="50.8" y="-55.88" drill="1.02" shape="square" rot="R180"/>
+<wire x1="-2.54" y1="-55.88" x2="5.08" y2="-63.5" width="0.127" layer="22" curve="90"/>
+<wire x1="5.08" y1="-63.5" x2="45.72" y2="-63.5" width="0.127" layer="22"/>
+<wire x1="45.72" y1="-63.5" x2="53.34" y2="-55.88" width="0.127" layer="22" curve="90"/>
+<wire x1="53.34" y1="-55.88" x2="53.34" y2="12.7" width="0.127" layer="22"/>
+<wire x1="53.34" y1="12.7" x2="41.91" y2="24.13" width="0.127" layer="22" curve="90"/>
+<wire x1="41.91" y1="24.13" x2="7.62" y2="24.13" width="0.127" layer="22"/>
+<wire x1="7.62" y1="24.13" x2="-2.54" y2="13.97" width="0.127" layer="22" curve="90"/>
+<wire x1="-2.54" y1="13.97" x2="-2.54" y2="-55.88" width="0.127" layer="22"/>
 </package>
 <package name="TEST_POINT">
 <pad name="P$1" x="0" y="0" drill="0.8" shape="square"/>
@@ -1840,97 +1848,51 @@ reflow soldering</description>
 </symbol>
 <symbol name="BBB">
 <pin name="P8_1" x="-60.96" y="10.16" length="middle"/>
-<pin name="P8_2" x="-60.96" y="5.08" length="middle"/>
-<pin name="P8_3" x="-60.96" y="0" length="middle"/>
-<pin name="P8_4" x="-60.96" y="-5.08" length="middle"/>
-<pin name="P8_5" x="-60.96" y="-10.16" length="middle"/>
-<pin name="P8_6" x="-60.96" y="-15.24" length="middle"/>
-<pin name="P8_7" x="-60.96" y="-20.32" length="middle"/>
-<pin name="P8_8" x="-60.96" y="-25.4" length="middle"/>
-<pin name="P8_9" x="-60.96" y="-30.48" length="middle"/>
-<pin name="P8_10" x="-60.96" y="-35.56" length="middle"/>
-<pin name="P8_11" x="-60.96" y="-40.64" length="middle"/>
-<pin name="P8_12" x="-60.96" y="-45.72" length="middle"/>
-<pin name="P8_13" x="-60.96" y="-50.8" length="middle"/>
-<pin name="P8_14" x="-60.96" y="-55.88" length="middle"/>
-<pin name="P8_15" x="-60.96" y="-60.96" length="middle"/>
-<pin name="P8_16" x="-60.96" y="-66.04" length="middle"/>
-<pin name="P8_17" x="-60.96" y="-71.12" length="middle"/>
-<pin name="P8_18" x="-60.96" y="-76.2" length="middle"/>
-<pin name="P8_19" x="-60.96" y="-81.28" length="middle"/>
-<pin name="P8_20" x="-60.96" y="-86.36" length="middle"/>
-<pin name="P8_21" x="-60.96" y="-91.44" length="middle"/>
-<pin name="P8_22" x="-60.96" y="-96.52" length="middle"/>
-<pin name="P8_23" x="-60.96" y="-101.6" length="middle"/>
-<pin name="P8_24" x="-27.94" y="-101.6" length="middle" rot="R180"/>
-<pin name="P8_25" x="-27.94" y="-96.52" length="middle" rot="R180"/>
-<pin name="P8_26" x="-27.94" y="-91.44" length="middle" rot="R180"/>
-<pin name="P8_27" x="-27.94" y="-86.36" length="middle" rot="R180"/>
-<pin name="P8_28" x="-27.94" y="-81.28" length="middle" rot="R180"/>
-<pin name="P8_29" x="-27.94" y="-76.2" length="middle" rot="R180"/>
-<pin name="P8_30" x="-27.94" y="-71.12" length="middle" rot="R180"/>
-<pin name="P8_31" x="-27.94" y="-66.04" length="middle" rot="R180"/>
-<pin name="P8_32" x="-27.94" y="-60.96" length="middle" rot="R180"/>
-<pin name="P8_33" x="-27.94" y="-55.88" length="middle" rot="R180"/>
-<pin name="P8_34" x="-27.94" y="-50.8" length="middle" rot="R180"/>
-<pin name="P8_35" x="-27.94" y="-45.72" length="middle" rot="R180"/>
-<pin name="P8_36" x="-27.94" y="-40.64" length="middle" rot="R180"/>
-<pin name="P8_37" x="-27.94" y="-35.56" length="middle" rot="R180"/>
-<pin name="P8_38" x="-27.94" y="-30.48" length="middle" rot="R180"/>
-<pin name="P8_39" x="-27.94" y="-25.4" length="middle" rot="R180"/>
-<pin name="P8_40" x="-27.94" y="-20.32" length="middle" rot="R180"/>
-<pin name="P8_41" x="-27.94" y="-15.24" length="middle" rot="R180"/>
-<pin name="P8_42" x="-27.94" y="-10.16" length="middle" rot="R180"/>
-<pin name="P8_43" x="-27.94" y="-5.08" length="middle" rot="R180"/>
-<pin name="P8_44" x="-27.94" y="0" length="middle" rot="R180"/>
-<pin name="P8_45" x="-27.94" y="5.08" length="middle" rot="R180"/>
-<pin name="P8_46" x="-27.94" y="10.16" length="middle" rot="R180"/>
+<pin name="P8_3" x="-60.96" y="5.08" length="middle"/>
+<pin name="P8_5" x="-60.96" y="0" length="middle"/>
+<pin name="P8_7" x="-60.96" y="-5.08" length="middle"/>
+<pin name="P8_9" x="-60.96" y="-10.16" length="middle"/>
+<pin name="P8_11" x="-60.96" y="-15.24" length="middle"/>
+<pin name="P8_13" x="-60.96" y="-20.32" length="middle"/>
+<pin name="P8_15" x="-60.96" y="-25.4" length="middle"/>
+<pin name="P8_17" x="-60.96" y="-30.48" length="middle"/>
+<pin name="P8_19" x="-60.96" y="-35.56" length="middle"/>
+<pin name="P8_21" x="-60.96" y="-40.64" length="middle"/>
+<pin name="P8_23" x="-60.96" y="-45.72" length="middle"/>
+<pin name="P8_25" x="-60.96" y="-50.8" length="middle"/>
+<pin name="P8_27" x="-60.96" y="-55.88" length="middle"/>
+<pin name="P8_29" x="-60.96" y="-60.96" length="middle"/>
+<pin name="P8_31" x="-60.96" y="-66.04" length="middle"/>
+<pin name="P8_33" x="-60.96" y="-71.12" length="middle"/>
+<pin name="P8_35" x="-60.96" y="-76.2" length="middle"/>
+<pin name="P8_37" x="-60.96" y="-81.28" length="middle"/>
+<pin name="P8_39" x="-60.96" y="-86.36" length="middle"/>
+<pin name="P8_41" x="-60.96" y="-91.44" length="middle"/>
+<pin name="P8_43" x="-60.96" y="-96.52" length="middle"/>
+<pin name="P8_45" x="-60.96" y="-101.6" length="middle"/>
 <pin name="P9_1" x="38.1" y="10.16" length="middle"/>
-<pin name="P9_2" x="38.1" y="5.08" length="middle"/>
-<pin name="P9_3" x="38.1" y="0" length="middle"/>
-<pin name="P9_4" x="38.1" y="-5.08" length="middle"/>
-<pin name="P9_5" x="38.1" y="-10.16" length="middle"/>
-<pin name="P9_6" x="38.1" y="-15.24" length="middle"/>
-<pin name="P9_7" x="38.1" y="-20.32" length="middle"/>
-<pin name="P9_8" x="38.1" y="-25.4" length="middle"/>
-<pin name="P9_9" x="38.1" y="-30.48" length="middle"/>
-<pin name="P9_10" x="38.1" y="-35.56" length="middle"/>
-<pin name="P9_11" x="38.1" y="-40.64" length="middle"/>
-<pin name="P9_12" x="38.1" y="-45.72" length="middle"/>
-<pin name="P9_13" x="38.1" y="-50.8" length="middle"/>
-<pin name="P9_14" x="38.1" y="-55.88" length="middle"/>
-<pin name="P9_15" x="38.1" y="-60.96" length="middle"/>
-<pin name="P9_16" x="38.1" y="-66.04" length="middle"/>
-<pin name="P9_17" x="38.1" y="-71.12" length="middle"/>
-<pin name="P9_18" x="38.1" y="-76.2" length="middle"/>
-<pin name="P9_19" x="38.1" y="-81.28" length="middle"/>
-<pin name="P9_20" x="38.1" y="-86.36" length="middle"/>
-<pin name="P9_21" x="38.1" y="-91.44" length="middle"/>
-<pin name="P9_22" x="38.1" y="-96.52" length="middle"/>
-<pin name="P9_23" x="38.1" y="-101.6" length="middle"/>
-<pin name="P9_24" x="71.12" y="-101.6" length="middle" rot="R180"/>
-<pin name="P9_25" x="71.12" y="-96.52" length="middle" rot="R180"/>
-<pin name="P9_26" x="71.12" y="-91.44" length="middle" rot="R180"/>
-<pin name="P9_27" x="71.12" y="-86.36" length="middle" rot="R180"/>
-<pin name="P9_28" x="71.12" y="-81.28" length="middle" rot="R180"/>
-<pin name="P9_29" x="71.12" y="-76.2" length="middle" rot="R180"/>
-<pin name="P9_30" x="71.12" y="-71.12" length="middle" rot="R180"/>
-<pin name="P9_31" x="71.12" y="-66.04" length="middle" rot="R180"/>
-<pin name="P9_32" x="71.12" y="-60.96" length="middle" rot="R180"/>
-<pin name="P9_33" x="71.12" y="-55.88" length="middle" rot="R180"/>
-<pin name="P9_34" x="71.12" y="-50.8" length="middle" rot="R180"/>
-<pin name="P9_35" x="71.12" y="-45.72" length="middle" rot="R180"/>
-<pin name="P9_36" x="71.12" y="-40.64" length="middle" rot="R180"/>
-<pin name="P9_37" x="71.12" y="-35.56" length="middle" rot="R180"/>
-<pin name="P9_38" x="71.12" y="-30.48" length="middle" rot="R180"/>
-<pin name="P9_39" x="71.12" y="-25.4" length="middle" rot="R180"/>
-<pin name="P9_40" x="71.12" y="-20.32" length="middle" rot="R180"/>
-<pin name="P9_41" x="71.12" y="-15.24" length="middle" rot="R180"/>
-<pin name="P9_42" x="71.12" y="-10.16" length="middle" rot="R180"/>
-<pin name="P9_43" x="71.12" y="-5.08" length="middle" rot="R180"/>
-<pin name="P9_44" x="71.12" y="0" length="middle" rot="R180"/>
-<pin name="P9_45" x="71.12" y="5.08" length="middle" rot="R180"/>
-<pin name="P9_46" x="71.12" y="10.16" length="middle" rot="R180"/>
+<pin name="P9_3" x="38.1" y="5.08" length="middle"/>
+<pin name="P9_5" x="38.1" y="0" length="middle"/>
+<pin name="P9_7" x="38.1" y="-5.08" length="middle"/>
+<pin name="P9_9" x="38.1" y="-10.16" length="middle"/>
+<pin name="P9_11" x="38.1" y="-15.24" length="middle"/>
+<pin name="P9_13" x="38.1" y="-20.32" length="middle"/>
+<pin name="P9_15" x="38.1" y="-25.4" length="middle"/>
+<pin name="P9_17" x="38.1" y="-30.48" length="middle"/>
+<pin name="P9_19" x="38.1" y="-35.56" length="middle"/>
+<pin name="P9_21" x="38.1" y="-40.64" length="middle"/>
+<pin name="P9_23" x="38.1" y="-45.72" length="middle"/>
+<pin name="P9_25" x="38.1" y="-50.8" length="middle"/>
+<pin name="P9_27" x="38.1" y="-55.88" length="middle"/>
+<pin name="P9_29" x="38.1" y="-60.96" length="middle"/>
+<pin name="P9_31" x="38.1" y="-66.04" length="middle"/>
+<pin name="P9_33" x="38.1" y="-71.12" length="middle"/>
+<pin name="P9_35" x="38.1" y="-76.2" length="middle"/>
+<pin name="P9_37" x="38.1" y="-81.28" length="middle"/>
+<pin name="P9_39" x="38.1" y="-86.36" length="middle"/>
+<pin name="P9_41" x="38.1" y="-91.44" length="middle"/>
+<pin name="P9_43" x="38.1" y="-96.52" length="middle"/>
+<pin name="P9_45" x="38.1" y="-101.6" length="middle"/>
 <wire x1="-55.88" y1="12.7" x2="-55.88" y2="-106.68" width="0.254" layer="94"/>
 <wire x1="-55.88" y1="-106.68" x2="-33.02" y2="-106.68" width="0.254" layer="94"/>
 <wire x1="-33.02" y1="-106.68" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
@@ -1944,6 +1906,52 @@ reflow soldering</description>
 <wire x1="45.72" y1="15.24" x2="45.72" y2="12.7" width="0.254" layer="94"/>
 <wire x1="45.72" y1="12.7" x2="43.18" y2="12.7" width="0.254" layer="94"/>
 <text x="-50.8" y="17.78" size="1.778" layer="94">BBB</text>
+<pin name="P8_2" x="-27.94" y="10.16" length="middle" rot="R180"/>
+<pin name="P8_4" x="-27.94" y="5.08" length="middle" rot="R180"/>
+<pin name="P8_6" x="-27.94" y="0" length="middle" rot="R180"/>
+<pin name="P8_8" x="-27.94" y="-5.08" length="middle" rot="R180"/>
+<pin name="P8_10" x="-27.94" y="-10.16" length="middle" rot="R180"/>
+<pin name="P8_12" x="-27.94" y="-15.24" length="middle" rot="R180"/>
+<pin name="P8_14" x="-27.94" y="-20.32" length="middle" rot="R180"/>
+<pin name="P8_16" x="-27.94" y="-25.4" length="middle" rot="R180"/>
+<pin name="P8_18" x="-27.94" y="-30.48" length="middle" rot="R180"/>
+<pin name="P8_20" x="-27.94" y="-35.56" length="middle" rot="R180"/>
+<pin name="P8_22" x="-27.94" y="-40.64" length="middle" rot="R180"/>
+<pin name="P8_24" x="-27.94" y="-45.72" length="middle" rot="R180"/>
+<pin name="P8_26" x="-27.94" y="-50.8" length="middle" rot="R180"/>
+<pin name="P8_28" x="-27.94" y="-55.88" length="middle" rot="R180"/>
+<pin name="P8_30" x="-27.94" y="-60.96" length="middle" rot="R180"/>
+<pin name="P8_32" x="-27.94" y="-66.04" length="middle" rot="R180"/>
+<pin name="P8_34" x="-27.94" y="-71.12" length="middle" rot="R180"/>
+<pin name="P8_36" x="-27.94" y="-76.2" length="middle" rot="R180"/>
+<pin name="P8_38" x="-27.94" y="-81.28" length="middle" rot="R180"/>
+<pin name="P8_40" x="-27.94" y="-86.36" length="middle" rot="R180"/>
+<pin name="P8_42" x="-27.94" y="-91.44" length="middle" rot="R180"/>
+<pin name="P8_44" x="-27.94" y="-96.52" length="middle" rot="R180"/>
+<pin name="P8_46" x="-27.94" y="-101.6" length="middle" rot="R180"/>
+<pin name="P9_2" x="71.12" y="10.16" length="middle" rot="R180"/>
+<pin name="P9_4" x="71.12" y="5.08" length="middle" rot="R180"/>
+<pin name="P9_6" x="71.12" y="0" length="middle" rot="R180"/>
+<pin name="P9_8" x="71.12" y="-5.08" length="middle" rot="R180"/>
+<pin name="P9_10" x="71.12" y="-10.16" length="middle" rot="R180"/>
+<pin name="P9_12" x="71.12" y="-15.24" length="middle" rot="R180"/>
+<pin name="P9_14" x="71.12" y="-20.32" length="middle" rot="R180"/>
+<pin name="P9_16" x="71.12" y="-25.4" length="middle" rot="R180"/>
+<pin name="P9_18" x="71.12" y="-30.48" length="middle" rot="R180"/>
+<pin name="P9_20" x="71.12" y="-35.56" length="middle" rot="R180"/>
+<pin name="P9_22" x="71.12" y="-40.64" length="middle" rot="R180"/>
+<pin name="P9_24" x="71.12" y="-45.72" length="middle" rot="R180"/>
+<pin name="P9_26" x="71.12" y="-50.8" length="middle" rot="R180"/>
+<pin name="P9_28" x="71.12" y="-55.88" length="middle" rot="R180"/>
+<pin name="P9_30" x="71.12" y="-60.96" length="middle" rot="R180"/>
+<pin name="P9_32" x="71.12" y="-66.04" length="middle" rot="R180"/>
+<pin name="P9_34" x="71.12" y="-71.12" length="middle" rot="R180"/>
+<pin name="P9_36" x="71.12" y="-76.2" length="middle" rot="R180"/>
+<pin name="P9_38" x="71.12" y="-81.28" length="middle" rot="R180"/>
+<pin name="P9_40" x="71.12" y="-86.36" length="middle" rot="R180"/>
+<pin name="P9_42" x="71.12" y="-91.44" length="middle" rot="R180"/>
+<pin name="P9_44" x="71.12" y="-96.52" length="middle" rot="R180"/>
+<pin name="P9_46" x="71.12" y="-101.6" length="middle" rot="R180"/>
 </symbol>
 <symbol name="TEST_POINT">
 <text x="-5.08" y="5.08" size="1.778" layer="94">TP</text>
@@ -18814,10 +18822,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <pinref part="R47" gate="G$1" pin="2"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<wire x1="-109.22" y1="259.08" x2="-106.68" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P9_45"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
