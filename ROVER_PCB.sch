@@ -8,22 +8,22 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -32,8 +32,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -41,12 +41,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -355,116 +355,127 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="1.8" y1="-3.3" x2="2.1" y2="-2.25" layer="21"/>
 </package>
 <package name="BBB">
-<pad name="P$1" x="0" y="0" drill="1.02" shape="square"/>
-<wire x1="3.77" y1="1.395" x2="-1.23" y2="1.395" width="0.127" layer="21"/>
-<wire x1="-1.23" y1="1.395" x2="-1.23" y2="-57.275" width="0.127" layer="21"/>
-<wire x1="-1.23" y1="-57.275" x2="3.77" y2="-57.275" width="0.127" layer="21"/>
-<wire x1="3.77" y1="-57.275" x2="3.77" y2="1.395" width="0.127" layer="21"/>
-<wire x1="52.03" y1="1.395" x2="47.03" y2="1.395" width="0.127" layer="21"/>
-<wire x1="47.03" y1="1.395" x2="47.03" y2="-57.275" width="0.127" layer="21"/>
-<wire x1="47.03" y1="-57.275" x2="52.03" y2="-57.275" width="0.127" layer="21"/>
-<wire x1="52.03" y1="-57.275" x2="52.03" y2="1.395" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="0.94868125" width="0.127" layer="21"/>
-<pad name="P$2" x="2.54" y="0" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$3" x="0" y="-2.54" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$4" x="2.54" y="-2.54" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$5" x="0" y="-5.08" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$6" x="2.54" y="-5.08" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$7" x="0" y="-7.62" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$8" x="2.54" y="-7.62" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$9" x="0" y="-10.16" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$10" x="2.54" y="-10.16" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$11" x="0" y="-12.7" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$12" x="2.54" y="-12.7" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$13" x="0" y="-15.24" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$14" x="2.54" y="-15.24" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$15" x="0" y="-17.78" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$16" x="2.54" y="-17.78" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$17" x="0" y="-20.32" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$18" x="2.54" y="-20.32" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$19" x="0" y="-22.86" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$20" x="2.54" y="-22.86" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$21" x="0" y="-25.4" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$22" x="2.54" y="-25.4" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$23" x="0" y="-27.94" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$24" x="2.54" y="-27.94" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$25" x="0" y="-30.48" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$26" x="2.54" y="-30.48" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$27" x="0" y="-33.02" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$28" x="2.54" y="-33.02" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$29" x="0" y="-35.56" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$30" x="2.54" y="-35.56" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$31" x="0" y="-38.1" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$32" x="2.54" y="-38.1" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$33" x="0" y="-40.64" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$34" x="2.54" y="-40.64" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$35" x="0" y="-43.18" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$36" x="2.54" y="-43.18" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$37" x="0" y="-45.72" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$38" x="2.54" y="-45.72" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$39" x="0" y="-48.26" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$40" x="2.54" y="-48.26" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$41" x="0" y="-50.8" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$42" x="2.54" y="-50.8" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$43" x="0" y="-53.34" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$44" x="2.54" y="-53.34" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$45" x="0" y="-55.88" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$46" x="2.54" y="-55.88" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$47" x="48.26" y="0" drill="1.02" shape="square"/>
-<circle x="48.26" y="0" radius="0.94868125" width="0.127" layer="21"/>
-<pad name="P$48" x="50.8" y="0" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$49" x="48.26" y="-2.54" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$50" x="50.8" y="-2.54" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$51" x="48.26" y="-5.08" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$52" x="50.8" y="-5.08" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$53" x="48.26" y="-7.62" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$54" x="50.8" y="-7.62" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$55" x="48.26" y="-10.16" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$56" x="50.8" y="-10.16" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$57" x="48.26" y="-12.7" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$58" x="50.8" y="-12.7" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$59" x="48.26" y="-15.24" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$60" x="50.8" y="-15.24" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$61" x="48.26" y="-17.78" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$62" x="50.8" y="-17.78" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$63" x="48.26" y="-20.32" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$64" x="50.8" y="-20.32" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$65" x="48.26" y="-22.86" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$66" x="50.8" y="-22.86" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$67" x="48.26" y="-25.4" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$68" x="50.8" y="-25.4" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$69" x="48.26" y="-27.94" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$70" x="50.8" y="-27.94" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$71" x="48.26" y="-30.48" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$72" x="50.8" y="-30.48" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$73" x="48.26" y="-33.02" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$74" x="50.8" y="-33.02" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$75" x="48.26" y="-35.56" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$76" x="50.8" y="-35.56" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$77" x="48.26" y="-38.1" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$78" x="50.8" y="-38.1" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$79" x="48.26" y="-40.64" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$80" x="50.8" y="-40.64" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$81" x="48.26" y="-43.18" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$82" x="50.8" y="-43.18" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$83" x="48.26" y="-45.72" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$84" x="50.8" y="-45.72" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$85" x="48.26" y="-48.26" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$86" x="50.8" y="-48.26" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$87" x="48.26" y="-50.8" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$88" x="50.8" y="-50.8" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$89" x="48.26" y="-53.34" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$90" x="50.8" y="-53.34" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$91" x="48.26" y="-55.88" drill="1.02" shape="square" rot="R180"/>
-<pad name="P$92" x="50.8" y="-55.88" drill="1.02" shape="square" rot="R180"/>
-<wire x1="-2.54" y1="-55.88" x2="5.08" y2="-63.5" width="0.127" layer="22" curve="90"/>
-<wire x1="5.08" y1="-63.5" x2="45.72" y2="-63.5" width="0.127" layer="22"/>
-<wire x1="45.72" y1="-63.5" x2="53.34" y2="-55.88" width="0.127" layer="22" curve="90"/>
-<wire x1="53.34" y1="-55.88" x2="53.34" y2="12.7" width="0.127" layer="22"/>
-<wire x1="53.34" y1="12.7" x2="41.91" y2="24.13" width="0.127" layer="22" curve="90"/>
-<wire x1="41.91" y1="24.13" x2="7.62" y2="24.13" width="0.127" layer="22"/>
-<wire x1="7.62" y1="24.13" x2="-2.54" y2="13.97" width="0.127" layer="22" curve="90"/>
-<wire x1="-2.54" y1="13.97" x2="-2.54" y2="-55.88" width="0.127" layer="22"/>
+<pad name="P$1" x="22.86" y="23.495" drill="1.02" shape="square"/>
+<wire x1="26.63" y1="24.89" x2="21.63" y2="24.89" width="0.127" layer="21"/>
+<wire x1="21.63" y1="24.89" x2="21.63" y2="-33.78" width="0.127" layer="21"/>
+<wire x1="21.63" y1="-33.78" x2="26.63" y2="-33.78" width="0.127" layer="21"/>
+<wire x1="26.63" y1="-33.78" x2="26.63" y2="24.89" width="0.127" layer="21"/>
+<pad name="P$2" x="25.4" y="23.495" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$3" x="22.86" y="20.955" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$4" x="25.4" y="20.955" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$5" x="22.86" y="18.415" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$6" x="25.4" y="18.415" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$7" x="22.86" y="15.875" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$8" x="25.4" y="15.875" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$9" x="22.86" y="13.335" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$10" x="25.4" y="13.335" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$11" x="22.86" y="10.795" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$12" x="25.4" y="10.795" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$13" x="22.86" y="8.255" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$14" x="25.4" y="8.255" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$15" x="22.86" y="5.715" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$16" x="25.4" y="5.715" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$17" x="22.86" y="3.175" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$18" x="25.4" y="3.175" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$19" x="22.86" y="0.635" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$20" x="25.4" y="0.635" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$21" x="22.86" y="-1.905" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$22" x="25.4" y="-1.905" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$23" x="22.86" y="-4.445" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$24" x="25.4" y="-4.445" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$25" x="22.86" y="-6.985" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$26" x="25.4" y="-6.985" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$27" x="22.86" y="-9.525" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$28" x="25.4" y="-9.525" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$29" x="22.86" y="-12.065" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$30" x="25.4" y="-12.065" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$31" x="22.86" y="-14.605" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$32" x="25.4" y="-14.605" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$33" x="22.86" y="-17.145" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$34" x="25.4" y="-17.145" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$35" x="22.86" y="-19.685" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$36" x="25.4" y="-19.685" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$37" x="22.86" y="-22.225" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$38" x="25.4" y="-22.225" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$39" x="22.86" y="-24.765" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$40" x="25.4" y="-24.765" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$41" x="22.86" y="-27.305" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$42" x="25.4" y="-27.305" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$43" x="22.86" y="-29.845" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$44" x="25.4" y="-29.845" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$45" x="22.86" y="-32.385" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$46" x="25.4" y="-32.385" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$47" x="-25.4" y="23.495" drill="1.02" shape="square"/>
+<pad name="P$48" x="-22.86" y="23.495" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$49" x="-25.4" y="20.955" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$50" x="-22.86" y="20.955" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$51" x="-25.4" y="18.415" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$52" x="-22.86" y="18.415" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$53" x="-25.4" y="15.875" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$54" x="-22.86" y="15.875" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$55" x="-25.4" y="13.335" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$56" x="-22.86" y="13.335" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$57" x="-25.4" y="10.795" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$58" x="-22.86" y="10.795" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$59" x="-25.4" y="8.255" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$60" x="-22.86" y="8.255" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$61" x="-25.4" y="5.715" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$62" x="-22.86" y="5.715" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$63" x="-25.4" y="3.175" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$64" x="-22.86" y="3.175" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$65" x="-25.4" y="0.635" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$66" x="-22.86" y="0.635" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$67" x="-25.4" y="-1.905" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$68" x="-22.86" y="-1.905" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$69" x="-25.4" y="-4.445" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$70" x="-22.86" y="-4.445" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$71" x="-25.4" y="-6.985" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$72" x="-22.86" y="-6.985" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$73" x="-25.4" y="-9.525" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$74" x="-22.86" y="-9.525" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$75" x="-25.4" y="-12.065" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$76" x="-22.86" y="-12.065" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$77" x="-25.4" y="-14.605" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$78" x="-22.86" y="-14.605" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$79" x="-25.4" y="-17.145" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$80" x="-22.86" y="-17.145" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$81" x="-25.4" y="-19.685" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$82" x="-22.86" y="-19.685" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$83" x="-25.4" y="-22.225" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$84" x="-22.86" y="-22.225" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$85" x="-25.4" y="-24.765" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$86" x="-22.86" y="-24.765" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$87" x="-25.4" y="-27.305" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$88" x="-22.86" y="-27.305" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$89" x="-25.4" y="-29.845" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$90" x="-22.86" y="-29.845" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$91" x="-25.4" y="-32.385" drill="1.02" shape="square" rot="R180"/>
+<pad name="P$92" x="-22.86" y="-32.385" drill="1.02" shape="square" rot="R180"/>
+<text x="23.495" y="27.305" size="1.27" layer="21">P8</text>
+<text x="-25.4" y="27.305" size="1.27" layer="21">P9</text>
+<text x="-26.035" y="25.4" size="1.27" layer="21">1</text>
+<text x="-23.495" y="25.4" size="1.27" layer="21">2</text>
+<text x="-23.495" y="-35.56" size="1.27" layer="21">46</text>
+<text x="25.4" y="-35.56" size="1.27" layer="21">46</text>
+<text x="21.59" y="-35.56" size="1.27" layer="21">45</text>
+<text x="-26.67" y="-35.56" size="1.27" layer="21">45</text>
+<text x="22.225" y="25.4" size="1.27" layer="21">1</text>
+<text x="25.4" y="25.4" size="1.27" layer="21">2</text>
+<wire x1="-21.63" y1="24.89" x2="-26.63" y2="24.89" width="0.127" layer="21"/>
+<wire x1="-26.63" y1="24.89" x2="-26.63" y2="-33.78" width="0.127" layer="21"/>
+<wire x1="-26.63" y1="-33.78" x2="-21.63" y2="-33.78" width="0.127" layer="21"/>
+<wire x1="-21.63" y1="-33.78" x2="-21.63" y2="24.89" width="0.127" layer="21"/>
+<wire x1="-27.305" y1="36.83" x2="-20.955" y2="43.18" width="0.127" layer="21" curve="-90"/>
+<wire x1="-20.955" y1="43.18" x2="-6.35" y2="43.18" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="43.18" x2="-6.35" y2="22.86" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="22.86" x2="11.43" y2="22.86" width="0.127" layer="21"/>
+<wire x1="11.43" y1="22.86" x2="11.43" y2="37.465" width="0.127" layer="21"/>
+<wire x1="11.43" y1="37.465" x2="27.305" y2="37.465" width="0.127" layer="21"/>
+<wire x1="27.305" y1="37.465" x2="27.305" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="27.305" y1="-30.48" x2="14.605" y2="-43.18" width="0.127" layer="21" curve="-90"/>
+<wire x1="14.605" y1="-43.18" x2="-14.605" y2="-43.18" width="0.127" layer="21"/>
+<wire x1="-14.605" y1="-43.18" x2="-27.305" y2="-30.48" width="0.127" layer="21" curve="-90"/>
+<wire x1="-27.305" y1="-30.48" x2="-27.305" y2="36.83" width="0.127" layer="21"/>
 </package>
 <package name="TEST_POINT">
 <pad name="P$1" x="0" y="0" drill="0.8" shape="square"/>
@@ -17730,8 +17741,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R20" library="resistor" deviceset="R-US_" device="R0402"/>
 <part name="R21" library="resistor" deviceset="R-US_" device="R0402"/>
 <part name="R22" library="resistor" deviceset="R-US_" device="R0402"/>
-<part name="R23" library="resistor" deviceset="R-US_" device="R0402"/>
-<part name="R24" library="resistor" deviceset="R-US_" device="R0402"/>
+<part name="R23" library="resistor" deviceset="R-US_" device="R1206"/>
+<part name="R24" library="resistor" deviceset="R-US_" device="R1206"/>
 <part name="SUPPLY33" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY36" library="supply2" deviceset="GND" device=""/>
@@ -17744,7 +17755,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R25" library="resistor" deviceset="R-US_" device="R0402"/>
 <part name="R26" library="resistor" deviceset="R-US_" device="R0402"/>
 <part name="R27" library="resistor" deviceset="R-US_" device="R0402"/>
-<part name="R29" library="resistor" deviceset="R-US_" device="R0402"/>
+<part name="R29" library="resistor" deviceset="R-US_" device="R2512"/>
 <part name="SUPPLY47" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY48" library="supply2" deviceset="GND" device=""/>
 <part name="C35" library="resistor" deviceset="C-EU" device="C0402"/>
@@ -17758,7 +17769,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R28" library="resistor" deviceset="R-US_" device="R0402"/>
 <part name="R30" library="resistor" deviceset="R-US_" device="R0402"/>
 <part name="R31" library="resistor" deviceset="R-US_" device="R0402"/>
-<part name="R32" library="resistor" deviceset="R-US_" device="R0402"/>
+<part name="R32" library="resistor" deviceset="R-US_" device="R2512"/>
 <part name="SUPPLY49" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY54" library="supply2" deviceset="GND" device=""/>
 <part name="C38" library="resistor" deviceset="C-EU" device="C0402"/>
@@ -17815,7 +17826,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R43" library="resistor" deviceset="R-US_" device="R0402"/>
 <part name="R44" library="resistor" deviceset="R-US_" device="R0402"/>
 <part name="R45" library="resistor" deviceset="R-US_" device="R0402"/>
-<part name="R46" library="resistor" deviceset="R-US_" device="R0402"/>
+<part name="R46" library="resistor" deviceset="R-US_" device="R2512"/>
 <part name="SUPPLY78" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY79" library="supply2" deviceset="GND" device=""/>
 <part name="C52" library="resistor" deviceset="C-EU" device="C0402"/>
@@ -20416,12 +20427,22 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="274.32" y="-312.42" size="1.778" layer="95"/>
 <pinref part="R67" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P8_39"/>
+<wire x1="-238.76" y1="167.64" x2="-251.46" y2="167.64" width="0.1524" layer="91"/>
+<label x="-266.7" y="167.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MTR_TREAT_RESET_N" class="0">
 <segment>
 <pinref part="U$17" gate="G$1" pin="NRESET"/>
 <wire x1="266.7" y1="-327.66" x2="289.56" y2="-327.66" width="0.1524" layer="91"/>
 <label x="274.32" y="-327.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P8_37"/>
+<wire x1="-238.76" y1="172.72" x2="-251.46" y2="172.72" width="0.1524" layer="91"/>
+<label x="-266.7" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DC_3V3" class="0">
@@ -20628,12 +20649,22 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="266.7" y1="-243.84" x2="289.56" y2="-243.84" width="0.1524" layer="91"/>
 <label x="274.32" y="-243.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P8_45"/>
+<wire x1="-238.76" y1="152.4" x2="-251.46" y2="152.4" width="0.1524" layer="91"/>
+<label x="-266.7" y="152.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MTR_TREAT_I3" class="0">
 <segment>
 <pinref part="U$17" gate="G$1" pin="I3"/>
 <wire x1="266.7" y1="-251.46" x2="289.56" y2="-251.46" width="0.1524" layer="91"/>
 <label x="274.32" y="-251.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P8_44"/>
+<wire x1="-205.74" y1="157.48" x2="-190.5" y2="157.48" width="0.1524" layer="91"/>
+<label x="-203.2" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_I2" class="0">
@@ -20642,12 +20673,22 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="266.7" y1="-259.08" x2="289.56" y2="-259.08" width="0.1524" layer="91"/>
 <label x="274.32" y="-259.08" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P8_43"/>
+<wire x1="-238.76" y1="157.48" x2="-251.46" y2="157.48" width="0.1524" layer="91"/>
+<label x="-266.7" y="157.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MTR_TREAT_I1" class="0">
 <segment>
 <pinref part="U$17" gate="G$1" pin="I1"/>
 <wire x1="266.7" y1="-266.7" x2="289.56" y2="-266.7" width="0.1524" layer="91"/>
 <label x="274.32" y="-266.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P8_42"/>
+<wire x1="-205.74" y1="162.56" x2="-190.5" y2="162.56" width="0.1524" layer="91"/>
+<label x="-203.2" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_I0" class="0">
@@ -20656,12 +20697,22 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="266.7" y1="-274.32" x2="289.56" y2="-274.32" width="0.1524" layer="91"/>
 <label x="274.32" y="-274.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P8_41"/>
+<wire x1="-238.76" y1="162.56" x2="-251.46" y2="162.56" width="0.1524" layer="91"/>
+<label x="-266.7" y="162.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MTR_TREAT_IN1" class="0">
 <segment>
 <pinref part="U$17" gate="G$1" pin="IN1"/>
 <wire x1="266.7" y1="-289.56" x2="289.56" y2="-289.56" width="0.1524" layer="91"/>
 <label x="274.32" y="-289.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P8_46"/>
+<wire x1="-205.74" y1="152.4" x2="-190.5" y2="152.4" width="0.1524" layer="91"/>
+<label x="-203.2" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_IN2" class="0">
@@ -20990,6 +21041,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="266.7" y1="-139.7" x2="289.56" y2="-139.7" width="0.1524" layer="91"/>
 <label x="274.32" y="-139.7" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P8_40"/>
+<wire x1="-205.74" y1="167.64" x2="-190.5" y2="167.64" width="0.1524" layer="91"/>
+<label x="-203.2" y="167.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MTR_TREAT_SLEEP_N" class="0">
 <segment>
@@ -21105,14 +21161,29 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="-281.94" y="-35.56"/>
 </segment>
 </net>
+<net name="MTR_SLEEP" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="P8_38"/>
+<wire x1="-205.74" y1="172.72" x2="-190.5" y2="172.72" width="0.1524" layer="91"/>
+<label x="-203.2" y="172.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$59" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="P8_36"/>
+<wire x1="-205.74" y1="177.8" x2="-190.5" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$60" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="P8_34"/>
+<wire x1="-205.74" y1="182.88" x2="-190.5" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="106,1,-106.68,203.2,AGND,,,,,"/>
-<approved hash="106,1,-106.68,213.36,AIN1,,,,,"/>
-<approved hash="106,1,-106.68,208.28,AIN2,,,,,"/>
-<approved hash="106,1,-106.68,198.12,AIN3,,,,,"/>
 <approved hash="208,1,312.42,398.78,GND,sup,,,,"/>
 <approved hash="208,1,299.72,398.78,GND,sup,,,,"/>
 <approved hash="208,1,284.48,398.78,GND,sup,,,,"/>
@@ -21127,7 +21198,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <approved hash="208,1,332.74,71.12,GND,sup,,,,"/>
 <approved hash="208,1,391.16,132.08,GND,sup,,,,"/>
 <approved hash="208,1,459.74,132.08,GND,sup,,,,"/>
-<approved hash="208,1,429.26,116.84,GND,sup,,,,"/>
 <approved hash="208,1,378.46,218.44,GND,sup,,,,"/>
 <approved hash="208,1,403.86,309.88,GND,sup,,,,"/>
 <approved hash="208,1,411.48,360.68,GND,sup,,,,"/>
@@ -21158,15 +21228,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <approved hash="208,1,-182.88,-60.96,GND,sup,,,,"/>
 <approved hash="208,1,-297.18,-83.82,GND,sup,,,,"/>
 <approved hash="208,1,-274.32,-81.28,GND,sup,,,,"/>
-<approved hash="208,1,-254,-30.48,GND,sup,,,,"/>
-<approved hash="208,1,-332.74,-27.94,GND,sup,,,,"/>
 <approved hash="208,1,-335.28,-96.52,GND,sup,,,,"/>
 <approved hash="208,1,-320.04,-167.64,GND,sup,,,,"/>
 <approved hash="208,1,-284.48,-195.58,GND,sup,,,,"/>
 <approved hash="208,1,-149.86,-195.58,GND,sup,,,,"/>
 <approved hash="208,1,-157.48,-320.04,GND,sup,,,,"/>
 <approved hash="208,1,-261.62,-254,GND,sup,,,,"/>
-<approved hash="208,1,-284.48,256.54,GND,sup,,,,"/>
 <approved hash="208,1,-172.72,-73.66,GND,sup,,,,"/>
 <approved hash="208,1,198.12,-335.28,GND,sup,,,,"/>
 <approved hash="208,1,218.44,-337.82,GND,sup,,,,"/>
@@ -21220,10 +21287,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <approved hash="208,1,-294.64,-248.92,GND,sup,,,,"/>
 <approved hash="208,1,-284.48,-248.92,GND,sup,,,,"/>
 <approved hash="208,1,-254,-53.34,GND,sup,,,,"/>
-<approved hash="113,1,210.82,352.179,L1,,,,,"/>
 <approved hash="113,1,218.44,286.139,L2,,,,,"/>
-<approved hash="113,1,220.98,248.039,L3,,,,,"/>
-<approved hash="113,1,444.5,380.119,L4,,,,,"/>
 <approved hash="113,1,-172.72,210.672,U$4,,,,,"/>
 <approved hash="113,1,434.176,-346.71,C31,,,,,"/>
 <approved hash="113,1,364.49,-254.164,C32,,,,,"/>
@@ -21247,7 +21311,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <approved hash="113,1,204.195,-137.16,R32,,,,,"/>
 <approved hash="113,1,210.656,-74.93,C38,,,,,"/>
 <approved hash="113,1,276.696,-176.53,C39,,,,,"/>
-<approved hash="113,1,-149.86,-46.7148,R33,,,,,"/>
 <approved hash="113,1,-185.256,-54.61,C40,,,,,"/>
 <approved hash="113,1,-258.085,-165.1,R18,,,,,"/>
 <approved hash="113,1,-258.085,-182.88,R34,,,,,"/>
@@ -21255,7 +21318,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <approved hash="113,1,-322.416,-163.83,C41,,,,,"/>
 <approved hash="113,1,-243.676,-173.99,C42,,,,,"/>
 <approved hash="113,1,-228.436,-173.99,C43,,,,,"/>
-<approved hash="113,1,-274.32,-155.821,L6,,,,,"/>
 <approved hash="113,1,-171.725,-165.1,R36,,,,,"/>
 <approved hash="113,1,-114.3,-174.265,R37,,,,,"/>
 <approved hash="113,1,-130.535,-187.96,R38,,,,,"/>
@@ -21344,6 +21406,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <approved hash="113,1,503.915,-137.16,R15,,,,,"/>
 <approved hash="113,1,303.255,-139.7,R66,,,,,"/>
 <approved hash="113,1,308.335,-307.34,R67,,,,,"/>
+<approved hash="113,1,220.98,248.039,L3,,,,,"/>
+<approved hash="113,1,210.82,352.179,L1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
