@@ -6506,7 +6506,9 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="DRIVE_RESET_N">
 <contactref element="U$5" pad="P$16"/>
 <contactref element="U$6" pad="P$16"/>
-<wire x1="61.41" y1="19.57" x2="77.142" y2="19.57" width="0" layer="19" extent="1-1"/>
+<contactref element="U$4" pad="P$26"/>
+<wire x1="67.405" y1="26.25" x2="77.142" y2="19.57" width="0" layer="19" extent="1-1"/>
+<wire x1="61.41" y1="19.57" x2="67.405" y2="26.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="U$35" pad="P$1"/>
@@ -6629,9 +6631,6 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$134">
 <contactref element="U$4" pad="P$80"/>
-</signal>
-<signal name="N$94">
-<contactref element="U$4" pad="P$26"/>
 </signal>
 </signals>
 <errors>

@@ -21335,6 +21335,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="426.72" y1="-162.56" x2="449.58" y2="-162.56" width="0.1524" layer="91"/>
 <label x="434.34" y="-162.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P8_26"/>
+<wire x1="-205.74" y1="203.2" x2="-190.5" y2="203.2" width="0.1524" layer="91"/>
+<label x="-203.2" y="203.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$27" class="0">
 <segment>
@@ -21517,13 +21522,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="U$4" gate="G$1" pin="P9_34"/>
 <wire x1="-106.68" y1="182.88" x2="-88.9" y2="182.88" width="0.1524" layer="91"/>
 <label x="-104.14" y="182.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$94" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="P8_26"/>
-<wire x1="-205.74" y1="203.2" x2="-190.5" y2="203.2" width="0.1524" layer="91"/>
-<label x="-203.2" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
