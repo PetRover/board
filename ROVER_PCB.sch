@@ -554,7 +554,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <package name="AIUR-03">
 <pad name="P$2" x="2.5" y="0" drill="0.8"/>
 <pad name="P$1" x="-2.5" y="0" drill="0.8"/>
-<circle x="0" y="0" radius="4.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4.5" width="0.127" layer="51"/>
 </package>
 <package name="MBR05XX">
 <smd name="P$1" x="-1.6383" y="0" dx="0.9144" dy="1.2192" layer="1"/>
@@ -20661,19 +20661,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="-266.7" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DC_3V3" class="0">
-<segment>
-<wire x1="-180.34" y1="-71.12" x2="-198.12" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="R62" gate="G$1" pin="1"/>
-<label x="-195.58" y="-71.12" size="1.778" layer="95"/>
-<junction x="-180.34" y="-71.12"/>
-</segment>
-<segment>
-<wire x1="-104.14" y1="-71.12" x2="-83.82" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="R63" gate="G$1" pin="1"/>
-<label x="-99.06" y="-71.12" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="VDD_SYSTEM" class="0">
 <segment>
 <pinref part="C49" gate="G$1" pin="1"/>
@@ -21572,6 +21559,29 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="U$4" gate="G$1" pin="P9_29"/>
 <wire x1="-139.7" y1="193.04" x2="-157.48" y2="193.04" width="0.1524" layer="91"/>
 <label x="-165.1" y="193.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BB_3V3" class="0">
+<segment>
+<wire x1="-180.34" y1="-71.12" x2="-198.12" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="R62" gate="G$1" pin="1"/>
+<label x="-195.58" y="-71.12" size="1.778" layer="95"/>
+<junction x="-180.34" y="-71.12"/>
+</segment>
+<segment>
+<wire x1="-104.14" y1="-71.12" x2="-83.82" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="R63" gate="G$1" pin="1"/>
+<label x="-99.06" y="-71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P9_3"/>
+<wire x1="-139.7" y1="259.08" x2="-162.56" y2="259.08" width="0.1524" layer="91"/>
+<label x="-162.56" y="259.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P9_4"/>
+<wire x1="-106.68" y1="259.08" x2="-86.36" y2="259.08" width="0.1524" layer="91"/>
+<label x="-96.52" y="259.08" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
