@@ -18060,6 +18060,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="SUPPLY77" library="supply2" deviceset="GND" device=""/>
 <part name="C58" library="resistor" deviceset="C-US" device="C0402"/>
 <part name="U$74" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
+<part name="U$76" library="Capstone" deviceset="NC" device=""/>
+<part name="U$77" library="Capstone" deviceset="NC" device=""/>
+<part name="U$78" library="Capstone" deviceset="TEST_POINT" device=""/>
+<part name="U$79" library="Capstone" deviceset="NC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18089,6 +18093,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="350.52" y="-452.12" size="5.08" layer="91">CON_3V3_EXT</text>
 <text x="220.98" y="-601.98" size="5.08" layer="91">3V3_LOAD_SWITCH</text>
 <text x="-269.24" y="-63.5" size="1.778" layer="91">MAX CHARGE CURRENT  = 100mV/Rsense</text>
+<text x="-182.88" y="289.56" size="1.778" layer="91">NOTE: IF NEEDED CONNECT TO WIFI WITH FLYWIRE</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="GND" x="248.92" y="396.24"/>
@@ -18128,7 +18133,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="SUPPLY39" gate="GND" x="457.2" y="365.76"/>
 <instance part="ANT1" gate="A" x="474.98" y="393.7"/>
 <instance part="SUPPLY42" gate="GND" x="347.98" y="391.16"/>
-<instance part="SUPPLY30" gate="GND" x="469.9" y="261.62"/>
+<instance part="SUPPLY30" gate="GND" x="469.9" y="251.46"/>
 <instance part="SUPPLY31" gate="GND" x="228.6" y="254"/>
 <instance part="U$6" gate="G$1" x="396.24" y="-73.66"/>
 <instance part="U$7" gate="G$1" x="398.78" y="-246.38"/>
@@ -18307,7 +18312,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="R64" gate="G$1" x="347.98" y="416.56" rot="R90"/>
 <instance part="R9" gate="G$1" x="386.08" y="345.44" rot="R90"/>
 <instance part="R10" gate="G$1" x="482.6" y="312.42" rot="R90"/>
-<instance part="R11" gate="G$1" x="469.9" y="271.78" rot="R90"/>
+<instance part="R11" gate="G$1" x="469.9" y="261.62" rot="R90"/>
 <instance part="R12" gate="G$1" x="381" y="309.88" rot="R180"/>
 <instance part="R13" gate="G$1" x="388.62" y="304.8" rot="R180"/>
 <instance part="R14" gate="G$1" x="256.54" y="63.5" rot="R270"/>
@@ -18422,6 +18427,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="SUPPLY77" gate="GND" x="185.42" y="-627.38"/>
 <instance part="C58" gate="G$1" x="198.12" y="-629.92"/>
 <instance part="U$74" gate="G$1" x="436.88" y="187.96" rot="R90"/>
+<instance part="U$76" gate="G$1" x="469.9" y="271.78" rot="R270"/>
+<instance part="U$77" gate="G$1" x="469.9" y="276.86" rot="R90"/>
+<instance part="U$78" gate="G$1" x="497.84" y="320.04"/>
+<instance part="U$79" gate="G$1" x="-170.18" y="281.94" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -18602,10 +18611,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="447.04" y="312.42"/>
 </segment>
 <segment>
-<wire x1="469.9" y1="266.7" x2="469.9" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="469.9" y1="256.54" x2="469.9" y2="254" width="0.1524" layer="91"/>
 <pinref part="SUPPLY30" gate="GND" pin="GND"/>
-<wire x1="469.9" y1="264.16" x2="469.9" y2="261.62" width="0.1524" layer="91"/>
-<junction x="469.9" y="264.16"/>
+<wire x1="469.9" y1="254" x2="469.9" y2="251.46" width="0.1524" layer="91"/>
+<junction x="469.9" y="254"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -19428,23 +19437,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="WIFI_RESET_N" class="0">
 <segment>
-<wire x1="335.28" y1="381" x2="335.28" y2="406.4" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="406.4" x2="347.98" y2="406.4" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="406.4" x2="492.76" y2="406.4" width="0.1524" layer="91"/>
-<wire x1="492.76" y1="406.4" x2="492.76" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="492.76" y1="304.8" x2="520.7" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="411.48" x2="347.98" y2="406.4" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="406.4" x2="347.98" y2="401.32" width="0.1524" layer="91"/>
-<junction x="347.98" y="406.4"/>
-<pinref part="U$3" gate="G$1" pin="NRESET"/>
-<label x="495.3" y="304.8" size="1.778" layer="95"/>
-<pinref part="R64" gate="G$1" pin="1"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="U$4" gate="G$1" pin="P9_15"/>
-<wire x1="-139.7" y1="228.6" x2="-157.48" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="228.6" x2="-170.18" y2="228.6" width="0.1524" layer="91"/>
 <label x="-165.1" y="228.6" size="1.778" layer="95"/>
+<wire x1="-170.18" y1="228.6" x2="-170.18" y2="276.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="WIFI_UART_TX" class="0">
@@ -19470,13 +19466,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <net name="WIFI_UART_RTS_N" class="0">
 <segment>
 <wire x1="353.06" y1="294.64" x2="469.9" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="469.9" y1="294.64" x2="543.56" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="469.9" y1="276.86" x2="469.9" y2="294.64" width="0.1524" layer="91"/>
-<junction x="469.9" y="294.64"/>
 <pinref part="U$3" gate="G$1" pin="UART1_NRTS"/>
 <label x="495.3" y="294.64" size="1.778" layer="95"/>
-<pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="U$72" gate="G$1" pin="P$1"/>
+<wire x1="469.9" y1="294.64" x2="543.56" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="469.9" y1="281.94" x2="469.9" y2="294.64" width="0.1524" layer="91"/>
+<junction x="469.9" y="294.64"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -21582,6 +21577,27 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="U$4" gate="G$1" pin="P9_4"/>
 <wire x1="-106.68" y1="259.08" x2="-86.36" y2="259.08" width="0.1524" layer="91"/>
 <label x="-96.52" y="259.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<wire x1="492.76" y1="304.8" x2="520.7" y2="304.8" width="0.1524" layer="91"/>
+<label x="495.3" y="304.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="WIFI_RESET_N_WIFI" class="0">
+<segment>
+<wire x1="335.28" y1="381" x2="335.28" y2="406.4" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="406.4" x2="347.98" y2="406.4" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="406.4" x2="492.76" y2="406.4" width="0.1524" layer="91"/>
+<wire x1="492.76" y1="406.4" x2="492.76" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="411.48" x2="347.98" y2="406.4" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="406.4" x2="347.98" y2="401.32" width="0.1524" layer="91"/>
+<junction x="347.98" y="406.4"/>
+<pinref part="U$3" gate="G$1" pin="NRESET"/>
+<pinref part="R64" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="U$78" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 </nets>

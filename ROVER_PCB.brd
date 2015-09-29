@@ -4094,7 +4094,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R64" library="resistor" package="R0603" value="" x="20.072" y="67.088" rot="R180"/>
 <element name="R9" library="resistor" package="R0603" value="" x="50.06" y="66.658"/>
 <element name="R10" library="resistor" package="R0402" value="" x="33.373" y="42.599" rot="R270"/>
-<element name="R11" library="resistor" package="R0603" value="" x="18.7" y="40.7" rot="R90"/>
+<element name="R11" library="resistor" package="R0603" value="" x="14.7" y="41.7" rot="R90"/>
 <element name="R12" library="resistor" package="R0603" value="" x="45.938" y="55.046" rot="R90"/>
 <element name="R13" library="resistor" package="R0603" value="" x="43.138" y="58.846"/>
 <element name="R14" library="resistor" package="R0603" value="" x="18.372" y="61.506" rot="R90"/>
@@ -4187,6 +4187,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C75" library="resistor" package="C0402" value="" x="17" y="41" rot="MR0"/>
 <element name="C58" library="resistor" package="C0402" value="" x="22" y="37" rot="MR270"/>
 <element name="U$74" library="Capstone" package="TP25MIL" value="TP25MIL" x="45.593" y="68.199"/>
+<element name="U$78" library="Capstone" package="TEST_POINT" value="TEST_POINT" x="1" y="-6"/>
 </elements>
 <signals>
 <signal name="N$2">
@@ -4807,13 +4808,15 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="40.848" y1="44.848" x2="42" y2="46" width="0.1524" layer="1"/>
 <via x="85" y="44" extent="1-16" drill="0.3302"/>
 <via x="86" y="44" extent="1-16" drill="0.3302"/>
+<wire x1="14.7" y1="40.85" x2="15" y2="40.85" width="0.4064" layer="1"/>
+<wire x1="15" y1="40.85" x2="15" y2="39" width="0.4064" layer="1"/>
+<via x="15" y="39" extent="1-16" drill="0.3302"/>
 <wire x1="75.448" y1="62.498" x2="76.798" y2="61.99" width="0" layer="19" extent="1-1"/>
 <wire x1="29.95" y1="52.2" x2="29.954" y2="52.198" width="0" layer="19" extent="1-1"/>
 <wire x1="23.948" y1="44.956" x2="23.932" y2="44.972" width="0" layer="19" extent="16-16"/>
 <wire x1="26.05" y1="60.63" x2="27.35" y2="60.63" width="0" layer="19" extent="1-1"/>
 <wire x1="55.45" y1="76" x2="55.55" y2="77.35" width="0" layer="19" extent="16-16"/>
 <wire x1="31" y1="41" x2="32.181" y2="41.808" width="0" layer="19" extent="16-16"/>
-<wire x1="18.7" y1="39.85" x2="16.35" y2="41" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$9">
 <contactref element="U$3" pad="P$38"/>
@@ -5249,17 +5252,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="43.694" y1="66.086" x2="45.593" y2="68.199" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="WIFI_RESET_N">
-<contactref element="U$3" pad="P$32"/>
-<contactref element="R64" pad="1"/>
-<contactref element="C12" pad="1"/>
-<wire x1="26.2" y1="56.745" x2="26.2" y2="56.928" width="0.2032" layer="1"/>
-<wire x1="26.2" y1="56.928" x2="22.154" y2="60.974" width="0.2032" layer="1"/>
-<wire x1="22.154" y1="60.974" x2="22.154" y2="63.904" width="0.2032" layer="1"/>
-<wire x1="22.154" y1="63.904" x2="20.902" y2="65.156" width="0.2032" layer="1"/>
-<wire x1="20.902" y1="65.156" x2="20.902" y2="67.068" width="0.2032" layer="1"/>
-<wire x1="20.902" y1="67.068" x2="20.922" y2="67.088" width="0.2032" layer="1"/>
 <contactref element="U$4" pad="P$61"/>
-<wire x1="26.2" y1="56.928" x2="76.305" y2="73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="WIFI_UART_TX">
 <contactref element="U$3" pad="P$55"/>
@@ -5286,14 +5279,12 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="WIFI_UART_RTS_N">
 <contactref element="U$3" pad="P$50"/>
-<contactref element="R11" pad="2"/>
 <wire x1="26.7" y1="47.655" x2="26.7" y2="46.45" width="0.2032" layer="1"/>
 <wire x1="26.7" y1="46.45" x2="26.3" y2="46.05" width="0.2032" layer="1"/>
 <wire x1="26.3" y1="46.05" x2="26.3" y2="42.1" width="0.2032" layer="1"/>
 <wire x1="26.3" y1="42.1" x2="26.45" y2="41.95" width="0.2032" layer="1"/>
 <contactref element="U$72" pad="P$1"/>
 <wire x1="26.188" y1="41.742" x2="26.45" y2="41.95" width="0" layer="19" extent="1-1"/>
-<wire x1="18.7" y1="41.55" x2="26.188" y2="41.742" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="U$7" pad="P$13"/>
@@ -7459,6 +7450,19 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="92.702" y1="68.376" x2="92.702" y2="69.303" width="0.1524" layer="1"/>
 <wire x1="92.702" y1="69.303" x2="91.545" y2="70.46" width="0.1524" layer="1"/>
 <wire x1="91.545" y1="70.46" x2="91.545" y2="73" width="0.1524" layer="1"/>
+</signal>
+<signal name="WIFI_RESET_N_WIFI">
+<contactref element="U$78" pad="P$1"/>
+<contactref element="U$3" pad="P$32"/>
+<contactref element="C12" pad="1"/>
+<contactref element="R64" pad="1"/>
+<wire x1="1" y1="-6" x2="26.2" y2="56.745" width="0" layer="19" extent="1-1"/>
+<wire x1="26.2" y1="56.745" x2="26.2" y2="56.9" width="0.1524" layer="1"/>
+<wire x1="26.2" y1="56.9" x2="22.1" y2="61" width="0.1524" layer="1"/>
+<wire x1="22.1" y1="61" x2="22.1" y2="63.958" width="0.1524" layer="1"/>
+<wire x1="22.1" y1="63.958" x2="20.902" y2="65.156" width="0.1524" layer="1"/>
+<wire x1="20.902" y1="65.156" x2="20.902" y2="67.068" width="0.1524" layer="1"/>
+<wire x1="20.902" y1="67.068" x2="20.922" y2="67.088" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <errors>
