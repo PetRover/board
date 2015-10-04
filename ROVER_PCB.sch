@@ -169,6 +169,35 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="4.575" y1="-4.575" x2="4.575" y2="4.575" width="0.127" layer="21"/>
 <circle x="-3.7" y="4.2" radius="0.22360625" width="0.127" layer="21"/>
 </package>
+<package name="SO8N">
+<smd name="P$1" x="-2.6" y="1.905" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$2" x="-2.6" y="0.635" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$3" x="-2.6" y="-0.635" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$4" x="-2.6" y="-1.905" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$5" x="2.6" y="-1.905" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$6" x="2.6" y="-0.635" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$7" x="2.6" y="0.635" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$8" x="2.6" y="1.905" dx="1.27" dy="0.635" layer="1"/>
+<rectangle x1="-3" y1="0.395" x2="-1.95" y2="0.875" layer="51"/>
+<rectangle x1="-3" y1="0.395" x2="-1.95" y2="0.875" layer="51"/>
+<rectangle x1="-3" y1="1.665" x2="-1.95" y2="2.145" layer="51"/>
+<rectangle x1="-3" y1="-0.875" x2="-1.95" y2="-0.395" layer="51"/>
+<rectangle x1="-3" y1="-2.145" x2="-1.95" y2="-1.665" layer="51"/>
+<rectangle x1="1.95" y1="0.395" x2="3" y2="0.875" layer="51"/>
+<rectangle x1="1.95" y1="1.665" x2="3" y2="2.145" layer="51"/>
+<rectangle x1="1.95" y1="-0.875" x2="3" y2="-0.395" layer="51"/>
+<rectangle x1="1.95" y1="-2.145" x2="3" y2="-1.665" layer="51"/>
+<wire x1="1.95" y1="2.45" x2="-1.95" y2="2.45" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="2.45" x2="-1.95" y2="-2.45" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="-2.45" x2="1.95" y2="-2.45" width="0.127" layer="51"/>
+<wire x1="1.95" y1="-2.45" x2="1.95" y2="2.45" width="0.127" layer="51"/>
+<wire x1="-2" y1="2.6" x2="-1.5" y2="2.6" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="2.6" x2="2" y2="2.6" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2.6" x2="-1.5" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-2.6" x2="2" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="2.6" x2="-1.5" y2="2.6" width="0.127" layer="22"/>
+<wire x1="-1.5" y1="2.6" x2="-1.5" y2="-2.6" width="0.127" layer="21" style="dashdot"/>
+</package>
 <package name="M25PX80">
 <smd name="P$1" x="-1.75" y="-2.625" dx="0.75" dy="0.5" layer="1" rot="R90"/>
 <smd name="P$2" x="-0.5833" y="-2.625" dx="0.75" dy="0.5" layer="1" rot="R90"/>
@@ -1911,7 +1940,6 @@ reflow soldering</description>
 <pin name="WP" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="GND" x="17.78" y="-10.16" length="middle" rot="R180"/>
 <text x="-12.7" y="17.78" size="1.778" layer="94">M25PX80</text>
-<pin name="PWRPAD" x="0" y="-20.32" length="middle" rot="R90"/>
 </symbol>
 <symbol name="DEA202450BT">
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
@@ -2473,14 +2501,28 @@ reflow soldering</description>
 <gate name="G$1" symbol="M25PX80" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="M25PX80">
+<device name="BAD" package="M25PX80">
 <connects>
 <connect gate="G$1" pin="CLK" pad="P$6"/>
 <connect gate="G$1" pin="CS" pad="P$1"/>
 <connect gate="G$1" pin="DIN" pad="P$5"/>
 <connect gate="G$1" pin="DOUT" pad="P$2"/>
 <connect gate="G$1" pin="GND" pad="P$4"/>
-<connect gate="G$1" pin="PWRPAD" pad="P$9"/>
+<connect gate="G$1" pin="RESET" pad="P$7"/>
+<connect gate="G$1" pin="VCC" pad="P$8"/>
+<connect gate="G$1" pin="WP" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SO8N">
+<connects>
+<connect gate="G$1" pin="CLK" pad="P$6"/>
+<connect gate="G$1" pin="CS" pad="P$1"/>
+<connect gate="G$1" pin="DIN" pad="P$5"/>
+<connect gate="G$1" pin="DOUT" pad="P$2"/>
+<connect gate="G$1" pin="GND" pad="P$4"/>
 <connect gate="G$1" pin="RESET" pad="P$7"/>
 <connect gate="G$1" pin="VCC" pad="P$8"/>
 <connect gate="G$1" pin="WP" pad="P$3"/>
@@ -18831,10 +18873,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="447.04" y1="312.42" x2="452.12" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="452.12" y1="312.42" x2="452.12" y2="309.88" width="0.1524" layer="91"/>
 <pinref part="SUPPLY37" gate="GND" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="PWRPAD"/>
-<wire x1="429.26" y1="302.26" x2="447.04" y2="302.26" width="0.1524" layer="91"/>
-<wire x1="447.04" y1="302.26" x2="447.04" y2="312.42" width="0.1524" layer="91"/>
-<junction x="447.04" y="312.42"/>
 </segment>
 <segment>
 <wire x1="469.9" y1="256.54" x2="469.9" y2="254" width="0.1524" layer="91"/>
