@@ -12,8 +12,8 @@
 "C10;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,
 "C11;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",1pF,WiFi,
 "C12;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,
-"C13;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,
-"C14;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,
+"C13;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
+"C14;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
 "C15;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",4.7uF,WiFi,
 "C16;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",4.7uF,WiFi,
 "C17;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",4.7uF,WiFi,
@@ -26,10 +26,10 @@
 "C24;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",22uF,WiFi,
 "C25;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",22uF,WiFi,
 "C26;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",1uF,WiFi,
-"C27;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",0.1uF,Charger IC,
-"C28;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",0.47uF,Charger IC,
-"C29;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",22uF,Charger IC,
-"C30;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",10uF,Charger IC,
+"C27;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",0.1uF,Charger IC,https://www.digikey.com/product-detail/en/C0603C104K8RACTU/399-1095-1-ND/411370
+"C28;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",0.47uF,Charger IC,http://www.digikey.com/product-detail/en/CL10F474ZB8NNNC/1276-2377-1-ND/3890463
+"C29;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",22uF,Charger IC,http://www.digikey.com/product-detail/en/CC0603MRX5R5BB226/311-1815-1-ND/5195717
+"C30;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",10uF,Charger IC,http://www.digikey.com/product-detail/en/GRM188R61A106ME69D/490-10475-1-ND/5026393
 "C31;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,,
 "C32;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_CAM,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
 "C33;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_CAM,https://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275
@@ -91,7 +91,7 @@
 "R13;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,
 "R14;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,
 "R15;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
-"R16;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",2.2k,Charger IC,
+"R16;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",2.2k,Charger IC,http://www.digikey.com/product-detail/en/MCT06030C2201FP500/MCT0603-2.20K-CFCT-ND/2607893
 "R17;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
 "R18;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",45.3k,3V3 Regulator,http://www.digikey.com/product-detail/en/RC0603FR-0745K3L/311-45.3KHRCT-ND/730192
 "R19;"""";""R-US_R2512"";""R2512"";""RESISTOR"," American symbol"";"""";",,,
@@ -122,7 +122,7 @@
 "R45;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,MTR_TREAT,http://www.digikey.com/product-detail/en/ERJ-2RKF1004X/P1.00MLCT-ND/79804
 "R46;"""";""R-US_R2512"";""R2512"";""RESISTOR"," American symbol"";"""";",,,
 "R47;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R48;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
+"R48;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,3V3 load switch,
 "R49;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
 "R50;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
 "R51;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
