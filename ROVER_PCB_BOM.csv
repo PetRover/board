@@ -1,194 +1,197 @@
-"Part;""Value"";""Device"";""Package"";""Description"";"""";",,Values,Assembly Stage,
-"ANT1;"""";""ANTENNA"";""PAD-01"";""Antenna"";"""";",,,,
-"C1;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
-"C2;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
-"C3;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
-"C4;"""";""C-USC1206"";""C1206"";""CAPACITOR"," American symbol"";"""";",,WiFi,http://www.digikey.com/product-detail/en/C3216X5R0J107M160AB/445-6008-1-ND/2444049?WT.srch=1
-"C5;"""";""C-USC1206"";""C1206"";""CAPACITOR"," American symbol"";"""";",,WiFi,http://www.digikey.com/product-detail/en/C3216X5R0J107M160AB/445-6008-1-ND/2444049?WT.srch=1
-"C6;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",10pF,WiFi,http://www.digikey.com/product-detail/en/GRM1555C1H100FA01D/490-6186-1-ND/3845386?WT.srch=1
-"C7;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",10pF,WiFi,http://www.digikey.com/product-detail/en/GRM1555C1H100FA01D/490-6186-1-ND/3845386?WT.srch=1
-"C8;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",6.2pF,WiFi,http://www.digikey.com/product-detail/en/CBR04C609B1GAC/399-8610-1-ND/3479292
-"C9;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",6.2pF,WiFi,http://www.digikey.com/product-detail/en/CBR04C609B1GAC/399-8610-1-ND/3479292
-"C10;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
-"C11;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",1pF,WiFi,http://www.digikey.com/product-detail/en/GJM1555C1H1R0BB01D/490-6073-1-ND/3845273?WT.srch=1
-"C12;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
-"C13;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
-"C14;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
-"C15;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",4.7uF,WiFi,http://www.digikey.com/product-detail/en/CL05A475MQ5NRNC/1276-1056-1-ND/3889142?WT.srch=1
-"C16;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",4.7uF,WiFi,http://www.digikey.com/product-detail/en/CL05A475MQ5NRNC/1276-1056-1-ND/3889142?WT.srch=1
-"C17;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",4.7uF,WiFi,http://www.digikey.com/product-detail/en/CL05A475MQ5NRNC/1276-1056-1-ND/3889142?WT.srch=1
-"C18;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",10uF,WiFi,http://www.digikey.com/product-detail/en/CL05A475MQ5NRNC/1276-1056-1-ND/3889142?WT.srch=1
-"C19;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
-"C20;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
-"C21;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",,,
-"C22;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",,,
-"C23;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
-"C24;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",22uF,WiFi,
-"C25;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",22uF,WiFi,http://www.digikey.com/product-detail/en/AMK107BBJ226MAHT/587-3262-1-ND/4157229?WT.srch=1
-"C26;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",1uF,WiFi,
-"C27;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",0.1uF,Charger IC,https://www.digikey.com/product-detail/en/C0603C104K8RACTU/399-1095-1-ND/411370
-"C28;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",0.47uF,Charger IC,http://www.digikey.com/product-detail/en/CL10F474ZB8NNNC/1276-2377-1-ND/3890463
-"C29;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",22uF,Charger IC,http://www.digikey.com/product-detail/en/CC0603MRX5R5BB226/311-1815-1-ND/5195717
-"C30;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",10uF,Charger IC,http://www.digikey.com/product-detail/en/GRM188R61A106ME69D/490-10475-1-ND/5026393
-"C31;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,,
-"C32;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_CAM,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
-"C33;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_CAM,https://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275
-"C34;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_B,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
-"C35;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_B,https://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275
-"C36;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,,
-"C37;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_A,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
-"C38;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_A,https://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275
-"C39;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,,
-"C40;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,Fuel Gauge,https://www.digikey.com/product-detail/en/C0603C104K8RACTU/399-1095-1-ND/411370
-"C41;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",22uF,3V3 Regulator,http://www.digikey.com/product-detail/en/CC0603MRX5R5BB226/311-1815-1-ND/5195717
-"C42;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",22uF,3V3 Regulator,http://www.digikey.com/product-detail/en/CC0603MRX5R5BB226/311-1815-1-ND/5195717
-"C43;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,,
-"C44;""2.2u"";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,5V Regulator,http://www.digikey.com/product-detail/en/CC0603KRX5R6BB225/311-1451-1-ND/2833757
-"C45;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,5V Regulator,http://www.digikey.com/product-detail/en/06035A221JAT2A/478-1179-1-ND/564211
-"C46;""10u"";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,,
-"C47;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,,
-"C48;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,,
-"C49;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,,
-"C50;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,,
-"C51;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_TREAT,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
-"C52;""bla"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_TREAT,https://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275
-"C53;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,,
-"C54;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",,,
-"C55;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_A,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
-"C56;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",10uF,WiFi,http://www.digikey.com/product-detail/en/GRM188R60J106ME47D/490-3896-1-ND/965938?WT.srch=1
-"C57;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
-"C58;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",,,
-"C59;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_A,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
-"C60;"""";""CPOL-EUE5-6"";""E5-6"";""POLARIZED CAPACITOR"," European symbol"";"""";",,,
-"C61;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_B,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
-"C62;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_B,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
-"C63;"""";""CPOL-EUE5-6"";""E5-6"";""POLARIZED CAPACITOR"," European symbol"";"""";",,,
-"C64;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_CAM,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
-"C65;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_CAM,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
-"C66;"""";""CPOL-EUE5-6"";""E5-6"";""POLARIZED CAPACITOR"," European symbol"";"""";",,,
-"C67;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_TREAT,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
-"C68;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_TREAT,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
-"C69;"""";""CPOL-EUE5-6"";""E5-6"";""POLARIZED CAPACITOR"," European symbol"";"""";",,,
-"C70;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,,
-"C71;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,,
-"C72;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,,
-"C73;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,,
-"L1;"""";""L-USL1812"";""L1812"";""INDUCTOR"," American symbol"";"""";",2.2uH,WiFi,
-"L2;"""";""L-USL1812"";""L1812"";""INDUCTOR"," American symbol"";"""";",1uH,WiFi,
-"L3;"""";""L-USL1812"";""L1812"";""INDUCTOR"," American symbol"";"""";",2.2uH,WiFi,http://www.digikey.com/product-detail/en/LQM2HPN2R2MG0L/490-5114-1-ND/1893677?WT.srch=1
-"R1;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R2;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",10k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933
-"R3;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R4;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R5;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",10k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933
-"R6;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R7;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R8;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R9;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R10;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R11;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R12;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R13;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R14;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R15;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
-"R16;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",2.2k,Charger IC,http://www.digikey.com/product-detail/en/MCT06030C2201FP500/MCT0603-2.20K-CFCT-ND/2607893
-"R17;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R18;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",45.3k,3V3 Regulator,http://www.digikey.com/product-detail/en/RC0603FR-0745K3L/311-45.3KHRCT-ND/730192
-"R19;"""";""R-US_R2512"";""R2512"";""RESISTOR"," American symbol"";"""";",,,
-"R20;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
-"R21;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
-"R22;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,MTR_CAM,http://www.digikey.com/product-detail/en/ERJ-2RKF1004X/P1.00MLCT-ND/79804
-"R23;"""";""R-US_R1206"";""R1206"";""RESISTOR"," American symbol"";"""";",,,
-"R24;"""";""R-US_R1206"";""R1206"";""RESISTOR"," American symbol"";"""";",,,
-"R25;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
-"R26;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
-"R27;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,DRIVE_B,http://www.digikey.com/product-detail/en/ERJ-2RKF1004X/P1.00MLCT-ND/79804
-"R28;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
-"R29;"""";""R-US_R2512"";""R2512"";""RESISTOR"," American symbol"";"""";",,,
-"R30;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
-"R31;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,DRIVE_A,http://www.digikey.com/product-detail/en/ERJ-2RKF1004X/P1.00MLCT-ND/79804
-"R32;"""";""R-US_R2512"";""R2512"";""RESISTOR"," American symbol"";"""";",,,
-"R34;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",10k,3V3 Regulator,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933
-"R35;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,3V3 Regulator,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R36;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,5V Regulator,http://www.digikey.com/product-detail/en/ERJ-3GEYJ513V/P51KGCT-ND/134811
-"R37;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,5V Regulator,http://www.digikey.com/product-detail/en/RC0603JR-0739KL/311-39KGRCT-ND/729727
-"R38;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,5V Regulator,http://www.digikey.com/product-detail/en/RC0603FR-0712K7L/311-12.7KHRCT-ND/729866
-"R39;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R40;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R41;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
-"R42;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
-"R43;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
-"R44;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
-"R45;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,MTR_TREAT,http://www.digikey.com/product-detail/en/ERJ-2RKF1004X/P1.00MLCT-ND/79804
-"R46;"""";""R-US_R2512"";""R2512"";""RESISTOR"," American symbol"";"""";",,,
-"R47;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R48;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,3V3 load switch,
-"R49;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R50;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R51;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R52;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R53;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R54;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R55;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R56;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R57;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R58;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1202FP500/MCT0603-12.0K-CFCT-ND/2607883
-"R59;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1202FP500/MCT0603-12.0K-CFCT-ND/2607883
-"R60;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1202FP500/MCT0603-12.0K-CFCT-ND/2607883
-"R61;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R62;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,Fuel Gauge,http://www.digikey.com/product-detail/en/MCT06030C5601FP500/MCT0603-5.60K-CFCT-ND/2607915
-"R63;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,Fuel Gauge,http://www.digikey.com/product-detail/en/MCT06030C5601FP500/MCT0603-5.60K-CFCT-ND/2607915
-"R64;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
-"R65;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
-"R66;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
-"R67;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
-"R68;"""";""R-US_R2512"";""R2512"";""RESISTOR"," American symbol"";"""";",,,
-R73,,,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933
-R74,,,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933
-R76,,,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933
-"U$1;""M25PX80"";""M25PX80"";""M25PX80"";"""";"""";",,,,
-"U$2;""DEA202450BT"";""DEA202450BT"";""DEA202450BT"";"""";"""";",,,,
-"U$3;""CC3100CORRECT_QFN"";""CC3100CORRECT_QFN"";""QFN64"";"""";"""";",,,,
-"U$4;"""";""BBB"";""BBB"";"""";"""";",,,,
-"U$5;""DRV8842"";""DRV8842"";""DRV8842"";"""";"""";",,,,
-"U$6;""DRV8842"";""DRV8842"";""DRV8842"";"""";"""";",,,,
-"U$7;""DRV8843"";""DRV8843"";""DRV8842"";"""";"""";",,,,
-"U$8;""LTC4002"";""LTC4002"";""LTC4002"";"""";"""";",,,,
-"U$9;""LTC2942"";""LTC2942"";""LTC2942"";"""";"""";",,,,
-"U$10;""LM2830"";""LM2830"";""LM2830"";"""";"""";",,,,
-"U$11;""LM27313"";""LM27313"";""LM2830"";"""";"""";",,,,
-"U$12;""TPS55340"";""TPS55340"";""TPS55340"";"""";"""";",,,,
-"U$13;""TEST_POINT"";""TEST_POINT"";""TEST_POINT"";"""";"""";",,,,
-"U$14;""TEST_POINT"";""TEST_POINT"";""TEST_POINT"";"""";"""";",,,,
-"U$15;""TEST_POINT"";""TEST_POINT"";""TEST_POINT"";"""";"""";",,,,
-"U$16;""TEST_POINT"";""TEST_POINT"";""TEST_POINT"";"""";"""";",,,,
-"U$17;""DRV8842"";""DRV8842"";""DRV8842"";"""";"""";",,,,
-"U$18;""2PIN_OST_3251"";""2PIN_OST_3251"";""2PIN_OST_3251"";"""";"""";",,,,
-"U$19;""2PIN_OST_3251"";""2PIN_OST_3251"";""2PIN_OST_3251"";"""";"""";",,,,
-"U$20;""2PIN_OST_3251"";""2PIN_OST_3251"";""2PIN_OST_3251"";"""";"""";",,,,
-"U$21;""2PIN_OST_3251"";""2PIN_OST_3251"";""2PIN_OST_3251"";"""";"""";",,,,
-"U$22;""2PIN_OST_3251"";""2PIN_OST_3251"";""2PIN_OST_3251"";"""";"""";",,,,
-"U$23;""4PIN_OST_3251"";""4PIN_OST_3251"";""4PIN_OST_3251"";"""";"""";",,,,
-"U$24;""4PIN_JST"";""4PIN_JST"";""4PIN_JST"";"""";"""";",,,,
-"U$25;""4PIN_JST"";""4PIN_JST"";""4PIN_JST"";"""";"""";",,,,
-"U$26;""4PIN_JST"";""4PIN_JST"";""4PIN_JST"";"""";"""";",,,,
-"U$27;""4PIN_JST"";""4PIN_JST"";""4PIN_JST"";"""";"""";",,,,
-"U$28;""4PIN_JST"";""4PIN_JST"";""4PIN_JST"";"""";"""";",,,,
-"U$29;""4PIN_JST"";""4PIN_JST"";""4PIN_JST"";"""";"""";",,,,
-"U$30;""TPS27081A"";""TPS27081A"";""TPS27081A"";"""";"""";",,,,
-"U$34;""TEST_POINT"";""TEST_POINT"";""TEST_POINT"";"""";"""";",,,,
-"U$35;""TPS27081A"";""TPS27081A"";""TPS27081A"";"""";"""";",,,,
-"U$57;""B540C"";""B540C"";""B540C"";"""";"""";",,,,
-"U$58;""ASPI-0630LR"";""ASPI-0630LR"";""ASPI-0630LR"";"""";"""";",,,,
-"U$59;""AIUR-03-330K"";""AIUR-03-330K"";""AIUR-03"";"""";"""";",,,,
-"U$61;""MBR0520"";""MBR0520"";""MBR05XX"";"""";"""";",,,,
-"U$62;""ASPI-0630LR"";""ASPI-0630LR"";""ASPI-0630LR"";"""";"""";",,,,
-"U$63;""B540C"";""B540C"";""B540C"";"""";"""";",,,,
-"U$64;""B540C"";""B540C"";""B540C"";"""";"""";",,,,
-"U$65;""4PIN_JST"";""4PIN_JST"";""4PIN_JST"";"""";"""";",,,,
-"U$66;""AO3407A"";""AO3407A"";""SOT23"";"""";"""";",,,,
-"U$67;""CRS08"";""CRS08"";""CRS08"";"""";"""";",,,,
-"U$68;""B82144B2222K"";""B82144B2222K"";""B82144B2222K"";"""";"""";",,,,
-"U$69;""LQP15MN3N6B02D"";""LQP15MN3N6B02D"";""L0402"";"""";"""";",,,,
-"U$70;""ABS07-32.768KHZ-T"";""ABS07-32.768KHZ-T"";""ABS07-32.768KHZ-T"";"""";"""";",,,,
-"U$71;""Q24FA20H00396"";""Q24FA20H00396"";""Q24FA20H00396"";"""";"""";",,,,
+"Part;""Value"";""Device"";""Package"";""Description"";"""";",,Values,Assembly Stage,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"ANT1;"""";""ANTENNA"";""PAD-01"";""Antenna"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C1;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C2;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C3;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C4;"""";""C-USC1206"";""C1206"";""CAPACITOR"," American symbol"";"""";",,WiFi,http://www.digikey.com/product-detail/en/C3216X5R0J107M160AB/445-6008-1-ND/2444049?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C5;"""";""C-USC1206"";""C1206"";""CAPACITOR"," American symbol"";"""";",,WiFi,http://www.digikey.com/product-detail/en/C3216X5R0J107M160AB/445-6008-1-ND/2444049?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C6;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",10pF,WiFi,http://www.digikey.com/product-detail/en/GRM1555C1H100FA01D/490-6186-1-ND/3845386?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C7;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",10pF,WiFi,http://www.digikey.com/product-detail/en/GRM1555C1H100FA01D/490-6186-1-ND/3845386?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C8;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",6.2pF,WiFi,http://www.digikey.com/product-detail/en/CBR04C609B1GAC/399-8610-1-ND/3479292,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C9;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",6.2pF,WiFi,http://www.digikey.com/product-detail/en/CBR04C609B1GAC/399-8610-1-ND/3479292,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C10;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C11;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",1pF,WiFi,http://www.digikey.com/product-detail/en/GJM1555C1H1R0BB01D/490-6073-1-ND/3845273?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C12;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C13;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C14;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C15;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",4.7uF,WiFi,http://www.digikey.com/product-detail/en/CL05A475MQ5NRNC/1276-1056-1-ND/3889142?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C16;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",4.7uF,WiFi,http://www.digikey.com/product-detail/en/CL05A475MQ5NRNC/1276-1056-1-ND/3889142?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C17;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",4.7uF,WiFi,http://www.digikey.com/product-detail/en/CL05A475MQ5NRNC/1276-1056-1-ND/3889142?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C18;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",10uF,WiFi,http://www.digikey.com/product-detail/en/CL05A475MQ5NRNC/1276-1056-1-ND/3889142?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C19;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C20;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C21;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C22;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C23;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C24;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",22uF,WiFi,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C25;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",22uF,WiFi,http://www.digikey.com/product-detail/en/AMK107BBJ226MAHT/587-3262-1-ND/4157229?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C26;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",1uF,WiFi,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C27;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",0.1uF,Charger IC,https://www.digikey.com/product-detail/en/C0603C104K8RACTU/399-1095-1-ND/411370,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C28;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",0.47uF,Charger IC,http://www.digikey.com/product-detail/en/CL10F474ZB8NNNC/1276-2377-1-ND/3890463,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C29;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",22uF,Charger IC,http://www.digikey.com/product-detail/en/CC0603MRX5R5BB226/311-1815-1-ND/5195717,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C30;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",10uF,Charger IC,http://www.digikey.com/product-detail/en/GRM188R61A106ME69D/490-10475-1-ND/5026393,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C31;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C32;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_CAM,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C33;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_CAM,https://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C34;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_B,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C35;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_B,https://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C36;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C37;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_A,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C38;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_A,https://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C39;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C40;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,Fuel Gauge,https://www.digikey.com/product-detail/en/C0603C104K8RACTU/399-1095-1-ND/411370,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C41;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",22uF,3V3 Regulator,http://www.digikey.com/product-detail/en/CC0603MRX5R5BB226/311-1815-1-ND/5195717,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C42;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",22uF,3V3 Regulator,http://www.digikey.com/product-detail/en/CC0603MRX5R5BB226/311-1815-1-ND/5195717,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C43;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,3V3 regulator,http://www.digikey.com/product-detail/en/CC0603MRX5R5BB226/311-1815-1-ND/5195717,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C44;""2.2u"";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,5V Regulator,http://www.digikey.com/product-detail/en/CC0603KRX5R6BB225/311-1451-1-ND/2833757,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C45;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,5V Regulator,http://www.digikey.com/product-detail/en/06035A221JAT2A/478-1179-1-ND/564211,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C46;""10u"";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,5V regulator,http://www.digikey.com/product-detail/en/GRM188R61A106ME69D/490-10475-1-ND/5026393,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C47;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C48;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C49;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,12v regulator,http://www.digikey.com/product-detail/en/CC0603MRX5R5BB226/311-1815-1-ND/5195717,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C50;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,12v regulator,http://www.digikey.com/product-detail/en/CL05A106MP5NUNC/1276-1450-1-ND/3889536,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C51;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_TREAT,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C52;""bla"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_TREAT,https://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C53;"""";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C54;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C55;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_A,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C56;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",10uF,WiFi,http://www.digikey.com/product-detail/en/GRM188R60J106ME47D/490-3896-1-ND/965938?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C57;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",0.1uF,WiFi,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C58;"""";""C-USC0402"";""C0402"";""CAPACITOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C59;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_A,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C60;"""";""CPOL-EUE5-6"";""E5-6"";""POLARIZED CAPACITOR"," European symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C61;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_B,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C62;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,DRIVE_B,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C63;"""";""CPOL-EUE5-6"";""E5-6"";""POLARIZED CAPACITOR"," European symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C64;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_CAM,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C65;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_CAM,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C66;"""";""CPOL-EUE5-6"";""E5-6"";""POLARIZED CAPACITOR"," European symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C67;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_TREAT,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C68;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,MTR_TREAT,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C69;"""";""CPOL-EUE5-6"";""E5-6"";""POLARIZED CAPACITOR"," European symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C70;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C71;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C72;"""";""C-EUC0603"";""C0603"";""CAPACITOR"," European symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C73;""0.1u"";""C-EUC0402"";""C0402"";""CAPACITOR"," European symbol"";"""";",,12V regulator,http://www.digikey.com/product-detail/en/CL05A106MP5NUNC/1276-1450-1-ND/3889536,,,,,,,,,,,,,,,,,,,,,,,,,,
+"L1;"""";""L-USL1812"";""L1812"";""INDUCTOR"," American symbol"";"""";",2.2uH,WiFi,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"L2;"""";""L-USL1812"";""L1812"";""INDUCTOR"," American symbol"";"""";",1uH,WiFi,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"L3;"""";""L-USL1812"";""L1812"";""INDUCTOR"," American symbol"";"""";",2.2uH,WiFi,http://www.digikey.com/product-detail/en/LQM2HPN2R2MG0L/490-5114-1-ND/1893677?WT.srch=1,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R1;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R2;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",10k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R3;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R4;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R5;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",10k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R6;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R7;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R8;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R9;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R10;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R11;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R12;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R13;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R14;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R15;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R16;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",2.2k,Charger IC,http://www.digikey.com/product-detail/en/MCT06030C2201FP500/MCT0603-2.20K-CFCT-ND/2607893,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R17;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R18;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",45.3k,3V3 Regulator,http://www.digikey.com/product-detail/en/RC0603FR-0745K3L/311-45.3KHRCT-ND/730192,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R19;"""";""R-US_R2512"";""R2512"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R20;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R21;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R22;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,MTR_CAM,http://www.digikey.com/product-detail/en/ERJ-2RKF1004X/P1.00MLCT-ND/79804,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R23;"""";""R-US_R1206"";""R1206"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R24;"""";""R-US_R1206"";""R1206"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R25;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R26;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R27;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,DRIVE_B,http://www.digikey.com/product-detail/en/ERJ-2RKF1004X/P1.00MLCT-ND/79804,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R28;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R29;"""";""R-US_R2512"";""R2512"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R30;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R31;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,DRIVE_A,http://www.digikey.com/product-detail/en/ERJ-2RKF1004X/P1.00MLCT-ND/79804,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R32;"""";""R-US_R2512"";""R2512"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R34;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",10k,3V3 Regulator,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R35;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,3V3 Regulator,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R36;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,5V Regulator,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R37;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,5V Regulator,http://www.digikey.com/product-detail/en/RC0603JR-0739KL/311-39KGRCT-ND/729727,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R38;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,5V Regulator,http://www.digikey.com/product-detail/en/RC0603FR-0712K7L/311-12.7KHRCT-ND/729866,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R39;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R40;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R41;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R42;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R43;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R44;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R45;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,MTR_TREAT,http://www.digikey.com/product-detail/en/ERJ-2RKF1004X/P1.00MLCT-ND/79804,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R46;"""";""R-US_R2512"";""R2512"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R47;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,12V regulator,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R48;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,3V3 load switch,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R49;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R50;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R51;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R52;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R53;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R54;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R55;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R56;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R57;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R58;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1202FP500/MCT0603-12.0K-CFCT-ND/2607883,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R59;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1202FP500/MCT0603-12.0K-CFCT-ND/2607883,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R60;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1202FP500/MCT0603-12.0K-CFCT-ND/2607883,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R61;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1202FP500/MCT0603-12.0K-CFCT-ND/2607883,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R62;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,Fuel Gauge,http://www.digikey.com/product-detail/en/MCT06030C5601FP500/MCT0603-5.60K-CFCT-ND/2607915,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R63;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,Fuel Gauge,http://www.digikey.com/product-detail/en/MCT06030C5601FP500/MCT0603-5.60K-CFCT-ND/2607915,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R64;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",100k,WiFi,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R65;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R66;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R67;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R68;"""";""R-US_R2512"";""R2512"";""RESISTOR"," American symbol"";"""";",,charger IC,http://www.digikey.com/product-detail/en/CRA2512-FZ-R030ELF/CRA2512-FZ-R030ELFCT-ND/3437852,,,,,,,,,,http://www.digikey.com/product-detail/en/1622825-9/A103652CT-ND/2728573,,,,,,,,http://www.digikey.com/product-detail/en/73L7R20J/73L7R20JCT-ND/1543510,,,,,,,,http://www.digikey.com/product-detail/en/LRMAM2512-R05FT4/985-1555-1-ND/4021268
+R71,,,charger IC,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876,,,,,,,,,,,,,,,,,,,,,,,,,,
+R72,,,charger IC,http://www.digikey.com/product-detail/en/RC0603FR-0737K4L/311-37.4KHRCT-ND/730134,,,,,,,,,,,,,,,,,,,,,,,,,,
+R73,,,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933,,,,,,,,,,,,,,,,,,,,,,,,,,
+R74,,,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933,,,,,,,,,,,,,,,,,,,,,,,,,,
+R75,,,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933,,,,,,,,,,,,,,,,,,,,,,,,,,
+R76,,,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$1;""M25PX80"";""M25PX80"";""M25PX80"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$2;""DEA202450BT"";""DEA202450BT"";""DEA202450BT"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$3;""CC3100CORRECT_QFN"";""CC3100CORRECT_QFN"";""QFN64"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$4;"""";""BBB"";""BBB"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$5;""DRV8842"";""DRV8842"";""DRV8842"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$6;""DRV8842"";""DRV8842"";""DRV8842"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$7;""DRV8843"";""DRV8843"";""DRV8842"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$8;""LTC4002"";""LTC4002"";""LTC4002"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$9;""LTC2942"";""LTC2942"";""LTC2942"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$10;""LM2830"";""LM2830"";""LM2830"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$11;""LM27313"";""LM27313"";""LM2830"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$12;""TPS55340"";""TPS55340"";""TPS55340"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$13;""TEST_POINT"";""TEST_POINT"";""TEST_POINT"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$14;""TEST_POINT"";""TEST_POINT"";""TEST_POINT"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$15;""TEST_POINT"";""TEST_POINT"";""TEST_POINT"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$16;""TEST_POINT"";""TEST_POINT"";""TEST_POINT"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$17;""DRV8842"";""DRV8842"";""DRV8842"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$18;""2PIN_OST_3251"";""2PIN_OST_3251"";""2PIN_OST_3251"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$19;""2PIN_OST_3251"";""2PIN_OST_3251"";""2PIN_OST_3251"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$20;""2PIN_OST_3251"";""2PIN_OST_3251"";""2PIN_OST_3251"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$21;""2PIN_OST_3251"";""2PIN_OST_3251"";""2PIN_OST_3251"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$22;""2PIN_OST_3251"";""2PIN_OST_3251"";""2PIN_OST_3251"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$23;""4PIN_OST_3251"";""4PIN_OST_3251"";""4PIN_OST_3251"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$24;""4PIN_JST"";""4PIN_JST"";""4PIN_JST"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$25;""4PIN_JST"";""4PIN_JST"";""4PIN_JST"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$26;""4PIN_JST"";""4PIN_JST"";""4PIN_JST"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$27;""4PIN_JST"";""4PIN_JST"";""4PIN_JST"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$28;""4PIN_JST"";""4PIN_JST"";""4PIN_JST"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$29;""4PIN_JST"";""4PIN_JST"";""4PIN_JST"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$30;""TPS27081A"";""TPS27081A"";""TPS27081A"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$34;""TEST_POINT"";""TEST_POINT"";""TEST_POINT"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$35;""TPS27081A"";""TPS27081A"";""TPS27081A"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$57;""B540C"";""B540C"";""B540C"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$58;""ASPI-0630LR"";""ASPI-0630LR"";""ASPI-0630LR"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$59;""AIUR-03-330K"";""AIUR-03-330K"";""AIUR-03"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$61;""MBR0520"";""MBR0520"";""MBR05XX"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$62;""ASPI-0630LR"";""ASPI-0630LR"";""ASPI-0630LR"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$63;""B540C"";""B540C"";""B540C"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$64;""B540C"";""B540C"";""B540C"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$65;""4PIN_JST"";""4PIN_JST"";""4PIN_JST"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$66;""AO3407A"";""AO3407A"";""SOT23"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$67;""CRS08"";""CRS08"";""CRS08"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$68;""B82144B2222K"";""B82144B2222K"";""B82144B2222K"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$69;""LQP15MN3N6B02D"";""LQP15MN3N6B02D"";""L0402"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$70;""ABS07-32.768KHZ-T"";""ABS07-32.768KHZ-T"";""ABS07-32.768KHZ-T"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U$71;""Q24FA20H00396"";""Q24FA20H00396"";""Q24FA20H00396"";"""";"""";",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
