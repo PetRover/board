@@ -126,15 +126,15 @@
 "R49;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
 "R50;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
 "R51;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R52;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R53;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R54;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R55;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R56;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R57;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R58;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R59;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
-"R60;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
+"R52;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
+"R53;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
+"R54;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
+"R55;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
+"R56;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
+"R57;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT POSITION SENSOR,http://www.digikey.com/product-detail/en/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876
+"R58;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1202FP500/MCT0603-12.0K-CFCT-ND/2607883
+"R59;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1202FP500/MCT0603-12.0K-CFCT-ND/2607883
+"R60;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1202FP500/MCT0603-12.0K-CFCT-ND/2607883
 "R61;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,,
 "R62;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,Fuel Gauge,http://www.digikey.com/product-detail/en/MCT06030C5601FP500/MCT0603-5.60K-CFCT-ND/2607915
 "R63;"""";""R-US_R0603"";""R0603"";""RESISTOR"," American symbol"";"""";",,Fuel Gauge,http://www.digikey.com/product-detail/en/MCT06030C5601FP500/MCT0603-5.60K-CFCT-ND/2607915
@@ -143,6 +143,9 @@
 "R66;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
 "R67;"""";""R-US_R0402"";""R0402"";""RESISTOR"," American symbol"";"""";",,,
 "R68;"""";""R-US_R2512"";""R2512"";""RESISTOR"," American symbol"";"""";",,,
+R73,,,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933
+R74,,,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933
+R76,,,TREAT COUNT,http://www.digikey.com/product-detail/en/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933
 "U$1;""M25PX80"";""M25PX80"";""M25PX80"";"""";"""";",,,,
 "U$2;""DEA202450BT"";""DEA202450BT"";""DEA202450BT"";"""";"""";",,,,
 "U$3;""CC3100CORRECT_QFN"";""CC3100CORRECT_QFN"";""QFN64"";"""";"""";",,,,
