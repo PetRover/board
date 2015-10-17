@@ -8,22 +8,22 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -32,8 +32,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -41,12 +41,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -1925,6 +1925,7 @@ reflow soldering</description>
 <wire x1="-35.56" y1="-45.72" x2="68.58" y2="-45.72" width="0.254" layer="94"/>
 <pin name="GND_TAB" x="53.34" y="-50.8" length="middle" rot="R90"/>
 <text x="-12.7" y="215.9" size="1.778" layer="94">CC3100</text>
+<text x="-35.56" y="241.3" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="M25PX80">
 <wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
@@ -1940,6 +1941,7 @@ reflow soldering</description>
 <pin name="WP" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="GND" x="17.78" y="-10.16" length="middle" rot="R180"/>
 <text x="-12.7" y="17.78" size="1.778" layer="94">M25PX80</text>
+<text x="-12.192" y="-18.796" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="DEA202450BT">
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
@@ -1951,6 +1953,7 @@ reflow soldering</description>
 <pin name="GND2" x="2.54" y="-10.16" length="middle" rot="R90"/>
 <pin name="OUT" x="17.78" y="2.54" length="middle" rot="R180"/>
 <text x="-10.16" y="10.16" size="1.778" layer="94">DEA202450BT</text>
+<text x="4.826" y="-8.382" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="DRV8842">
 <pin name="CP1" x="-7.62" y="2.54" length="middle"/>
@@ -1987,6 +1990,7 @@ reflow soldering</description>
 <wire x1="25.4" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
 <pin name="GND_3" x="10.16" y="-106.68" length="middle" rot="R90"/>
 <text x="-2.54" y="10.16" size="1.778" layer="94">DRV8842</text>
+<text x="17.78" y="10.16" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="DRV8843">
 <pin name="CP1" x="-7.62" y="5.08" length="middle"/>
@@ -2023,6 +2027,7 @@ reflow soldering</description>
 <wire x1="22.86" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
 <pin name="GND_3" x="7.62" y="-104.14" length="middle" rot="R90"/>
 <text x="-2.54" y="12.7" size="1.778" layer="94">DRV8843</text>
+<text x="15.24" y="12.7" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="LTC4002">
 <pin name="COMP" x="-12.7" y="-25.4" length="middle"/>
@@ -2038,6 +2043,7 @@ reflow soldering</description>
 <wire x1="25.4" y1="-35.56" x2="25.4" y2="15.24" width="0.254" layer="94"/>
 <wire x1="25.4" y1="15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
 <text x="-7.62" y="17.78" size="1.778" layer="94">LTC4002</text>
+<text x="17.78" y="17.78" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="LTC2942">
 <pin name="SENSE+" x="-10.16" y="5.08" length="middle"/>
@@ -2052,6 +2058,7 @@ reflow soldering</description>
 <wire x1="22.86" y1="-15.24" x2="22.86" y2="10.16" width="0.254" layer="94"/>
 <wire x1="22.86" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <text x="-5.08" y="12.7" size="1.778" layer="94">LTC2942</text>
+<text x="15.24" y="12.7" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="LM2830">
 <pin name="SW" x="-10.16" y="7.62" length="middle"/>
@@ -2064,6 +2071,7 @@ reflow soldering</description>
 <wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <text x="-5.08" y="12.7" size="1.778" layer="94">LM2830</text>
+<text x="-4.318" y="-13.462" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="LM27313">
 <pin name="SW" x="20.32" y="12.7" length="middle" rot="R180"/>
@@ -2076,6 +2084,7 @@ reflow soldering</description>
 <wire x1="15.24" y1="-12.7" x2="15.24" y2="17.78" width="0.254" layer="94"/>
 <wire x1="15.24" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
 <text x="-5.08" y="20.32" size="1.778" layer="94">LM27313</text>
+<text x="-5.588" y="-16.256" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="TPS55340">
 <pin name="SW" x="35.56" y="5.08" length="middle" rot="R180"/>
@@ -2097,6 +2106,7 @@ reflow soldering</description>
 <wire x1="30.48" y1="-45.72" x2="30.48" y2="10.16" width="0.254" layer="94"/>
 <wire x1="30.48" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <text x="-5.08" y="12.7" size="1.778" layer="94">TPS55340</text>
+<text x="-4.572" y="-49.022" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="BBB">
 <pin name="P8_1" x="-60.96" y="10.16" length="middle"/>
@@ -2204,10 +2214,13 @@ reflow soldering</description>
 <pin name="P9_42" x="71.12" y="-91.44" length="middle" rot="R180"/>
 <pin name="P9_44" x="71.12" y="-96.52" length="middle" rot="R180"/>
 <pin name="P9_46" x="71.12" y="-101.6" length="middle" rot="R180"/>
+<text x="-2.54" y="15.24" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="TEST_POINT">
-<text x="-5.08" y="5.08" size="1.778" layer="94">TP</text>
-<pin name="P$1" x="-5.08" y="2.54" length="middle"/>
+<pin name="P$1" x="-5.08" y="2.54" visible="off" length="middle"/>
+<circle x="0" y="2.54" radius="2.501609375" width="0.254" layer="94"/>
+<circle x="0" y="2.54" radius="1.135921875" width="0.254" layer="94"/>
+<text x="-3.81" y="-2.286" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="2PIN_OST_3251">
 <pin name="P$1" x="-5.08" y="0" length="middle"/>
@@ -2216,6 +2229,7 @@ reflow soldering</description>
 <wire x1="0" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="2.54" width="0.254" layer="94"/>
 <wire x1="10.16" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="1.016" y="-10.668" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="4PIN_CONNECTOR">
 <pin name="P$1" x="-7.62" y="5.08" length="middle"/>
@@ -2226,6 +2240,7 @@ reflow soldering</description>
 <wire x1="-2.54" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-12.7" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="-1.524" y="-16.002" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="TPS27081A">
 <pin name="R2" x="22.86" y="-15.24" length="middle" rot="R180"/>
@@ -2238,6 +2253,7 @@ reflow soldering</description>
 <wire x1="-5.08" y1="-17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-17.78" x2="17.78" y2="7.62" width="0.254" layer="94"/>
 <wire x1="17.78" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-2.54" y="10.16" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="NC">
 <wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
@@ -2263,6 +2279,7 @@ reflow soldering</description>
 <pin name="P$1" x="-2.54" y="0" visible="off" length="short"/>
 <pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
 <wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<text x="-1.524" y="2.54" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="P-FET">
 <wire x1="0" y1="3.048" x2="0" y2="-2.54" width="0.254" layer="94"/>
@@ -2297,6 +2314,7 @@ reflow soldering</description>
 <pin name="SOURE" x="2.54" y="-7.62" visible="off" length="point"/>
 <pin name="GATE" x="-5.08" y="-2.54" visible="off" length="point" rot="R180"/>
 <pin name="DRAIN" x="2.54" y="7.62" visible="off" length="point"/>
+<text x="7.62" y="2.54" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="CRYSTAL_BASIC">
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
@@ -2310,6 +2328,7 @@ reflow soldering</description>
 <wire x1="2.794" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
 <pin name="P$1" x="-5.08" y="0" visible="off" length="point"/>
 <pin name="P$2" x="5.08" y="0" visible="off" length="point"/>
+<text x="-2.54" y="5.08" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="CRYSTAL_SHILDED">
 <wire x1="1.27" y1="0" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
@@ -2334,20 +2353,23 @@ reflow soldering</description>
 <pin name="P$2" x="0" y="-10.16" visible="off" length="point"/>
 <pin name="P$3" x="10.16" y="-2.54" visible="off" length="point"/>
 <pin name="P$4" x="5.08" y="-10.16" visible="off" length="point"/>
+<text x="-2.54" y="5.08" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="TP">
 <circle x="0" y="0" radius="1.778" width="0.254" layer="94"/>
-<pin name="P$1" x="-7.62" y="0"/>
+<pin name="P$1" x="-7.62" y="0" visible="off"/>
+<text x="-2.032" y="-4.064" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="SMA_CONNECTOR">
 <circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 <circle x="0" y="0" radius="5.08" width="0.254" layer="94"/>
 <pin name="P$1" x="0" y="-12.7" rot="R90"/>
 <pin name="P$2" x="-7.62" y="0"/>
+<text x="-2.54" y="7.62" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CC3100">
+<deviceset name="CC3100" prefix="U">
 <gates>
 <gate name="G$1" symbol="CC3100" x="0" y="0"/>
 </gates>
@@ -2498,7 +2520,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="M25PX80">
+<deviceset name="M25PX80" prefix="U">
 <gates>
 <gate name="G$1" symbol="M25PX80" x="0" y="0"/>
 </gates>
@@ -2535,7 +2557,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DEA202450BT">
+<deviceset name="DEA202450BT" prefix="FL">
 <gates>
 <gate name="G$1" symbol="DEA202450BT" x="0" y="0"/>
 </gates>
@@ -2553,7 +2575,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DRV8842">
+<deviceset name="DRV8842" prefix="U">
 <gates>
 <gate name="G$1" symbol="DRV8842" x="-12.7" y="43.18"/>
 </gates>
@@ -2596,7 +2618,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DRV8843">
+<deviceset name="DRV8843" prefix="U">
 <gates>
 <gate name="G$1" symbol="DRV8843" x="-10.16" y="22.86"/>
 </gates>
@@ -2639,7 +2661,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LTC4002">
+<deviceset name="LTC4002" prefix="U">
 <gates>
 <gate name="G$1" symbol="LTC4002" x="0" y="0"/>
 </gates>
@@ -2661,7 +2683,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LTC2942">
+<deviceset name="LTC2942" prefix="U">
 <gates>
 <gate name="G$1" symbol="LTC2942" x="0" y="0"/>
 </gates>
@@ -2682,7 +2704,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM2830">
+<deviceset name="LM2830" prefix="U">
 <gates>
 <gate name="G$1" symbol="LM2830" x="0" y="0"/>
 </gates>
@@ -2701,7 +2723,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM27313">
+<deviceset name="LM27313" prefix="U">
 <gates>
 <gate name="G$1" symbol="LM27313" x="0" y="0"/>
 </gates>
@@ -2720,7 +2742,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPS55340">
+<deviceset name="TPS55340" prefix="U">
 <gates>
 <gate name="G$1" symbol="TPS55340" x="-12.7" y="17.78"/>
 </gates>
@@ -2854,7 +2876,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEST_POINT">
+<deviceset name="TEST_POINT" prefix="TP">
 <gates>
 <gate name="G$1" symbol="TEST_POINT" x="0" y="0"/>
 </gates>
@@ -2869,7 +2891,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2PIN_OST_3251">
+<deviceset name="2PIN_OST_3251" prefix="J">
 <gates>
 <gate name="G$1" symbol="2PIN_OST_3251" x="0" y="2.54"/>
 </gates>
@@ -2885,7 +2907,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="4PIN_OST_3251">
+<deviceset name="4PIN_OST_3251" prefix="J">
 <gates>
 <gate name="G$1" symbol="4PIN_CONNECTOR" x="-5.08" y="2.54"/>
 </gates>
@@ -2921,7 +2943,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPS27081A">
+<deviceset name="TPS27081A" prefix="U">
 <gates>
 <gate name="G$1" symbol="TPS27081A" x="-5.08" y="5.08"/>
 </gates>
@@ -2953,7 +2975,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="B540C">
+<deviceset name="B540C" prefix="D">
 <gates>
 <gate name="G$1" symbol="DIODE_BASIC" x="0" y="0"/>
 </gates>
@@ -2985,7 +3007,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MBR0520">
+<deviceset name="MBR0520" prefix="D">
 <gates>
 <gate name="G$1" symbol="DIODE_BASIC" x="0" y="0"/>
 </gates>
@@ -3001,7 +3023,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AO3407A">
+<deviceset name="AO3407A" prefix="Q">
 <gates>
 <gate name="G$1" symbol="P-FET" x="0" y="0"/>
 </gates>
@@ -3018,7 +3040,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRS08">
+<deviceset name="CRS08" prefix="D">
 <gates>
 <gate name="G$1" symbol="DIODE_BASIC" x="0" y="0"/>
 </gates>
@@ -3082,7 +3104,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ABS07-32.768KHZ-T">
+<deviceset name="ABS07-32.768KHZ-T" prefix="Y">
 <gates>
 <gate name="G$1" symbol="CRYSTAL_BASIC" x="0" y="0"/>
 </gates>
@@ -3098,7 +3120,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="Q24FA20H00396">
+<deviceset name="Q24FA20H00396" prefix="Y">
 <gates>
 <gate name="G$1" symbol="CRYSTAL_SHILDED" x="-2.54" y="2.54"/>
 </gates>
@@ -3116,7 +3138,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TP">
+<deviceset name="TP" prefix="TP">
 <gates>
 <gate name="G$1" symbol="TP" x="0" y="0"/>
 </gates>
@@ -3139,7 +3161,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMA_CONNECTOR">
+<deviceset name="SMA_CONNECTOR" prefix="J">
 <gates>
 <gate name="G$1" symbol="SMA_CONNECTOR" x="0" y="0"/>
 </gates>
@@ -18060,24 +18082,24 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY38" library="supply2" deviceset="GND" device=""/>
 <part name="L2" library="resistor" deviceset="L-US" device="L1812" value="1uH"/>
-<part name="U$3" library="Capstone" deviceset="CC3100" device="CORRECT_QFN" value="CC3100CORRECT_QFN"/>
+<part name="U12" library="Capstone" deviceset="CC3100" device="CORRECT_QFN" value="CC3100CORRECT_QFN"/>
 <part name="GND" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
-<part name="U$1" library="Capstone" deviceset="M25PX80" device=""/>
-<part name="U$2" library="Capstone" deviceset="DEA202450BT" device=""/>
+<part name="U13" library="Capstone" deviceset="M25PX80" device=""/>
+<part name="FL1" library="Capstone" deviceset="DEA202450BT" device=""/>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY39" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY42" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
-<part name="U$6" library="Capstone" deviceset="DRV8842" device=""/>
-<part name="U$7" library="Capstone" deviceset="DRV8843" device=""/>
-<part name="U$8" library="Capstone" deviceset="LTC4002" device=""/>
-<part name="U$9" library="Capstone" deviceset="LTC2942" device=""/>
-<part name="U$10" library="Capstone" deviceset="LM2830" device=""/>
-<part name="U$11" library="Capstone" deviceset="LM27313" device=""/>
-<part name="U$12" library="Capstone" deviceset="TPS55340" device=""/>
-<part name="U$4" library="Capstone" deviceset="BBB" device="" value="NONE"/>
+<part name="U9" library="Capstone" deviceset="DRV8842" device=""/>
+<part name="U11" library="Capstone" deviceset="DRV8843" device=""/>
+<part name="U6" library="Capstone" deviceset="LTC4002" device=""/>
+<part name="U7" library="Capstone" deviceset="LTC2942" device=""/>
+<part name="U3" library="Capstone" deviceset="LM2830" device=""/>
+<part name="U4" library="Capstone" deviceset="LM27313" device=""/>
+<part name="U5" library="Capstone" deviceset="TPS55340" device=""/>
+<part name="J1" library="Capstone" deviceset="BBB" device="" value="NONE"/>
 <part name="C31" library="resistor" deviceset="C-EU" device="C0402" value="0.47uF"/>
 <part name="C32" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
 <part name="R20" library="resistor" deviceset="R-US_" device="R0402" value="33k"/>
@@ -18090,7 +18112,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="SUPPLY36" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY43" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY44" library="supply2" deviceset="GND" device=""/>
-<part name="C33" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
+<part name="C33" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 50V"/>
 <part name="SUPPLY45" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY46" library="supply2" deviceset="GND" device=""/>
 <part name="C34" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
@@ -18100,13 +18122,13 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R29" library="resistor" deviceset="R-US_" device="R2512" value="125mOhm"/>
 <part name="SUPPLY47" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY48" library="supply2" deviceset="GND" device=""/>
-<part name="C35" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
+<part name="C35" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 50V"/>
 <part name="SUPPLY50" library="supply2" deviceset="GND" device=""/>
 <part name="C36" library="resistor" deviceset="C-EU" device="C0402" value="0.47uF"/>
 <part name="SUPPLY51" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY52" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY53" library="supply2" deviceset="GND" device=""/>
-<part name="U$5" library="Capstone" deviceset="DRV8842" device=""/>
+<part name="U8" library="Capstone" deviceset="DRV8842" device=""/>
 <part name="C37" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
 <part name="R28" library="resistor" deviceset="R-US_" device="R0402" value="47k"/>
 <part name="R30" library="resistor" deviceset="R-US_" device="R0402" value="15k"/>
@@ -18114,7 +18136,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R32" library="resistor" deviceset="R-US_" device="R2512" value="125mOhm"/>
 <part name="SUPPLY49" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY54" library="supply2" deviceset="GND" device=""/>
-<part name="C38" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
+<part name="C38" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 50V"/>
 <part name="SUPPLY55" library="supply2" deviceset="GND" device=""/>
 <part name="C39" library="resistor" deviceset="C-EU" device="C0402" value="0.47uF"/>
 <part name="SUPPLY56" library="supply2" deviceset="GND" device=""/>
@@ -18159,11 +18181,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="SUPPLY74" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY75" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY76" library="supply2" deviceset="GND" device=""/>
-<part name="U$13" library="Capstone" deviceset="TEST_POINT" device=""/>
-<part name="U$14" library="Capstone" deviceset="TEST_POINT" device=""/>
-<part name="U$15" library="Capstone" deviceset="TEST_POINT" device=""/>
-<part name="U$16" library="Capstone" deviceset="TEST_POINT" device=""/>
-<part name="U$17" library="Capstone" deviceset="DRV8842" device=""/>
+<part name="TP1" library="Capstone" deviceset="TEST_POINT" device=""/>
+<part name="TP2" library="Capstone" deviceset="TEST_POINT" device=""/>
+<part name="TP3" library="Capstone" deviceset="TEST_POINT" device=""/>
+<part name="TP4" library="Capstone" deviceset="TEST_POINT" device=""/>
+<part name="U10" library="Capstone" deviceset="DRV8842" device=""/>
 <part name="C51" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
 <part name="R43" library="resistor" deviceset="R-US_" device="R0402" value="47k"/>
 <part name="R44" library="resistor" deviceset="R-US_" device="R0402" value="15k"/>
@@ -18171,28 +18193,28 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R46" library="resistor" deviceset="R-US_" device="R2512" value="125mOhm"/>
 <part name="SUPPLY78" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY79" library="supply2" deviceset="GND" device=""/>
-<part name="C52" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
+<part name="C52" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 50V"/>
 <part name="SUPPLY80" library="supply2" deviceset="GND" device=""/>
 <part name="C53" library="resistor" deviceset="C-EU" device="C0402" value="0.47uF"/>
 <part name="SUPPLY81" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY82" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY83" library="supply2" deviceset="GND" device=""/>
-<part name="U$18" library="Capstone" deviceset="2PIN_OST_3251" device=""/>
-<part name="U$19" library="Capstone" deviceset="2PIN_OST_3251" device=""/>
-<part name="U$20" library="Capstone" deviceset="2PIN_OST_3251" device=""/>
-<part name="U$21" library="Capstone" deviceset="2PIN_OST_3251" device=""/>
-<part name="U$22" library="Capstone" deviceset="2PIN_OST_3251" device=""/>
-<part name="U$23" library="Capstone" deviceset="4PIN_OST_3251" device=""/>
-<part name="U$24" library="Capstone" deviceset="4PIN_JST" device=""/>
-<part name="U$25" library="Capstone" deviceset="4PIN_JST" device=""/>
-<part name="U$26" library="Capstone" deviceset="4PIN_JST" device=""/>
-<part name="U$27" library="Capstone" deviceset="4PIN_JST" device=""/>
-<part name="U$28" library="Capstone" deviceset="4PIN_JST" device=""/>
-<part name="U$29" library="Capstone" deviceset="4PIN_JST" device=""/>
+<part name="J7" library="Capstone" deviceset="2PIN_OST_3251" device=""/>
+<part name="J8" library="Capstone" deviceset="2PIN_OST_3251" device=""/>
+<part name="J4" library="Capstone" deviceset="2PIN_OST_3251" device=""/>
+<part name="J5" library="Capstone" deviceset="2PIN_OST_3251" device=""/>
+<part name="J2" library="Capstone" deviceset="2PIN_OST_3251" device=""/>
+<part name="J3" library="Capstone" deviceset="4PIN_OST_3251" device=""/>
+<part name="J6" library="Capstone" deviceset="4PIN_JST" device=""/>
+<part name="J12" library="Capstone" deviceset="4PIN_JST" device=""/>
+<part name="J15" library="Capstone" deviceset="4PIN_JST" device=""/>
+<part name="J13" library="Capstone" deviceset="4PIN_JST" device=""/>
+<part name="J14" library="Capstone" deviceset="4PIN_JST" device=""/>
+<part name="J10" library="Capstone" deviceset="4PIN_JST" device=""/>
 <part name="R47" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
-<part name="U$30" library="Capstone" deviceset="TPS27081A" device=""/>
+<part name="U1" library="Capstone" deviceset="TPS27081A" device=""/>
 <part name="R48" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R49" library="resistor" deviceset="R-US_" device="R0603" value="0 Ohm"/>
 <part name="SUPPLY41" library="supply2" deviceset="GND" device=""/>
@@ -18200,8 +18222,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="U$31" library="Capstone" deviceset="NC" device=""/>
 <part name="U$32" library="Capstone" deviceset="NC" device=""/>
 <part name="U$33" library="Capstone" deviceset="NC" device=""/>
-<part name="U$34" library="Capstone" deviceset="TEST_POINT" device=""/>
-<part name="U$35" library="Capstone" deviceset="TPS27081A" device=""/>
+<part name="TP5" library="Capstone" deviceset="TEST_POINT" device=""/>
+<part name="U2" library="Capstone" deviceset="TPS27081A" device=""/>
 <part name="R50" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R51" library="resistor" deviceset="R-US_" device="R0603" value="0 Ohm"/>
 <part name="SUPPLY63" library="supply2" deviceset="GND" device=""/>
@@ -18290,25 +18312,25 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="C21" library="resistor" deviceset="C-US" device="C0402" value="NOSTUFF"/>
 <part name="C22" library="resistor" deviceset="C-US" device="C0402" value="NOSTUFF"/>
 <part name="C54" library="resistor" deviceset="C-US" device="C0402" value="NOSTUFF"/>
-<part name="C55" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
-<part name="C59" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
+<part name="C55" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 25V"/>
+<part name="C59" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 25V"/>
 <part name="SUPPLY91" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY92" library="supply2" deviceset="GND" device=""/>
 <part name="C60" library="rcl" deviceset="CPOL-EU" device="E5-6" value="220uF"/>
 <part name="SUPPLY93" library="supply2" deviceset="GND" device=""/>
-<part name="C62" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
+<part name="C62" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 25V"/>
 <part name="SUPPLY94" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY95" library="supply2" deviceset="GND" device=""/>
 <part name="C63" library="rcl" deviceset="CPOL-EU" device="E5-6" value="220uF"/>
 <part name="SUPPLY96" library="supply2" deviceset="GND" device=""/>
-<part name="C64" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
-<part name="C65" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
+<part name="C64" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 25V"/>
+<part name="C65" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 25V"/>
 <part name="SUPPLY97" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY98" library="supply2" deviceset="GND" device=""/>
 <part name="C66" library="rcl" deviceset="CPOL-EU" device="E5-6" value="220uF"/>
 <part name="SUPPLY99" library="supply2" deviceset="GND" device=""/>
-<part name="C67" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
-<part name="C68" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
+<part name="C67" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 25V"/>
+<part name="C68" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 25V"/>
 <part name="SUPPLY100" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY101" library="supply2" deviceset="GND" device=""/>
 <part name="C69" library="rcl" deviceset="CPOL-EU" device="E5-6" value="220uF"/>
@@ -18317,8 +18339,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R15" library="resistor" deviceset="R-US_" device="R0402" value="100k"/>
 <part name="R66" library="resistor" deviceset="R-US_" device="R0402" value="100k"/>
 <part name="R67" library="resistor" deviceset="R-US_" device="R0402" value="100k"/>
-<part name="C61" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
-<part name="U$57" library="Capstone" deviceset="B540C" device=""/>
+<part name="C61" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 25V"/>
+<part name="D3" library="Capstone" deviceset="B540C" device=""/>
 <part name="L6" library="Capstone" deviceset="ASPI-0630LR" device="" value="10uH"/>
 <part name="C70" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="SUPPLY103" library="supply2" deviceset="GND" device=""/>
@@ -18331,31 +18353,31 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="SUPPLY73" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY106" library="supply2" deviceset="GND" device=""/>
 <part name="L4" library="Capstone" deviceset="AIUR-03-330K" device="" value="33uH"/>
-<part name="U$61" library="Capstone" deviceset="MBR0520" device=""/>
+<part name="D2" library="Capstone" deviceset="MBR0520" device=""/>
 <part name="R68" library="resistor" deviceset="R-US_" device="R2512" value="100mOhm"/>
 <part name="L7" library="Capstone" deviceset="ASPI-0630LR" device="" value="10uH"/>
-<part name="U$63" library="Capstone" deviceset="B540C" device=""/>
+<part name="D5" library="Capstone" deviceset="B540C" device=""/>
 <part name="SUPPLY64" library="supply2" deviceset="GND" device=""/>
-<part name="U$64" library="Capstone" deviceset="B540C" device=""/>
+<part name="D4" library="Capstone" deviceset="B540C" device=""/>
 <part name="R16" library="resistor" deviceset="R-US_" device="R0603" value="2.2k"/>
-<part name="U$65" library="Capstone" deviceset="4PIN_JST" device=""/>
-<part name="U$66" library="Capstone" deviceset="AO3407A" device=""/>
-<part name="R19" library="resistor" deviceset="R-US_" device="R2512" value="5 mOhm"/>
-<part name="U$67" library="Capstone" deviceset="CRS08" device=""/>
+<part name="J11" library="Capstone" deviceset="4PIN_JST" device=""/>
+<part name="Q1" library="Capstone" deviceset="AO3407A" device=""/>
+<part name="R19" library="resistor" deviceset="R-US_" device="R2512" value="5mOhm"/>
+<part name="D1" library="Capstone" deviceset="CRS08" device=""/>
 <part name="L5" library="Capstone" deviceset="B82144B2222K" device="" value="2.2uH"/>
 <part name="L8" library="Capstone" deviceset="LQP15MN3N6B02D" device="" value="0"/>
-<part name="U$70" library="Capstone" deviceset="ABS07-32.768KHZ-T" device=""/>
-<part name="U$71" library="Capstone" deviceset="Q24FA20H00396" device=""/>
+<part name="Y1" library="Capstone" deviceset="ABS07-32.768KHZ-T" device=""/>
+<part name="Y2" library="Capstone" deviceset="Q24FA20H00396" device=""/>
 <part name="L3" library="resistor" deviceset="L-US" device="L1812" value="2.2uH"/>
 <part name="L1" library="resistor" deviceset="L-US" device="L1812" value="2.2uH"/>
-<part name="R33" library="resistor" deviceset="R-US_" device="R0402" value="0 Ohm"/>
-<part name="R69" library="resistor" deviceset="R-US_" device="R0402" value="0 Ohm"/>
+<part name="R33" library="resistor" deviceset="R-US_" device="R0402" value="0ohm"/>
+<part name="R69" library="resistor" deviceset="R-US_" device="R0402" value="0ohm"/>
 <part name="R70" library="resistor" deviceset="R-US_" device="R0402" value="0 Ohm"/>
-<part name="U$56" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
-<part name="U$60" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
-<part name="U$72" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
-<part name="U$73" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
-<part name="U$75" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
+<part name="TP10" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
+<part name="TP9" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
+<part name="TP8" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
+<part name="TP7" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
+<part name="TP12" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
 <part name="C74" library="resistor" deviceset="C-US" device="C0402" value="10uF"/>
 <part name="SUPPLY68" library="supply2" deviceset="GND" device=""/>
 <part name="C75" library="resistor" deviceset="C-US" device="C0402" value="10uF"/>
@@ -18363,19 +18385,19 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="C58" library="resistor" deviceset="C-US" device="C0402" value="NOSTUFF"/>
 <part name="U$76" library="Capstone" deviceset="NC" device=""/>
 <part name="U$77" library="Capstone" deviceset="NC" device=""/>
-<part name="U$78" library="Capstone" deviceset="TEST_POINT" device=""/>
+<part name="TP6" library="Capstone" deviceset="TEST_POINT" device=""/>
 <part name="U$79" library="Capstone" deviceset="NC" device=""/>
 <part name="R71" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R72" library="resistor" deviceset="R-US_" device="R0603" value="37.4k"/>
 <part name="SUPPLY107" library="supply2" deviceset="GND" device=""/>
-<part name="U$80" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
+<part name="TP11" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
 <part name="U$81" library="Capstone" deviceset="NC" device=""/>
 <part name="U$82" library="Capstone" deviceset="NC" device=""/>
-<part name="U$83" library="Capstone" deviceset="TEST_POINT" device=""/>
-<part name="U$84" library="Capstone" deviceset="TEST_POINT" device=""/>
-<part name="U$74" library="Capstone" deviceset="TEST_POINT" device=""/>
-<part name="U$85" library="Capstone" deviceset="TEST_POINT" device=""/>
-<part name="U$86" library="Capstone" deviceset="SMA_CONNECTOR" device=""/>
+<part name="TP14" library="Capstone" deviceset="TEST_POINT" device=""/>
+<part name="TP13" library="Capstone" deviceset="TEST_POINT" device=""/>
+<part name="TP15" library="Capstone" deviceset="TEST_POINT" device=""/>
+<part name="TP16" library="Capstone" deviceset="TEST_POINT" device=""/>
+<part name="J16" library="Capstone" deviceset="SMA_CONNECTOR" device=""/>
 <part name="SUPPLY108" library="supply2" deviceset="GND" device=""/>
 <part name="R73" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R74" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
@@ -18412,30 +18434,30 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="342.9" y="269.24" size="5.08" layer="91">SENSOR CONNECTORS</text>
 </plain>
 <instances>
-<instance part="U$4" gate="G$1" x="129.54" y="350.52"/>
-<instance part="U$13" gate="G$1" x="530.86" y="342.9"/>
-<instance part="U$14" gate="G$1" x="530.86" y="332.74"/>
-<instance part="U$15" gate="G$1" x="530.86" y="322.58"/>
-<instance part="U$16" gate="G$1" x="530.86" y="312.42"/>
-<instance part="U$18" gate="G$1" x="76.2" y="43.18"/>
-<instance part="U$19" gate="G$1" x="157.48" y="43.18"/>
-<instance part="U$20" gate="G$1" x="78.74" y="147.32"/>
-<instance part="U$21" gate="G$1" x="160.02" y="147.32"/>
-<instance part="U$22" gate="G$1" x="78.74" y="177.8"/>
-<instance part="U$23" gate="G$1" x="162.56" y="175.26"/>
-<instance part="U$24" gate="G$1" x="116.84" y="76.2"/>
-<instance part="U$25" gate="G$1" x="330.2" y="160.02"/>
-<instance part="U$26" gate="G$1" x="487.68" y="81.28"/>
-<instance part="U$27" gate="G$1" x="487.68" y="160.02"/>
-<instance part="U$28" gate="G$1" x="327.66" y="81.28"/>
-<instance part="U$29" gate="G$1" x="332.74" y="223.52"/>
-<instance part="U$30" gate="G$1" x="419.1" y="378.46"/>
+<instance part="J1" gate="G$1" x="129.54" y="350.52"/>
+<instance part="TP1" gate="G$1" x="530.86" y="342.9"/>
+<instance part="TP2" gate="G$1" x="530.86" y="332.74"/>
+<instance part="TP3" gate="G$1" x="530.86" y="322.58"/>
+<instance part="TP4" gate="G$1" x="530.86" y="312.42"/>
+<instance part="J7" gate="G$1" x="76.2" y="43.18"/>
+<instance part="J8" gate="G$1" x="157.48" y="43.18"/>
+<instance part="J4" gate="G$1" x="78.74" y="147.32"/>
+<instance part="J5" gate="G$1" x="160.02" y="147.32"/>
+<instance part="J2" gate="G$1" x="78.74" y="177.8"/>
+<instance part="J3" gate="G$1" x="162.56" y="175.26"/>
+<instance part="J6" gate="G$1" x="116.84" y="76.2"/>
+<instance part="J12" gate="G$1" x="330.2" y="160.02"/>
+<instance part="J15" gate="G$1" x="487.68" y="81.28"/>
+<instance part="J13" gate="G$1" x="487.68" y="160.02"/>
+<instance part="J14" gate="G$1" x="327.66" y="81.28"/>
+<instance part="J10" gate="G$1" x="332.74" y="223.52"/>
+<instance part="U1" gate="G$1" x="419.1" y="378.46"/>
 <instance part="R48" gate="G$1" x="398.78" y="378.46" rot="R90"/>
 <instance part="R49" gate="G$1" x="447.04" y="358.14" rot="R90"/>
 <instance part="SUPPLY41" gate="GND" x="447.04" y="350.52"/>
 <instance part="SUPPLY60" gate="GND" x="457.2" y="373.38"/>
-<instance part="U$34" gate="G$1" x="530.86" y="304.8"/>
-<instance part="U$35" gate="G$1" x="419.1" y="327.66"/>
+<instance part="TP5" gate="G$1" x="530.86" y="304.8"/>
+<instance part="U2" gate="G$1" x="419.1" y="327.66"/>
 <instance part="R50" gate="G$1" x="398.78" y="327.66" rot="R90"/>
 <instance part="R51" gate="G$1" x="447.04" y="307.34" rot="R90"/>
 <instance part="SUPPLY63" gate="GND" x="447.04" y="299.72"/>
@@ -18457,7 +18479,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="C21" gate="G$1" x="457.2" y="381"/>
 <instance part="C22" gate="G$1" x="381" y="314.96"/>
 <instance part="C54" gate="G$1" x="457.2" y="330.2"/>
-<instance part="U$65" gate="G$1" x="487.68" y="223.52"/>
+<instance part="J11" gate="G$1" x="487.68" y="223.52"/>
 <instance part="C74" gate="G$1" x="370.84" y="330.2"/>
 <instance part="SUPPLY68" gate="GND" x="370.84" y="320.04"/>
 <instance part="C75" gate="G$1" x="363.22" y="381"/>
@@ -18476,54 +18498,54 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$18" gate="G$1" pin="P$2"/>
+<pinref part="J7" gate="G$1" pin="P$2"/>
 <wire x1="71.12" y1="38.1" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
 <label x="55.88" y="38.1" size="1.778" layer="91"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="38.1" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
 <label x="137.16" y="38.1" size="1.778" layer="91"/>
-<pinref part="U$19" gate="G$1" pin="P$2"/>
+<pinref part="J8" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <wire x1="109.22" y1="71.12" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
 <label x="93.98" y="71.12" size="1.778" layer="95"/>
-<pinref part="U$24" gate="G$1" pin="P$3"/>
+<pinref part="J6" gate="G$1" pin="P$3"/>
 </segment>
 <segment>
 <wire x1="109.22" y1="76.2" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
 <label x="93.98" y="76.2" size="1.778" layer="95"/>
-<pinref part="U$24" gate="G$1" pin="P$2"/>
+<pinref part="J6" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <wire x1="325.12" y1="218.44" x2="312.42" y2="218.44" width="0.1524" layer="91"/>
 <label x="309.88" y="218.44" size="1.778" layer="95"/>
-<pinref part="U$29" gate="G$1" pin="P$3"/>
+<pinref part="J10" gate="G$1" pin="P$3"/>
 </segment>
 <segment>
 <wire x1="325.12" y1="223.52" x2="309.88" y2="223.52" width="0.1524" layer="91"/>
 <label x="309.88" y="223.52" size="1.778" layer="95"/>
-<pinref part="U$29" gate="G$1" pin="P$2"/>
+<pinref part="J10" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <wire x1="322.58" y1="160.02" x2="294.64" y2="160.02" width="0.1524" layer="91"/>
 <label x="294.64" y="160.02" size="1.778" layer="95"/>
-<pinref part="U$25" gate="G$1" pin="P$2"/>
+<pinref part="J12" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <wire x1="322.58" y1="154.94" x2="294.64" y2="154.94" width="0.1524" layer="91"/>
 <label x="294.64" y="154.94" size="1.778" layer="95"/>
-<pinref part="U$25" gate="G$1" pin="P$3"/>
+<pinref part="J12" gate="G$1" pin="P$3"/>
 </segment>
 <segment>
 <label x="292.1" y="81.28" size="1.778" layer="95"/>
-<pinref part="U$28" gate="G$1" pin="P$2"/>
+<pinref part="J14" gate="G$1" pin="P$2"/>
 <wire x1="320.04" y1="81.28" x2="289.56" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="76.2" x2="289.56" y2="76.2" width="0.1524" layer="91"/>
 <label x="292.1" y="76.2" size="1.778" layer="95"/>
-<pinref part="U$28" gate="G$1" pin="P$3"/>
+<pinref part="J14" gate="G$1" pin="P$3"/>
 </segment>
 <segment>
 <pinref part="R49" gate="G$1" pin="1"/>
@@ -18560,7 +18582,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="C54" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$65" gate="G$1" pin="P$3"/>
+<pinref part="J11" gate="G$1" pin="P$3"/>
 <wire x1="480.06" y1="218.44" x2="441.96" y2="218.44" width="0.1524" layer="91"/>
 <label x="441.96" y="218.44" size="1.778" layer="95"/>
 </segment>
@@ -18577,62 +18599,62 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="480.06" y1="81.28" x2="439.42" y2="81.28" width="0.1524" layer="91"/>
 <label x="441.96" y="81.28" size="1.778" layer="95"/>
-<pinref part="U$26" gate="G$1" pin="P$2"/>
+<pinref part="J15" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <label x="441.96" y="76.2" size="1.778" layer="95"/>
-<pinref part="U$26" gate="G$1" pin="P$3"/>
+<pinref part="J15" gate="G$1" pin="P$3"/>
 <wire x1="480.06" y1="76.2" x2="439.42" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="480.06" y1="160.02" x2="439.42" y2="160.02" width="0.1524" layer="91"/>
 <label x="441.96" y="160.02" size="1.778" layer="95"/>
-<pinref part="U$27" gate="G$1" pin="P$2"/>
+<pinref part="J13" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <wire x1="480.06" y1="154.94" x2="439.42" y2="154.94" width="0.1524" layer="91"/>
 <label x="441.96" y="154.94" size="1.778" layer="95"/>
-<pinref part="U$27" gate="G$1" pin="P$3"/>
+<pinref part="J13" gate="G$1" pin="P$3"/>
 </segment>
 </net>
 <net name="WIFI_HIB_N" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_12"/>
+<pinref part="J1" gate="G$1" pin="P9_12"/>
 <wire x1="200.66" y1="335.28" x2="218.44" y2="335.28" width="0.1524" layer="91"/>
 <label x="203.2" y="335.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WIFI_SPI_CS_N" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_28"/>
+<pinref part="J1" gate="G$1" pin="P9_28"/>
 <wire x1="200.66" y1="294.64" x2="218.44" y2="294.64" width="0.1524" layer="91"/>
 <label x="203.2" y="294.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WIFI_SPI_CLK" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_31"/>
+<pinref part="J1" gate="G$1" pin="P9_31"/>
 <wire x1="167.64" y1="284.48" x2="149.86" y2="284.48" width="0.1524" layer="91"/>
 <label x="142.24" y="284.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WIFI_SPI_MOSI" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_30"/>
+<pinref part="J1" gate="G$1" pin="P9_30"/>
 <wire x1="200.66" y1="289.56" x2="218.44" y2="289.56" width="0.1524" layer="91"/>
 <label x="203.2" y="289.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WIFI_HOSTINTR" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_41"/>
+<pinref part="J1" gate="G$1" pin="P9_41"/>
 <wire x1="167.64" y1="259.08" x2="149.86" y2="259.08" width="0.1524" layer="91"/>
 <label x="144.78" y="259.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WIFI_RESET_N" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_15"/>
+<pinref part="J1" gate="G$1" pin="P9_15"/>
 <wire x1="167.64" y1="325.12" x2="137.16" y2="325.12" width="0.1524" layer="91"/>
 <label x="142.24" y="325.12" size="1.778" layer="95"/>
 <wire x1="137.16" y1="325.12" x2="137.16" y2="373.38" width="0.1524" layer="91"/>
@@ -18642,61 +18664,61 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="154.94" y1="180.34" x2="127" y2="180.34" width="0.1524" layer="91"/>
 <label x="127" y="180.34" size="1.778" layer="91"/>
-<pinref part="U$23" gate="G$1" pin="P$1"/>
+<pinref part="J3" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="MTR_CAM_AOUT2" class="0">
 <segment>
 <wire x1="154.94" y1="175.26" x2="127" y2="175.26" width="0.1524" layer="91"/>
 <label x="127" y="175.26" size="1.778" layer="91"/>
-<pinref part="U$23" gate="G$1" pin="P$2"/>
+<pinref part="J3" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="MTR_CAM_BOUT2" class="0">
 <segment>
 <wire x1="154.94" y1="165.1" x2="127" y2="165.1" width="0.1524" layer="91"/>
 <label x="127" y="165.1" size="1.778" layer="91"/>
-<pinref part="U$23" gate="G$1" pin="P$4"/>
+<pinref part="J3" gate="G$1" pin="P$4"/>
 </segment>
 </net>
 <net name="MTR_CAM_BOUT1" class="0">
 <segment>
 <wire x1="154.94" y1="170.18" x2="127" y2="170.18" width="0.1524" layer="91"/>
 <label x="127" y="170.18" size="1.778" layer="91"/>
-<pinref part="U$23" gate="G$1" pin="P$3"/>
+<pinref part="J3" gate="G$1" pin="P$3"/>
 </segment>
 </net>
 <net name="DRIVE_B_OUT1" class="0">
 <segment>
 <wire x1="154.94" y1="147.32" x2="137.16" y2="147.32" width="0.1524" layer="91"/>
 <label x="134.62" y="147.32" size="1.778" layer="95"/>
-<pinref part="U$21" gate="G$1" pin="P$1"/>
+<pinref part="J5" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="DRIVE_B_OUT2" class="0">
 <segment>
 <wire x1="154.94" y1="142.24" x2="137.16" y2="142.24" width="0.1524" layer="91"/>
 <label x="134.62" y="142.24" size="1.778" layer="95"/>
-<pinref part="U$21" gate="G$1" pin="P$2"/>
+<pinref part="J5" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="DRIVE_A_OUT1" class="0">
 <segment>
 <wire x1="73.66" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
 <label x="50.8" y="147.32" size="1.778" layer="95"/>
-<pinref part="U$20" gate="G$1" pin="P$1"/>
+<pinref part="J4" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="DRIVE_A_OUT2" class="0">
 <segment>
 <wire x1="73.66" y1="142.24" x2="45.72" y2="142.24" width="0.1524" layer="91"/>
 <label x="50.8" y="142.24" size="1.778" layer="95"/>
-<pinref part="U$20" gate="G$1" pin="P$2"/>
+<pinref part="J4" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="CHARGE_IND_CATHODE" class="0">
 <segment>
-<pinref part="U$65" gate="G$1" pin="P$2"/>
+<pinref part="J11" gate="G$1" pin="P$2"/>
 <wire x1="480.06" y1="223.52" x2="441.96" y2="223.52" width="0.1524" layer="91"/>
 <label x="441.96" y="223.52" size="1.778" layer="95"/>
 </segment>
@@ -18705,10 +18727,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="500.38" y1="345.44" x2="525.78" y2="345.44" width="0.1524" layer="91"/>
 <label x="502.92" y="345.44" size="1.778" layer="95"/>
-<pinref part="U$13" gate="G$1" pin="P$1"/>
+<pinref part="TP1" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="U$30" gate="G$1" pin="VIN"/>
+<pinref part="U1" gate="G$1" pin="VIN"/>
 <pinref part="R48" gate="G$1" pin="2"/>
 <wire x1="408.94" y1="383.54" x2="398.78" y2="383.54" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="383.54" x2="363.22" y2="383.54" width="0.1524" layer="91"/>
@@ -18719,7 +18741,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="363.22" y="383.54"/>
 </segment>
 <segment>
-<pinref part="U$35" gate="G$1" pin="VIN"/>
+<pinref part="U2" gate="G$1" pin="VIN"/>
 <pinref part="R50" gate="G$1" pin="2"/>
 <wire x1="408.94" y1="332.74" x2="398.78" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="332.74" x2="370.84" y2="332.74" width="0.1524" layer="91"/>
@@ -18788,185 +18810,185 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="500.38" y1="335.28" x2="525.78" y2="335.28" width="0.1524" layer="91"/>
 <label x="502.92" y="335.28" size="1.778" layer="95"/>
-<pinref part="U$14" gate="G$1" pin="P$1"/>
+<pinref part="TP2" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="RAIL_12V" class="0">
 <segment>
 <wire x1="500.38" y1="325.12" x2="525.78" y2="325.12" width="0.1524" layer="91"/>
 <label x="502.92" y="325.12" size="1.778" layer="95"/>
-<pinref part="U$15" gate="G$1" pin="P$1"/>
+<pinref part="TP3" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="FUEL_SCL" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_17"/>
+<pinref part="J1" gate="G$1" pin="P9_17"/>
 <wire x1="167.64" y1="320.04" x2="149.86" y2="320.04" width="0.1524" layer="91"/>
 <label x="142.24" y="320.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FUEL_ALCC" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_32"/>
+<pinref part="J1" gate="G$1" pin="P9_32"/>
 <wire x1="200.66" y1="284.48" x2="218.44" y2="284.48" width="0.1524" layer="91"/>
 <label x="203.2" y="284.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FUEL_SDA" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_18"/>
+<pinref part="J1" gate="G$1" pin="P9_18"/>
 <wire x1="200.66" y1="320.04" x2="218.44" y2="320.04" width="0.1524" layer="91"/>
 <label x="203.2" y="320.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_A_I4" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_34"/>
+<pinref part="J1" gate="G$1" pin="P8_34"/>
 <wire x1="101.6" y1="279.4" x2="116.84" y2="279.4" width="0.1524" layer="91"/>
 <label x="104.14" y="279.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_A_I3" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_31"/>
+<pinref part="J1" gate="G$1" pin="P8_31"/>
 <wire x1="68.58" y1="284.48" x2="55.88" y2="284.48" width="0.1524" layer="91"/>
 <label x="40.64" y="284.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_A_I2" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_29"/>
+<pinref part="J1" gate="G$1" pin="P8_29"/>
 <wire x1="68.58" y1="289.56" x2="55.88" y2="289.56" width="0.1524" layer="91"/>
 <label x="40.64" y="289.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_A_I1" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_30"/>
+<pinref part="J1" gate="G$1" pin="P8_30"/>
 <wire x1="101.6" y1="289.56" x2="116.84" y2="289.56" width="0.1524" layer="91"/>
 <label x="104.14" y="289.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_A_I0" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_28"/>
+<pinref part="J1" gate="G$1" pin="P8_28"/>
 <wire x1="101.6" y1="294.64" x2="116.84" y2="294.64" width="0.1524" layer="91"/>
 <label x="104.14" y="294.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_A_IN1" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_36"/>
+<pinref part="J1" gate="G$1" pin="P8_36"/>
 <wire x1="101.6" y1="274.32" x2="116.84" y2="274.32" width="0.1524" layer="91"/>
 <label x="104.14" y="274.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_A_IN2" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_27"/>
+<pinref part="J1" gate="G$1" pin="P8_27"/>
 <wire x1="68.58" y1="294.64" x2="55.88" y2="294.64" width="0.1524" layer="91"/>
 <label x="40.64" y="294.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_SLEEP_N" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_11"/>
+<pinref part="J1" gate="G$1" pin="P8_11"/>
 <wire x1="68.58" y1="335.28" x2="55.88" y2="335.28" width="0.1524" layer="91"/>
 <label x="40.64" y="335.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_I4" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_17"/>
+<pinref part="J1" gate="G$1" pin="P8_17"/>
 <wire x1="68.58" y1="320.04" x2="55.88" y2="320.04" width="0.1524" layer="91"/>
 <label x="40.64" y="320.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_I3" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_15"/>
+<pinref part="J1" gate="G$1" pin="P8_15"/>
 <wire x1="68.58" y1="325.12" x2="55.88" y2="325.12" width="0.1524" layer="91"/>
 <label x="40.64" y="325.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_I2" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_13"/>
+<pinref part="J1" gate="G$1" pin="P8_13"/>
 <wire x1="68.58" y1="330.2" x2="55.88" y2="330.2" width="0.1524" layer="91"/>
 <label x="40.64" y="330.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_I1" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_14"/>
+<pinref part="J1" gate="G$1" pin="P8_14"/>
 <wire x1="101.6" y1="330.2" x2="116.84" y2="330.2" width="0.1524" layer="91"/>
 <label x="104.14" y="330.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_I0" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_12"/>
+<pinref part="J1" gate="G$1" pin="P8_12"/>
 <wire x1="101.6" y1="335.28" x2="116.84" y2="335.28" width="0.1524" layer="91"/>
 <label x="104.14" y="335.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_IN1" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_19"/>
+<pinref part="J1" gate="G$1" pin="P8_19"/>
 <wire x1="68.58" y1="314.96" x2="55.88" y2="314.96" width="0.1524" layer="91"/>
 <label x="40.64" y="314.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_IN2" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_16"/>
+<pinref part="J1" gate="G$1" pin="P8_16"/>
 <wire x1="101.6" y1="325.12" x2="116.84" y2="325.12" width="0.1524" layer="91"/>
 <label x="104.14" y="325.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_FAULT_N" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_9"/>
+<pinref part="J1" gate="G$1" pin="P8_9"/>
 <wire x1="68.58" y1="340.36" x2="55.88" y2="340.36" width="0.1524" layer="91"/>
 <label x="40.64" y="340.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3V3_SW_EN2" class="0">
 <segment>
-<pinref part="U$35" gate="G$1" pin="ON/OFF"/>
+<pinref part="U2" gate="G$1" pin="ON/OFF"/>
 <label x="391.16" y="312.42" size="1.778" layer="95"/>
 <wire x1="408.94" y1="312.42" x2="391.16" y2="312.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_25"/>
+<pinref part="J1" gate="G$1" pin="P9_25"/>
 <wire x1="167.64" y1="299.72" x2="149.86" y2="299.72" width="0.1524" layer="91"/>
 <label x="142.24" y="299.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_CAM_BIN2" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_11"/>
+<pinref part="J1" gate="G$1" pin="P9_11"/>
 <wire x1="167.64" y1="335.28" x2="149.86" y2="335.28" width="0.1524" layer="91"/>
 <label x="142.24" y="335.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_CAM_BIN1" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_16"/>
+<pinref part="J1" gate="G$1" pin="P9_16"/>
 <wire x1="200.66" y1="325.12" x2="218.44" y2="325.12" width="0.1524" layer="91"/>
 <label x="203.2" y="325.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_FAULT_N" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_37"/>
+<pinref part="J1" gate="G$1" pin="P8_37"/>
 <wire x1="68.58" y1="269.24" x2="55.88" y2="269.24" width="0.1524" layer="91"/>
 <label x="40.64" y="269.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_RESET_N" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_35"/>
+<pinref part="J1" gate="G$1" pin="P8_35"/>
 <wire x1="68.58" y1="274.32" x2="55.88" y2="274.32" width="0.1524" layer="91"/>
 <label x="40.64" y="274.32" size="1.778" layer="95"/>
 </segment>
@@ -18975,82 +18997,82 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="500.38" y1="314.96" x2="525.78" y2="314.96" width="0.1524" layer="91"/>
 <label x="502.92" y="314.96" size="1.778" layer="95"/>
-<pinref part="U$16" gate="G$1" pin="P$1"/>
+<pinref part="TP4" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="VIN" class="0">
 <segment>
 <wire x1="152.4" y1="43.18" x2="134.62" y2="43.18" width="0.1524" layer="91"/>
 <label x="137.16" y="43.18" size="1.778" layer="91"/>
-<pinref part="U$19" gate="G$1" pin="P$1"/>
+<pinref part="J8" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="MTR_TREAT_OUT1" class="0">
 <segment>
 <wire x1="73.66" y1="177.8" x2="53.34" y2="177.8" width="0.1524" layer="91"/>
 <label x="48.26" y="177.8" size="1.778" layer="95"/>
-<pinref part="U$22" gate="G$1" pin="P$1"/>
+<pinref part="J2" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="MTR_TREAT_OUT2" class="0">
 <segment>
 <wire x1="73.66" y1="172.72" x2="55.88" y2="172.72" width="0.1524" layer="91"/>
 <label x="48.26" y="172.72" size="1.778" layer="95"/>
-<pinref part="U$22" gate="G$1" pin="P$2"/>
+<pinref part="J2" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="MTR_TREAT_I3/MTR_CAM_BI0" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_44"/>
+<pinref part="J1" gate="G$1" pin="P8_44"/>
 <wire x1="101.6" y1="254" x2="116.84" y2="254" width="0.1524" layer="91"/>
 <label x="104.14" y="254" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_I2/MTR_CAM_AI1" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_43"/>
+<pinref part="J1" gate="G$1" pin="P8_43"/>
 <wire x1="68.58" y1="254" x2="55.88" y2="254" width="0.1524" layer="91"/>
 <label x="25.4" y="254" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_I1/MTR_CAM_AI0" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_42"/>
+<pinref part="J1" gate="G$1" pin="P8_42"/>
 <wire x1="101.6" y1="259.08" x2="116.84" y2="259.08" width="0.1524" layer="91"/>
 <label x="104.14" y="259.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_I0" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_41"/>
+<pinref part="J1" gate="G$1" pin="P8_41"/>
 <wire x1="68.58" y1="259.08" x2="55.88" y2="259.08" width="0.1524" layer="91"/>
 <label x="40.64" y="259.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_IN1/MTR_CAM_AIN1" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_46"/>
+<pinref part="J1" gate="G$1" pin="P8_46"/>
 <wire x1="101.6" y1="248.92" x2="116.84" y2="248.92" width="0.1524" layer="91"/>
 <label x="104.14" y="248.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_IN2/MTR_CAM_AIN2" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_39"/>
+<pinref part="J1" gate="G$1" pin="P8_39"/>
 <wire x1="68.58" y1="264.16" x2="55.88" y2="264.16" width="0.1524" layer="91"/>
 <label x="40.64" y="264.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_CAM_FAULT_N" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_8"/>
+<pinref part="J1" gate="G$1" pin="P8_8"/>
 <wire x1="101.6" y1="345.44" x2="116.84" y2="345.44" width="0.1524" layer="91"/>
 <label x="104.14" y="345.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_CAM_RESET_N" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_13"/>
+<pinref part="J1" gate="G$1" pin="P9_13"/>
 <wire x1="167.64" y1="330.2" x2="149.86" y2="330.2" width="0.1524" layer="91"/>
 <label x="142.24" y="330.2" size="1.778" layer="95"/>
 </segment>
@@ -19059,13 +19081,13 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="325.12" y1="228.6" x2="317.5" y2="228.6" width="0.1524" layer="91"/>
 <label x="297.18" y="228.6" size="1.778" layer="95"/>
-<pinref part="U$29" gate="G$1" pin="P$1"/>
+<pinref part="J10" gate="G$1" pin="P$1"/>
 <pinref part="R53" gate="G$1" pin="1"/>
 <wire x1="317.5" y1="228.6" x2="294.64" y2="228.6" width="0.1524" layer="91"/>
 <junction x="317.5" y="228.6"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_14"/>
+<pinref part="J1" gate="G$1" pin="P9_14"/>
 <wire x1="200.66" y1="330.2" x2="218.44" y2="330.2" width="0.1524" layer="91"/>
 <label x="203.2" y="330.2" size="1.778" layer="95"/>
 </segment>
@@ -19074,13 +19096,13 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="325.12" y1="213.36" x2="302.26" y2="213.36" width="0.1524" layer="91"/>
 <label x="279.4" y="213.36" size="1.778" layer="95"/>
-<pinref part="U$29" gate="G$1" pin="P$4"/>
+<pinref part="J10" gate="G$1" pin="P$4"/>
 <pinref part="R52" gate="G$1" pin="1"/>
 <wire x1="302.26" y1="213.36" x2="276.86" y2="213.36" width="0.1524" layer="91"/>
 <junction x="302.26" y="213.36"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_19"/>
+<pinref part="J1" gate="G$1" pin="P9_19"/>
 <wire x1="167.64" y1="314.96" x2="149.86" y2="314.96" width="0.1524" layer="91"/>
 <label x="142.24" y="314.96" size="1.778" layer="95"/>
 </segment>
@@ -19089,13 +19111,13 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="322.58" y1="165.1" x2="314.96" y2="165.1" width="0.1524" layer="91"/>
 <label x="294.64" y="165.1" size="1.778" layer="95"/>
-<pinref part="U$25" gate="G$1" pin="P$1"/>
+<pinref part="J12" gate="G$1" pin="P$1"/>
 <pinref part="R54" gate="G$1" pin="1"/>
 <junction x="314.96" y="165.1"/>
 <wire x1="314.96" y1="165.1" x2="294.64" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_20"/>
+<pinref part="J1" gate="G$1" pin="P9_20"/>
 <wire x1="200.66" y1="314.96" x2="218.44" y2="314.96" width="0.1524" layer="91"/>
 <label x="203.2" y="314.96" size="1.778" layer="95"/>
 </segment>
@@ -19104,13 +19126,13 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="322.58" y1="149.86" x2="284.48" y2="149.86" width="0.1524" layer="91"/>
 <label x="259.08" y="149.86" size="1.778" layer="95"/>
-<pinref part="U$25" gate="G$1" pin="P$4"/>
+<pinref part="J12" gate="G$1" pin="P$4"/>
 <pinref part="R55" gate="G$1" pin="1"/>
 <junction x="284.48" y="149.86"/>
 <wire x1="284.48" y1="149.86" x2="256.54" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_21"/>
+<pinref part="J1" gate="G$1" pin="P9_21"/>
 <wire x1="167.64" y1="309.88" x2="149.86" y2="309.88" width="0.1524" layer="91"/>
 <label x="142.24" y="309.88" size="1.778" layer="95"/>
 </segment>
@@ -19119,13 +19141,13 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="320.04" y1="86.36" x2="312.42" y2="86.36" width="0.1524" layer="91"/>
 <label x="292.1" y="86.36" size="1.778" layer="95"/>
-<pinref part="U$28" gate="G$1" pin="P$1"/>
+<pinref part="J14" gate="G$1" pin="P$1"/>
 <pinref part="R56" gate="G$1" pin="1"/>
 <junction x="312.42" y="86.36"/>
 <wire x1="312.42" y1="86.36" x2="289.56" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_22"/>
+<pinref part="J1" gate="G$1" pin="P9_22"/>
 <wire x1="200.66" y1="309.88" x2="218.44" y2="309.88" width="0.1524" layer="91"/>
 <label x="203.2" y="309.88" size="1.778" layer="95"/>
 </segment>
@@ -19134,13 +19156,13 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="320.04" y1="71.12" x2="284.48" y2="71.12" width="0.1524" layer="91"/>
 <label x="264.16" y="71.12" size="1.778" layer="95"/>
-<pinref part="U$28" gate="G$1" pin="P$4"/>
+<pinref part="J14" gate="G$1" pin="P$4"/>
 <pinref part="R57" gate="G$1" pin="1"/>
 <wire x1="284.48" y1="71.12" x2="261.62" y2="71.12" width="0.1524" layer="91"/>
 <junction x="284.48" y="71.12"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_42"/>
+<pinref part="J1" gate="G$1" pin="P9_42"/>
 <wire x1="200.66" y1="259.08" x2="218.44" y2="259.08" width="0.1524" layer="91"/>
 <label x="203.2" y="259.08" size="1.778" layer="95"/>
 </segment>
@@ -19149,7 +19171,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="480.06" y1="165.1" x2="429.26" y2="165.1" width="0.1524" layer="91"/>
 <label x="441.96" y="165.1" size="1.778" layer="95"/>
-<pinref part="U$27" gate="G$1" pin="P$1"/>
+<pinref part="J13" gate="G$1" pin="P$1"/>
 <pinref part="R61" gate="G$1" pin="2"/>
 <wire x1="429.26" y1="165.1" x2="408.94" y2="165.1" width="0.1524" layer="91"/>
 <junction x="429.26" y="165.1"/>
@@ -19157,7 +19179,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="429.26" y1="167.64" x2="429.26" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_40"/>
+<pinref part="J1" gate="G$1" pin="P9_40"/>
 <wire x1="200.66" y1="264.16" x2="218.44" y2="264.16" width="0.1524" layer="91"/>
 <label x="203.2" y="264.16" size="1.778" layer="95"/>
 </segment>
@@ -19167,7 +19189,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="480.06" y1="149.86" x2="480.06" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="480.06" y1="134.62" x2="459.74" y2="134.62" width="0.1524" layer="91"/>
 <label x="431.8" y="134.62" size="1.778" layer="95"/>
-<pinref part="U$27" gate="G$1" pin="P$4"/>
+<pinref part="J13" gate="G$1" pin="P$4"/>
 <pinref part="R58" gate="G$1" pin="2"/>
 <wire x1="459.74" y1="134.62" x2="429.26" y2="134.62" width="0.1524" layer="91"/>
 <junction x="459.74" y="134.62"/>
@@ -19175,7 +19197,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="459.74" y1="137.16" x2="459.74" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_39"/>
+<pinref part="J1" gate="G$1" pin="P9_39"/>
 <wire x1="167.64" y1="264.16" x2="149.86" y2="264.16" width="0.1524" layer="91"/>
 <label x="142.24" y="264.16" size="1.778" layer="95"/>
 </segment>
@@ -19184,14 +19206,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="480.06" y1="86.36" x2="426.72" y2="86.36" width="0.1524" layer="91"/>
 <label x="441.96" y="86.36" size="1.778" layer="95"/>
-<pinref part="U$26" gate="G$1" pin="P$1"/>
+<pinref part="J15" gate="G$1" pin="P$1"/>
 <pinref part="R60" gate="G$1" pin="2"/>
 <pinref part="R73" gate="G$1" pin="1"/>
 <junction x="426.72" y="86.36"/>
 <wire x1="426.72" y1="86.36" x2="406.4" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_38"/>
+<pinref part="J1" gate="G$1" pin="P9_38"/>
 <wire x1="200.66" y1="269.24" x2="218.44" y2="269.24" width="0.1524" layer="91"/>
 <label x="203.2" y="269.24" size="1.778" layer="95"/>
 </segment>
@@ -19201,68 +19223,68 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="480.06" y1="71.12" x2="480.06" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="480.06" y1="60.96" x2="462.28" y2="60.96" width="0.1524" layer="91"/>
 <label x="436.88" y="60.96" size="1.778" layer="95"/>
-<pinref part="U$26" gate="G$1" pin="P$4"/>
+<pinref part="J15" gate="G$1" pin="P$4"/>
 <pinref part="R59" gate="G$1" pin="2"/>
 <wire x1="462.28" y1="60.96" x2="436.88" y2="60.96" width="0.1524" layer="91"/>
 <junction x="462.28" y="60.96"/>
 <pinref part="R74" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_37"/>
+<pinref part="J1" gate="G$1" pin="P9_37"/>
 <wire x1="167.64" y1="269.24" x2="149.86" y2="269.24" width="0.1524" layer="91"/>
 <label x="142.24" y="269.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_A_FAULT_N" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_25"/>
+<pinref part="J1" gate="G$1" pin="P8_25"/>
 <wire x1="68.58" y1="299.72" x2="55.88" y2="299.72" width="0.1524" layer="91"/>
 <label x="40.64" y="299.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBATT" class="0">
 <segment>
-<pinref part="U$18" gate="G$1" pin="P$1"/>
+<pinref part="J7" gate="G$1" pin="P$1"/>
 <wire x1="71.12" y1="43.18" x2="53.34" y2="43.18" width="0.1524" layer="91"/>
 <label x="55.88" y="43.18" size="1.778" layer="91"/>
 </segment>
 <segment>
 <wire x1="500.38" y1="307.34" x2="525.78" y2="307.34" width="0.1524" layer="91"/>
 <label x="502.92" y="307.34" size="1.778" layer="95"/>
-<pinref part="U$34" gate="G$1" pin="P$1"/>
+<pinref part="TP5" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="12V_REG_EN" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_26"/>
+<pinref part="J1" gate="G$1" pin="P9_26"/>
 <wire x1="200.66" y1="299.72" x2="218.44" y2="299.72" width="0.1524" layer="91"/>
 <label x="203.2" y="299.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3V3_REG_EN" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_27"/>
+<pinref part="J1" gate="G$1" pin="P9_27"/>
 <wire x1="167.64" y1="294.64" x2="149.86" y2="294.64" width="0.1524" layer="91"/>
 <label x="142.24" y="294.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U$30" gate="G$1" pin="R2"/>
+<pinref part="U1" gate="G$1" pin="R2"/>
 <pinref part="R49" gate="G$1" pin="2"/>
 <wire x1="441.96" y1="363.22" x2="447.04" y2="363.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V3_EXT_1" class="0">
 <segment>
-<pinref part="U$30" gate="G$1" pin="VOUT_2"/>
+<pinref part="U1" gate="G$1" pin="VOUT_2"/>
 <label x="462.28" y="383.54" size="1.778" layer="95"/>
 <wire x1="441.96" y1="383.54" x2="447.04" y2="383.54" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="447.04" y1="383.54" x2="457.2" y2="383.54" width="0.1524" layer="91"/>
 <wire x1="457.2" y1="383.54" x2="472.44" y2="383.54" width="0.1524" layer="91"/>
 <junction x="457.2" y="383.54"/>
-<pinref part="U$30" gate="G$1" pin="VOUT"/>
+<pinref part="U1" gate="G$1" pin="VOUT"/>
 <wire x1="441.96" y1="373.38" x2="447.04" y2="373.38" width="0.1524" layer="91"/>
 <pinref part="C58" gate="G$1" pin="2"/>
 <wire x1="375.92" y1="363.22" x2="375.92" y2="345.44" width="0.1524" layer="91"/>
@@ -19276,12 +19298,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="109.22" y1="81.28" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
 <label x="88.9" y="81.28" size="1.778" layer="95"/>
-<pinref part="U$24" gate="G$1" pin="P$1"/>
+<pinref part="J6" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
-<pinref part="U$30" gate="G$1" pin="R1/C1"/>
+<pinref part="U1" gate="G$1" pin="R1/C1"/>
 <pinref part="R48" gate="G$1" pin="1"/>
 <wire x1="408.94" y1="373.38" x2="398.78" y2="373.38" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="373.38" x2="375.92" y2="373.38" width="0.1524" layer="91"/>
@@ -19292,47 +19314,47 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="3V3_SW_EN" class="0">
 <segment>
-<pinref part="U$30" gate="G$1" pin="ON/OFF"/>
+<pinref part="U1" gate="G$1" pin="ON/OFF"/>
 <label x="391.16" y="363.22" size="1.778" layer="95"/>
 <wire x1="408.94" y1="363.22" x2="388.62" y2="363.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_24"/>
+<pinref part="J1" gate="G$1" pin="P9_24"/>
 <wire x1="200.66" y1="304.8" x2="218.44" y2="304.8" width="0.1524" layer="91"/>
 <label x="203.2" y="304.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_DECAY" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_40"/>
+<pinref part="J1" gate="G$1" pin="P8_40"/>
 <wire x1="101.6" y1="264.16" x2="116.84" y2="264.16" width="0.1524" layer="91"/>
 <label x="104.14" y="264.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_SLEEP_N" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_38"/>
+<pinref part="J1" gate="G$1" pin="P8_38"/>
 <wire x1="101.6" y1="269.24" x2="116.84" y2="269.24" width="0.1524" layer="91"/>
 <label x="104.14" y="269.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_RESET_N" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_26"/>
+<pinref part="J1" gate="G$1" pin="P8_26"/>
 <wire x1="101.6" y1="299.72" x2="116.84" y2="299.72" width="0.1524" layer="91"/>
 <label x="104.14" y="299.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="U$35" gate="G$1" pin="R2"/>
+<pinref part="U2" gate="G$1" pin="R2"/>
 <pinref part="R51" gate="G$1" pin="2"/>
 <wire x1="441.96" y1="312.42" x2="447.04" y2="312.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$47" class="0">
 <segment>
-<pinref part="U$35" gate="G$1" pin="R1/C1"/>
+<pinref part="U2" gate="G$1" pin="R1/C1"/>
 <pinref part="R50" gate="G$1" pin="1"/>
 <wire x1="408.94" y1="322.58" x2="398.78" y2="322.58" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="1"/>
@@ -19346,10 +19368,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="462.28" y="332.74" size="1.778" layer="95"/>
 <pinref part="C54" gate="G$1" pin="1"/>
 <wire x1="457.2" y1="332.74" x2="472.44" y2="332.74" width="0.1524" layer="91"/>
-<pinref part="U$35" gate="G$1" pin="VOUT_2"/>
+<pinref part="U2" gate="G$1" pin="VOUT_2"/>
 <wire x1="441.96" y1="332.74" x2="444.5" y2="332.74" width="0.1524" layer="91"/>
 <junction x="457.2" y="332.74"/>
-<pinref part="U$35" gate="G$1" pin="VOUT"/>
+<pinref part="U2" gate="G$1" pin="VOUT"/>
 <wire x1="444.5" y1="332.74" x2="457.2" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="441.96" y1="322.58" x2="444.5" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="444.5" y1="322.58" x2="444.5" y2="332.74" width="0.1524" layer="91"/>
@@ -19364,59 +19386,59 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="109.22" y1="66.04" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
 <label x="88.9" y="66.04" size="1.778" layer="95"/>
-<pinref part="U$24" gate="G$1" pin="P$4"/>
+<pinref part="J6" gate="G$1" pin="P$4"/>
 </segment>
 </net>
 <net name="MTR_CAM_SLEEP_N" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_10"/>
+<pinref part="J1" gate="G$1" pin="P8_10"/>
 <wire x1="101.6" y1="340.36" x2="116.84" y2="340.36" width="0.1524" layer="91"/>
 <label x="104.14" y="340.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CHARGE_IND_ANODE" class="0">
 <segment>
-<pinref part="U$65" gate="G$1" pin="P$1"/>
+<pinref part="J11" gate="G$1" pin="P$1"/>
 <wire x1="480.06" y1="228.6" x2="441.96" y2="228.6" width="0.1524" layer="91"/>
 <label x="441.96" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BATT_TEMP_SNS" class="0">
 <segment>
-<pinref part="U$65" gate="G$1" pin="P$4"/>
+<pinref part="J11" gate="G$1" pin="P$4"/>
 <wire x1="480.06" y1="213.36" x2="441.96" y2="213.36" width="0.1524" layer="91"/>
 <label x="441.96" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WIFI_SPI_MISO_50" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_29"/>
+<pinref part="J1" gate="G$1" pin="P9_29"/>
 <wire x1="167.64" y1="289.56" x2="149.86" y2="289.56" width="0.1524" layer="91"/>
 <label x="142.24" y="289.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BB_3V3" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_3"/>
+<pinref part="J1" gate="G$1" pin="P9_3"/>
 <wire x1="167.64" y1="355.6" x2="144.78" y2="355.6" width="0.1524" layer="91"/>
 <label x="144.78" y="355.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_4"/>
+<pinref part="J1" gate="G$1" pin="P9_4"/>
 <wire x1="200.66" y1="355.6" x2="220.98" y2="355.6" width="0.1524" layer="91"/>
 <label x="210.82" y="355.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CHARGE_CONN_DETECT" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P9_23"/>
+<pinref part="J1" gate="G$1" pin="P9_23"/>
 <wire x1="167.64" y1="304.8" x2="149.86" y2="304.8" width="0.1524" layer="91"/>
 <label x="132.08" y="304.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_I4/MTR_CAM_BI1" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P8_45"/>
+<pinref part="J1" gate="G$1" pin="P8_45"/>
 <wire x1="68.58" y1="248.92" x2="55.88" y2="248.92" width="0.1524" layer="91"/>
 <label x="25.4" y="248.92" size="1.778" layer="95"/>
 </segment>
@@ -19461,9 +19483,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
  100mOhm = 1A, 200mOhm = 0.5A)</text>
 </plain>
 <instances>
-<instance part="U$10" gate="G$1" x="172.72" y="350.52" rot="R180"/>
-<instance part="U$11" gate="G$1" x="162.56" y="228.6"/>
-<instance part="U$12" gate="G$1" x="157.48" y="124.46"/>
+<instance part="U3" gate="G$1" x="172.72" y="350.52" rot="R180"/>
+<instance part="U4" gate="G$1" x="162.56" y="228.6"/>
+<instance part="U5" gate="G$1" x="157.48" y="124.46"/>
 <instance part="R18" gate="G$1" x="215.9" y="332.74" rot="R270"/>
 <instance part="R34" gate="G$1" x="215.9" y="314.96" rot="R270"/>
 <instance part="R35" gate="G$1" x="132.08" y="353.06" rot="R270"/>
@@ -19494,7 +19516,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="SUPPLY19" gate="GND" x="132.08" y="345.44"/>
 <instance part="SUPPLY20" gate="GND" x="187.96" y="347.98"/>
 <instance part="SUPPLY40" gate="GND" x="198.12" y="111.76"/>
-<instance part="U$57" gate="G$1" x="210.82" y="152.4"/>
+<instance part="D3" gate="G$1" x="210.82" y="152.4"/>
 <instance part="L6" gate="G$1" x="167.64" y="152.4"/>
 <instance part="C70" gate="G$1" x="256.54" y="144.78"/>
 <instance part="SUPPLY103" gate="GND" x="256.54" y="137.16"/>
@@ -19507,11 +19529,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="SUPPLY73" gate="GND" x="88.9" y="139.7"/>
 <instance part="SUPPLY106" gate="GND" x="99.06" y="139.7"/>
 <instance part="L4" gate="G$1" x="165.1" y="261.62"/>
-<instance part="U$61" gate="G$1" x="200.66" y="241.3"/>
-<instance part="U$67" gate="G$1" x="190.5" y="327.66" rot="R90"/>
+<instance part="D2" gate="G$1" x="200.66" y="241.3"/>
+<instance part="D1" gate="G$1" x="190.5" y="327.66" rot="R90"/>
 <instance part="L5" gate="G$1" x="200.66" y="342.9"/>
-<instance part="U$8" gate="G$1" x="424.18" y="266.7"/>
-<instance part="U$9" gate="G$1" x="424.18" y="132.08"/>
+<instance part="U6" gate="G$1" x="424.18" y="266.7"/>
+<instance part="U7" gate="G$1" x="424.18" y="132.08"/>
 <instance part="SUPPLY59" gate="GND" x="429.26" y="106.68"/>
 <instance part="C40" gate="G$1" x="398.78" y="147.32" rot="R180"/>
 <instance part="SUPPLY61" gate="GND" x="398.78" y="139.7"/>
@@ -19530,11 +19552,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="R63" gate="G$1" x="477.52" y="127" rot="R270"/>
 <instance part="R68" gate="G$1" x="462.28" y="246.38" rot="R90"/>
 <instance part="L7" gate="G$1" x="462.28" y="261.62" rot="R270"/>
-<instance part="U$63" gate="G$1" x="482.6" y="261.62" rot="R90"/>
+<instance part="D5" gate="G$1" x="482.6" y="261.62" rot="R90"/>
 <instance part="SUPPLY64" gate="GND" x="482.6" y="254"/>
-<instance part="U$64" gate="G$1" x="462.28" y="297.18" rot="R270"/>
+<instance part="D4" gate="G$1" x="462.28" y="297.18" rot="R270"/>
 <instance part="R16" gate="G$1" x="401.32" y="220.98" rot="R270"/>
-<instance part="U$66" gate="G$1" x="459.74" y="276.86"/>
+<instance part="Q1" gate="G$1" x="459.74" y="276.86"/>
 <instance part="R19" gate="G$1" x="431.8" y="157.48" rot="R180"/>
 <instance part="R71" gate="G$1" x="363.22" y="304.8" rot="R270"/>
 <instance part="R72" gate="G$1" x="363.22" y="292.1" rot="R270"/>
@@ -19564,7 +19586,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="190.5" y1="302.26" x2="190.5" y2="307.34" width="0.1524" layer="91"/>
 <junction x="215.9" y="307.34"/>
 <junction x="233.68" y="307.34"/>
-<pinref part="U$67" gate="G$1" pin="P$1"/>
+<pinref part="D1" gate="G$1" pin="P$1"/>
 <wire x1="190.5" y1="325.12" x2="190.5" y2="307.34" width="0.1524" layer="91"/>
 <junction x="190.5" y="307.34"/>
 </segment>
@@ -19577,7 +19599,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="187.96" y1="203.2" x2="215.9" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="C46" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="203.2" x2="215.9" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="GND"/>
+<pinref part="U4" gate="G$1" pin="GND"/>
 <wire x1="167.64" y1="210.82" x2="167.64" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="SUPPLY71" gate="GND" pin="GND"/>
 <wire x1="167.64" y1="203.2" x2="167.64" y2="200.66" width="0.1524" layer="91"/>
@@ -19586,7 +19608,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="187.96" y="203.2"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="SYNC"/>
+<pinref part="U5" gate="G$1" pin="SYNC"/>
 <wire x1="147.32" y1="91.44" x2="139.7" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="91.44" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="83.82" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
@@ -19605,7 +19627,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="101.6" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R41" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="88.9" x2="226.06" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="AGND"/>
+<pinref part="U5" gate="G$1" pin="AGND"/>
 <junction x="226.06" y="73.66"/>
 <junction x="111.76" y="73.66"/>
 <junction x="124.46" y="73.66"/>
@@ -19617,13 +19639,13 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="SUPPLY74" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="PGND"/>
+<pinref part="U5" gate="G$1" pin="PGND"/>
 <wire x1="193.04" y1="99.06" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="PGND_2"/>
+<pinref part="U5" gate="G$1" pin="PGND_2"/>
 <wire x1="200.66" y1="99.06" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="91.44" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="91.44" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="PGND_3"/>
+<pinref part="U5" gate="G$1" pin="PGND_3"/>
 <wire x1="193.04" y1="83.82" x2="200.66" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="83.82" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="99.06" x2="210.82" y2="93.98" width="0.1524" layer="91"/>
@@ -19642,12 +19664,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="R35" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$10" gate="G$1" pin="GND"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
 <wire x1="182.88" y1="350.52" x2="187.96" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="NC"/>
+<pinref part="U5" gate="G$1" pin="NC"/>
 <wire x1="193.04" y1="114.3" x2="198.12" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY40" gate="GND" pin="GND"/>
 </segment>
@@ -19672,7 +19694,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="SUPPLY106" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$9" gate="G$1" pin="GND_2"/>
+<pinref part="U7" gate="G$1" pin="GND_2"/>
 <pinref part="SUPPLY59" gate="GND" pin="GND"/>
 <wire x1="429.26" y1="109.22" x2="429.26" y2="111.76" width="0.1524" layer="91"/>
 </segment>
@@ -19682,7 +19704,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="398.78" y1="144.78" x2="398.78" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="GND"/>
+<pinref part="U6" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY32" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -19703,13 +19725,13 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="401.32" y1="215.9" x2="401.32" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$9" gate="G$1" pin="GND"/>
+<pinref part="U7" gate="G$1" pin="GND"/>
 <wire x1="414.02" y1="129.54" x2="408.94" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="SUPPLY76" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SUPPLY64" gate="GND" pin="GND"/>
-<pinref part="U$63" gate="G$1" pin="P$1"/>
+<pinref part="D5" gate="G$1" pin="P$1"/>
 <wire x1="482.6" y1="256.54" x2="482.6" y2="259.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -19719,9 +19741,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="3V3_SW" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="SW"/>
+<pinref part="U3" gate="G$1" pin="SW"/>
 <wire x1="182.88" y1="342.9" x2="190.5" y2="342.9" width="0.1524" layer="91"/>
-<pinref part="U$67" gate="G$1" pin="P$2"/>
+<pinref part="D1" gate="G$1" pin="P$2"/>
 <wire x1="190.5" y1="342.9" x2="193.04" y2="342.9" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="332.74" x2="190.5" y2="342.9" width="0.1524" layer="91"/>
 <junction x="190.5" y="342.9"/>
@@ -19752,7 +19774,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="327.66" x2="215.9" y2="325.12" width="0.1524" layer="91"/>
-<pinref part="U$10" gate="G$1" pin="FB"/>
+<pinref part="U3" gate="G$1" pin="FB"/>
 <wire x1="215.9" y1="325.12" x2="215.9" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="358.14" x2="210.82" y2="358.14" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="358.14" x2="210.82" y2="325.12" width="0.1524" layer="91"/>
@@ -19762,12 +19784,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="5V_REG_SW" class="0">
 <segment>
-<pinref part="U$11" gate="G$1" pin="SW"/>
+<pinref part="U4" gate="G$1" pin="SW"/>
 <wire x1="182.88" y1="241.3" x2="187.96" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="261.62" x2="187.96" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="L4" gate="G$1" pin="P$2"/>
 <wire x1="172.72" y1="261.62" x2="187.96" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="U$61" gate="G$1" pin="P$1"/>
+<pinref part="D2" gate="G$1" pin="P$1"/>
 <wire x1="187.96" y1="241.3" x2="198.12" y2="241.3" width="0.1524" layer="91"/>
 <junction x="187.96" y="241.3"/>
 <label x="187.96" y="261.62" size="1.778" layer="95"/>
@@ -19787,7 +19809,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="215.9" y="220.98"/>
 <junction x="215.9" y="213.36"/>
 <label x="226.06" y="243.84" size="1.778" layer="95"/>
-<pinref part="U$61" gate="G$1" pin="P$2"/>
+<pinref part="D2" gate="G$1" pin="P$2"/>
 <wire x1="205.74" y1="241.3" x2="215.9" y2="241.3" width="0.1524" layer="91"/>
 <junction x="215.9" y="241.3"/>
 </segment>
@@ -19797,7 +19819,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="C45" gate="G$1" pin="2"/>
 <pinref part="R38" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="213.36" x2="187.96" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="FB"/>
+<pinref part="U4" gate="G$1" pin="FB"/>
 <wire x1="182.88" y1="220.98" x2="187.96" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="213.36" x2="187.96" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="1"/>
@@ -19808,7 +19830,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="N$85" class="0">
 <segment>
-<pinref part="U$12" gate="G$1" pin="COMP"/>
+<pinref part="U5" gate="G$1" pin="COMP"/>
 <pinref part="R39" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="99.06" x2="124.46" y2="99.06" width="0.1524" layer="91"/>
 </segment>
@@ -19822,7 +19844,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="N$88" class="0">
 <segment>
-<pinref part="U$12" gate="G$1" pin="SS"/>
+<pinref part="U5" gate="G$1" pin="SS"/>
 <wire x1="147.32" y1="106.68" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C48" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="106.68" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
@@ -19832,20 +19854,20 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <pinref part="R40" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="99.06" x2="101.6" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="FREQ"/>
+<pinref part="U5" gate="G$1" pin="FREQ"/>
 <wire x1="101.6" y1="114.3" x2="147.32" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V0_SW" class="0">
 <segment>
-<pinref part="U$12" gate="G$1" pin="SW_2"/>
+<pinref part="U5" gate="G$1" pin="SW_2"/>
 <wire x1="198.12" y1="121.92" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="129.54" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="121.92" x2="198.12" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="SW"/>
+<pinref part="U5" gate="G$1" pin="SW"/>
 <wire x1="193.04" y1="129.54" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
 <junction x="198.12" y="129.54"/>
-<pinref part="U$57" gate="G$1" pin="P$1"/>
+<pinref part="D3" gate="G$1" pin="P$1"/>
 <wire x1="208.28" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="L6" gate="G$1" pin="P$2"/>
 <wire x1="175.26" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
@@ -19858,7 +19880,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="R42" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="129.54" x2="226.06" y2="152.4" width="0.1524" layer="91"/>
 <label x="251.46" y="154.94" size="1.778" layer="95"/>
-<pinref part="U$57" gate="G$1" pin="P$2"/>
+<pinref part="D3" gate="G$1" pin="P$2"/>
 <wire x1="215.9" y1="152.4" x2="226.06" y2="152.4" width="0.1524" layer="91"/>
 <junction x="226.06" y="152.4"/>
 <wire x1="256.54" y1="152.4" x2="269.24" y2="152.4" width="0.1524" layer="91"/>
@@ -19886,7 +19908,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="R42" gate="G$1" pin="2"/>
 <pinref part="R41" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="119.38" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="FB"/>
+<pinref part="U5" gate="G$1" pin="FB"/>
 <wire x1="226.06" y1="106.68" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="106.68" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
 <junction x="226.06" y="106.68"/>
@@ -19898,7 +19920,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="137.16" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="152.4" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="152.4" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="VIN"/>
+<pinref part="U5" gate="G$1" pin="VIN"/>
 <wire x1="99.06" y1="152.4" x2="88.9" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="152.4" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="129.54" x2="137.16" y2="152.4" width="0.1524" layer="91"/>
@@ -19916,7 +19938,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="99.06" y="152.4"/>
 </segment>
 <segment>
-<pinref part="U$11" gate="G$1" pin="VIN"/>
+<pinref part="U4" gate="G$1" pin="VIN"/>
 <wire x1="152.4" y1="241.3" x2="144.78" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="241.3" x2="116.84" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="261.62" x2="116.84" y2="241.3" width="0.1524" layer="91"/>
@@ -19936,12 +19958,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="154.94" y1="342.9" x2="154.94" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="342.9" x2="139.7" y2="342.9" width="0.1524" layer="91"/>
 <label x="137.16" y="342.9" size="1.778" layer="95"/>
-<pinref part="U$10" gate="G$1" pin="VIN"/>
+<pinref part="U3" gate="G$1" pin="VIN"/>
 <wire x1="154.94" y1="342.9" x2="160.02" y2="342.9" width="0.1524" layer="91"/>
 <junction x="154.94" y="342.9"/>
 </segment>
 <segment>
-<pinref part="U$9" gate="G$1" pin="SENSE+"/>
+<pinref part="U7" gate="G$1" pin="SENSE+"/>
 <wire x1="414.02" y1="137.16" x2="408.94" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="137.16" x2="408.94" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="152.4" x2="414.02" y2="157.48" width="0.1524" layer="91"/>
@@ -19960,7 +19982,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="462.28" y1="238.76" x2="462.28" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="462.28" y1="238.76" x2="462.28" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="462.28" y1="238.76" x2="482.6" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="BAT"/>
+<pinref part="U6" gate="G$1" pin="BAT"/>
 <wire x1="454.66" y1="238.76" x2="459.74" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="459.74" y1="238.76" x2="462.28" y2="241.3" width="0.1524" layer="91"/>
 <label x="467.36" y="238.76" size="1.778" layer="95"/>
@@ -19976,7 +19998,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="12V_REG_EN" class="0">
 <segment>
-<pinref part="U$12" gate="G$1" pin="EN"/>
+<pinref part="U5" gate="G$1" pin="EN"/>
 <wire x1="147.32" y1="121.92" x2="91.44" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R47" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
@@ -19987,7 +20009,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="3V3_REG_EN" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="EN"/>
+<pinref part="U3" gate="G$1" pin="EN"/>
 <wire x1="160.02" y1="358.14" x2="132.08" y2="358.14" width="0.1524" layer="91"/>
 <pinref part="R35" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="358.14" x2="116.84" y2="358.14" width="0.1524" layer="91"/>
@@ -19997,7 +20019,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="N$999" class="0">
 <segment>
-<pinref part="U$11" gate="G$1" pin="SHDN"/>
+<pinref part="U4" gate="G$1" pin="SHDN"/>
 <wire x1="152.4" y1="220.98" x2="144.78" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="R36" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="226.06" x2="144.78" y2="220.98" width="0.1524" layer="91"/>
@@ -20008,14 +20030,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="462.28" y1="269.24" x2="482.6" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="482.6" y1="269.24" x2="482.6" y2="266.7" width="0.1524" layer="91"/>
 <pinref part="L7" gate="G$1" pin="P$1"/>
-<pinref part="U$63" gate="G$1" pin="P$2"/>
-<pinref part="U$66" gate="G$1" pin="SOURE"/>
+<pinref part="D5" gate="G$1" pin="P$2"/>
+<pinref part="Q1" gate="G$1" pin="SOURE"/>
 <junction x="462.28" y="269.24"/>
 </segment>
 </net>
 <net name="CHARGE_SENSE_HI_SIDE" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="SENSE"/>
+<pinref part="U6" gate="G$1" pin="SENSE"/>
 <wire x1="454.66" y1="254" x2="459.74" y2="254" width="0.1524" layer="91"/>
 <wire x1="459.74" y1="254" x2="462.28" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="462.28" y1="254" x2="462.28" y2="251.46" width="0.1524" layer="91"/>
@@ -20027,12 +20049,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <net name="CHARGER_IN" class="0">
 <segment>
 <wire x1="434.34" y1="289.56" x2="462.28" y2="289.56" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="VCC"/>
+<pinref part="U6" gate="G$1" pin="VCC"/>
 <wire x1="434.34" y1="287.02" x2="434.34" y2="289.56" width="0.1524" layer="91"/>
-<pinref part="U$64" gate="G$1" pin="P$2"/>
+<pinref part="D4" gate="G$1" pin="P$2"/>
 <wire x1="462.28" y1="292.1" x2="462.28" y2="289.56" width="0.1524" layer="91"/>
 <junction x="462.28" y="289.56"/>
-<pinref part="U$66" gate="G$1" pin="DRAIN"/>
+<pinref part="Q1" gate="G$1" pin="DRAIN"/>
 <wire x1="462.28" y1="284.48" x2="462.28" y2="289.56" width="0.1524" layer="91"/>
 <junction x="462.28" y="284.48"/>
 <wire x1="398.78" y1="287.02" x2="398.78" y2="284.48" width="0.1524" layer="91"/>
@@ -20052,14 +20074,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="CHARGE_IND_CATHODE" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="CHRG"/>
+<pinref part="U6" gate="G$1" pin="CHRG"/>
 <wire x1="355.6" y1="254" x2="411.48" y2="254" width="0.1524" layer="91"/>
 <label x="355.6" y="254" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$79" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="COMP"/>
+<pinref part="U6" gate="G$1" pin="COMP"/>
 <wire x1="411.48" y1="241.3" x2="401.32" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="2"/>
 <wire x1="401.32" y1="241.3" x2="401.32" y2="238.76" width="0.1524" layer="91"/>
@@ -20067,7 +20089,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="FUEL_SCL" class="0">
 <segment>
-<pinref part="U$9" gate="G$1" pin="SCL"/>
+<pinref part="U7" gate="G$1" pin="SCL"/>
 <label x="383.54" y="121.92" size="1.778" layer="95"/>
 <wire x1="414.02" y1="121.92" x2="401.32" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R62" gate="G$1" pin="2"/>
@@ -20077,14 +20099,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="FUEL_ALCC" class="0">
 <segment>
-<pinref part="U$9" gate="G$1" pin="AL/CC"/>
+<pinref part="U7" gate="G$1" pin="AL/CC"/>
 <wire x1="452.12" y1="129.54" x2="472.44" y2="129.54" width="0.1524" layer="91"/>
 <label x="459.74" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FUEL_SDA" class="0">
 <segment>
-<pinref part="U$9" gate="G$1" pin="SDA"/>
+<pinref part="U7" gate="G$1" pin="SDA"/>
 <wire x1="452.12" y1="121.92" x2="477.52" y2="121.92" width="0.1524" layer="91"/>
 <label x="482.6" y="121.92" size="1.778" layer="95"/>
 <pinref part="R63" gate="G$1" pin="2"/>
@@ -20096,13 +20118,13 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="462.28" y1="304.8" x2="482.6" y2="304.8" width="0.1524" layer="91"/>
 <label x="464.82" y="304.8" size="1.778" layer="95"/>
-<pinref part="U$64" gate="G$1" pin="P$1"/>
+<pinref part="D4" gate="G$1" pin="P$1"/>
 <wire x1="462.28" y1="304.8" x2="462.28" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBATT" class="0">
 <segment>
-<pinref part="U$9" gate="G$1" pin="SENSE-"/>
+<pinref part="U7" gate="G$1" pin="SENSE-"/>
 <wire x1="452.12" y1="137.16" x2="454.66" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="137.16" x2="454.66" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="152.4" x2="449.58" y2="157.48" width="0.1524" layer="91"/>
@@ -20130,7 +20152,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="BATT_TEMP_SNS" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="NTC"/>
+<pinref part="U6" gate="G$1" pin="NTC"/>
 <wire x1="424.18" y1="226.06" x2="424.18" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="424.18" y1="203.2" x2="452.12" y2="203.2" width="0.1524" layer="91"/>
 <label x="431.8" y="203.2" size="1.778" layer="95"/>
@@ -20138,8 +20160,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="GATE"/>
-<pinref part="U$66" gate="G$1" pin="GATE"/>
+<pinref part="U6" gate="G$1" pin="GATE"/>
+<pinref part="Q1" gate="G$1" pin="GATE"/>
 <junction x="454.66" y="274.32"/>
 </segment>
 </net>
@@ -20197,8 +20219,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="81.28" y="256.54" size="1.778" layer="91">VREF = 2.5</text>
 </plain>
 <instances>
-<instance part="U$6" gate="G$1" x="386.08" y="337.82"/>
-<instance part="U$7" gate="G$1" x="388.62" y="162.56"/>
+<instance part="U9" gate="G$1" x="386.08" y="337.82"/>
+<instance part="U11" gate="G$1" x="388.62" y="162.56"/>
 <instance part="C31" gate="G$1" x="421.64" y="63.5"/>
 <instance part="C32" gate="G$1" x="353.06" y="152.4" rot="R90"/>
 <instance part="R20" gate="G$1" x="342.9" y="78.74" rot="R90"/>
@@ -20227,7 +20249,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="SUPPLY51" gate="GND" x="421.64" y="226.06"/>
 <instance part="SUPPLY52" gate="GND" x="441.96" y="337.82"/>
 <instance part="SUPPLY53" gate="GND" x="396.24" y="228.6"/>
-<instance part="U$5" gate="G$1" x="154.94" y="337.82"/>
+<instance part="U8" gate="G$1" x="154.94" y="337.82"/>
 <instance part="C37" gate="G$1" x="119.38" y="325.12" rot="R90"/>
 <instance part="R28" gate="G$1" x="99.06" y="251.46" rot="R90"/>
 <instance part="R30" gate="G$1" x="99.06" y="269.24" rot="R90"/>
@@ -20241,7 +20263,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="SUPPLY56" gate="GND" x="193.04" y="228.6"/>
 <instance part="SUPPLY57" gate="GND" x="210.82" y="337.82"/>
 <instance part="SUPPLY58" gate="GND" x="165.1" y="228.6"/>
-<instance part="U$17" gate="G$1" x="154.94" y="165.1"/>
+<instance part="U10" gate="G$1" x="154.94" y="165.1"/>
 <instance part="C51" gate="G$1" x="119.38" y="152.4" rot="R90"/>
 <instance part="R43" gate="G$1" x="106.68" y="78.74" rot="R90"/>
 <instance part="R44" gate="G$1" x="106.68" y="96.52" rot="R90"/>
@@ -20258,25 +20280,42 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="U$31" gate="G$1" x="421.64" y="294.64" rot="R180"/>
 <instance part="U$32" gate="G$1" x="190.5" y="294.64" rot="R180"/>
 <instance part="U$33" gate="G$1" x="190.5" y="121.92" rot="R180"/>
-<instance part="C55" gate="G$1" x="109.22" y="312.42"/>
-<instance part="C59" gate="G$1" x="99.06" y="312.42"/>
-<instance part="SUPPLY91" gate="GND" x="99.06" y="304.8"/>
+<instance part="C55" gate="G$1" x="109.22" y="312.42" smashed="yes">
+<attribute name="NAME" x="110.744" y="312.801" size="1.778" layer="95"/>
+<attribute name="VALUE" x="110.998" y="306.451" size="1.778" layer="96"/>
+</instance>
+<instance part="C59" gate="G$1" x="99.06" y="312.42" smashed="yes">
+<attribute name="NAME" x="100.584" y="312.801" size="1.778" layer="95"/>
+<attribute name="VALUE" x="90.424" y="297.561" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY91" gate="GND" x="99.06" y="304.8" smashed="yes">
+<attribute name="VALUE" x="97.155" y="301.625" size="1.778" layer="96"/>
+</instance>
 <instance part="SUPPLY92" gate="GND" x="109.22" y="304.8"/>
 <instance part="C60" gate="G$1" x="81.28" y="312.42"/>
 <instance part="SUPPLY93" gate="GND" x="81.28" y="304.8"/>
-<instance part="C62" gate="G$1" x="330.2" y="312.42"/>
+<instance part="C62" gate="G$1" x="330.2" y="312.42" smashed="yes">
+<attribute name="NAME" x="331.724" y="312.801" size="1.778" layer="95"/>
+<attribute name="VALUE" x="324.104" y="297.561" size="1.778" layer="96"/>
+</instance>
 <instance part="SUPPLY94" gate="GND" x="330.2" y="304.8"/>
 <instance part="SUPPLY95" gate="GND" x="340.36" y="304.8"/>
 <instance part="C63" gate="G$1" x="312.42" y="312.42"/>
 <instance part="SUPPLY96" gate="GND" x="312.42" y="304.8"/>
 <instance part="C64" gate="G$1" x="330.2" y="137.16"/>
-<instance part="C65" gate="G$1" x="320.04" y="137.16"/>
+<instance part="C65" gate="G$1" x="320.04" y="137.16" smashed="yes">
+<attribute name="NAME" x="321.564" y="137.541" size="1.778" layer="95"/>
+<attribute name="VALUE" x="313.944" y="119.761" size="1.778" layer="96"/>
+</instance>
 <instance part="SUPPLY97" gate="GND" x="320.04" y="127"/>
 <instance part="SUPPLY98" gate="GND" x="330.2" y="127"/>
 <instance part="C66" gate="G$1" x="302.26" y="137.16"/>
 <instance part="SUPPLY99" gate="GND" x="302.26" y="127"/>
 <instance part="C67" gate="G$1" x="104.14" y="139.7"/>
-<instance part="C68" gate="G$1" x="93.98" y="139.7"/>
+<instance part="C68" gate="G$1" x="93.98" y="139.7" smashed="yes">
+<attribute name="NAME" x="95.504" y="140.081" size="1.778" layer="95"/>
+<attribute name="VALUE" x="87.884" y="124.841" size="1.778" layer="96"/>
+</instance>
 <instance part="SUPPLY100" gate="GND" x="93.98" y="132.08"/>
 <instance part="SUPPLY101" gate="GND" x="104.14" y="132.08"/>
 <instance part="C69" gate="G$1" x="76.2" y="139.7"/>
@@ -20303,17 +20342,17 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="SUPPLY35" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="GND_3"/>
+<pinref part="U11" gate="G$1" pin="GND_3"/>
 <pinref part="SUPPLY36" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="GND"/>
+<pinref part="U11" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY44" gate="GND" pin="GND"/>
 <wire x1="381" y1="68.58" x2="370.84" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="68.58" x2="370.84" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="GND_2"/>
+<pinref part="U11" gate="G$1" pin="GND_2"/>
 <pinref part="SUPPLY43" gate="GND" pin="GND"/>
 <wire x1="416.56" y1="167.64" x2="441.96" y2="167.64" width="0.1524" layer="91"/>
 </segment>
@@ -20334,7 +20373,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="SUPPLY48" gate="GND" pin="GND"/>
 <wire x1="378.46" y1="241.3" x2="368.3" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="241.3" x2="368.3" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="GND"/>
+<pinref part="U9" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R29" gate="G$1" pin="2"/>
@@ -20348,10 +20387,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <pinref part="SUPPLY52" gate="GND" pin="GND"/>
 <wire x1="416.56" y1="340.36" x2="441.96" y2="340.36" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="GND_2"/>
+<pinref part="U9" gate="G$1" pin="GND_2"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="GND_3"/>
+<pinref part="U9" gate="G$1" pin="GND_3"/>
 <pinref part="SUPPLY53" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -20363,7 +20402,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="SUPPLY54" gate="GND" pin="GND"/>
 <wire x1="147.32" y1="241.3" x2="137.16" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="241.3" x2="137.16" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="GND"/>
+<pinref part="U8" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R32" gate="G$1" pin="2"/>
@@ -20376,10 +20415,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <pinref part="SUPPLY57" gate="GND" pin="GND"/>
 <wire x1="185.42" y1="340.36" x2="210.82" y2="340.36" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="GND_2"/>
+<pinref part="U8" gate="G$1" pin="GND_2"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="GND_3"/>
+<pinref part="U8" gate="G$1" pin="GND_3"/>
 <pinref part="SUPPLY58" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -20391,7 +20430,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="SUPPLY79" gate="GND" pin="GND"/>
 <wire x1="147.32" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="68.58" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="GND"/>
+<pinref part="U10" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R46" gate="G$1" pin="2"/>
@@ -20404,10 +20443,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <pinref part="SUPPLY82" gate="GND" pin="GND"/>
 <wire x1="185.42" y1="167.64" x2="210.82" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="GND_2"/>
+<pinref part="U10" gate="G$1" pin="GND_2"/>
 </segment>
 <segment>
-<pinref part="U$17" gate="G$1" pin="GND_3"/>
+<pinref part="U10" gate="G$1" pin="GND_3"/>
 <pinref part="SUPPLY83" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -20464,10 +20503,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="N$38" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="BVREF"/>
+<pinref part="U11" gate="G$1" pin="BVREF"/>
 <wire x1="381" y1="76.2" x2="370.84" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="76.2" x2="370.84" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="AVREF"/>
+<pinref part="U11" gate="G$1" pin="AVREF"/>
 <wire x1="370.84" y1="83.82" x2="381" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="370.84" y1="83.82" x2="342.9" y2="83.82" width="0.1524" layer="91"/>
@@ -20479,35 +20518,35 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="N$39" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="CP1"/>
+<pinref part="U11" gate="G$1" pin="CP1"/>
 <pinref part="C33" gate="G$1" pin="1"/>
 <wire x1="381" y1="167.64" x2="360.68" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="CP2"/>
+<pinref part="U11" gate="G$1" pin="CP2"/>
 <pinref part="C33" gate="G$1" pin="2"/>
 <wire x1="381" y1="160.02" x2="360.68" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="ISENA"/>
+<pinref part="U11" gate="G$1" pin="ISENA"/>
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="381" y1="129.54" x2="353.06" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="ISENB"/>
+<pinref part="U11" gate="G$1" pin="ISENB"/>
 <wire x1="381" y1="106.68" x2="353.06" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$43" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="VCP"/>
+<pinref part="U11" gate="G$1" pin="VCP"/>
 <pinref part="C32" gate="G$1" pin="2"/>
 <wire x1="381" y1="152.4" x2="363.22" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R22" gate="G$1" pin="1"/>
@@ -20519,28 +20558,28 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="MTR_CAM_AOUT1" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="AOUT1"/>
+<pinref part="U11" gate="G$1" pin="AOUT1"/>
 <wire x1="381" y1="137.16" x2="370.84" y2="137.16" width="0.1524" layer="91"/>
 <label x="355.6" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_CAM_AOUT2" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="AOUT2"/>
+<pinref part="U11" gate="G$1" pin="AOUT2"/>
 <wire x1="381" y1="121.92" x2="370.84" y2="121.92" width="0.1524" layer="91"/>
 <label x="358.14" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_CAM_BOUT2" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="BOUT2"/>
+<pinref part="U11" gate="G$1" pin="BOUT2"/>
 <wire x1="381" y1="114.3" x2="370.84" y2="114.3" width="0.1524" layer="91"/>
 <label x="358.14" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_CAM_BOUT1" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="BOUT1"/>
+<pinref part="U11" gate="G$1" pin="BOUT1"/>
 <wire x1="381" y1="99.06" x2="370.84" y2="99.06" width="0.1524" layer="91"/>
 <label x="355.6" y="99.06" size="1.778" layer="95"/>
 </segment>
@@ -20554,8 +20593,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="368.3" y1="256.54" x2="330.2" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="330.2" y1="256.54" x2="330.2" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="VREF"/>
-<pinref part="U$6" gate="G$1" pin="VREF_2"/>
+<pinref part="U9" gate="G$1" pin="VREF"/>
+<pinref part="U9" gate="G$1" pin="VREF_2"/>
 <junction x="330.2" y="256.54"/>
 <junction x="368.3" y="256.54"/>
 </segment>
@@ -20564,14 +20603,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <pinref part="C35" gate="G$1" pin="1"/>
 <wire x1="378.46" y1="340.36" x2="358.14" y2="340.36" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="CP1"/>
+<pinref part="U9" gate="G$1" pin="CP1"/>
 </segment>
 </net>
 <net name="N$52" class="0">
 <segment>
 <pinref part="C35" gate="G$1" pin="2"/>
 <wire x1="378.46" y1="332.74" x2="358.14" y2="332.74" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="CP2"/>
+<pinref part="U9" gate="G$1" pin="CP2"/>
 </segment>
 </net>
 <net name="N$53" class="0">
@@ -20580,8 +20619,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="378.46" y1="279.4" x2="350.52" y2="279.4" width="0.1524" layer="91"/>
 <pinref part="R29" gate="G$1" pin="1"/>
 <wire x1="350.52" y1="302.26" x2="350.52" y2="279.4" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="ISEN"/>
-<pinref part="U$6" gate="G$1" pin="ISEN_2"/>
+<pinref part="U9" gate="G$1" pin="ISEN"/>
+<pinref part="U9" gate="G$1" pin="ISEN_2"/>
 <junction x="350.52" y="279.4"/>
 </segment>
 </net>
@@ -20593,31 +20632,31 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="360.68" y1="325.12" x2="355.6" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="320.04" x2="360.68" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="320.04" x2="360.68" y2="325.12" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="VCP"/>
+<pinref part="U9" gate="G$1" pin="VCP"/>
 <junction x="360.68" y="325.12"/>
 </segment>
 </net>
 <net name="DRIVE_B_OUT1" class="0">
 <segment>
 <wire x1="378.46" y1="309.88" x2="368.3" y2="309.88" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="OUT1"/>
+<pinref part="U9" gate="G$1" pin="OUT1"/>
 <label x="358.14" y="309.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="378.46" y1="271.78" x2="368.3" y2="271.78" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="OUT1_2"/>
+<pinref part="U9" gate="G$1" pin="OUT1_2"/>
 <label x="355.6" y="271.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_OUT2" class="0">
 <segment>
 <wire x1="378.46" y1="294.64" x2="368.3" y2="294.64" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="OUT2"/>
+<pinref part="U9" gate="G$1" pin="OUT2"/>
 <label x="358.14" y="294.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="378.46" y1="287.02" x2="368.3" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="OUT2_2"/>
+<pinref part="U9" gate="G$1" pin="OUT2_2"/>
 <label x="358.14" y="287.02" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -20630,8 +20669,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="137.16" y1="256.54" x2="99.06" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="256.54" x2="99.06" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="VREF"/>
-<pinref part="U$5" gate="G$1" pin="VREF_2"/>
+<pinref part="U8" gate="G$1" pin="VREF"/>
+<pinref part="U8" gate="G$1" pin="VREF_2"/>
 <junction x="99.06" y="256.54"/>
 <junction x="137.16" y="256.54"/>
 </segment>
@@ -20640,14 +20679,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <pinref part="C38" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="340.36" x2="127" y2="340.36" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="CP1"/>
+<pinref part="U8" gate="G$1" pin="CP1"/>
 </segment>
 </net>
 <net name="N$61" class="0">
 <segment>
 <pinref part="C38" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="332.74" x2="127" y2="332.74" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="CP2"/>
+<pinref part="U8" gate="G$1" pin="CP2"/>
 </segment>
 </net>
 <net name="N$62" class="0">
@@ -20656,8 +20695,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="147.32" y1="279.4" x2="121.92" y2="279.4" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="302.26" x2="121.92" y2="279.4" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="ISEN"/>
-<pinref part="U$5" gate="G$1" pin="ISEN_2"/>
+<pinref part="U8" gate="G$1" pin="ISEN"/>
+<pinref part="U8" gate="G$1" pin="ISEN_2"/>
 <junction x="121.92" y="279.4"/>
 </segment>
 </net>
@@ -20669,31 +20708,31 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="129.54" y1="325.12" x2="124.46" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="320.04" x2="129.54" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="320.04" x2="129.54" y2="325.12" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="VCP"/>
+<pinref part="U8" gate="G$1" pin="VCP"/>
 <junction x="129.54" y="325.12"/>
 </segment>
 </net>
 <net name="DRIVE_A_OUT1" class="0">
 <segment>
 <wire x1="147.32" y1="309.88" x2="137.16" y2="309.88" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="OUT1"/>
+<pinref part="U8" gate="G$1" pin="OUT1"/>
 <label x="124.46" y="309.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="271.78" x2="137.16" y2="271.78" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="OUT1_2"/>
+<pinref part="U8" gate="G$1" pin="OUT1_2"/>
 <label x="124.46" y="271.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_A_OUT2" class="0">
 <segment>
 <wire x1="147.32" y1="294.64" x2="137.16" y2="294.64" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="OUT2"/>
+<pinref part="U8" gate="G$1" pin="OUT2"/>
 <label x="124.46" y="294.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="287.02" x2="137.16" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="OUT2_2"/>
+<pinref part="U8" gate="G$1" pin="OUT2_2"/>
 <label x="124.46" y="287.02" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -20713,7 +20752,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="129.54" y1="317.5" x2="129.54" y2="314.96" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="314.96" x2="109.22" y2="314.96" width="0.1524" layer="91"/>
 <label x="96.52" y="314.96" size="1.778" layer="95"/>
-<pinref part="U$5" gate="G$1" pin="VM"/>
+<pinref part="U8" gate="G$1" pin="VM"/>
 <pinref part="C55" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="314.96" x2="99.06" y2="314.96" width="0.1524" layer="91"/>
 <junction x="109.22" y="314.96"/>
@@ -20729,7 +20768,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="137.16" y1="264.16" x2="137.16" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="259.08" x2="111.76" y2="259.08" width="0.1524" layer="91"/>
 <label x="111.76" y="259.08" size="1.778" layer="95"/>
-<pinref part="U$5" gate="G$1" pin="VM_2"/>
+<pinref part="U8" gate="G$1" pin="VM_2"/>
 </segment>
 <segment>
 <pinref part="C51" gate="G$1" pin="1"/>
@@ -20746,7 +20785,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="137.16" y1="91.44" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
 <label x="119.38" y="86.36" size="1.778" layer="95"/>
-<pinref part="U$17" gate="G$1" pin="VM_2"/>
+<pinref part="U10" gate="G$1" pin="VM_2"/>
 </segment>
 <segment>
 <pinref part="C34" gate="G$1" pin="1"/>
@@ -20760,7 +20799,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </segment>
 <segment>
 <wire x1="358.14" y1="314.96" x2="340.36" y2="314.96" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="VM"/>
+<pinref part="U9" gate="G$1" pin="VM"/>
 <label x="325.12" y="314.96" size="1.778" layer="95"/>
 <pinref part="C62" gate="G$1" pin="1"/>
 <junction x="330.2" y="314.96"/>
@@ -20776,7 +20815,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </segment>
 <segment>
 <wire x1="378.46" y1="264.16" x2="368.3" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="VM_2"/>
+<pinref part="U9" gate="G$1" pin="VM_2"/>
 <wire x1="368.3" y1="264.16" x2="368.3" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="259.08" x2="350.52" y2="259.08" width="0.1524" layer="91"/>
 <label x="353.06" y="259.08" size="1.778" layer="95"/>
@@ -20792,7 +20831,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="345.44" y="152.4"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="VMA"/>
+<pinref part="U11" gate="G$1" pin="VMA"/>
 <wire x1="381" y1="144.78" x2="363.22" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="144.78" x2="363.22" y2="142.24" width="0.1524" layer="91"/>
 <label x="332.74" y="142.24" size="1.778" layer="95"/>
@@ -20809,7 +20848,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="330.2" y="142.24"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="VMB"/>
+<pinref part="U11" gate="G$1" pin="VMB"/>
 <wire x1="381" y1="91.44" x2="370.84" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="91.44" x2="370.84" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="86.36" x2="353.06" y2="86.36" width="0.1524" layer="91"/>
@@ -20822,7 +20861,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="129.54" y1="144.78" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="142.24" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
 <label x="96.52" y="142.24" size="1.778" layer="95"/>
-<pinref part="U$17" gate="G$1" pin="VM"/>
+<pinref part="U10" gate="G$1" pin="VM"/>
 <wire x1="104.14" y1="142.24" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="142.24" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
 <junction x="76.2" y="142.24"/>
@@ -20834,117 +20873,117 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="DRIVE_A_I4" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="I4"/>
+<pinref part="U8" gate="G$1" pin="I4"/>
 <wire x1="185.42" y1="332.74" x2="208.28" y2="332.74" width="0.1524" layer="91"/>
 <label x="193.04" y="332.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_A_I3" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="I3"/>
+<pinref part="U8" gate="G$1" pin="I3"/>
 <wire x1="185.42" y1="325.12" x2="208.28" y2="325.12" width="0.1524" layer="91"/>
 <label x="193.04" y="325.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_A_I2" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="I2"/>
+<pinref part="U8" gate="G$1" pin="I2"/>
 <wire x1="185.42" y1="317.5" x2="208.28" y2="317.5" width="0.1524" layer="91"/>
 <label x="193.04" y="317.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_A_I1" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="I1"/>
+<pinref part="U8" gate="G$1" pin="I1"/>
 <wire x1="185.42" y1="309.88" x2="208.28" y2="309.88" width="0.1524" layer="91"/>
 <label x="193.04" y="309.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_A_I0" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="I0"/>
+<pinref part="U8" gate="G$1" pin="I0"/>
 <wire x1="185.42" y1="302.26" x2="208.28" y2="302.26" width="0.1524" layer="91"/>
 <label x="193.04" y="302.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_A_IN1" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="IN1"/>
+<pinref part="U8" gate="G$1" pin="IN1"/>
 <wire x1="185.42" y1="287.02" x2="208.28" y2="287.02" width="0.1524" layer="91"/>
 <label x="193.04" y="287.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_A_IN2" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="IN2"/>
+<pinref part="U8" gate="G$1" pin="IN2"/>
 <wire x1="185.42" y1="279.4" x2="208.28" y2="279.4" width="0.1524" layer="91"/>
 <label x="193.04" y="279.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_SLEEP_N" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="NSLEEP"/>
+<pinref part="U8" gate="G$1" pin="NSLEEP"/>
 <wire x1="185.42" y1="256.54" x2="208.28" y2="256.54" width="0.1524" layer="91"/>
 <label x="193.04" y="256.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="NSLEEP"/>
+<pinref part="U9" gate="G$1" pin="NSLEEP"/>
 <wire x1="416.56" y1="256.54" x2="439.42" y2="256.54" width="0.1524" layer="91"/>
 <label x="424.18" y="256.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_I4" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="I4"/>
+<pinref part="U9" gate="G$1" pin="I4"/>
 <wire x1="416.56" y1="332.74" x2="439.42" y2="332.74" width="0.1524" layer="91"/>
 <label x="424.18" y="332.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_I3" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="I3"/>
+<pinref part="U9" gate="G$1" pin="I3"/>
 <wire x1="416.56" y1="325.12" x2="439.42" y2="325.12" width="0.1524" layer="91"/>
 <label x="424.18" y="325.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_I2" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="I2"/>
+<pinref part="U9" gate="G$1" pin="I2"/>
 <wire x1="416.56" y1="317.5" x2="439.42" y2="317.5" width="0.1524" layer="91"/>
 <label x="424.18" y="317.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_I1" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="I1"/>
+<pinref part="U9" gate="G$1" pin="I1"/>
 <wire x1="416.56" y1="309.88" x2="439.42" y2="309.88" width="0.1524" layer="91"/>
 <label x="424.18" y="309.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_I0" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="I0"/>
+<pinref part="U9" gate="G$1" pin="I0"/>
 <wire x1="416.56" y1="302.26" x2="439.42" y2="302.26" width="0.1524" layer="91"/>
 <label x="424.18" y="302.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_IN1" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="IN1"/>
+<pinref part="U9" gate="G$1" pin="IN1"/>
 <wire x1="416.56" y1="287.02" x2="439.42" y2="287.02" width="0.1524" layer="91"/>
 <label x="424.18" y="287.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_IN2" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="IN2"/>
+<pinref part="U9" gate="G$1" pin="IN2"/>
 <wire x1="416.56" y1="279.4" x2="439.42" y2="279.4" width="0.1524" layer="91"/>
 <label x="424.18" y="279.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_B_FAULT_N" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="NFAULT"/>
+<pinref part="U9" gate="G$1" pin="NFAULT"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="416.56" y1="264.16" x2="492.76" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="492.76" y1="264.16" x2="492.76" y2="269.24" width="0.1524" layer="91"/>
@@ -20953,21 +20992,21 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="MTR_CAM_BIN2" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="BIN2"/>
+<pinref part="U11" gate="G$1" pin="BIN2"/>
 <wire x1="416.56" y1="129.54" x2="439.42" y2="129.54" width="0.1524" layer="91"/>
 <label x="424.18" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_CAM_BIN1" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="BIN1"/>
+<pinref part="U11" gate="G$1" pin="BIN1"/>
 <wire x1="416.56" y1="121.92" x2="439.42" y2="121.92" width="0.1524" layer="91"/>
 <label x="424.18" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_FAULT_N" class="0">
 <segment>
-<pinref part="U$17" gate="G$1" pin="NFAULT"/>
+<pinref part="U10" gate="G$1" pin="NFAULT"/>
 <wire x1="185.42" y1="91.44" x2="251.46" y2="91.44" width="0.1524" layer="91"/>
 <label x="193.04" y="91.44" size="1.778" layer="95"/>
 <pinref part="R67" gate="G$1" pin="2"/>
@@ -20975,7 +21014,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="MTR_TREAT_RESET_N" class="0">
 <segment>
-<pinref part="U$17" gate="G$1" pin="NRESET"/>
+<pinref part="U10" gate="G$1" pin="NRESET"/>
 <wire x1="185.42" y1="76.2" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
 <label x="193.04" y="76.2" size="1.778" layer="95"/>
 </segment>
@@ -20989,8 +21028,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="137.16" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R44" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="83.82" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="VREF"/>
-<pinref part="U$17" gate="G$1" pin="VREF_2"/>
+<pinref part="U10" gate="G$1" pin="VREF"/>
+<pinref part="U10" gate="G$1" pin="VREF_2"/>
 <junction x="106.68" y="83.82"/>
 <junction x="137.16" y="83.82"/>
 </segment>
@@ -20999,14 +21038,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <pinref part="C52" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="167.64" x2="127" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="CP1"/>
+<pinref part="U10" gate="G$1" pin="CP1"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="C52" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="160.02" x2="127" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="CP2"/>
+<pinref part="U10" gate="G$1" pin="CP2"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -21015,8 +21054,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="147.32" y1="106.68" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R46" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="129.54" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="ISEN"/>
-<pinref part="U$17" gate="G$1" pin="ISEN_2"/>
+<pinref part="U10" gate="G$1" pin="ISEN"/>
+<pinref part="U10" gate="G$1" pin="ISEN_2"/>
 <junction x="119.38" y="106.68"/>
 </segment>
 </net>
@@ -21028,104 +21067,104 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="129.54" y1="152.4" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="147.32" x2="129.54" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="147.32" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="VCP"/>
+<pinref part="U10" gate="G$1" pin="VCP"/>
 <junction x="129.54" y="152.4"/>
 </segment>
 </net>
 <net name="MTR_TREAT_OUT1" class="0">
 <segment>
 <wire x1="147.32" y1="137.16" x2="137.16" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="OUT1"/>
+<pinref part="U10" gate="G$1" pin="OUT1"/>
 <label x="121.92" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="99.06" x2="137.16" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="OUT1_2"/>
+<pinref part="U10" gate="G$1" pin="OUT1_2"/>
 <label x="121.92" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_OUT2" class="0">
 <segment>
 <wire x1="147.32" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="OUT2"/>
+<pinref part="U10" gate="G$1" pin="OUT2"/>
 <label x="121.92" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="OUT2_2"/>
+<pinref part="U10" gate="G$1" pin="OUT2_2"/>
 <label x="121.92" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_I3/MTR_CAM_BI0" class="0">
 <segment>
-<pinref part="U$17" gate="G$1" pin="I3"/>
+<pinref part="U10" gate="G$1" pin="I3"/>
 <wire x1="185.42" y1="152.4" x2="208.28" y2="152.4" width="0.1524" layer="91"/>
 <label x="193.04" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="BI0"/>
+<pinref part="U11" gate="G$1" pin="BI0"/>
 <wire x1="416.56" y1="152.4" x2="439.42" y2="152.4" width="0.1524" layer="91"/>
 <label x="424.18" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_I2/MTR_CAM_AI1" class="0">
 <segment>
-<pinref part="U$17" gate="G$1" pin="I2"/>
+<pinref part="U10" gate="G$1" pin="I2"/>
 <wire x1="185.42" y1="144.78" x2="208.28" y2="144.78" width="0.1524" layer="91"/>
 <label x="193.04" y="144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="AI1"/>
+<pinref part="U11" gate="G$1" pin="AI1"/>
 <wire x1="416.56" y1="144.78" x2="439.42" y2="144.78" width="0.1524" layer="91"/>
 <label x="424.18" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_I1/MTR_CAM_AI0" class="0">
 <segment>
-<pinref part="U$17" gate="G$1" pin="I1"/>
+<pinref part="U10" gate="G$1" pin="I1"/>
 <wire x1="185.42" y1="137.16" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
 <label x="193.04" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="AI0"/>
+<pinref part="U11" gate="G$1" pin="AI0"/>
 <wire x1="416.56" y1="137.16" x2="439.42" y2="137.16" width="0.1524" layer="91"/>
 <label x="424.18" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_I0" class="0">
 <segment>
-<pinref part="U$17" gate="G$1" pin="I0"/>
+<pinref part="U10" gate="G$1" pin="I0"/>
 <wire x1="185.42" y1="129.54" x2="208.28" y2="129.54" width="0.1524" layer="91"/>
 <label x="193.04" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_IN1/MTR_CAM_AIN1" class="0">
 <segment>
-<pinref part="U$17" gate="G$1" pin="IN1"/>
+<pinref part="U10" gate="G$1" pin="IN1"/>
 <wire x1="185.42" y1="114.3" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
 <label x="193.04" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="AIN1"/>
+<pinref part="U11" gate="G$1" pin="AIN1"/>
 <wire x1="416.56" y1="114.3" x2="439.42" y2="114.3" width="0.1524" layer="91"/>
 <label x="424.18" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_IN2/MTR_CAM_AIN2" class="0">
 <segment>
-<pinref part="U$17" gate="G$1" pin="IN2"/>
+<pinref part="U10" gate="G$1" pin="IN2"/>
 <wire x1="185.42" y1="106.68" x2="208.28" y2="106.68" width="0.1524" layer="91"/>
 <label x="193.04" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="416.56" y1="106.68" x2="439.42" y2="106.68" width="0.1524" layer="91"/>
 <label x="424.18" y="106.68" size="1.778" layer="95"/>
-<pinref part="U$7" gate="G$1" pin="AIN2"/>
+<pinref part="U11" gate="G$1" pin="AIN2"/>
 </segment>
 </net>
 <net name="MTR_CAM_FAULT_N" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="NFAULT"/>
+<pinref part="U11" gate="G$1" pin="NFAULT"/>
 <label x="424.18" y="91.44" size="1.778" layer="95"/>
 <pinref part="R65" gate="G$1" pin="2"/>
 <wire x1="416.56" y1="91.44" x2="467.36" y2="91.44" width="0.1524" layer="91"/>
@@ -21134,7 +21173,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="MTR_CAM_RESET_N" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="NRESET"/>
+<pinref part="U11" gate="G$1" pin="NRESET"/>
 <wire x1="416.56" y1="76.2" x2="439.42" y2="76.2" width="0.1524" layer="91"/>
 <label x="424.18" y="76.2" size="1.778" layer="95"/>
 </segment>
@@ -21146,7 +21185,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="C39" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="241.3" x2="210.82" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="238.76" x2="193.04" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="V3P3OUT"/>
+<pinref part="U8" gate="G$1" pin="V3P3OUT"/>
 <junction x="193.04" y="241.3"/>
 </segment>
 <segment>
@@ -21166,7 +21205,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="C36" gate="G$1" pin="1"/>
 <wire x1="421.64" y1="241.3" x2="449.58" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="421.64" y1="241.3" x2="421.64" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="V3P3OUT"/>
+<pinref part="U9" gate="G$1" pin="V3P3OUT"/>
 <label x="424.18" y="241.3" size="1.778" layer="95"/>
 <junction x="421.64" y="241.3"/>
 </segment>
@@ -21188,7 +21227,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="C53" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="68.58" x2="210.82" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="66.04" x2="190.5" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="V3P3OUT"/>
+<pinref part="U10" gate="G$1" pin="V3P3OUT"/>
 <junction x="190.5" y="68.58"/>
 </segment>
 <segment>
@@ -21204,7 +21243,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="MTR_CAM_3V3" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="V3P3OUT"/>
+<pinref part="U11" gate="G$1" pin="V3P3OUT"/>
 <wire x1="416.56" y1="68.58" x2="421.64" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C31" gate="G$1" pin="1"/>
 <wire x1="421.64" y1="68.58" x2="439.42" y2="68.58" width="0.1524" layer="91"/>
@@ -21227,7 +21266,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="DRIVE_A_FAULT_N" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="NFAULT"/>
+<pinref part="U8" gate="G$1" pin="NFAULT"/>
 <wire x1="185.42" y1="264.16" x2="220.98" y2="264.16" width="0.1524" layer="91"/>
 <label x="193.04" y="264.16" size="1.778" layer="95"/>
 <pinref part="R66" gate="G$1" pin="2"/>
@@ -21236,60 +21275,60 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="MTR_DECAY" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="DECAY"/>
+<pinref part="U9" gate="G$1" pin="DECAY"/>
 <wire x1="416.56" y1="271.78" x2="439.42" y2="271.78" width="0.1524" layer="91"/>
 <label x="424.18" y="271.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="DECAY"/>
+<pinref part="U11" gate="G$1" pin="DECAY"/>
 <wire x1="416.56" y1="99.06" x2="439.42" y2="99.06" width="0.1524" layer="91"/>
 <label x="424.18" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$17" gate="G$1" pin="DECAY"/>
+<pinref part="U10" gate="G$1" pin="DECAY"/>
 <wire x1="185.42" y1="99.06" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
 <label x="193.04" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="DECAY"/>
+<pinref part="U8" gate="G$1" pin="DECAY"/>
 <wire x1="185.42" y1="271.78" x2="208.28" y2="271.78" width="0.1524" layer="91"/>
 <label x="193.04" y="271.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_SLEEP_N" class="0">
 <segment>
-<pinref part="U$17" gate="G$1" pin="NSLEEP"/>
+<pinref part="U10" gate="G$1" pin="NSLEEP"/>
 <wire x1="185.42" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
 <label x="193.04" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVE_RESET_N" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="NRESET"/>
+<pinref part="U8" gate="G$1" pin="NRESET"/>
 <wire x1="185.42" y1="248.92" x2="208.28" y2="248.92" width="0.1524" layer="91"/>
 <label x="193.04" y="248.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="NRESET"/>
+<pinref part="U9" gate="G$1" pin="NRESET"/>
 <wire x1="416.56" y1="248.92" x2="439.42" y2="248.92" width="0.1524" layer="91"/>
 <label x="424.18" y="248.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_CAM_SLEEP_N" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="NSLEEP"/>
+<pinref part="U11" gate="G$1" pin="NSLEEP"/>
 <wire x1="416.56" y1="83.82" x2="439.42" y2="83.82" width="0.1524" layer="91"/>
 <label x="424.18" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MTR_TREAT_I4/MTR_CAM_BI1" class="0">
 <segment>
-<pinref part="U$17" gate="G$1" pin="I4"/>
+<pinref part="U10" gate="G$1" pin="I4"/>
 <wire x1="185.42" y1="160.02" x2="208.28" y2="160.02" width="0.1524" layer="91"/>
 <label x="193.04" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="BI1"/>
+<pinref part="U11" gate="G$1" pin="BI1"/>
 <wire x1="416.56" y1="160.02" x2="439.42" y2="160.02" width="0.1524" layer="91"/>
 <label x="424.18" y="160.02" size="1.778" layer="95"/>
 </segment>
@@ -21331,11 +21370,11 @@ USE 10uF AND GET CRAZY</text>
 <instance part="SUPPLY37" gate="GND" x="416.56" y="276.86"/>
 <instance part="SUPPLY38" gate="GND" x="368.3" y="276.86"/>
 <instance part="L2" gate="G$1" x="182.88" y="256.54" rot="R90"/>
-<instance part="U$3" gate="G$1" x="243.84" y="106.68"/>
+<instance part="U12" gate="G$1" x="243.84" y="106.68"/>
 <instance part="GND" gate="GND" x="386.08" y="139.7"/>
 <instance part="SUPPLY21" gate="GND" x="342.9" y="185.42"/>
-<instance part="U$1" gate="G$1" x="393.7" y="292.1"/>
-<instance part="U$2" gate="G$1" x="375.92" y="347.98"/>
+<instance part="U13" gate="G$1" x="393.7" y="292.1"/>
+<instance part="FL1" gate="G$1" x="375.92" y="347.98"/>
 <instance part="SUPPLY26" gate="GND" x="375.92" y="327.66"/>
 <instance part="SUPPLY39" gate="GND" x="421.64" y="335.28"/>
 <instance part="SUPPLY42" gate="GND" x="312.42" y="360.68"/>
@@ -21405,8 +21444,8 @@ USE 10uF AND GET CRAZY</text>
 <instance part="SUPPLY89" gate="GND" x="121.92" y="370.84"/>
 <instance part="SUPPLY90" gate="GND" x="139.7" y="370.84"/>
 <instance part="L8" gate="G$1" x="408.94" y="350.52"/>
-<instance part="U$70" gate="G$1" x="177.8" y="104.14" rot="R90"/>
-<instance part="U$71" gate="G$1" x="391.16" y="104.14"/>
+<instance part="Y1" gate="G$1" x="177.8" y="104.14" rot="R90"/>
+<instance part="Y2" gate="G$1" x="391.16" y="104.14"/>
 <instance part="L3" gate="G$1" x="185.42" y="218.44" rot="R90"/>
 <instance part="L1" gate="G$1" x="175.26" y="322.58" rot="R90"/>
 <instance part="R33" gate="G$1" x="363.22" y="165.1" smashed="yes" rot="R180">
@@ -21418,22 +21457,22 @@ USE 10uF AND GET CRAZY</text>
 <attribute name="VALUE" x="359.41" y="163.322" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R70" gate="G$1" x="327.66" y="154.94" rot="R180"/>
-<instance part="U$56" gate="G$1" x="495.3" y="254"/>
-<instance part="U$60" gate="G$1" x="505.46" y="259.08"/>
-<instance part="U$72" gate="G$1" x="515.62" y="264.16"/>
-<instance part="U$73" gate="G$1" x="523.24" y="269.24"/>
-<instance part="U$75" gate="G$1" x="393.7" y="177.8" rot="R90"/>
+<instance part="TP10" gate="G$1" x="495.3" y="254"/>
+<instance part="TP9" gate="G$1" x="505.46" y="259.08"/>
+<instance part="TP8" gate="G$1" x="515.62" y="264.16"/>
+<instance part="TP7" gate="G$1" x="523.24" y="269.24"/>
+<instance part="TP12" gate="G$1" x="393.7" y="177.8" rot="R90"/>
 <instance part="U$76" gate="G$1" x="434.34" y="241.3" rot="R270"/>
 <instance part="U$77" gate="G$1" x="434.34" y="246.38" rot="R90"/>
-<instance part="U$78" gate="G$1" x="462.28" y="289.56"/>
-<instance part="U$80" gate="G$1" x="441.96" y="236.22"/>
+<instance part="TP6" gate="G$1" x="462.28" y="289.56"/>
+<instance part="TP11" gate="G$1" x="441.96" y="236.22"/>
 <instance part="U$81" gate="G$1" x="137.16" y="238.76" rot="R270"/>
 <instance part="U$82" gate="G$1" x="137.16" y="246.38" rot="R90"/>
-<instance part="U$83" gate="G$1" x="142.24" y="248.92"/>
-<instance part="U$84" gate="G$1" x="142.24" y="228.6"/>
-<instance part="U$74" gate="G$1" x="182.88" y="279.4" rot="R270"/>
-<instance part="U$85" gate="G$1" x="152.4" y="307.34" rot="R180"/>
-<instance part="U$86" gate="G$1" x="447.04" y="350.52"/>
+<instance part="TP14" gate="G$1" x="142.24" y="248.92"/>
+<instance part="TP13" gate="G$1" x="142.24" y="228.6"/>
+<instance part="TP15" gate="G$1" x="182.88" y="279.4" rot="R270"/>
+<instance part="TP16" gate="G$1" x="152.4" y="307.34" rot="R180"/>
+<instance part="J16" gate="G$1" x="447.04" y="350.52"/>
 <instance part="SUPPLY108" gate="GND" x="447.04" y="335.28"/>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
 <instance part="FRAME4" gate="G$2" x="452.12" y="0"/>
@@ -21447,10 +21486,10 @@ USE 10uF AND GET CRAZY</text>
 <wire x1="165.1" y1="322.58" x2="165.1" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="322.58" x2="157.48" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="322.58" x2="157.48" y2="304.8" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="LDO_IN1"/>
+<pinref part="U12" gate="G$1" pin="LDO_IN1"/>
 <wire x1="157.48" y1="304.8" x2="157.48" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="294.64" x2="182.88" y2="294.64" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="VDD_ANA1"/>
+<pinref part="U12" gate="G$1" pin="VDD_ANA1"/>
 <wire x1="182.88" y1="294.64" x2="172.72" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="294.64" x2="157.48" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="312.42" x2="193.04" y2="312.42" width="0.1524" layer="91"/>
@@ -21466,7 +21505,7 @@ USE 10uF AND GET CRAZY</text>
 <pinref part="C19" gate="G$1" pin="1"/>
 <pinref part="C20" gate="G$1" pin="1"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<pinref part="U$85" gate="G$1" pin="P$1"/>
+<pinref part="TP16" gate="G$1" pin="P$1"/>
 <junction x="157.48" y="304.8"/>
 </segment>
 </net>
@@ -21527,7 +21566,7 @@ USE 10uF AND GET CRAZY</text>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND_TAB"/>
+<pinref part="U12" gate="G$1" pin="GND_TAB"/>
 <pinref part="SUPPLY25" gate="GND" pin="GND"/>
 <wire x1="297.18" y1="55.88" x2="297.18" y2="40.64" width="0.1524" layer="91"/>
 </segment>
@@ -21545,10 +21584,10 @@ USE 10uF AND GET CRAZY</text>
 <wire x1="391.16" y1="88.9" x2="396.24" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="SUPPLY27" gate="GND" pin="GND"/>
 <wire x1="396.24" y1="88.9" x2="396.24" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$71" gate="G$1" pin="P$4"/>
+<pinref part="Y2" gate="G$1" pin="P$4"/>
 <wire x1="396.24" y1="93.98" x2="396.24" y2="88.9" width="0.1524" layer="91"/>
 <junction x="396.24" y="88.9"/>
-<pinref part="U$71" gate="G$1" pin="P$2"/>
+<pinref part="Y2" gate="G$1" pin="P$2"/>
 <wire x1="391.16" y1="93.98" x2="391.16" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -21577,8 +21616,8 @@ USE 10uF AND GET CRAZY</text>
 <wire x1="378.46" y1="330.2" x2="378.46" y2="337.82" width="0.1524" layer="91"/>
 <pinref part="SUPPLY26" gate="GND" pin="GND"/>
 <junction x="375.92" y="330.2"/>
-<pinref part="U$2" gate="G$1" pin="GND1"/>
-<pinref part="U$2" gate="G$1" pin="GND2"/>
+<pinref part="FL1" gate="G$1" pin="GND1"/>
+<pinref part="FL1" gate="G$1" pin="GND2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
@@ -21601,7 +21640,7 @@ USE 10uF AND GET CRAZY</text>
 <pinref part="R14" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U13" gate="G$1" pin="GND"/>
 <wire x1="411.48" y1="281.94" x2="416.56" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="416.56" y1="281.94" x2="416.56" y2="279.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY37" gate="GND" pin="GND"/>
@@ -21678,20 +21717,20 @@ USE 10uF AND GET CRAZY</text>
 <junction x="193.04" y="226.06"/>
 </segment>
 <segment>
-<pinref part="U$86" gate="G$1" pin="P$1"/>
+<pinref part="J16" gate="G$1" pin="P$1"/>
 <pinref part="SUPPLY108" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DCDC_ANA_SW"/>
+<pinref part="U12" gate="G$1" pin="DCDC_ANA_SW"/>
 <wire x1="203.2" y1="322.58" x2="182.88" y2="322.58" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DCDC_PA_SW_P"/>
+<pinref part="U12" gate="G$1" pin="DCDC_PA_SW_P"/>
 <pinref part="L2" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="256.54" x2="190.5" y2="256.54" width="0.1524" layer="91"/>
 </segment>
@@ -21701,7 +21740,7 @@ USE 10uF AND GET CRAZY</text>
 <pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="256.54" x2="170.18" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="256.54" x2="170.18" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="DCDC_PA_SW_N"/>
+<pinref part="U12" gate="G$1" pin="DCDC_PA_SW_N"/>
 <wire x1="170.18" y1="248.92" x2="203.2" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -21709,7 +21748,7 @@ USE 10uF AND GET CRAZY</text>
 <segment>
 <wire x1="114.3" y1="256.54" x2="114.3" y2="254" width="0.1524" layer="91"/>
 <pinref part="C24" gate="G$1" pin="1"/>
-<pinref part="U$3" gate="G$1" pin="DCDC_PA_OUT"/>
+<pinref part="U12" gate="G$1" pin="DCDC_PA_OUT"/>
 <wire x1="203.2" y1="241.3" x2="154.94" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="241.3" x2="154.94" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="256.54" x2="137.16" y2="256.54" width="0.1524" layer="91"/>
@@ -21717,7 +21756,7 @@ USE 10uF AND GET CRAZY</text>
 <wire x1="124.46" y1="256.54" x2="114.3" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="251.46" x2="137.16" y2="256.54" width="0.1524" layer="91"/>
 <junction x="137.16" y="256.54"/>
-<pinref part="U$83" gate="G$1" pin="P$1"/>
+<pinref part="TP14" gate="G$1" pin="P$1"/>
 <pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="254" x2="124.46" y2="256.54" width="0.1524" layer="91"/>
 <junction x="124.46" y="256.54"/>
@@ -21725,7 +21764,7 @@ USE 10uF AND GET CRAZY</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DCDC_DIG_SW"/>
+<pinref part="U12" gate="G$1" pin="DCDC_DIG_SW"/>
 <wire x1="203.2" y1="218.44" x2="193.04" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="L3" gate="G$1" pin="2"/>
 </segment>
@@ -21736,10 +21775,10 @@ USE 10uF AND GET CRAZY</text>
 <wire x1="172.72" y1="218.44" x2="157.48" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="218.44" x2="157.48" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="218.44" x2="172.72" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="VDD_DIG1"/>
+<pinref part="U12" gate="G$1" pin="VDD_DIG1"/>
 <wire x1="172.72" y1="210.82" x2="172.72" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="210.82" x2="180.34" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="VDD_DIG2"/>
+<pinref part="U12" gate="G$1" pin="VDD_DIG2"/>
 <wire x1="180.34" y1="210.82" x2="172.72" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="205.74" x2="185.42" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="205.74" x2="180.34" y2="205.74" width="0.1524" layer="91"/>
@@ -21757,7 +21796,7 @@ USE 10uF AND GET CRAZY</text>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="VDD_RAM"/>
+<pinref part="U12" gate="G$1" pin="VDD_RAM"/>
 <wire x1="203.2" y1="172.72" x2="162.56" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="172.72" x2="162.56" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -21765,7 +21804,7 @@ USE 10uF AND GET CRAZY</text>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="VDD_PLL"/>
+<pinref part="U12" gate="G$1" pin="VDD_PLL"/>
 <wire x1="203.2" y1="167.64" x2="177.8" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="167.64" x2="177.8" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -21773,48 +21812,48 @@ USE 10uF AND GET CRAZY</text>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="SOP0"/>
+<pinref part="U12" gate="G$1" pin="SOP0"/>
 <wire x1="220.98" y1="55.88" x2="220.98" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="SOP1"/>
+<pinref part="U12" gate="G$1" pin="SOP1"/>
 <wire x1="231.14" y1="48.26" x2="231.14" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="TCXO_EN/SOP2"/>
+<pinref part="U12" gate="G$1" pin="TCXO_EN/SOP2"/>
 <wire x1="241.3" y1="38.1" x2="241.3" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="RESEVERED_19"/>
+<pinref part="U12" gate="G$1" pin="RESEVERED_19"/>
 <wire x1="251.46" y1="48.26" x2="251.46" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="WLAN_XTALM"/>
+<pinref part="U12" gate="G$1" pin="WLAN_XTALM"/>
 <wire x1="317.5" y1="116.84" x2="355.6" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="116.84" x2="381" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="111.76" x2="355.6" y2="116.84" width="0.1524" layer="91"/>
 <junction x="355.6" y="116.84"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<pinref part="U$71" gate="G$1" pin="P$1"/>
+<pinref part="Y2" gate="G$1" pin="P$1"/>
 <wire x1="386.08" y1="101.6" x2="381" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="381" y1="101.6" x2="381" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="WLAN_XLAN_XTALP"/>
+<pinref part="U12" gate="G$1" pin="WLAN_XLAN_XTALP"/>
 <wire x1="317.5" y1="124.46" x2="406.4" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="124.46" x2="406.4" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="424.18" y1="111.76" x2="424.18" y2="116.84" width="0.1524" layer="91"/>
@@ -21822,16 +21861,16 @@ USE 10uF AND GET CRAZY</text>
 <wire x1="406.4" y1="101.6" x2="406.4" y2="116.84" width="0.1524" layer="91"/>
 <junction x="406.4" y="116.84"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<pinref part="U$71" gate="G$1" pin="P$3"/>
+<pinref part="Y2" gate="G$1" pin="P$3"/>
 <wire x1="401.32" y1="101.6" x2="406.4" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="RTC_XTAL_P"/>
+<pinref part="U12" gate="G$1" pin="RTC_XTAL_P"/>
 <wire x1="203.2" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="U$70" gate="G$1" pin="P$1"/>
+<pinref part="Y1" gate="G$1" pin="P$1"/>
 <wire x1="177.8" y1="93.98" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="99.06" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
 <junction x="177.8" y="93.98"/>
@@ -21839,10 +21878,10 @@ USE 10uF AND GET CRAZY</text>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="RTC_XTAL_N"/>
+<pinref part="U12" gate="G$1" pin="RTC_XTAL_N"/>
 <wire x1="203.2" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="U$70" gate="G$1" pin="P$2"/>
+<pinref part="Y1" gate="G$1" pin="P$2"/>
 <wire x1="177.8" y1="114.3" x2="160.02" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="109.22" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
 <junction x="177.8" y="114.3"/>
@@ -21850,7 +21889,7 @@ USE 10uF AND GET CRAZY</text>
 </net>
 <net name="WIFI_HIB_N" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="NHIB"/>
+<pinref part="U12" gate="G$1" pin="NHIB"/>
 <wire x1="317.5" y1="175.26" x2="353.06" y2="175.26" width="0.1524" layer="91"/>
 <label x="368.3" y="175.26" size="1.778" layer="95"/>
 <wire x1="353.06" y1="175.26" x2="388.62" y2="175.26" width="0.1524" layer="91"/>
@@ -21861,22 +21900,22 @@ USE 10uF AND GET CRAZY</text>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="FORCE_AP"/>
+<pinref part="U12" gate="G$1" pin="FORCE_AP"/>
 <wire x1="325.12" y1="187.96" x2="317.5" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="RESERVED_3"/>
+<pinref part="U12" gate="G$1" pin="RESERVED_3"/>
 <wire x1="325.12" y1="195.58" x2="317.5" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="FLASH_SPI_CSN"/>
-<pinref part="U$1" gate="G$1" pin="CS"/>
+<pinref part="U12" gate="G$1" pin="FLASH_SPI_CSN"/>
+<pinref part="U13" gate="G$1" pin="CS"/>
 <wire x1="317.5" y1="304.8" x2="350.52" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="304.8" x2="375.92" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="304.8" x2="350.52" y2="309.88" width="0.1524" layer="91"/>
@@ -21886,15 +21925,15 @@ USE 10uF AND GET CRAZY</text>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="FLASH_SPI_MISO"/>
+<pinref part="U12" gate="G$1" pin="FLASH_SPI_MISO"/>
 <wire x1="317.5" y1="297.18" x2="375.92" y2="297.18" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="DOUT"/>
+<pinref part="U13" gate="G$1" pin="DOUT"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="FLASH_SPI_MOSI"/>
-<pinref part="U$1" gate="G$1" pin="DIN"/>
+<pinref part="U12" gate="G$1" pin="FLASH_SPI_MOSI"/>
+<pinref part="U13" gate="G$1" pin="DIN"/>
 <wire x1="317.5" y1="289.56" x2="327.66" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="289.56" x2="375.92" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="274.32" x2="327.66" y2="274.32" width="0.1524" layer="91"/>
@@ -21905,8 +21944,8 @@ USE 10uF AND GET CRAZY</text>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="FLASH_SPI_CLK"/>
-<pinref part="U$1" gate="G$1" pin="CLK"/>
+<pinref part="U12" gate="G$1" pin="FLASH_SPI_CLK"/>
+<pinref part="U13" gate="G$1" pin="CLK"/>
 <wire x1="317.5" y1="281.94" x2="332.74" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="281.94" x2="375.92" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="279.4" x2="332.74" y2="279.4" width="0.1524" layer="91"/>
@@ -21917,34 +21956,34 @@ USE 10uF AND GET CRAZY</text>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="RF_BG"/>
+<pinref part="U12" gate="G$1" pin="RF_BG"/>
 <wire x1="317.5" y1="320.04" x2="337.82" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="320.04" x2="337.82" y2="350.52" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="350.52" x2="360.68" y2="350.52" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="IN"/>
+<pinref part="FL1" gate="G$1" pin="IN"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUT"/>
+<pinref part="FL1" gate="G$1" pin="OUT"/>
 <wire x1="393.7" y1="350.52" x2="401.32" y2="350.52" width="0.1524" layer="91"/>
 <pinref part="L8" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="WIFI_UART_CTS_N" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="UART1_NCTS"/>
+<pinref part="U12" gate="G$1" pin="UART1_NCTS"/>
 <wire x1="317.5" y1="269.24" x2="515.62" y2="269.24" width="0.1524" layer="91"/>
 <label x="459.74" y="269.24" size="1.778" layer="95"/>
-<pinref part="U$73" gate="G$1" pin="P$1"/>
+<pinref part="TP7" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="WIFI_SPI_CS_N" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="HOST_SPI_NCS"/>
+<pinref part="U12" gate="G$1" pin="HOST_SPI_NCS"/>
 <wire x1="317.5" y1="170.18" x2="393.7" y2="170.18" width="0.1524" layer="91"/>
 <label x="368.3" y="170.18" size="1.778" layer="95"/>
-<pinref part="U$75" gate="G$1" pin="P$1"/>
+<pinref part="TP12" gate="G$1" pin="P$1"/>
 <wire x1="393.7" y1="170.18" x2="388.62" y2="170.18" width="0.1524" layer="91"/>
 <junction x="393.7" y="170.18"/>
 </segment>
@@ -21966,13 +22005,13 @@ USE 10uF AND GET CRAZY</text>
 <net name="WIFI_SPI_MISO" class="0">
 <segment>
 <pinref part="R70" gate="G$1" pin="2"/>
-<pinref part="U$3" gate="G$1" pin="HOST_SPI_MISO"/>
+<pinref part="U12" gate="G$1" pin="HOST_SPI_MISO"/>
 <wire x1="317.5" y1="154.94" x2="322.58" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="WIFI_HOSTINTR" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="HOSTINTR"/>
+<pinref part="U12" gate="G$1" pin="HOSTINTR"/>
 <wire x1="317.5" y1="149.86" x2="355.6" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="149.86" x2="401.32" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="149.86" x2="355.6" y2="144.78" width="0.1524" layer="91"/>
@@ -21984,30 +22023,30 @@ USE 10uF AND GET CRAZY</text>
 </net>
 <net name="WIFI_UART_TX" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="UART1_TX"/>
+<pinref part="U12" gate="G$1" pin="UART1_TX"/>
 <wire x1="317.5" y1="259.08" x2="447.04" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="447.04" y1="259.08" x2="497.84" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="447.04" y1="276.86" x2="447.04" y2="259.08" width="0.1524" layer="91"/>
 <junction x="447.04" y="259.08"/>
 <label x="459.74" y="259.08" size="1.778" layer="95"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="U$60" gate="G$1" pin="P$1"/>
+<pinref part="TP9" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="WIFI_UART_RX" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="UART1_RX"/>
+<pinref part="U12" gate="G$1" pin="UART1_RX"/>
 <wire x1="317.5" y1="254" x2="487.68" y2="254" width="0.1524" layer="91"/>
 <label x="459.74" y="254" size="1.778" layer="95"/>
-<pinref part="U$56" gate="G$1" pin="P$1"/>
+<pinref part="TP10" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="WIFI_UART_RTS_N" class="0">
 <segment>
 <wire x1="317.5" y1="264.16" x2="434.34" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="UART1_NRTS"/>
+<pinref part="U12" gate="G$1" pin="UART1_NRTS"/>
 <label x="459.74" y="264.16" size="1.778" layer="95"/>
-<pinref part="U$72" gate="G$1" pin="P$1"/>
+<pinref part="TP8" gate="G$1" pin="P$1"/>
 <wire x1="434.34" y1="264.16" x2="508" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="434.34" y1="251.46" x2="434.34" y2="264.16" width="0.1524" layer="91"/>
 <junction x="434.34" y="264.16"/>
@@ -22015,17 +22054,17 @@ USE 10uF AND GET CRAZY</text>
 </net>
 <net name="RAIL_3V3" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="VIN_IO2"/>
+<pinref part="U12" gate="G$1" pin="VIN_IO2"/>
 <wire x1="271.78" y1="350.52" x2="271.78" y2="391.16" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="391.16" x2="264.16" y2="391.16" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="391.16" x2="264.16" y2="386.08" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="391.16" x2="233.68" y2="391.16" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="VIN_IO1"/>
+<pinref part="U12" gate="G$1" pin="VIN_IO1"/>
 <wire x1="284.48" y1="350.52" x2="284.48" y2="391.16" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="391.16" x2="276.86" y2="391.16" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="391.16" x2="276.86" y2="386.08" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="391.16" x2="284.48" y2="401.32" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="VIN_DCDC_ANA"/>
+<pinref part="U12" gate="G$1" pin="VIN_DCDC_ANA"/>
 <wire x1="226.06" y1="350.52" x2="226.06" y2="391.16" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="391.16" x2="213.36" y2="391.16" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="391.16" x2="213.36" y2="386.08" width="0.1524" layer="91"/>
@@ -22054,10 +22093,10 @@ USE 10uF AND GET CRAZY</text>
 <pinref part="C17" gate="G$1" pin="1"/>
 <pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="386.08" x2="233.68" y2="391.16" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="VIN_DC_DC_DIG"/>
+<pinref part="U12" gate="G$1" pin="VIN_DC_DC_DIG"/>
 <wire x1="256.54" y1="391.16" x2="256.54" y2="350.52" width="0.1524" layer="91"/>
 <junction x="256.54" y="391.16"/>
-<pinref part="U$3" gate="G$1" pin="VIN_DCDC_PA"/>
+<pinref part="U12" gate="G$1" pin="VIN_DCDC_PA"/>
 <wire x1="241.3" y1="391.16" x2="241.3" y2="350.52" width="0.1524" layer="91"/>
 <junction x="241.3" y="391.16"/>
 </segment>
@@ -22073,15 +22112,15 @@ USE 10uF AND GET CRAZY</text>
 <pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="RESET"/>
+<pinref part="U13" gate="G$1" pin="RESET"/>
 <wire x1="411.48" y1="297.18" x2="416.56" y2="297.18" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="U13" gate="G$1" pin="VCC"/>
 <wire x1="411.48" y1="304.8" x2="416.56" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="416.56" y1="304.8" x2="429.26" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="429.26" y1="304.8" x2="429.26" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="416.56" y1="297.18" x2="416.56" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="416.56" y1="304.8" x2="416.56" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="WP"/>
+<pinref part="U13" gate="G$1" pin="WP"/>
 <wire x1="411.48" y1="289.56" x2="416.56" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="416.56" y1="289.56" x2="416.56" y2="297.18" width="0.1524" layer="91"/>
 <junction x="416.56" y="304.8"/>
@@ -22124,19 +22163,19 @@ USE 10uF AND GET CRAZY</text>
 <label x="441.96" y="347.98" size="1.778" layer="95"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="L8" gate="G$1" pin="P$2"/>
-<pinref part="U$86" gate="G$1" pin="P$2"/>
+<pinref part="J16" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="WIFI_SPI_CLK_50" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="HOST_SPI_CLK"/>
+<pinref part="U12" gate="G$1" pin="HOST_SPI_CLK"/>
 <wire x1="317.5" y1="165.1" x2="358.14" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R33" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="WIFI_SPI_MOSI_50" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="HOST_SPI_MOSI"/>
+<pinref part="U12" gate="G$1" pin="HOST_SPI_MOSI"/>
 <wire x1="317.5" y1="160.02" x2="358.14" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="R69" gate="G$1" pin="2"/>
 </segment>
@@ -22162,16 +22201,16 @@ USE 10uF AND GET CRAZY</text>
 <wire x1="312.42" y1="381" x2="312.42" y2="375.92" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="375.92" x2="312.42" y2="370.84" width="0.1524" layer="91"/>
 <junction x="312.42" y="375.92"/>
-<pinref part="U$3" gate="G$1" pin="NRESET"/>
+<pinref part="U12" gate="G$1" pin="NRESET"/>
 <pinref part="R64" gate="G$1" pin="1"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<pinref part="U$78" gate="G$1" pin="P$1"/>
+<pinref part="TP6" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
-<pinref part="U$80" gate="G$1" pin="P$1"/>
+<pinref part="TP11" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -22179,27 +22218,27 @@ USE 10uF AND GET CRAZY</text>
 <wire x1="147.32" y1="233.68" x2="147.32" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="218.44" x2="137.16" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="218.44" x2="137.16" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="U$84" gate="G$1" pin="P$1"/>
+<pinref part="TP13" gate="G$1" pin="P$1"/>
 <wire x1="137.16" y1="231.14" x2="137.16" y2="233.68" width="0.1524" layer="91"/>
 <junction x="137.16" y="231.14"/>
-<pinref part="U$3" gate="G$1" pin="VDD_PA_IN"/>
+<pinref part="U12" gate="G$1" pin="VDD_PA_IN"/>
 <wire x1="147.32" y1="233.68" x2="193.04" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="233.68" x2="203.2" y2="233.68" width="0.1524" layer="91"/>
 <junction x="193.04" y="233.68"/>
 </segment>
 </net>
-<net name="N$56" class="0">
+<net name="U13" class="0">
 <segment>
 <wire x1="203.2" y1="284.48" x2="205.74" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="LDO_IN2"/>
+<pinref part="U12" gate="G$1" pin="LDO_IN2"/>
 <junction x="203.2" y="284.48"/>
 <wire x1="193.04" y1="284.48" x2="203.2" y2="284.48" width="0.1524" layer="91"/>
 <pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="281.94" x2="193.04" y2="284.48" width="0.1524" layer="91"/>
 <junction x="193.04" y="284.48"/>
 <wire x1="182.88" y1="284.48" x2="185.42" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="U$74" gate="G$1" pin="P$1"/>
+<pinref part="TP15" gate="G$1" pin="P$1"/>
 <wire x1="185.42" y1="284.48" x2="193.04" y2="284.48" width="0.1524" layer="91"/>
 <junction x="185.42" y="284.48"/>
 </segment>

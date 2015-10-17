@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1898,6 +1898,7 @@ reflow soldering</description>
 <wire x1="-35.56" y1="-45.72" x2="68.58" y2="-45.72" width="0.254" layer="94"/>
 <pin name="GND_TAB" x="53.34" y="-50.8" length="middle" rot="R90"/>
 <text x="-12.7" y="215.9" size="1.778" layer="94">CC3100</text>
+<text x="-35.56" y="241.3" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="M25PX80">
 <wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
@@ -1913,6 +1914,7 @@ reflow soldering</description>
 <pin name="WP" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="GND" x="17.78" y="-10.16" length="middle" rot="R180"/>
 <text x="-12.7" y="17.78" size="1.778" layer="94">M25PX80</text>
+<text x="-12.192" y="-18.796" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="DEA202450BT">
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
@@ -1924,6 +1926,7 @@ reflow soldering</description>
 <pin name="GND2" x="2.54" y="-10.16" length="middle" rot="R90"/>
 <pin name="OUT" x="17.78" y="2.54" length="middle" rot="R180"/>
 <text x="-10.16" y="10.16" size="1.778" layer="94">DEA202450BT</text>
+<text x="4.826" y="-8.382" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="BBB">
 <pin name="P8_1" x="-60.96" y="10.16" length="middle"/>
@@ -2031,6 +2034,7 @@ reflow soldering</description>
 <pin name="P9_42" x="71.12" y="-91.44" length="middle" rot="R180"/>
 <pin name="P9_44" x="71.12" y="-96.52" length="middle" rot="R180"/>
 <pin name="P9_46" x="71.12" y="-101.6" length="middle" rot="R180"/>
+<text x="-2.54" y="15.24" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="DRV8842">
 <pin name="CP1" x="-7.62" y="2.54" length="middle"/>
@@ -2067,6 +2071,7 @@ reflow soldering</description>
 <wire x1="25.4" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
 <pin name="GND_3" x="10.16" y="-106.68" length="middle" rot="R90"/>
 <text x="-2.54" y="10.16" size="1.778" layer="94">DRV8842</text>
+<text x="17.78" y="10.16" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="DRV8843">
 <pin name="CP1" x="-7.62" y="5.08" length="middle"/>
@@ -2103,6 +2108,7 @@ reflow soldering</description>
 <wire x1="22.86" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
 <pin name="GND_3" x="7.62" y="-104.14" length="middle" rot="R90"/>
 <text x="-2.54" y="12.7" size="1.778" layer="94">DRV8843</text>
+<text x="15.24" y="12.7" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="LM2830">
 <pin name="SW" x="-10.16" y="7.62" length="middle"/>
@@ -2115,6 +2121,7 @@ reflow soldering</description>
 <wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <text x="-5.08" y="12.7" size="1.778" layer="94">LM2830</text>
+<text x="-4.318" y="-13.462" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="LM27313">
 <pin name="SW" x="20.32" y="12.7" length="middle" rot="R180"/>
@@ -2127,6 +2134,7 @@ reflow soldering</description>
 <wire x1="15.24" y1="-12.7" x2="15.24" y2="17.78" width="0.254" layer="94"/>
 <wire x1="15.24" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
 <text x="-5.08" y="20.32" size="1.778" layer="94">LM27313</text>
+<text x="-5.588" y="-16.256" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="LTC2942">
 <pin name="SENSE+" x="-10.16" y="5.08" length="middle"/>
@@ -2141,6 +2149,7 @@ reflow soldering</description>
 <wire x1="22.86" y1="-15.24" x2="22.86" y2="10.16" width="0.254" layer="94"/>
 <wire x1="22.86" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <text x="-5.08" y="12.7" size="1.778" layer="94">LTC2942</text>
+<text x="15.24" y="12.7" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="LTC4002">
 <pin name="COMP" x="-12.7" y="-25.4" length="middle"/>
@@ -2156,6 +2165,7 @@ reflow soldering</description>
 <wire x1="25.4" y1="-35.56" x2="25.4" y2="15.24" width="0.254" layer="94"/>
 <wire x1="25.4" y1="15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
 <text x="-7.62" y="17.78" size="1.778" layer="94">LTC4002</text>
+<text x="17.78" y="17.78" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="TPS55340">
 <pin name="SW" x="35.56" y="5.08" length="middle" rot="R180"/>
@@ -2177,10 +2187,13 @@ reflow soldering</description>
 <wire x1="30.48" y1="-45.72" x2="30.48" y2="10.16" width="0.254" layer="94"/>
 <wire x1="30.48" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <text x="-5.08" y="12.7" size="1.778" layer="94">TPS55340</text>
+<text x="-4.572" y="-49.022" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="TEST_POINT">
-<text x="-5.08" y="5.08" size="1.778" layer="94">TP</text>
-<pin name="P$1" x="-5.08" y="2.54" length="middle"/>
+<pin name="P$1" x="-5.08" y="2.54" visible="off" length="middle"/>
+<circle x="0" y="2.54" radius="2.501609375" width="0.254" layer="94"/>
+<circle x="0" y="2.54" radius="1.135921875" width="0.254" layer="94"/>
+<text x="-3.81" y="-2.286" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="2PIN_OST_3251">
 <pin name="P$1" x="-5.08" y="0" length="middle"/>
@@ -2189,6 +2202,7 @@ reflow soldering</description>
 <wire x1="0" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="2.54" width="0.254" layer="94"/>
 <wire x1="10.16" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="1.016" y="-10.668" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="4PIN_CONNECTOR">
 <pin name="P$1" x="-7.62" y="5.08" length="middle"/>
@@ -2199,6 +2213,7 @@ reflow soldering</description>
 <wire x1="-2.54" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-12.7" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="-1.524" y="-16.002" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="TPS27081A">
 <pin name="R2" x="22.86" y="-15.24" length="middle" rot="R180"/>
@@ -2211,6 +2226,7 @@ reflow soldering</description>
 <wire x1="-5.08" y1="-17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-17.78" x2="17.78" y2="7.62" width="0.254" layer="94"/>
 <wire x1="17.78" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-2.54" y="10.16" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="NC">
 <wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
@@ -2253,6 +2269,7 @@ reflow soldering</description>
 <pin name="P$1" x="-2.54" y="0" visible="off" length="short"/>
 <pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
 <wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<text x="-1.524" y="2.54" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="P-FET">
 <wire x1="0" y1="3.048" x2="0" y2="-2.54" width="0.254" layer="94"/>
@@ -2287,6 +2304,7 @@ reflow soldering</description>
 <pin name="SOURE" x="2.54" y="-7.62" visible="off" length="point"/>
 <pin name="GATE" x="-5.08" y="-2.54" visible="off" length="point" rot="R180"/>
 <pin name="DRAIN" x="2.54" y="7.62" visible="off" length="point"/>
+<text x="7.62" y="2.54" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="CRYSTAL_BASIC">
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
@@ -2300,6 +2318,7 @@ reflow soldering</description>
 <wire x1="2.794" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
 <pin name="P$1" x="-5.08" y="0" visible="off" length="point"/>
 <pin name="P$2" x="5.08" y="0" visible="off" length="point"/>
+<text x="-2.54" y="5.08" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="CRYSTAL_SHILDED">
 <wire x1="1.27" y1="0" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
@@ -2324,20 +2343,23 @@ reflow soldering</description>
 <pin name="P$2" x="0" y="-10.16" visible="off" length="point"/>
 <pin name="P$3" x="10.16" y="-2.54" visible="off" length="point"/>
 <pin name="P$4" x="5.08" y="-10.16" visible="off" length="point"/>
+<text x="-2.54" y="5.08" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="TP">
 <circle x="0" y="0" radius="1.778" width="0.254" layer="94"/>
-<pin name="P$1" x="-7.62" y="0"/>
+<pin name="P$1" x="-7.62" y="0" visible="off"/>
+<text x="-2.032" y="-4.064" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="SMA_CONNECTOR">
 <circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 <circle x="0" y="0" radius="5.08" width="0.254" layer="94"/>
 <pin name="P$1" x="0" y="-12.7" rot="R90"/>
 <pin name="P$2" x="-7.62" y="0"/>
+<text x="-2.54" y="7.62" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CC3100">
+<deviceset name="CC3100" prefix="U">
 <gates>
 <gate name="G$1" symbol="CC3100" x="0" y="0"/>
 </gates>
@@ -2488,7 +2510,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="M25PX80">
+<deviceset name="M25PX80" prefix="U">
 <gates>
 <gate name="G$1" symbol="M25PX80" x="0" y="0"/>
 </gates>
@@ -2525,7 +2547,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DEA202450BT">
+<deviceset name="DEA202450BT" prefix="FL">
 <gates>
 <gate name="G$1" symbol="DEA202450BT" x="0" y="0"/>
 </gates>
@@ -2649,7 +2671,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DRV8842">
+<deviceset name="DRV8842" prefix="U">
 <gates>
 <gate name="G$1" symbol="DRV8842" x="-12.7" y="43.18"/>
 </gates>
@@ -2692,7 +2714,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DRV8843">
+<deviceset name="DRV8843" prefix="U">
 <gates>
 <gate name="G$1" symbol="DRV8843" x="-10.16" y="22.86"/>
 </gates>
@@ -2735,7 +2757,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM2830">
+<deviceset name="LM2830" prefix="U">
 <gates>
 <gate name="G$1" symbol="LM2830" x="0" y="0"/>
 </gates>
@@ -2754,7 +2776,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM27313">
+<deviceset name="LM27313" prefix="U">
 <gates>
 <gate name="G$1" symbol="LM27313" x="0" y="0"/>
 </gates>
@@ -2773,7 +2795,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LTC2942">
+<deviceset name="LTC2942" prefix="U">
 <gates>
 <gate name="G$1" symbol="LTC2942" x="0" y="0"/>
 </gates>
@@ -2794,7 +2816,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LTC4002">
+<deviceset name="LTC4002" prefix="U">
 <gates>
 <gate name="G$1" symbol="LTC4002" x="0" y="0"/>
 </gates>
@@ -2816,7 +2838,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPS55340">
+<deviceset name="TPS55340" prefix="U">
 <gates>
 <gate name="G$1" symbol="TPS55340" x="-12.7" y="17.78"/>
 </gates>
@@ -2844,7 +2866,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEST_POINT">
+<deviceset name="TEST_POINT" prefix="TP">
 <gates>
 <gate name="G$1" symbol="TEST_POINT" x="0" y="0"/>
 </gates>
@@ -2859,7 +2881,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2PIN_OST_3251">
+<deviceset name="2PIN_OST_3251" prefix="J">
 <gates>
 <gate name="G$1" symbol="2PIN_OST_3251" x="0" y="2.54"/>
 </gates>
@@ -2875,7 +2897,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="4PIN_OST_3251">
+<deviceset name="4PIN_OST_3251" prefix="J">
 <gates>
 <gate name="G$1" symbol="4PIN_CONNECTOR" x="-5.08" y="2.54"/>
 </gates>
@@ -2911,7 +2933,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPS27081A">
+<deviceset name="TPS27081A" prefix="U">
 <gates>
 <gate name="G$1" symbol="TPS27081A" x="-5.08" y="5.08"/>
 </gates>
@@ -2943,7 +2965,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="B540C">
+<deviceset name="B540C" prefix="D">
 <gates>
 <gate name="G$1" symbol="DIODE_BASIC" x="0" y="0"/>
 </gates>
@@ -2991,7 +3013,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MBR0520">
+<deviceset name="MBR0520" prefix="D">
 <gates>
 <gate name="G$1" symbol="DIODE_BASIC" x="0" y="0"/>
 </gates>
@@ -3007,7 +3029,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AO3407A">
+<deviceset name="AO3407A" prefix="Q">
 <gates>
 <gate name="G$1" symbol="P-FET" x="0" y="0"/>
 </gates>
@@ -3024,7 +3046,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRS08">
+<deviceset name="CRS08" prefix="D">
 <gates>
 <gate name="G$1" symbol="DIODE_BASIC" x="0" y="0"/>
 </gates>
@@ -3088,7 +3110,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ABS07-32.768KHZ-T">
+<deviceset name="ABS07-32.768KHZ-T" prefix="Y">
 <gates>
 <gate name="G$1" symbol="CRYSTAL_BASIC" x="0" y="0"/>
 </gates>
@@ -3104,7 +3126,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="Q24FA20H00396">
+<deviceset name="Q24FA20H00396" prefix="Y">
 <gates>
 <gate name="G$1" symbol="CRYSTAL_SHILDED" x="-2.54" y="2.54"/>
 </gates>
@@ -3122,7 +3144,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TP">
+<deviceset name="TP" prefix="TP">
 <gates>
 <gate name="G$1" symbol="TP" x="0" y="0"/>
 </gates>
@@ -3145,7 +3167,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMA_CONNECTOR">
+<deviceset name="SMA_CONNECTOR" prefix="J">
 <gates>
 <gate name="G$1" symbol="SMA_CONNECTOR" x="0" y="0"/>
 </gates>
