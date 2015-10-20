@@ -8,22 +8,22 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -32,8 +32,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -41,12 +41,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -2370,6 +2370,7 @@ reflow soldering</description>
 </symbols>
 <devicesets>
 <deviceset name="CC3100" prefix="U">
+<description>WIFI IC</description>
 <gates>
 <gate name="G$1" symbol="CC3100" x="0" y="0"/>
 </gates>
@@ -2521,6 +2522,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="M25PX80" prefix="U">
+<description>FLASH MEMORY</description>
 <gates>
 <gate name="G$1" symbol="M25PX80" x="0" y="0"/>
 </gates>
@@ -2558,6 +2560,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="DEA202450BT" prefix="FL">
+<description>BAND PASS FILTER</description>
 <gates>
 <gate name="G$1" symbol="DEA202450BT" x="0" y="0"/>
 </gates>
@@ -2576,6 +2579,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="DRV8842" prefix="U">
+<description>MOTOR DRIVER</description>
 <gates>
 <gate name="G$1" symbol="DRV8842" x="-12.7" y="43.18"/>
 </gates>
@@ -2619,6 +2623,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="DRV8843" prefix="U">
+<description>MOTOR DRIVER</description>
 <gates>
 <gate name="G$1" symbol="DRV8843" x="-10.16" y="22.86"/>
 </gates>
@@ -2662,6 +2667,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="LTC4002" prefix="U">
+<description>CHARGER IC</description>
 <gates>
 <gate name="G$1" symbol="LTC4002" x="0" y="0"/>
 </gates>
@@ -2684,6 +2690,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="LTC2942" prefix="U">
+<description>GAS GAUGE</description>
 <gates>
 <gate name="G$1" symbol="LTC2942" x="0" y="0"/>
 </gates>
@@ -2705,6 +2712,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="LM2830" prefix="U">
+<description>REGULATOR</description>
 <gates>
 <gate name="G$1" symbol="LM2830" x="0" y="0"/>
 </gates>
@@ -2724,6 +2732,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="LM27313" prefix="U">
+<description>REGULATOR</description>
 <gates>
 <gate name="G$1" symbol="LM27313" x="0" y="0"/>
 </gates>
@@ -2743,6 +2752,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="TPS55340" prefix="U">
+<description>REGULATOR</description>
 <gates>
 <gate name="G$1" symbol="TPS55340" x="-12.7" y="17.78"/>
 </gates>
@@ -2771,6 +2781,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="BBB" uservalue="yes">
+<description>BBB CONNECTOR</description>
 <gates>
 <gate name="G$1" symbol="BBB" x="-7.62" y="30.48"/>
 </gates>
@@ -2877,6 +2888,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="TEST_POINT" prefix="TP">
+<description>TEST POINT</description>
 <gates>
 <gate name="G$1" symbol="TEST_POINT" x="0" y="0"/>
 </gates>
@@ -2892,6 +2904,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="2PIN_OST_3251" prefix="J">
+<description>OST CONNECTOR</description>
 <gates>
 <gate name="G$1" symbol="2PIN_OST_3251" x="0" y="2.54"/>
 </gates>
@@ -2908,6 +2921,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="4PIN_OST_3251" prefix="J">
+<description>OST CONNECTOR</description>
 <gates>
 <gate name="G$1" symbol="4PIN_CONNECTOR" x="-5.08" y="2.54"/>
 </gates>
@@ -2926,6 +2940,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="4PIN_JST">
+<description>JST CONNECTOR</description>
 <gates>
 <gate name="G$1" symbol="4PIN_CONNECTOR" x="-2.54" y="2.54"/>
 </gates>
@@ -2944,6 +2959,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="TPS27081A" prefix="U">
+<description>LOAD SWITCH</description>
 <gates>
 <gate name="G$1" symbol="TPS27081A" x="-5.08" y="5.08"/>
 </gates>
@@ -2976,6 +2992,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="B540C" prefix="D">
+<description>DIODE</description>
 <gates>
 <gate name="G$1" symbol="DIODE_BASIC" x="0" y="0"/>
 </gates>
@@ -2992,6 +3009,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="ASPI-0630LR" prefix="L" uservalue="yes">
+<description>INDUCTOR</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR_BASIC" x="0" y="0"/>
 </gates>
@@ -3008,6 +3026,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="MBR0520" prefix="D">
+<description>DIODE</description>
 <gates>
 <gate name="G$1" symbol="DIODE_BASIC" x="0" y="0"/>
 </gates>
@@ -3024,6 +3043,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="AO3407A" prefix="Q">
+<description>PFET</description>
 <gates>
 <gate name="G$1" symbol="P-FET" x="0" y="0"/>
 </gates>
@@ -3041,6 +3061,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="CRS08" prefix="D">
+<description>DIODE</description>
 <gates>
 <gate name="G$1" symbol="DIODE_BASIC" x="0" y="0"/>
 </gates>
@@ -3057,6 +3078,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="B82144B2222K" prefix="L" uservalue="yes">
+<description>INDUCTOR</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR_BASIC" x="0" y="0"/>
 </gates>
@@ -3073,6 +3095,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="LQP15MN3N6B02D" prefix="L" uservalue="yes">
+<description>INDCUTOR</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR_BASIC" x="0" y="0"/>
 </gates>
@@ -3089,6 +3112,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="AIUR-03-330K" prefix="L" uservalue="yes">
+<description>INDUCTOR</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR_BASIC" x="0" y="0"/>
 </gates>
@@ -3105,6 +3129,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="ABS07-32.768KHZ-T" prefix="Y">
+<description>CRYSTAL</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL_BASIC" x="0" y="0"/>
 </gates>
@@ -3121,6 +3146,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="Q24FA20H00396" prefix="Y">
+<description>CRYSTAL</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL_SHILDED" x="-2.54" y="2.54"/>
 </gates>
@@ -3139,6 +3165,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="TP" prefix="TP">
+<description>TEST POINT</description>
 <gates>
 <gate name="G$1" symbol="TP" x="0" y="0"/>
 </gates>
@@ -3162,6 +3189,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="SMA_CONNECTOR" prefix="J">
+<description>SMA CONNECTOR</description>
 <gates>
 <gate name="G$1" symbol="SMA_CONNECTOR" x="0" y="0"/>
 </gates>
@@ -17381,7 +17409,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="U5" library="Capstone" deviceset="TPS55340" device=""/>
 <part name="J1" library="Capstone" deviceset="BBB" device="" value="NONE"/>
 <part name="C31" library="resistor" deviceset="C-EU" device="C0402" value="0.47uF"/>
-<part name="C32" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
+<part name="C32" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 16V"/>
 <part name="R20" library="resistor" deviceset="R-US_" device="R0402" value="33k"/>
 <part name="R21" library="resistor" deviceset="R-US_" device="R0402" value="29.4k"/>
 <part name="R22" library="resistor" deviceset="R-US_" device="R0402" value="1M"/>
@@ -17395,7 +17423,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="C33" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 50V"/>
 <part name="SUPPLY45" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY46" library="supply2" deviceset="GND" device=""/>
-<part name="C34" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
+<part name="C34" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 16V"/>
 <part name="R25" library="resistor" deviceset="R-US_" device="R0402" value="47k"/>
 <part name="R26" library="resistor" deviceset="R-US_" device="R0402" value="15k"/>
 <part name="R27" library="resistor" deviceset="R-US_" device="R0402" value="1M"/>
@@ -17409,7 +17437,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="SUPPLY52" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY53" library="supply2" deviceset="GND" device=""/>
 <part name="U8" library="Capstone" deviceset="DRV8842" device=""/>
-<part name="C37" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
+<part name="C37" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 16V"/>
 <part name="R28" library="resistor" deviceset="R-US_" device="R0402" value="47k"/>
 <part name="R30" library="resistor" deviceset="R-US_" device="R0402" value="15k"/>
 <part name="R31" library="resistor" deviceset="R-US_" device="R0402" value="1M"/>
@@ -17425,14 +17453,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="SUPPLY59" library="supply2" deviceset="GND" device=""/>
 <part name="C40" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="SUPPLY61" library="supply2" deviceset="GND" device=""/>
-<part name="C27" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
-<part name="C28" library="resistor" deviceset="C-EU" device="C0603" value="0.47uF"/>
+<part name="C27" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF 25V"/>
+<part name="C28" library="resistor" deviceset="C-EU" device="C0603" value="0.47uF 50V"/>
 <part name="C29" library="resistor" deviceset="C-EU" device="C0603" value="22uF"/>
 <part name="R17" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY62" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY65" library="supply2" deviceset="GND" device=""/>
-<part name="C30" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
+<part name="C30" library="resistor" deviceset="C-EU" device="C0603" value="10uF 25V"/>
 <part name="SUPPLY66" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY67" library="supply2" deviceset="GND" device=""/>
 <part name="R18" library="resistor" deviceset="R-US_" device="R0603" value="45.3k"/>
@@ -17448,15 +17476,15 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="SUPPLY71" library="supply2" deviceset="GND" device=""/>
 <part name="R37" library="resistor" deviceset="R-US_" device="R0603" value="39k"/>
 <part name="R38" library="resistor" deviceset="R-US_" device="R0603" value="12.7k"/>
-<part name="C45" library="resistor" deviceset="C-EU" device="C0603" value="220pF"/>
-<part name="C46" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
+<part name="C45" library="resistor" deviceset="C-EU" device="C0603" value="220pF 50V"/>
+<part name="C46" library="resistor" deviceset="C-EU" device="C0603" value="10uF 10V"/>
 <part name="R39" library="resistor" deviceset="R-US_" device="R0603" value="2.55k"/>
 <part name="C47" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="SUPPLY72" library="supply2" deviceset="GND" device=""/>
 <part name="R40" library="resistor" deviceset="R-US_" device="R0603" value="78.7k"/>
 <part name="R41" library="resistor" deviceset="R-US_" device="R0402" value="20k"/>
 <part name="R42" library="resistor" deviceset="R-US_" device="R0402" value="174k"/>
-<part name="C48" library="resistor" deviceset="C-EU" device="C0603" value="0.47uF"/>
+<part name="C48" library="resistor" deviceset="C-EU" device="C0603" value="0.47uF 25V"/>
 <part name="C49" library="resistor" deviceset="C-EU" device="C0603" value="22uF"/>
 <part name="SUPPLY74" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY75" library="supply2" deviceset="GND" device=""/>
@@ -17466,7 +17494,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="TP3" library="Capstone" deviceset="TEST_POINT" device=""/>
 <part name="TP4" library="Capstone" deviceset="TEST_POINT" device=""/>
 <part name="U10" library="Capstone" deviceset="DRV8842" device=""/>
-<part name="C51" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
+<part name="C51" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 16V"/>
 <part name="R43" library="resistor" deviceset="R-US_" device="R0402" value="47k"/>
 <part name="R44" library="resistor" deviceset="R-US_" device="R0402" value="15k"/>
 <part name="R45" library="resistor" deviceset="R-US_" device="R0402" value="1M"/>
@@ -17567,12 +17595,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="C3" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
 <part name="C4" library="resistor" deviceset="C-EU" device="C1206" value="100uF"/>
 <part name="C5" library="resistor" deviceset="C-EU" device="C1206" value="100uF"/>
-<part name="C6" library="resistor" deviceset="C-EU" device="C0402" value="10pF"/>
-<part name="C7" library="resistor" deviceset="C-EU" device="C0402" value="10pF"/>
-<part name="C8" library="resistor" deviceset="C-EU" device="C0402" value="6pF"/>
-<part name="C9" library="resistor" deviceset="C-EU" device="C0402" value="6pF"/>
+<part name="C6" library="resistor" deviceset="C-EU" device="C0402" value="10pF 50V"/>
+<part name="C7" library="resistor" deviceset="C-EU" device="C0402" value="10pF 50V"/>
+<part name="C8" library="resistor" deviceset="C-EU" device="C0402" value="6pF 100V"/>
+<part name="C9" library="resistor" deviceset="C-EU" device="C0402" value="6pF 100V"/>
 <part name="C10" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
-<part name="C11" library="resistor" deviceset="C-EU" device="C0402" value="1pF"/>
+<part name="C11" library="resistor" deviceset="C-EU" device="C0402" value="1pF 50V"/>
 <part name="C12" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
 <part name="C13" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
 <part name="C14" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF"/>
@@ -17622,11 +17650,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="C61" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 25V"/>
 <part name="D3" library="Capstone" deviceset="B540C" device=""/>
 <part name="L6" library="Capstone" deviceset="ASPI-0630LR" device="" value="10uH"/>
-<part name="C70" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
+<part name="C70" library="resistor" deviceset="C-EU" device="C0603" value="10uF 25V"/>
 <part name="SUPPLY103" library="supply2" deviceset="GND" device=""/>
-<part name="C71" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
+<part name="C71" library="resistor" deviceset="C-EU" device="C0603" value="10uF 25V"/>
 <part name="SUPPLY104" library="supply2" deviceset="GND" device=""/>
-<part name="C72" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
+<part name="C72" library="resistor" deviceset="C-EU" device="C0603" value="10uF 25V"/>
 <part name="SUPPLY105" library="supply2" deviceset="GND" device=""/>
 <part name="C50" library="resistor" deviceset="C-EU" device="C0402" value="10uF"/>
 <part name="C73" library="resistor" deviceset="C-EU" device="C0402" value="10uF"/>
@@ -17645,13 +17673,13 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R19" library="resistor" deviceset="R-US_" device="R2512" value="5mOhm"/>
 <part name="D1" library="Capstone" deviceset="CRS08" device=""/>
 <part name="L5" library="Capstone" deviceset="B82144B2222K" device="" value="2.2uH"/>
-<part name="L8" library="Capstone" deviceset="LQP15MN3N6B02D" device="" value="0"/>
+<part name="L8" library="Capstone" deviceset="LQP15MN3N6B02D" device="" value="3.5nH"/>
 <part name="Y1" library="Capstone" deviceset="ABS07-32.768KHZ-T" device=""/>
 <part name="Y2" library="Capstone" deviceset="Q24FA20H00396" device=""/>
 <part name="L3" library="resistor" deviceset="L-US" device="L1812" value="2.2uH"/>
 <part name="L1" library="resistor" deviceset="L-US" device="L1812" value="2.2uH"/>
-<part name="R33" library="resistor" deviceset="R-US_" device="R0402" value="0ohm"/>
-<part name="R69" library="resistor" deviceset="R-US_" device="R0402" value="0ohm"/>
+<part name="R33" library="resistor" deviceset="R-US_" device="R0402" value="0 Ohm"/>
+<part name="R69" library="resistor" deviceset="R-US_" device="R0402" value="0 Ohm"/>
 <part name="R70" library="resistor" deviceset="R-US_" device="R0402" value="0 Ohm"/>
 <part name="TP10" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
 <part name="TP9" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
@@ -18787,7 +18815,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="R40" gate="G$1" x="101.6" y="93.98" rot="R270"/>
 <instance part="R41" gate="G$1" x="226.06" y="93.98" rot="R270"/>
 <instance part="R42" gate="G$1" x="226.06" y="124.46" rot="R270"/>
-<instance part="C48" gate="G$1" x="111.76" y="93.98"/>
+<instance part="C48" gate="G$1" x="111.76" y="93.98" smashed="yes">
+<attribute name="NAME" x="113.284" y="94.361" size="1.778" layer="95"/>
+<attribute name="VALUE" x="113.284" y="101.981" size="1.778" layer="96"/>
+</instance>
 <instance part="C49" gate="G$1" x="121.92" y="142.24"/>
 <instance part="SUPPLY74" gate="GND" x="121.92" y="134.62"/>
 <instance part="SUPPLY75" gate="GND" x="210.82" y="91.44"/>
@@ -18798,11 +18829,20 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="SUPPLY40" gate="GND" x="198.12" y="111.76"/>
 <instance part="D3" gate="G$1" x="210.82" y="152.4"/>
 <instance part="L6" gate="G$1" x="167.64" y="152.4"/>
-<instance part="C70" gate="G$1" x="256.54" y="144.78"/>
-<instance part="SUPPLY103" gate="GND" x="256.54" y="137.16"/>
-<instance part="C71" gate="G$1" x="269.24" y="144.78"/>
-<instance part="SUPPLY104" gate="GND" x="269.24" y="137.16"/>
-<instance part="C72" gate="G$1" x="279.4" y="144.78"/>
+<instance part="C70" gate="G$1" x="246.38" y="144.78" smashed="yes">
+<attribute name="NAME" x="247.904" y="145.161" size="1.778" layer="95"/>
+<attribute name="VALUE" x="232.664" y="140.081" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY103" gate="GND" x="246.38" y="137.16"/>
+<instance part="C71" gate="G$1" x="259.08" y="144.78" smashed="yes">
+<attribute name="NAME" x="260.604" y="145.161" size="1.778" layer="95"/>
+<attribute name="VALUE" x="260.604" y="140.081" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY104" gate="GND" x="259.08" y="137.16"/>
+<instance part="C72" gate="G$1" x="279.4" y="144.78" smashed="yes">
+<attribute name="NAME" x="280.924" y="145.161" size="1.778" layer="95"/>
+<attribute name="VALUE" x="286.004" y="142.621" size="1.778" layer="96"/>
+</instance>
 <instance part="SUPPLY105" gate="GND" x="279.4" y="137.16"/>
 <instance part="C50" gate="G$1" x="99.06" y="147.32"/>
 <instance part="C73" gate="G$1" x="88.9" y="147.32"/>
@@ -18824,7 +18864,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="SUPPLY32" gate="GND" x="439.42" y="223.52"/>
 <instance part="SUPPLY62" gate="GND" x="462.28" y="226.06"/>
 <instance part="SUPPLY65" gate="GND" x="398.78" y="276.86"/>
-<instance part="C30" gate="G$1" x="474.98" y="284.48" rot="R180"/>
+<instance part="C30" gate="G$1" x="474.98" y="284.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="473.456" y="284.099" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="491.236" y="284.099" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="SUPPLY66" gate="GND" x="474.98" y="279.4"/>
 <instance part="SUPPLY67" gate="GND" x="401.32" y="210.82"/>
 <instance part="SUPPLY76" gate="GND" x="408.94" y="127"/>
@@ -19156,26 +19199,26 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="RAIL_12V" class="0">
 <segment>
-<wire x1="226.06" y1="152.4" x2="256.54" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="152.4" x2="246.38" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R42" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="129.54" x2="226.06" y2="152.4" width="0.1524" layer="91"/>
 <label x="251.46" y="154.94" size="1.778" layer="95"/>
 <pinref part="D3" gate="G$1" pin="P$2"/>
 <wire x1="215.9" y1="152.4" x2="226.06" y2="152.4" width="0.1524" layer="91"/>
 <junction x="226.06" y="152.4"/>
-<wire x1="256.54" y1="152.4" x2="269.24" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="152.4" x2="279.4" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="152.4" x2="259.08" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="152.4" x2="279.4" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="152.4" x2="284.48" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="152.4" x2="256.54" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="147.32" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="152.4" x2="246.38" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="147.32" x2="246.38" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="C70" gate="G$1" pin="1"/>
-<junction x="256.54" y="147.32"/>
-<junction x="256.54" y="152.4"/>
-<wire x1="269.24" y1="152.4" x2="269.24" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="147.32" x2="269.24" y2="144.78" width="0.1524" layer="91"/>
+<junction x="246.38" y="147.32"/>
+<junction x="246.38" y="152.4"/>
+<wire x1="259.08" y1="152.4" x2="259.08" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="147.32" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="C71" gate="G$1" pin="1"/>
-<junction x="269.24" y="147.32"/>
-<junction x="269.24" y="152.4"/>
+<junction x="259.08" y="147.32"/>
+<junction x="259.08" y="152.4"/>
 <wire x1="279.4" y1="152.4" x2="279.4" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="147.32" x2="279.4" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="C72" gate="G$1" pin="1"/>
@@ -20620,6 +20663,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="35.56" y="406.4" size="12.7" layer="91">WIFI</text>
 <text x="99.06" y="259.08" size="1.778" layer="91">SHOULD BE 22uF...
 USE 10uF AND GET CRAZY</text>
+<text x="378.46" y="73.66" size="1.778" layer="91">NOTE: ORDERING FA-20H 40.0000MF10Z-K3 INSTEAD</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="GND" x="213.36" y="365.76"/>

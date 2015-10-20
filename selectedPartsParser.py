@@ -1,4 +1,4 @@
-__author__ = 'brycecater'
+__author__ = 'brycecarter'
 
 import csv
 import re
@@ -6,92 +6,106 @@ import re
 passed = []
 failed = []
 
-passives = []
+refdesLinkMapping = []
 
-with open("ROVER_PCB_BOM.csv") as f:
-    reader = csv.DictReader(f, ('Description', 'none', 'none2', 'none3', 'link'))
-    lineNumber = 1
+with open("REFDES_LINK_MAPPING.csv") as f:
+    reader = csv.DictReader(f)
+
     for row in reader:
 
-        refdes = None
+        refdes = row['Refdes']
         digikeyNumber = None
         mfgpartNumber = None
-        link = row['link']
-
+        link = row['Link']
         # ========================
 
-        refdesMatch = re.match(r'^([A-Z]{1,6}[0-9]{1,2})', row['Description'])
-        try:
-            refdes = refdesMatch.groups()[0]
-        except AttributeError:
-            print row
-            failed.append(row)
-
-        # ========================
-
-        partNumberMatch = re.search(r'en/(.*)/(.*)/[0-9]*', row['link'])
+        partNumberMatch = re.search(r'en/(.*)/(.*)/[0-9]*', link)
         try:
             mfgpartNumber = partNumberMatch.groups()[0]
             digikeyNumber = partNumberMatch.groups()[1]
         except AttributeError:
-
             failed.append(row)
 
-        passives.append({'refdes':refdes,
+        refdesLinkMapping.append({'refdes':refdes,
                          'link':link,
                          'digikeyPN': digikeyNumber,
                          'mfgPN': mfgpartNumber
                          })
 
-        lineNumber += 1
-print lineNumber
+print '{0} FAILED TO FIND PART NUMBERS'.format(len(failed))
 
-goodParts = []
+partsList = []
 
-with open("BOM.csv") as f:
+with open("PART_BOM_FROM_EAGLE.csv") as f:
     reader = csv.DictReader(f)
-    lineNumber = 1
+
     for row in reader:
-        parts = row['Parts'].replace(' ','').split(',')
+        refdesList = row['Parts'].replace(' ','').split(',')
         digikeyPN = None
         mfgPN = None
         link = None
         state = 'UNMATCHED'
 
-        for passive in passives:
-            if passive['refdes'] in parts:
-                print passive['refdes'],parts
+        # Remove annoying "{Region} Symbol" part from descriptions
+        match = re.search(r',.*\ssymbol', row['Description'])
+        if match is not None:
+            row['Description'] = row['Description'].replace(match.group(), '')
+        # =================================
+
+        for refdesDict in refdesLinkMapping:
+            if refdesDict['refdes'] in refdesList:
                 if state != 'ERROR':
                     if link is None:
-                        link = passive['link']
-                        digikeyPN = passive['digikeyPN']
-                        mfgPN = passive['mfgPN']
+                        link = refdesDict['link']
+                        digikeyPN = refdesDict['digikeyPN']
+                        mfgPN = refdesDict['mfgPN']
                         state = 'MATCHED'
                     else:
-                        if passive['link'] not in link:
+                        if refdesDict['link'] not in link:
                             state = 'ERROR'
-                            link = link + ';' + passive['link']
+                            link = link + '; ' + refdesDict['link']
+                else:
+                    link = link + '; ' + refdesDict['link']
 
         row['DigikeyPN'] = digikeyPN
         row['MfgPN'] = mfgPN
         row['Link'] = link
         row['State'] = state
-        goodParts.append(row)
+        row.pop('')
+        partsList.append(row)
 
+manualPartsList = []
+failed = []
 
+with open('MANUAL_PARTS_BOM.csv') as f:
+    reader = csv.DictReader(f)
 
-keys = goodParts[0].keys()
-with open('good_bom.csv', 'wb') as output_file:
-    dict_writer = csv.DictWriter(output_file, keys)
+    for row in reader:
+        row['STATE'] = 'MANUAL'
+        row['Parts'] = 'EXTERNAL'
+        row['Device'] = 'NONE'
+
+        partNumberMatch = re.search(r'en/(.*)/(.*)/[0-9]*', row['Link'])
+        try:
+            row['MfgPN'] = partNumberMatch.groups()[0]
+            row['DigikeyPN'] = partNumberMatch.groups()[1]
+        except AttributeError:
+            failed.append(row)
+
+print '{0} FAILED TO FIND PART NUMBERS'.format(len(failed))
+
+partsList += manualPartsList
+
+outRows = []
+prefix = '200-'
+pn = 1
+for r in sorted(partsList, key=lambda x: (x['Parts'][0],x['Value'],x['Package'])):
+    r['RPN'] = prefix+str(pn).zfill(3)
+    outRows.append(r)
+    pn += 1
+
+with open('FINAL_BOM(AUTO).csv', 'wb') as output_file:
+    dict_writer = csv.DictWriter(output_file, ('RPN', 'Description','Package','Value','Qty','State','Parts','Link','Device','DigikeyPN','MfgPN'))
     dict_writer.writeheader()
-    dict_writer.writerows(goodParts)
+    dict_writer.writerows(outRows)
 
-
-
-
-print len(goodParts)
-
-
-
-print len(failed)
-# print failed

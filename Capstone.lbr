@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2360,6 +2360,7 @@ reflow soldering</description>
 </symbols>
 <devicesets>
 <deviceset name="CC3100" prefix="U">
+<description>WIFI IC</description>
 <gates>
 <gate name="G$1" symbol="CC3100" x="0" y="0"/>
 </gates>
@@ -2511,6 +2512,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="M25PX80" prefix="U">
+<description>FLASH MEMORY</description>
 <gates>
 <gate name="G$1" symbol="M25PX80" x="0" y="0"/>
 </gates>
@@ -2548,6 +2550,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="DEA202450BT" prefix="FL">
+<description>BAND PASS FILTER</description>
 <gates>
 <gate name="G$1" symbol="DEA202450BT" x="0" y="0"/>
 </gates>
@@ -2566,6 +2569,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="BBB" uservalue="yes">
+<description>BBB CONNECTOR</description>
 <gates>
 <gate name="G$1" symbol="BBB" x="-7.62" y="30.48"/>
 </gates>
@@ -2672,6 +2676,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="DRV8842" prefix="U">
+<description>MOTOR DRIVER</description>
 <gates>
 <gate name="G$1" symbol="DRV8842" x="-12.7" y="43.18"/>
 </gates>
@@ -2715,6 +2720,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="DRV8843" prefix="U">
+<description>MOTOR DRIVER</description>
 <gates>
 <gate name="G$1" symbol="DRV8843" x="-10.16" y="22.86"/>
 </gates>
@@ -2758,6 +2764,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="LM2830" prefix="U">
+<description>REGULATOR</description>
 <gates>
 <gate name="G$1" symbol="LM2830" x="0" y="0"/>
 </gates>
@@ -2777,6 +2784,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="LM27313" prefix="U">
+<description>REGULATOR</description>
 <gates>
 <gate name="G$1" symbol="LM27313" x="0" y="0"/>
 </gates>
@@ -2796,6 +2804,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="LTC2942" prefix="U">
+<description>GAS GAUGE</description>
 <gates>
 <gate name="G$1" symbol="LTC2942" x="0" y="0"/>
 </gates>
@@ -2817,6 +2826,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="LTC4002" prefix="U">
+<description>CHARGER IC</description>
 <gates>
 <gate name="G$1" symbol="LTC4002" x="0" y="0"/>
 </gates>
@@ -2839,6 +2849,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="TPS55340" prefix="U">
+<description>REGULATOR</description>
 <gates>
 <gate name="G$1" symbol="TPS55340" x="-12.7" y="17.78"/>
 </gates>
@@ -2867,6 +2878,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="TEST_POINT" prefix="TP">
+<description>TEST POINT</description>
 <gates>
 <gate name="G$1" symbol="TEST_POINT" x="0" y="0"/>
 </gates>
@@ -2882,6 +2894,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="2PIN_OST_3251" prefix="J">
+<description>OST CONNECTOR</description>
 <gates>
 <gate name="G$1" symbol="2PIN_OST_3251" x="0" y="2.54"/>
 </gates>
@@ -2898,6 +2911,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="4PIN_OST_3251" prefix="J">
+<description>OST CONNECTOR</description>
 <gates>
 <gate name="G$1" symbol="4PIN_CONNECTOR" x="-5.08" y="2.54"/>
 </gates>
@@ -2916,6 +2930,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="4PIN_JST">
+<description>JST CONNECTOR</description>
 <gates>
 <gate name="G$1" symbol="4PIN_CONNECTOR" x="-2.54" y="2.54"/>
 </gates>
@@ -2934,6 +2949,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="TPS27081A" prefix="U">
+<description>LOAD SWITCH</description>
 <gates>
 <gate name="G$1" symbol="TPS27081A" x="-5.08" y="5.08"/>
 </gates>
@@ -2966,6 +2982,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="B540C" prefix="D">
+<description>DIODE</description>
 <gates>
 <gate name="G$1" symbol="DIODE_BASIC" x="0" y="0"/>
 </gates>
@@ -2982,6 +2999,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="ASPI-0630LR" prefix="L" uservalue="yes">
+<description>INDUCTOR</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR_BASIC" x="0" y="0"/>
 </gates>
@@ -2998,6 +3016,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="AIUR-03-330K" prefix="L" uservalue="yes">
+<description>INDUCTOR</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR_BASIC" x="0" y="0"/>
 </gates>
@@ -3014,6 +3033,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="MBR0520" prefix="D">
+<description>DIODE</description>
 <gates>
 <gate name="G$1" symbol="DIODE_BASIC" x="0" y="0"/>
 </gates>
@@ -3030,6 +3050,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="AO3407A" prefix="Q">
+<description>PFET</description>
 <gates>
 <gate name="G$1" symbol="P-FET" x="0" y="0"/>
 </gates>
@@ -3047,6 +3068,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="CRS08" prefix="D">
+<description>DIODE</description>
 <gates>
 <gate name="G$1" symbol="DIODE_BASIC" x="0" y="0"/>
 </gates>
@@ -3063,6 +3085,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="B82144B2222K" prefix="L" uservalue="yes">
+<description>INDUCTOR</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR_BASIC" x="0" y="0"/>
 </gates>
@@ -3079,6 +3102,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="LQP15MN3N6B02D" prefix="L" uservalue="yes">
+<description>INDCUTOR</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR_BASIC" x="0" y="0"/>
 </gates>
@@ -3111,6 +3135,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="ABS07-32.768KHZ-T" prefix="Y">
+<description>CRYSTAL</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL_BASIC" x="0" y="0"/>
 </gates>
@@ -3127,6 +3152,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="Q24FA20H00396" prefix="Y">
+<description>CRYSTAL</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL_SHILDED" x="-2.54" y="2.54"/>
 </gates>
@@ -3145,6 +3171,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="TP" prefix="TP">
+<description>TEST POINT</description>
 <gates>
 <gate name="G$1" symbol="TP" x="0" y="0"/>
 </gates>
@@ -3168,6 +3195,7 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="SMA_CONNECTOR" prefix="J">
+<description>SMA CONNECTOR</description>
 <gates>
 <gate name="G$1" symbol="SMA_CONNECTOR" x="0" y="0"/>
 </gates>

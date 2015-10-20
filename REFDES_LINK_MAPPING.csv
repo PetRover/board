@@ -1,0 +1,213 @@
+Refdes,Value,Device,Description,Package,Link
+C1,0.1uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
+C2,0.1uF,C-EUC0603,"CAPACITOR, European symbol",C0603,https://www.digikey.com/product-detail/en/C0603C104K8RACTU/399-1095-1-ND/411370
+C3,0.1uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
+C4,100uF,C-EUC1206,"CAPACITOR, European symbol",C1206,http://www.digikey.com/product-detail/en/C3216X5R0J107M160AB/445-6008-1-ND/2444049?WT.srch=1
+C5,100uF,C-EUC1206,"CAPACITOR, European symbol",C1206,http://www.digikey.com/product-detail/en/C3216X5R0J107M160AB/445-6008-1-ND/2444049?WT.srch=1
+C6,10pF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/GRM1555C1H100FA01D/490-6186-1-ND/3845386?WT.srch=1
+C7,10pF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/GRM1555C1H100FA01D/490-6186-1-ND/3845386?WT.srch=1
+C8,6pF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/CBR04C609B1GAC/399-8610-1-ND/3479292
+C9,6pF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/CBR04C609B1GAC/399-8610-1-ND/3479292
+C10,0.1uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
+C11,1pF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/GJM1555C1H1R0BB01D/490-6073-1-ND/3845273?WT.srch=1
+C12,0.1uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
+C13,0.1uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
+C14,0.1uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
+C15,4.7uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/CL05A475MQ5NRNC/1276-1056-1-ND/3889142?WT.srch=1
+C16,4.7uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/CL05A475MQ5NRNC/1276-1056-1-ND/3889142?WT.srch=1
+C17,4.7uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/CL05A475MQ5NRNC/1276-1056-1-ND/3889142?WT.srch=1
+C18,4.7uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/CL05A475MQ5NRNC/1276-1056-1-ND/3889142?WT.srch=1
+C19,0.1uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
+C20,0.1uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
+C21,NOSTUFF,C-EUC0402,"CAPACITOR, European symbol",C0402,No Stuff
+C22,NOSTUFF,C-EUC0402,"CAPACITOR, European symbol",C0402,No Stuff
+C23,0.1uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
+C24,10uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/CL05A106MP5NUNC/1276-1450-1-ND/3889536
+C25,1uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/GRM155R60J105KE19D/490-1320-1-ND/587919
+C26,10uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/CL05A106MP5NUNC/1276-1450-1-ND/3889536
+C27,0.1uF 25V,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/GRM188R71E104KA01D/490-1524-1-ND/587865
+C28,0.47uF 50V,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/CL10F474ZB8NNNC/1276-2377-1-ND/3890463
+C29,22uF,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/CC0603MRX5R5BB226/311-1815-1-ND/5195717
+C30,10uF 25V,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/GRM188R61E106MA73D/490-7202-1-ND/3900486
+C31,0.47uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/C1005X5R0J474K050BB/445-4996-1-ND/2093611
+C32,0.1uF 16V,C-EUC0402,"CAPACITOR, European symbol",C0402,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
+C33,0.1uF 50V,C-EUC0402,"CAPACITOR, European symbol",C0402,https://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275
+C34,0.1uF 16V,C-EUC0402,"CAPACITOR, European symbol",C0402,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
+C35,0.1uF 50V,C-EUC0402,"CAPACITOR, European symbol",C0402,https://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275
+C36,0.47uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/C1005X5R0J474K050BB/445-4996-1-ND/2093611
+C37,0.1uF 16V,C-EUC0402,"CAPACITOR, European symbol",C0402,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
+C38,0.1uF 50V,C-EUC0402,"CAPACITOR, European symbol",C0402,https://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275
+C39,0.47uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/C1005X5R0J474K050BB/445-4996-1-ND/2093611
+C40,0.1uF,C-EUC0603,"CAPACITOR, European symbol",C0603,https://www.digikey.com/product-detail/en/C0603C104K8RACTU/399-1095-1-ND/411370
+C41,22uF,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/CC0603MRX5R5BB226/311-1815-1-ND/5195717
+C42,22uF,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/CC0603MRX5R5BB226/311-1815-1-ND/5195717
+C43,22uF,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/CC0603MRX5R5BB226/311-1815-1-ND/5195717
+C44,2.2uF,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/CC0603KRX5R6BB225/311-1451-1-ND/2833757
+C45,220pF,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/06035A221JAT2A/478-1179-1-ND/564211
+C46,10uF 10V,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/GRM188R61A106ME69D/490-10475-1-ND/5026393
+C47,0.1uF,C-EUC0603,"CAPACITOR, European symbol",C0603,https://www.digikey.com/product-detail/en/C0603C104K8RACTU/399-1095-1-ND/411370
+C48,0.47uF 25V,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/06033C473KAT2A/478-1235-1-ND/564267
+C49,22uF,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/CC0603MRX5R5BB226/311-1815-1-ND/5195717
+C50,10uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/CL05A106MP5NUNC/1276-1450-1-ND/3889536
+C51,0.1uF 16V,C-EUC0402,"CAPACITOR, European symbol",C0402,https://www.digikey.com/product-detail/en/CC0402KRX7R7BB104/311-1338-1-ND/2103122
+C52,0.1uF 50V,C-EUC0402,"CAPACITOR, European symbol",C0402,https://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275
+C53,0.47uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/C1005X5R0J474K050BB/445-4996-1-ND/2093611
+C54,NOSTUFF,C-EUC0402,"CAPACITOR, European symbol",C0402,No Stuff
+C55,0.1uF 25V,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/GRM188R71E104KA01D/490-1524-1-ND/587865
+C56,10uF,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/GRM188R60J106ME47D/490-3896-1-ND/965938?WT.srch=1
+C57,0.1uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004?WT.srch=1
+C58,NOSTUFF,C-EUC0402,"CAPACITOR, European symbol",C0402,No Stuff
+C59,0.1uF 25V,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/GRM188R71E104KA01D/490-1524-1-ND/587865
+C60,220uF,CPOL-EUE5-6,"POLARIZED CAPACITOR, European symbol",E5-6,http://www.digikey.com/product-detail/en/EEU-FR1C221B/P15337CT-ND/3072217
+C61,0.1uF 25V,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/GRM188R71E104KA01D/490-1524-1-ND/587865
+C62,0.1uF 25V,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/GRM188R71E104KA01D/490-1524-1-ND/587865
+C63,220uF,CPOL-EUE5-6,"POLARIZED CAPACITOR, European symbol",E5-6,http://www.digikey.com/product-detail/en/EEU-FR1C221B/P15337CT-ND/3072217
+C64,0.1uF 25V,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/GRM188R71E104KA01D/490-1524-1-ND/587865
+C65,0.1uF 25V,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/GRM188R71E104KA01D/490-1524-1-ND/587865
+C66,220uF,CPOL-EUE5-6,"POLARIZED CAPACITOR, European symbol",E5-6,http://www.digikey.com/product-detail/en/EEU-FR1C221B/P15337CT-ND/3072217
+C67,0.1uF 25V,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/GRM188R71E104KA01D/490-1524-1-ND/587865
+C68,0.1uF 25V,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/GRM188R71E104KA01D/490-1524-1-ND/587865
+C69,220uF,CPOL-EUE5-6,"POLARIZED CAPACITOR, European symbol",E5-6,http://www.digikey.com/product-detail/en/EEU-FR1C221B/P15337CT-ND/3072217
+C70,10uF 25V,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/GRM188R61E106MA73D/490-7202-1-ND/3900486
+C71,10uF 25V,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/GRM188R61E106MA73D/490-7202-1-ND/3900486
+C72,10uF 25V,C-EUC0603,"CAPACITOR, European symbol",C0603,http://www.digikey.com/product-detail/en/GRM188R61E106MA73D/490-7202-1-ND/3900486
+C73,10uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/CL05A106MP5NUNC/1276-1450-1-ND/3889536
+C74,10uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/CL05A106MP5NUNC/1276-1450-1-ND/3889536
+C75,10uF,C-EUC0402,"CAPACITOR, European symbol",C0402,http://www.digikey.com/product-detail/en/CL05A106MP5NUNC/1276-1450-1-ND/3889536
+D1,CRS08,CRS08,,CRS08,"http://www.digikey.com/product-detail/en/CRS08(TE85L,Q,M)/CRS08QMCT-ND/871562"
+D2,MBR0520,MBR0520,,MBR05XX,http://www.digikey.com/product-detail/en/MBR0520L-TP/MBR0520L-TPMSCT-ND/3191633
+D3,B540C,B540C,,B540C,http://www.digikey.com/product-detail/en/B540C-13-F/B540C-FDICT-ND/768814
+D4,B540C,B540C,,B540C,http://www.digikey.com/product-detail/en/B540C-13-F/B540C-FDICT-ND/768814
+D5,B540C,B540C,,B540C,http://www.digikey.com/product-detail/en/B540C-13-F/B540C-FDICT-ND/768814
+FL1,DEA202450BT,DEA202450BT,,DEA202450BT,http://www.digikey.com/product-detail/en/DEA202450BT-1294C1-H/445-172335-1-ND/4876440
+J1,NONE,BBB,,BBB,NONE
+J2,2PIN_OST_3251,2PIN_OST_3251,,2PIN_OST_3251,http://www.digikey.com/product-detail/en/OSTOQ023251/ED2808-ND/1588125
+J3,4PIN_OST_3251,4PIN_OST_3251,,4PIN_OST_3251,http://www.digikey.com/product-detail/en/OSTOQ043251/ED2810-ND/1588127
+J4,2PIN_OST_3251,2PIN_OST_3251,,2PIN_OST_3251,http://www.digikey.com/product-detail/en/OSTOQ023251/ED2808-ND/1588125
+J5,2PIN_OST_3251,2PIN_OST_3251,,2PIN_OST_3251,http://www.digikey.com/product-detail/en/OSTOQ023251/ED2808-ND/1588125
+J6,4PIN_JST,4PIN_JST,,4PIN_JST,http://www.amazon.com/Eztronics-Corp%C2%AE-Balance-Charger-Connector/dp/B0126MXVF0/ref=sr_1_23?s=electronics&ie=UTF8&qid=1439324993&sr=1-23&keywords=JST-XH+cable
+J7,2PIN_OST_3251,2PIN_OST_3251,,2PIN_OST_3251,http://www.digikey.com/product-detail/en/OSTOQ023251/ED2808-ND/1588125
+J8,2PIN_OST_3251,2PIN_OST_3251,,2PIN_OST_3251,http://www.digikey.com/product-detail/en/OSTOQ023251/ED2808-ND/1588125
+J10,4PIN_JST,4PIN_JST,,4PIN_JST,http://www.amazon.com/Eztronics-Corp%C2%AE-Balance-Charger-Connector/dp/B0126MXVF0/ref=sr_1_23?s=electronics&ie=UTF8&qid=1439324993&sr=1-23&keywords=JST-XH+cable
+J11,4PIN_JST,4PIN_JST,,4PIN_JST,http://www.amazon.com/Eztronics-Corp%C2%AE-Balance-Charger-Connector/dp/B0126MXVF0/ref=sr_1_23?s=electronics&ie=UTF8&qid=1439324993&sr=1-23&keywords=JST-XH+cable
+J12,4PIN_JST,4PIN_JST,,4PIN_JST,http://www.amazon.com/Eztronics-Corp%C2%AE-Balance-Charger-Connector/dp/B0126MXVF0/ref=sr_1_23?s=electronics&ie=UTF8&qid=1439324993&sr=1-23&keywords=JST-XH+cable
+J13,4PIN_JST,4PIN_JST,,4PIN_JST,http://www.amazon.com/Eztronics-Corp%C2%AE-Balance-Charger-Connector/dp/B0126MXVF0/ref=sr_1_23?s=electronics&ie=UTF8&qid=1439324993&sr=1-23&keywords=JST-XH+cable
+J14,4PIN_JST,4PIN_JST,,4PIN_JST,http://www.amazon.com/Eztronics-Corp%C2%AE-Balance-Charger-Connector/dp/B0126MXVF0/ref=sr_1_23?s=electronics&ie=UTF8&qid=1439324993&sr=1-23&keywords=JST-XH+cable
+J15,4PIN_JST,4PIN_JST,,4PIN_JST,http://www.amazon.com/Eztronics-Corp%C2%AE-Balance-Charger-Connector/dp/B0126MXVF0/ref=sr_1_23?s=electronics&ie=UTF8&qid=1439324993&sr=1-23&keywords=JST-XH+cable
+J16,SMA_CONNECTOR,SMA_CONNECTOR,,SMA_CONNECTOR,http://www.digikey.com/product-detail/en/0732511150/WM5534-ND/1465156
+L1,2.2uH,L-USL1812,"INDUCTOR, American symbol",L1812,http://www.digikey.com/product-detail/en/LQM2HPN2R2MG0L/490-5114-1-ND/1893677?WT.srch=1
+L2,1uH,L-USL1812,"INDUCTOR, American symbol",L1812,http://www.digikey.com/product-detail/en/LQM2HPN1R0MJ0L/490-6699-1-ND/3845896
+L3,2.2uH,L-USL1812,"INDUCTOR, American symbol",L1812,http://www.digikey.com/product-detail/en/LQM2HPN2R2MG0L/490-5114-1-ND/1893677?WT.srch=1
+L4,33uH,AIUR-03-330K,,AIUR-03,http://www.digikey.com/product-detail/en/AIUR-03-330K/AIUR-03-330K-ND/2343524
+L5,2.2uH,B82144B2222K,,B82144B2222K,http://www.digikey.com/product-detail/en/B82144B2222K/495-6758-1-ND/5209425
+L6,10uH,ASPI-0630LR,,ASPI-0630LR,https://www.digikey.com/product-detail/en/ASPI-0630LR-100M-T15/ASPI-0630LR-100M-T15DKR-ND/5401067
+L7,10uH,ASPI-0630LR,,ASPI-0630LR,https://www.digikey.com/product-detail/en/ASPI-0630LR-100M-T15/ASPI-0630LR-100M-T15DKR-ND/5401067
+L8,0,LQP15MN3N6B02D,,L0402,http://www.digikey.com/product-detail/en/LQP15MN3N6B02D/490-6756-1-ND/3845953
+Q1,AO3407A,AO3407A,,SOT23,http://www.digikey.com/product-detail/en/AO3407A/785-1006-1-ND/1855948
+R1,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R2,10k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058
+R3,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R4,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R5,10k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058
+R6,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R7,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R8,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R9,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R10,100k,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402FR-07100KL/311-100KLRCT-ND/729473
+R11,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R12,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R13,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R14,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R15,100k,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402FR-07100KL/311-100KLRCT-ND/729473
+R16,2.2k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/MCT06030C2201FP500/MCT0603-2.20K-CFCT-ND/2607893
+R17,1k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/MCT06030C1001FP500/MCT0603-1.00K-CFCT-ND/2607875
+R18,45.3k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603FR-0745K3L/311-45.3KHRCT-ND/730192
+R19,5mOhm,R-US_R2512,"RESISTOR, American symbol",R2512,http://www.digikey.com/product-detail/en/LRMAM2512-R05FT4/985-1555-1-ND/4021268
+R20,33k,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402JR-0733KL/311-33KJRCT-ND/729415
+R21,29.4k,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RMCF0402FT29K4/RMCF0402FT29K4CT-ND/2417617
+R22,1M,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/ERJ-2RKF1004X/P1.00MLCT-ND/79804
+R23,250mOhm,R-US_R1206,"RESISTOR, American symbol",R1206,http://www.digikey.com/product-detail/en/LRC-LR1206LF-01-R250F/989-1034-1-ND/2407876
+R24,250mOhm,R-US_R1206,"RESISTOR, American symbol",R1206,http://www.digikey.com/product-detail/en/LRC-LR1206LF-01-R250F/989-1034-1-ND/2407876
+R25,47k,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402FR-0747KL/311-47.0KLRCT-ND/729563
+R26,15k,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402JR-0715KL/311-15KJRCT-ND/729374
+R27,1M,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/ERJ-2RKF1004X/P1.00MLCT-ND/79804
+R28,47k,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402FR-0747KL/311-47.0KLRCT-ND/729563
+R29,125mOhm,R-US_R2512,"RESISTOR, American symbol",R2512,http://www.digikey.com/product-detail/en/RLP73K3AR13JTE/A109894CT-ND/4032660
+R30,15k,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402JR-0715KL/311-15KJRCT-ND/729374
+R31,1M,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/ERJ-2RKF1004X/P1.00MLCT-ND/79804
+R32,125mOhm,R-US_R2512,"RESISTOR, American symbol",R2512,http://www.digikey.com/product-detail/en/RLP73K3AR13JTE/A109894CT-ND/4032660
+R33,0ohm,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402JR-070RL/311-0.0JRCT-ND/729353
+R34,10k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058
+R35,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R36,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R37,39k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-0739KL/311-39KGRCT-ND/729727
+R38,12.7k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603FR-0712K7L/311-12.7KHRCT-ND/729866
+R39,2.55k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603FR-072K55L/311-2.55KHRCT-ND/729976
+R40,78.7k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603FR-0778K7L/311-78.7KHRCT-ND/730333
+R41,20k,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402JR-0720KL/311-20KJRCT-ND/2827965
+R42,174k,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RMCF0402FT174K/RMCF0402FT174KCT-ND/2417536
+R43,47k,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402FR-0747KL/311-47.0KLRCT-ND/729563
+R44,15k,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402JR-0715KL/311-15KJRCT-ND/729374
+R45,1M,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/ERJ-2RKF1004X/P1.00MLCT-ND/79804
+R46,125mOhm,R-US_R2512,"RESISTOR, American symbol",R2512,http://www.digikey.com/product-detail/en/RLP73K3AR13JTE/A109894CT-ND/4032660
+R47,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R48,10k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058
+R49,0 Ohm,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622
+R50,10k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058
+R51,0 Ohm,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622
+R52,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R53,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R54,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R55,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R56,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R57,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R58,12k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/MCT06030C1202FP500/MCT0603-12.0K-CFCT-ND/2607883
+R59,12k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/MCT06030C1202FP500/MCT0603-12.0K-CFCT-ND/2607883
+R60,12k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/MCT06030C1202FP500/MCT0603-12.0K-CFCT-ND/2607883
+R61,12k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/MCT06030C1202FP500/MCT0603-12.0K-CFCT-ND/2607883
+R62,5.6k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/MCT06030C5601FP500/MCT0603-5.60K-CFCT-ND/2607915
+R63,5.6k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/MCT06030C5601FP500/MCT0603-5.60K-CFCT-ND/2607915
+R64,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R65,100k,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402FR-07100KL/311-100KLRCT-ND/729473
+R66,100k,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402FR-07100KL/311-100KLRCT-ND/729473
+R67,100k,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402FR-07100KL/311-100KLRCT-ND/729473
+R68,100mOhm,R-US_R2512,"RESISTOR, American symbol",R2512,http://www.digikey.com/product-detail/en/CRA2512-FZ-R030ELF/CRA2512-FZ-R030ELFCT-ND/3437852
+R69,0ohm,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402JR-070RL/311-0.0JRCT-ND/729353
+R70,0 Ohm,R-US_R0402,"RESISTOR, American symbol",R0402,http://www.digikey.com/product-detail/en/RC0402JR-070RL/311-0.0JRCT-ND/729353
+R71,100k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603JR-07100KL/311-100KGRCT-ND/729645
+R72,37.4k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC0603FR-0737K4L/311-37.4KHRCT-ND/730134
+R73,10k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058
+R74,10k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058
+R75,10k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058
+R76,10k,R-US_R0603,"RESISTOR, American symbol",R0603,http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058
+TP1,TEST_POINT,TEST_POINT,,TEST_POINT,NONE
+TP2,TEST_POINT,TEST_POINT,,TEST_POINT,NONE
+TP3,TEST_POINT,TEST_POINT,,TEST_POINT,NONE
+TP4,TEST_POINT,TEST_POINT,,TEST_POINT,NONE
+TP5,TEST_POINT,TEST_POINT,,TEST_POINT,NONE
+TP6,TEST_POINT,TEST_POINT,,TEST_POINT,NONE
+TP7,TP25MIL,TP25MIL,,TP25MIL,NONE
+TP8,TP25MIL,TP25MIL,,TP25MIL,NONE
+TP9,TP25MIL,TP25MIL,,TP25MIL,NONE
+TP10,TP25MIL,TP25MIL,,TP25MIL,NONE
+TP11,TP25MIL,TP25MIL,,TP25MIL,NONE
+TP12,TP25MIL,TP25MIL,,TP25MIL,NONE
+TP13,TEST_POINT,TEST_POINT,,TEST_POINT,NONE
+TP14,TEST_POINT,TEST_POINT,,TEST_POINT,NONE
+TP15,TEST_POINT,TEST_POINT,,TEST_POINT,NONE
+TP16,TEST_POINT,TEST_POINT,,TEST_POINT,NONE
+U1,TPS27081A,TPS27081A,,TPS27081A,http://www.digikey.com/product-detail/en/TPS27081ADDCR/296-34970-1-ND/3671576
+U2,TPS27081A,TPS27081A,,TPS27081A,http://www.digikey.com/product-detail/en/TPS27081ADDCR/296-34970-1-ND/3671576
+U3,LM2830,LM2830,,LM2830,https://www.digikey.com/product-detail/en/LM2830XMF%2FNOPB/LM2830XMF%2FNOPBCT-ND/1206386
+U4,LM27313,LM27313,,LM2830,https://www.digikey.com/product-detail/en/LM27313XMFX%2FNOPB/296-35164-1-ND/3738875
+U5,TPS55340,TPS55340,,TPS55340,https://www.digikey.com/product-detail/en/TPS55340PWPR/296-39426-1-ND/5143375
+U6,LTC4002,LTC4002,,LTC4002,https://www.digikey.com/product-detail/en/LTC4002ES8-8.4%23PBF/LTC4002ES8-8.4%23PBF-ND/962654
+U7,LTC2942,LTC2942,,LTC2942,https://www.digikey.com/product-detail/en/LTC2942CDCB%23TRMPBF/LTC2942CDCB%23TRMPBFCT-ND/2237178
+U8,DRV8842,DRV8842,,DRV8842,https://www.digikey.com/product-detail/en/DRV8842PWPR/296-29575-1-ND/2754254
+U9,DRV8842,DRV8842,,DRV8842,https://www.digikey.com/product-detail/en/DRV8842PWPR/296-29575-1-ND/2754254
+U10,DRV8842,DRV8842,,DRV8842,https://www.digikey.com/product-detail/en/DRV8842PWPR/296-29575-1-ND/2754254
+U11,DRV8843,DRV8843,,DRV8842,https://www.digikey.com/product-detail/en/DRV8843PWPR/296-28688-1-ND/2652222
+U12,CC3100CORRECT_QFN,CC3100CORRECT_QFN,,QFN64,https://www.digikey.com/product-detail/en/CC3100R11MRGC/296-38010-ND/4959127
+U13,M25PX80,M25PX80,,SO8N,http://www.digikey.com/product-detail/en/M25PX80-VMN6TP/M25PX80-VMN6TPCT-ND/2062368?WT.srch=1&mkwid=sUFDT7QCo&pcrid=62954361075&pkw=_cat:integrated+circuits+ics&pmt=b&pdv=c
+Y1,ABS07-32.768KHZ-T,ABS07-32.768KHZ-T,,ABS07-32.768KHZ-T,http://www.digikey.com/product-detail/en/ABS07-32.768KHZ-T/535-9542-1-ND/1237009
+Y2,Q24FA20H00396,Q24FA20H00396,,Q24FA20H00396,http://www.digikey.com/product-detail/en/FA-20H%2040.0000MF10Z-K3/SER4045TR-ND/5175004
