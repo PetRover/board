@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -17410,11 +17410,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="J1" library="Capstone" deviceset="BBB" device="" value="NONE"/>
 <part name="C31" library="resistor" deviceset="C-EU" device="C0402" value="0.47uF"/>
 <part name="C32" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 16V"/>
-<part name="R20" library="resistor" deviceset="R-US_" device="R0402" value="33k"/>
-<part name="R21" library="resistor" deviceset="R-US_" device="R0402" value="29.4k"/>
+<part name="R20" library="resistor" deviceset="R-US_" device="R0402" value="33k 1%"/>
+<part name="R21" library="resistor" deviceset="R-US_" device="R0402" value="29.4k 1%"/>
 <part name="R22" library="resistor" deviceset="R-US_" device="R0402" value="1M"/>
-<part name="R23" library="resistor" deviceset="R-US_" device="R1206" value="250mOhm"/>
-<part name="R24" library="resistor" deviceset="R-US_" device="R1206" value="250mOhm"/>
+<part name="R23" library="resistor" deviceset="R-US_" device="R1206" value="250mOhm 1%"/>
+<part name="R24" library="resistor" deviceset="R-US_" device="R1206" value="250mOhm 1%"/>
 <part name="SUPPLY33" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY36" library="supply2" deviceset="GND" device=""/>
@@ -17424,10 +17424,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="SUPPLY45" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY46" library="supply2" deviceset="GND" device=""/>
 <part name="C34" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 16V"/>
-<part name="R25" library="resistor" deviceset="R-US_" device="R0402" value="47k"/>
-<part name="R26" library="resistor" deviceset="R-US_" device="R0402" value="15k"/>
+<part name="R25" library="resistor" deviceset="R-US_" device="R0402" value="47k 1%"/>
+<part name="R26" library="resistor" deviceset="R-US_" device="R0402" value="15k 1%"/>
 <part name="R27" library="resistor" deviceset="R-US_" device="R0402" value="1M"/>
-<part name="R29" library="resistor" deviceset="R-US_" device="R2512" value="125mOhm"/>
+<part name="R29" library="resistor" deviceset="R-US_" device="R2512" value="125mOhm 1%"/>
 <part name="SUPPLY47" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY48" library="supply2" deviceset="GND" device=""/>
 <part name="C35" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 50V"/>
@@ -17438,10 +17438,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="SUPPLY53" library="supply2" deviceset="GND" device=""/>
 <part name="U8" library="Capstone" deviceset="DRV8842" device=""/>
 <part name="C37" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 16V"/>
-<part name="R28" library="resistor" deviceset="R-US_" device="R0402" value="47k"/>
-<part name="R30" library="resistor" deviceset="R-US_" device="R0402" value="15k"/>
+<part name="R28" library="resistor" deviceset="R-US_" device="R0402" value="47k 1%"/>
+<part name="R30" library="resistor" deviceset="R-US_" device="R0402" value="15k 1%"/>
 <part name="R31" library="resistor" deviceset="R-US_" device="R0402" value="1M"/>
-<part name="R32" library="resistor" deviceset="R-US_" device="R2512" value="125mOhm"/>
+<part name="R32" library="resistor" deviceset="R-US_" device="R2512" value="125mOhm 1%"/>
 <part name="SUPPLY49" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY54" library="supply2" deviceset="GND" device=""/>
 <part name="C38" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 50V"/>
@@ -17463,8 +17463,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="C30" library="resistor" deviceset="C-EU" device="C0603" value="10uF 25V"/>
 <part name="SUPPLY66" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY67" library="supply2" deviceset="GND" device=""/>
-<part name="R18" library="resistor" deviceset="R-US_" device="R0603" value="45.3k"/>
-<part name="R34" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R18" library="resistor" deviceset="R-US_" device="R0603" value="45.3k 1%"/>
+<part name="R34" library="resistor" deviceset="R-US_" device="R0603" value="10k 1%"/>
 <part name="R35" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="C41" library="resistor" deviceset="C-EU" device="C0603" value="22uF"/>
 <part name="C42" library="resistor" deviceset="C-EU" device="C0603" value="22uF"/>
@@ -17474,16 +17474,16 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="C44" library="resistor" deviceset="C-EU" device="C0603" value="2.2uF"/>
 <part name="R36" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="SUPPLY71" library="supply2" deviceset="GND" device=""/>
-<part name="R37" library="resistor" deviceset="R-US_" device="R0603" value="39k"/>
-<part name="R38" library="resistor" deviceset="R-US_" device="R0603" value="12.7k"/>
+<part name="R37" library="resistor" deviceset="R-US_" device="R0603" value="39k 1%"/>
+<part name="R38" library="resistor" deviceset="R-US_" device="R0603" value="12.7k 1%"/>
 <part name="C45" library="resistor" deviceset="C-EU" device="C0603" value="220pF 50V"/>
 <part name="C46" library="resistor" deviceset="C-EU" device="C0603" value="10uF 10V"/>
-<part name="R39" library="resistor" deviceset="R-US_" device="R0603" value="2.55k"/>
+<part name="R39" library="resistor" deviceset="R-US_" device="R0603" value="2.55k 1%"/>
 <part name="C47" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="SUPPLY72" library="supply2" deviceset="GND" device=""/>
 <part name="R40" library="resistor" deviceset="R-US_" device="R0603" value="78.7k"/>
-<part name="R41" library="resistor" deviceset="R-US_" device="R0402" value="20k"/>
-<part name="R42" library="resistor" deviceset="R-US_" device="R0402" value="174k"/>
+<part name="R41" library="resistor" deviceset="R-US_" device="R0402" value="20k 1%"/>
+<part name="R42" library="resistor" deviceset="R-US_" device="R0402" value="174k 1%"/>
 <part name="C48" library="resistor" deviceset="C-EU" device="C0603" value="0.47uF 25V"/>
 <part name="C49" library="resistor" deviceset="C-EU" device="C0603" value="22uF"/>
 <part name="SUPPLY74" library="supply2" deviceset="GND" device=""/>
@@ -17495,10 +17495,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="TP4" library="Capstone" deviceset="TEST_POINT" device=""/>
 <part name="U10" library="Capstone" deviceset="DRV8842" device=""/>
 <part name="C51" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 16V"/>
-<part name="R43" library="resistor" deviceset="R-US_" device="R0402" value="47k"/>
-<part name="R44" library="resistor" deviceset="R-US_" device="R0402" value="15k"/>
+<part name="R43" library="resistor" deviceset="R-US_" device="R0402" value="47k 1%"/>
+<part name="R44" library="resistor" deviceset="R-US_" device="R0402" value="15k 1%"/>
 <part name="R45" library="resistor" deviceset="R-US_" device="R0402" value="1M"/>
-<part name="R46" library="resistor" deviceset="R-US_" device="R2512" value="125mOhm"/>
+<part name="R46" library="resistor" deviceset="R-US_" device="R2512" value="125mOhm 1%"/>
 <part name="SUPPLY78" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY79" library="supply2" deviceset="GND" device=""/>
 <part name="C52" library="resistor" deviceset="C-EU" device="C0402" value="0.1uF 50V"/>
@@ -17542,10 +17542,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R55" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R56" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R57" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="R58" library="resistor" deviceset="R-US_" device="R0603" value="12k"/>
-<part name="R59" library="resistor" deviceset="R-US_" device="R0603" value="12k"/>
-<part name="R60" library="resistor" deviceset="R-US_" device="R0603" value="12k"/>
-<part name="R61" library="resistor" deviceset="R-US_" device="R0603" value="12k"/>
+<part name="R58" library="resistor" deviceset="R-US_" device="R0603" value="12k 1%"/>
+<part name="R59" library="resistor" deviceset="R-US_" device="R0603" value="12k  1%"/>
+<part name="R60" library="resistor" deviceset="R-US_" device="R0603" value="12k 1%"/>
+<part name="R61" library="resistor" deviceset="R-US_" device="R0603" value="12k 1%"/>
 <part name="SUPPLY85" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY86" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY87" library="supply2" deviceset="GND" device=""/>
@@ -17662,15 +17662,15 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="SUPPLY106" library="supply2" deviceset="GND" device=""/>
 <part name="L4" library="Capstone" deviceset="AIUR-03-330K" device="" value="33uH"/>
 <part name="D2" library="Capstone" deviceset="MBR0520" device=""/>
-<part name="R68" library="resistor" deviceset="R-US_" device="R2512" value="100mOhm"/>
+<part name="R68" library="resistor" deviceset="R-US_" device="R2512" value="100mOhm 1%"/>
 <part name="L7" library="Capstone" deviceset="ASPI-0630LR" device="" value="10uH"/>
 <part name="D5" library="Capstone" deviceset="B540C" device=""/>
 <part name="SUPPLY64" library="supply2" deviceset="GND" device=""/>
 <part name="D4" library="Capstone" deviceset="B540C" device=""/>
-<part name="R16" library="resistor" deviceset="R-US_" device="R0603" value="2.2k"/>
+<part name="R16" library="resistor" deviceset="R-US_" device="R0603" value="2.2k 1%"/>
 <part name="J11" library="Capstone" deviceset="4PIN_JST" device=""/>
 <part name="Q1" library="Capstone" deviceset="AO3407A" device=""/>
-<part name="R19" library="resistor" deviceset="R-US_" device="R2512" value="5mOhm"/>
+<part name="R19" library="resistor" deviceset="R-US_" device="R2512" value="5mOhm 1%"/>
 <part name="D1" library="Capstone" deviceset="CRS08" device=""/>
 <part name="L5" library="Capstone" deviceset="B82144B2222K" device="" value="2.2uH"/>
 <part name="L8" library="Capstone" deviceset="LQP15MN3N6B02D" device="" value="3.5nH"/>
@@ -17695,8 +17695,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="U$77" library="Capstone" deviceset="NC" device=""/>
 <part name="TP6" library="Capstone" deviceset="TEST_POINT" device=""/>
 <part name="U$79" library="Capstone" deviceset="NC" device=""/>
-<part name="R71" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="R72" library="resistor" deviceset="R-US_" device="R0603" value="37.4k"/>
+<part name="R71" library="resistor" deviceset="R-US_" device="R0603" value="100k 1%"/>
+<part name="R72" library="resistor" deviceset="R-US_" device="R0603" value="37.4k 1%"/>
 <part name="SUPPLY107" library="supply2" deviceset="GND" device=""/>
 <part name="TP11" library="Capstone" deviceset="TP" device="25MIL" value="TP25MIL"/>
 <part name="U$81" library="Capstone" deviceset="NC" device=""/>
@@ -17707,10 +17707,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="TP16" library="Capstone" deviceset="TEST_POINT" device=""/>
 <part name="J16" library="Capstone" deviceset="SMA_CONNECTOR" device=""/>
 <part name="SUPPLY108" library="supply2" deviceset="GND" device=""/>
-<part name="R73" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="R74" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="R75" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="R76" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R73" library="resistor" deviceset="R-US_" device="R0603" value="10k 1%"/>
+<part name="R74" library="resistor" deviceset="R-US_" device="R0603" value="10k 1%"/>
+<part name="R75" library="resistor" deviceset="R-US_" device="R0603" value="10k 1%"/>
+<part name="R76" library="resistor" deviceset="R-US_" device="R0603" value="10k 1%"/>
 <part name="FRAME1" library="frames" deviceset="FRAME_C_L" device="" value="CONNECTORS"/>
 <part name="FRAME2" library="frames" deviceset="FRAME_C_L" device="" value="REGULATORS AND CHARGING"/>
 <part name="FRAME3" library="frames" deviceset="FRAME_C_L" device="" value="MOTOR DRIVERS"/>

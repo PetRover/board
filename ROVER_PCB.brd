@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4266,33 +4266,33 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C53" library="resistor" package="C0402" value="0.47uF" x="35.492" y="16.7" rot="R270"/>
 <element name="L2" library="resistor" package="L1812" value="1uH" x="6.29" y="51.034" rot="MR90"/>
 <element name="R17" library="resistor" package="R0603" value="1k" x="75.116" y="55.894"/>
-<element name="R18" library="resistor" package="R0603" value="45.3k" x="32.2" y="34.95" rot="R270"/>
-<element name="R20" library="resistor" package="R0402" value="33k" x="79.4975" y="9.207" rot="R180"/>
-<element name="R21" library="resistor" package="R0402" value="29.4k" x="79.561" y="7.8735"/>
+<element name="R18" library="resistor" package="R0603" value="45.3k 1%" x="32.2" y="34.95" rot="R270"/>
+<element name="R20" library="resistor" package="R0402" value="33k 1%" x="79.4975" y="9.207" rot="R180"/>
+<element name="R21" library="resistor" package="R0402" value="29.4k 1%" x="79.561" y="7.8735"/>
 <element name="R22" library="resistor" package="R0402" value="1M" x="71.8045" y="8.2545"/>
-<element name="R23" library="resistor" package="R1206" value="250mOhm" x="71.806" y="11.7595" rot="MR0"/>
-<element name="R24" library="resistor" package="R1206" value="250mOhm" x="78.794" y="11.7605" rot="MR180"/>
-<element name="R25" library="resistor" package="R0402" value="47k" x="64.558" y="11.505" rot="R270"/>
-<element name="R26" library="resistor" package="R0402" value="15k" x="65.828" y="11.505" rot="R90"/>
+<element name="R23" library="resistor" package="R1206" value="250mOhm 1%" x="71.806" y="11.7595" rot="MR0"/>
+<element name="R24" library="resistor" package="R1206" value="250mOhm 1%" x="78.794" y="11.7605" rot="MR180"/>
+<element name="R25" library="resistor" package="R0402" value="47k 1%" x="64.558" y="11.505" rot="R270"/>
+<element name="R26" library="resistor" package="R0402" value="15k 1%" x="65.828" y="11.505" rot="R90"/>
 <element name="R27" library="resistor" package="R0402" value="1M" x="55.812" y="7.937"/>
-<element name="R28" library="resistor" package="R0402" value="47k" x="47.446" y="9.842" rot="R180"/>
-<element name="R29" library="resistor" package="R2512" value="125mOhm" x="59.217" y="14.437" rot="MR90"/>
-<element name="R30" library="resistor" package="R0402" value="15k" x="47.446" y="8.572"/>
+<element name="R28" library="resistor" package="R0402" value="47k 1%" x="47.446" y="9.842" rot="R180"/>
+<element name="R29" library="resistor" package="R2512" value="125mOhm 1%" x="59.217" y="14.437" rot="MR90"/>
+<element name="R30" library="resistor" package="R0402" value="15k 1%" x="47.446" y="8.572"/>
 <element name="R31" library="resistor" package="R0402" value="1M" x="40.08" y="8.064"/>
-<element name="R32" library="resistor" package="R2512" value="125mOhm" x="43.399" y="14.387" rot="MR90"/>
-<element name="R34" library="resistor" package="R0603" value="10k" x="35.2" y="34.45"/>
+<element name="R32" library="resistor" package="R2512" value="125mOhm 1%" x="43.399" y="14.387" rot="MR90"/>
+<element name="R34" library="resistor" package="R0603" value="10k 1%" x="35.2" y="34.45"/>
 <element name="R35" library="resistor" package="R0603" value="100k" x="38.2" y="34.95" rot="R270"/>
 <element name="R36" library="resistor" package="R0603" value="100k" x="57.614815625" y="61.95064375" rot="R90"/>
-<element name="R37" library="resistor" package="R0603" value="39k" x="73.592" y="64.53" rot="R270"/>
-<element name="R38" library="resistor" package="R0603" value="12.7k" x="68.512" y="64.53" rot="R90"/>
-<element name="R39" library="resistor" package="R0603" value="2.55k" x="21.276" y="23.938"/>
+<element name="R37" library="resistor" package="R0603" value="39k 1%" x="73.592" y="64.53" rot="R270"/>
+<element name="R38" library="resistor" package="R0603" value="12.7k 1%" x="68.512" y="64.53" rot="R90"/>
+<element name="R39" library="resistor" package="R0603" value="2.55k 1%" x="21.276" y="23.938"/>
 <element name="R40" library="resistor" package="R0603" value="78.7k" x="15.18" y="26.224" rot="R180"/>
-<element name="R41" library="resistor" package="R0402" value="20k" x="19.7" y="26.95" rot="R90"/>
-<element name="R42" library="resistor" package="R0402" value="174k" x="18.0375" y="27.018" rot="R270"/>
-<element name="R43" library="resistor" package="R0402" value="47k" x="34.222" y="9.896" rot="R180"/>
-<element name="R44" library="resistor" package="R0402" value="15k" x="34.222" y="8.653"/>
+<element name="R41" library="resistor" package="R0402" value="20k 1%" x="19.7" y="26.95" rot="R90"/>
+<element name="R42" library="resistor" package="R0402" value="174k 1%" x="18.0375" y="27.018" rot="R270"/>
+<element name="R43" library="resistor" package="R0402" value="47k 1%" x="34.222" y="9.896" rot="R180"/>
+<element name="R44" library="resistor" package="R0402" value="15k 1%" x="34.222" y="8.653"/>
 <element name="R45" library="resistor" package="R0402" value="1M" x="26.602" y="7.937"/>
-<element name="R46" library="resistor" package="R2512" value="125mOhm" x="29.823" y="14.387" rot="MR90"/>
+<element name="R46" library="resistor" package="R2512" value="125mOhm 1%" x="29.823" y="14.387" rot="MR90"/>
 <element name="R47" library="resistor" package="R0603" value="100k" x="18.482" y="12" rot="R270"/>
 <element name="R48" library="resistor" package="R0603" value="10k" x="8" y="39" rot="MR0"/>
 <element name="R49" library="resistor" package="R0603" value="0 Ohm" x="11" y="34" rot="MR90"/>
@@ -4304,10 +4304,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R55" library="resistor" package="R0603" value="100k" x="50.4" y="76" rot="MR0"/>
 <element name="R56" library="resistor" package="R0603" value="100k" x="72.6" y="76" rot="MR180"/>
 <element name="R57" library="resistor" package="R0603" value="100k" x="63.4" y="76" rot="MR0"/>
-<element name="R58" library="resistor" package="R0603" value="12k" x="24.5" y="75.1" rot="MR90"/>
-<element name="R59" library="resistor" package="R0603" value="12k" x="37.4" y="75.9" rot="MR180"/>
-<element name="R60" library="resistor" package="R0603" value="12k" x="46.7" y="75.9" rot="MR0"/>
-<element name="R61" library="resistor" package="R0603" value="12k" x="33.6" y="75.9" rot="MR0"/>
+<element name="R58" library="resistor" package="R0603" value="12k 1%" x="24.5" y="75.1" rot="MR90"/>
+<element name="R59" library="resistor" package="R0603" value="12k  1%" x="37.4" y="75.9" rot="MR180"/>
+<element name="R60" library="resistor" package="R0603" value="12k 1%" x="46.7" y="75.9" rot="MR0"/>
+<element name="R61" library="resistor" package="R0603" value="12k 1%" x="33.6" y="75.9" rot="MR0"/>
 <element name="R62" library="resistor" package="R0603" value="5.6k" x="83.86" y="67.526" rot="R270"/>
 <element name="R63" library="resistor" package="R0603" value="5.6k" x="81.702" y="67.526" rot="R270"/>
 <element name="U13" library="Capstone" package="SO8N" value="M25PX80" x="36.4961" y="59.7171" rot="R270"/>
@@ -4411,14 +4411,14 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C73" library="resistor" package="C0402" value="10uF" x="10.59" y="29.892"/>
 <element name="L4" library="Capstone" package="AIUR-03" value="33uH" x="64.02" y="55.676"/>
 <element name="D2" library="Capstone" package="MBR05XX" value="MBR0520" x="71.56" y="59.958"/>
-<element name="R68" library="resistor" package="R2512" value="100mOhm" x="61.844" y="49.29" rot="R180"/>
+<element name="R68" library="resistor" package="R2512" value="100mOhm 1%" x="61.844" y="49.29" rot="R180"/>
 <element name="L7" library="Capstone" package="ASPI-0630LR" value="10uH" x="59.304" y="34.05" rot="R180"/>
 <element name="D5" library="Capstone" package="B540C" value="B540C" x="70.48" y="29.478" rot="R180"/>
 <element name="D4" library="Capstone" package="B540C" value="B540C" x="75.56" y="36.59" rot="R180"/>
-<element name="R16" library="resistor" package="R0603" value="2.2k" x="56.764" y="43.702"/>
+<element name="R16" library="resistor" package="R0603" value="2.2k 1%" x="56.764" y="43.702"/>
 <element name="J11" library="Capstone" package="4PIN_JST" value="4PIN_JST" x="81.212" y="59.644" rot="R90"/>
 <element name="Q1" library="Capstone" package="SOT23" value="AO3407A" x="64.384" y="36.59" rot="R270"/>
-<element name="R19" library="resistor" package="R2512" value="5mOhm" x="74.036" y="49.29" rot="R180"/>
+<element name="R19" library="resistor" package="R2512" value="5mOhm 1%" x="74.036" y="49.29" rot="R180"/>
 <element name="D1" library="Capstone" package="CRS08" value="CRS08" x="34.2" y="40.95" rot="R180"/>
 <element name="L5" library="Capstone" package="B82144B2222K" value="2.2uH" x="28.2" y="39.45" rot="R270"/>
 <element name="L8" library="Capstone" package="L0402" value="3.5nH" x="15.73" y="71.33" rot="R90"/>
@@ -4438,18 +4438,18 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C75" library="resistor" package="C0402" value="10uF" x="6" y="41" rot="MR0"/>
 <element name="C58" library="resistor" package="C0402" value="NOSTUFF" x="11" y="37" rot="MR270"/>
 <element name="TP6" library="Capstone" package="TEST_POINT" value="TEST_POINT" x="10" y="70"/>
-<element name="R71" library="resistor" package="R0603" value="100k" x="53" y="29.5" rot="R180"/>
-<element name="R72" library="resistor" package="R0603" value="37.4k" x="49.65" y="29.5" rot="R180"/>
+<element name="R71" library="resistor" package="R0603" value="100k 1%" x="53" y="29.5" rot="R180"/>
+<element name="R72" library="resistor" package="R0603" value="37.4k 1%" x="49.65" y="29.5" rot="R180"/>
 <element name="TP11" library="Capstone" package="TP25MIL" value="TP25MIL" x="5.77" y="39.58"/>
 <element name="TP14" library="Capstone" package="TEST_POINT" value="TEST_POINT" x="9.45" y="50.65"/>
 <element name="TP13" library="Capstone" package="TEST_POINT" value="TEST_POINT" x="12.55" y="60.6"/>
 <element name="TP15" library="Capstone" package="TEST_POINT" value="TEST_POINT" x="18.05" y="58.3"/>
 <element name="TP16" library="Capstone" package="TEST_POINT" value="TEST_POINT" x="5" y="60"/>
 <element name="J16" library="Capstone" package="SMA_CONNECTOR" value="SMA_CONNECTOR" x="15.7" y="80" rot="R270"/>
-<element name="R73" library="resistor" package="R0603" value="10k" x="43.6" y="75.9" rot="MR0"/>
-<element name="R74" library="resistor" package="R0603" value="10k" x="40.5" y="75.9" rot="MR180"/>
-<element name="R75" library="resistor" package="R0603" value="10k" x="30.5" y="75.9" rot="MR0"/>
-<element name="R76" library="resistor" package="R0603" value="10k" x="27.4" y="75.9" rot="MR180"/>
+<element name="R73" library="resistor" package="R0603" value="10k 1%" x="43.6" y="75.9" rot="MR0"/>
+<element name="R74" library="resistor" package="R0603" value="10k 1%" x="40.5" y="75.9" rot="MR180"/>
+<element name="R75" library="resistor" package="R0603" value="10k 1%" x="30.5" y="75.9" rot="MR0"/>
+<element name="R76" library="resistor" package="R0603" value="10k 1%" x="27.4" y="75.9" rot="MR180"/>
 </elements>
 <signals>
 <signal name="N$2">
