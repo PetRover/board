@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -17543,7 +17543,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R56" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R57" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R58" library="resistor" deviceset="R-US_" device="R0603" value="12k 1%"/>
-<part name="R59" library="resistor" deviceset="R-US_" device="R0603" value="12k  1%"/>
+<part name="R59" library="resistor" deviceset="R-US_" device="R0603" value="12k 1%"/>
 <part name="R60" library="resistor" deviceset="R-US_" device="R0603" value="12k 1%"/>
 <part name="R61" library="resistor" deviceset="R-US_" device="R0603" value="12k 1%"/>
 <part name="SUPPLY85" library="supply2" deviceset="GND" device=""/>

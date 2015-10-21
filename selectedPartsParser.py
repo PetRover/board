@@ -81,7 +81,7 @@ with open('MANUAL_PARTS_BOM.csv') as f:
     reader = csv.DictReader(f)
 
     for row in reader:
-        row['STATE'] = 'MANUAL'
+        row['State'] = 'MANUAL'
         row['Parts'] = 'EXTERNAL'
         row['Device'] = 'NONE'
 
@@ -91,6 +91,7 @@ with open('MANUAL_PARTS_BOM.csv') as f:
             row['DigikeyPN'] = partNumberMatch.groups()[1]
         except AttributeError:
             failed.append(row)
+        manualPartsList.append(row)
 
 print '{0} FAILED TO FIND PART NUMBERS'.format(len(failed))
 
@@ -103,6 +104,15 @@ for r in sorted(partsList, key=lambda x: (x['Parts'][0],x['Value'],x['Package'])
     r['RPN'] = prefix+str(pn).zfill(3)
     outRows.append(r)
     pn += 1
+
+usedLinks = []
+for row in outRows:
+    if row['Link'] != 'NONE':
+        if row['Link'] in usedLinks:
+            for row in [r for r in outRows if r['Link'] == row['Link']]:
+                row['State'] = 'REUSE ERROR'
+
+        usedLinks.append(row['Link'])
 
 with open('FINAL_BOM(AUTO).csv', 'wb') as output_file:
     dict_writer = csv.DictWriter(output_file, ('RPN', 'Description','Package','Value','Qty','State','Parts','Link','Device','DigikeyPN','MfgPN'))
