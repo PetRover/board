@@ -4244,12 +4244,12 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C30" library="resistor" package="C0603" value="10uF 25V" x="66.924" y="40.654" rot="R270"/>
 <element name="C31" library="resistor" package="C0402" value="0.47uF" x="82.228" y="17.0175" rot="R270"/>
 <element name="C32" library="resistor" package="C0402" value="0.1uF 16V" x="71.8045" y="9.461" rot="R180"/>
-<element name="C33" library="resistor" package="C0402" value="0.1uF 50V" x="69.02" y="10.985" rot="R270"/>
+<element name="C33" library="resistor" package="C0402" value="0.01uF 50V" x="69.02" y="10.985" rot="R270"/>
 <element name="C34" library="resistor" package="C0402" value="0.1uF 16V" x="55.812" y="9.334" rot="R180"/>
-<element name="C35" library="resistor" package="C0402" value="0.1uF 50V" x="52.891" y="10.985" rot="R270"/>
+<element name="C35" library="resistor" package="C0402" value="0.01uF 50V" x="52.891" y="10.985" rot="R270"/>
 <element name="C36" library="resistor" package="C0402" value="0.47uF" x="64.875" y="16.7" rot="R270"/>
 <element name="C37" library="resistor" package="C0402" value="0.1uF 16V" x="40.08" y="9.334" rot="R180"/>
-<element name="C38" library="resistor" package="C0402" value="0.1uF 50V" x="37.432" y="10.858" rot="R270"/>
+<element name="C38" library="resistor" package="C0402" value="0.01uF 50V" x="37.432" y="10.858" rot="R270"/>
 <element name="C39" library="resistor" package="C0402" value="0.47uF" x="48.716" y="16.7" rot="R270"/>
 <element name="C40" library="resistor" package="C0603" value="0.1uF" x="70.226" y="45.734" rot="R90"/>
 <element name="C41" library="resistor" package="C0603" value="22uF" x="38.7" y="39.45" rot="R270"/>
@@ -4259,10 +4259,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C45" library="resistor" package="C0603" value="220pF 50V" x="71.052" y="64.53" rot="R90"/>
 <element name="C46" library="resistor" package="C0603" value="10uF 10V" x="76.132" y="64.53" rot="R90"/>
 <element name="C47" library="resistor" package="C0603" value="0.1uF" x="22.1015" y="20.89" rot="R270"/>
-<element name="C48" library="resistor" package="C0603" value="0.47uF 25V" x="20.768" y="12" rot="R270"/>
+<element name="C48" library="resistor" package="C0603" value="0.047uF 25V" x="20.768" y="12" rot="R270"/>
 <element name="C49" library="resistor" package="C0603" value="22uF" x="15.942" y="12" rot="R270"/>
 <element name="C51" library="resistor" package="C0402" value="0.1uF 16V" x="26.602" y="9.08" rot="R180"/>
-<element name="C52" library="resistor" package="C0402" value="0.1uF 50V" x="24.189" y="10.985" rot="R270"/>
+<element name="C52" library="resistor" package="C0402" value="0.01uF 50V" x="24.189" y="10.985" rot="R270"/>
 <element name="C53" library="resistor" package="C0402" value="0.47uF" x="35.492" y="16.7" rot="R270"/>
 <element name="L2" library="resistor" package="L1812" value="1uH" x="6.29" y="51.034" rot="MR90"/>
 <element name="R17" library="resistor" package="R0603" value="1k" x="75.116" y="55.894"/>
@@ -4276,10 +4276,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R26" library="resistor" package="R0402" value="15k 1%" x="65.828" y="11.505" rot="R90"/>
 <element name="R27" library="resistor" package="R0402" value="1M" x="55.812" y="7.937"/>
 <element name="R28" library="resistor" package="R0402" value="47k 1%" x="47.446" y="9.842" rot="R180"/>
-<element name="R29" library="resistor" package="R2512" value="125mOhm 1%" x="59.217" y="14.437" rot="MR90"/>
+<element name="R29" library="resistor" package="R2512" value="130mOhm 1%" x="59.217" y="14.437" rot="MR90"/>
 <element name="R30" library="resistor" package="R0402" value="15k 1%" x="47.446" y="8.572"/>
 <element name="R31" library="resistor" package="R0402" value="1M" x="40.08" y="8.064"/>
-<element name="R32" library="resistor" package="R2512" value="125mOhm 1%" x="43.399" y="14.387" rot="MR90"/>
+<element name="R32" library="resistor" package="R2512" value="130mOhm 1%" x="43.399" y="14.387" rot="MR90"/>
 <element name="R34" library="resistor" package="R0603" value="10k 1%" x="35.2" y="34.45"/>
 <element name="R35" library="resistor" package="R0603" value="100k" x="38.2" y="34.95" rot="R270"/>
 <element name="R36" library="resistor" package="R0603" value="100k" x="57.614815625" y="61.95064375" rot="R90"/>
@@ -4292,7 +4292,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R43" library="resistor" package="R0402" value="47k 1%" x="34.222" y="9.896" rot="R180"/>
 <element name="R44" library="resistor" package="R0402" value="15k 1%" x="34.222" y="8.653"/>
 <element name="R45" library="resistor" package="R0402" value="1M" x="26.602" y="7.937"/>
-<element name="R46" library="resistor" package="R2512" value="125mOhm 1%" x="29.823" y="14.387" rot="MR90"/>
+<element name="R46" library="resistor" package="R2512" value="130mOhm 1%" x="29.823" y="14.387" rot="MR90"/>
 <element name="R47" library="resistor" package="R0603" value="100k" x="18.482" y="12" rot="R270"/>
 <element name="R48" library="resistor" package="R0603" value="10k" x="8" y="39" rot="MR0"/>
 <element name="R49" library="resistor" package="R0603" value="0 Ohm" x="11" y="34" rot="MR90"/>
@@ -4411,7 +4411,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C73" library="resistor" package="C0402" value="10uF" x="10.59" y="29.892"/>
 <element name="L4" library="Capstone" package="AIUR-03" value="33uH" x="64.02" y="55.676"/>
 <element name="D2" library="Capstone" package="MBR05XX" value="MBR0520" x="71.56" y="59.958"/>
-<element name="R68" library="resistor" package="R2512" value="100mOhm 1%" x="61.844" y="49.29" rot="R180"/>
+<element name="R68" library="resistor" package="R2512" value="30mOhm 1%" x="61.844" y="49.29" rot="R180"/>
 <element name="L7" library="Capstone" package="ASPI-0630LR" value="10uH" x="59.304" y="34.05" rot="R180"/>
 <element name="D5" library="Capstone" package="B540C" value="B540C" x="70.48" y="29.478" rot="R180"/>
 <element name="D4" library="Capstone" package="B540C" value="B540C" x="75.56" y="36.59" rot="R180"/>
